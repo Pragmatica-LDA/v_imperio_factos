@@ -60,6 +60,23 @@ o CLI, o agente de gestão e o front-end React usam todos a mesma API.
   tarefa `ping`, comando `ensure_superuser`), `frontend/Dockerfile`, `frontend/vite.config.ts`.
 - **Adicionado/alterado em**: 2026-10-13.
 
+### Deploy no Coolify (preparado, por fazer o primeiro deploy)
+- **O quê**: `docker-compose.coolify.yml` na raiz. Sem `ports`, `networks` nem `container_name`; entrada pública pelo
+  `nginx` (porta 80, `coolify.expose=true`), todos os outros serviços com `coolify.expose=false`.
+- **Serviços**: `nginx` (build do React + proxy de `/api`, `/admin`, `/dashboard`, `/static` para o Django;
+  `docker/nginx/`), `migrate` (uma vez por deploy: migrate, ensure_superuser, bootstrap), `backend` (gunicorn,
+  healthcheck em `/api/health/`), `worker-crawl`, `worker-analysis`, `beat`, `redis-broker` (AOF, noeviction),
+  `redis-cache` (LRU). Volume `raw_html` partilhado em `/data/raw`.
+- **Postgres**: recurso gerido do Coolify com a imagem `pgvector/pgvector:0.8.7-pg18-trixie`, ligado pelas variáveis `POSTGRES_*`.
+- **Imagem do backend**: `backend/Dockerfile.coolify` (multi-stage, `collectstatic` no build, utilizador sem privilégios);
+  a mesma imagem corre backend, workers, beat e migrate. Estáticos do Django servidos pelo whitenoise
+  (`DJANGO_STATIC_MANIFEST=1` só na imagem de produção).
+- **Settings**: `SECURE_PROXY_SSL_HEADER` (SSL termina no Traefik; nunca `SECURE_SSL_REDIRECT`), cookies seguros com
+  `DJANGO_SECURE_COOKIES=1`.
+- **Variáveis**: `.env.coolify.example`.
+- **Testado localmente** (2026-10-14) com um Postgres temporário: stack toda saudável, SPA, login, API, admin e estáticos OK.
+- **Adicionado/alterado em**: 2026-10-14.
+
 ### Apps Django (backend/)
 | App | Papel |
 |---|---|
@@ -136,10 +153,9 @@ API REST (DRF) em `/api/`, documentada em `/api/docs/`. Endpoints por área em [
 
 ## Por fazer
 - Subir para Django 6.1 quando sair um `django-celery-beat` compatível (antes de Abril de 2027).
-- Ambiente de produção: compose de produção (gunicorn, build estático do frontend), segredos e deploy.
+- Primeiro deploy no Coolify: criar o recurso Postgres (pgvector), definir as variáveis e o domínio.
 - Remover os scripts PoC (`crawl_*.py`) quando deixarem de ser úteis.
 - Agentes de enriquecimento (fila `enrichment`) por implementar.
-- Deploy (Docker Compose no Coolify?).
 - `npm` local usa um Nexus privado: o `package-lock.json` do frontend foi gerado com `--registry https://registry.npmjs.org`.
 
 ## Notas e limitações

@@ -1,0 +1,45 @@
+# Imagem de produção do backend (Coolify): gunicorn, estáticos com hash (whitenoise), utilizador sem privilégios.
+# A mesma imagem corre o backend, os workers Celery, o beat e o migrate (muda só o command).
+FROM python:3.13-slim AS builder
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .
+# collectstatic só precisa de settings válidos: valores provisórios, nunca usados em runtime.
+RUN DJANGO_SECRET_KEY=collectstatic DJANGO_STATIC_MANIFEST=1 POSTGRES_DB=x POSTGRES_USER=x POSTGRES_PASSWORD=x \
+    REDIS_CACHE_URL=redis://localhost:6379/0 REDIS_BROKER_URL=redis://localhost:6379/0 \
+    python manage.py collectstatic --noinput
+
+FROM python:3.13-slim AS runner
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PATH="/opt/venv/bin:$PATH" \
+    DJANGO_STATIC_MANIFEST=1 \
+    RAW_HTML_ROOT=/data/raw
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends netcat-openbsd \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 1000 app \
+    && mkdir -p /data/raw && chown app:app /data/raw
+
+COPY --from=builder /opt/venv /opt/venv
+COPY --from=builder --chown=app:app /app /app
+WORKDIR /app
+USER app
+EXPOSE 8000
+
+ENTRYPOINT ["sh", "/app/entrypoint.sh"]
+CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3", "--timeout", "120", \
+     "--access-logfile", "-"]

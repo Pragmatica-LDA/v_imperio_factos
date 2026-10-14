@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "corsheaders.middleware.CorsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -112,6 +113,19 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STORAGES = {
+    "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
+    # Manifest (nomes com hash) só com collectstatic feito: na imagem de produção (DJANGO_STATIC_MANIFEST=1).
+    "staticfiles": {"BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage"
+                    if env.bool("DJANGO_STATIC_MANIFEST", default=False)
+                    else "django.contrib.staticfiles.storage.StaticFilesStorage"},
+}
+
+# Atrás de um proxy (Traefik no Coolify, nginx): o SSL termina no proxy. Nunca SECURE_SSL_REDIRECT aqui.
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+USE_X_FORWARDED_HOST = env.bool("DJANGO_USE_X_FORWARDED_HOST", default=False)
+SESSION_COOKIE_SECURE = env.bool("DJANGO_SECURE_COOKIES", default=False)
+CSRF_COOKIE_SECURE = SESSION_COOKIE_SECURE
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 

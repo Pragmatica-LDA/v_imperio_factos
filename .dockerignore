@@ -1,0 +1,6 @@
+# Contexto da imagem do nginx (raiz do repo): só precisa de frontend/ e docker/nginx/.
+*
+!frontend/
+!docker/nginx/
+frontend/node_modules/
+frontend/dist/

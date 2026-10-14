@@ -1,0 +1,149 @@
+# Factos no Coolify.
+# - Postgres: recurso gerido do Coolify com a imagem pgvector/pgvector:0.8.7-pg18-trixie (backups no UI);
+#   ligação pelas variáveis POSTGRES_*.
+# - Entrada pública: nginx (porta 80) com o build do React e proxy para o Django (/api, /admin, /dashboard, /static).
+# - Sem ports, networks nem container_name: o Coolify trata disso.
+# Variáveis: ver .env.coolify.example.
+
+x-backend: &backend
+  build:
+    context: ./backend
+    dockerfile: Dockerfile.coolify
+  environment: &backend-env
+    DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+    DJANGO_DEBUG: "0"
+    DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS}
+    DJANGO_CSRF_TRUSTED_ORIGINS: ${DJANGO_CSRF_TRUSTED_ORIGINS}
+    DJANGO_SECURE_COOKIES: "1"
+    CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-}
+    LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    POSTGRES_DB: ${POSTGRES_DB}
+    POSTGRES_USER: ${POSTGRES_USER}
+    POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    POSTGRES_HOST: ${POSTGRES_HOST}
+    POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+    REDIS_BROKER_HOST: redis-broker
+    REDIS_BROKER_URL: redis://redis-broker:6379/0
+    CELERY_RESULT_BACKEND: redis://redis-broker:6379/1
+    REDIS_CACHE_URL: redis://redis-cache:6379/0
+    CACHE_DEFAULT_TIMEOUT: ${CACHE_DEFAULT_TIMEOUT:-300}
+    CELERY_VISIBILITY_TIMEOUT: ${CELERY_VISIBILITY_TIMEOUT:-3600}
+    CELERY_TASK_TIME_LIMIT: ${CELERY_TASK_TIME_LIMIT:-1800}
+    CELERY_TASK_SOFT_TIME_LIMIT: ${CELERY_TASK_SOFT_TIME_LIMIT:-1500}
+    CELERY_WORKER_PREFETCH_MULTIPLIER: ${CELERY_WORKER_PREFETCH_MULTIPLIER:-1}
+    DJANGO_SUPERUSER_USERNAME: ${DJANGO_SUPERUSER_USERNAME}
+    DJANGO_SUPERUSER_PASSWORD: ${DJANGO_SUPERUSER_PASSWORD}
+    DJANGO_SUPERUSER_EMAIL: ${DJANGO_SUPERUSER_EMAIL:-}
+    ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-}
+    OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
+    OLLAMA_DEFAULT_NUM_CTX: ${OLLAMA_DEFAULT_NUM_CTX:-16384}
+    LLM_REQUEST_TIMEOUT: ${LLM_REQUEST_TIMEOUT:-600}
+    LLM_MAX_RETRIES: ${LLM_MAX_RETRIES:-2}
+    RAW_HTML_ROOT: /data/raw
+  volumes:
+    - raw_html:/data/raw
+  labels:
+    - coolify.expose=false
+    - coolify.managed=true
+  restart: unless-stopped
+
+x-after-migrate: &after-migrate
+  depends_on:
+    migrate:
+      condition: service_completed_successfully
+    redis-broker:
+      condition: service_healthy
+    redis-cache:
+      condition: service_healthy
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    depends_on:
+      backend:
+        condition: service_healthy
+    labels:
+      - coolify.expose=true
+      - coolify.managed=true
+      - coolify.port=80
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  # Corre uma vez em cada deploy: migrações, superuser do .env, fontes, parâmetros e tarefas periódicas.
+  migrate:
+    <<: *backend
+    command: sh -c "python manage.py migrate --noinput && python manage.py ensure_superuser && python manage.py bootstrap"
+    depends_on:
+      redis-broker:
+        condition: service_healthy
+    restart: "no"
+
+  backend:
+    <<: [*backend, *after-migrate]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health/', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # Workers por grupo de filas: um pico de análises LLM não bloqueia o crawl.
+  worker-crawl:
+    <<: [*backend, *after-migrate]
+    command: >
+      celery -A config worker -l info -n crawl@%h -Q discovery,crawl,revisits,maintenance
+      --concurrency ${CELERY_CRAWL_CONCURRENCY:-4}
+
+  worker-analysis:
+    <<: [*backend, *after-migrate]
+    command: >
+      celery -A config worker -l info -n analysis@%h -Q analysis,enrichment
+      --concurrency ${CELERY_ANALYSIS_CONCURRENCY:-2}
+
+  beat:
+    <<: [*backend, *after-migrate]
+    command: celery -A config beat -l info
+
+  # Broker do Celery: sem eviction e com AOF, para nunca perder tarefas.
+  redis-broker:
+    image: redis:8.8.3-alpine
+    command: redis-server --appendonly yes --maxmemory-policy noeviction
+    volumes:
+      - redisbroker:/data
+    labels:
+      - coolify.expose=false
+      - coolify.managed=true
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  # Cache do front-office: volátil, com eviction LRU. Separada do broker.
+  redis-cache:
+    image: redis:8.8.3-alpine
+    command: >
+      redis-server --save "" --appendonly no
+      --maxmemory ${REDIS_CACHE_MAXMEMORY:-256mb} --maxmemory-policy allkeys-lru
+    labels:
+      - coolify.expose=false
+      - coolify.managed=true
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  raw_html:
+  redisbroker:
