@@ -1,0 +1,137 @@
+{
+  "url": "https://www.jn.pt/nacional/artigo/fenprof-exige-esclarecimentos-rigorosos-sobre-erro-no-calculo-das-pensoes/18136547",
+  "canonical_url": "https://www.jn.pt/nacional/artigo/fenprof-exige-esclarecimentos-rigorosos-sobre-erro-no-calculo-das-pensoes/18136547",
+  "aliases": [
+    "https://www.jn.pt/amp/18136547/fenprof-exige-esclarecimentos-rigorosos-sobre-erro-no-calculo-das-pensoes"
+  ],
+  "site_article_id": "18136547",
+  "title": "Fenprof exige \"esclarecimentos rigorosos\" sobre erro no cálculo das pensões",
+  "lead": "A Federação Nacional de Professores (Fenprof) exigiu, esta terça-feira, \"esclarecimentos rigorosos\" da Caixa Geral de Aposentações por causa do erro de cálculo nas pensões, que afetou centenas de docentes, a quem estão a ser exigidas verbas erradamente pagas.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Em comunicado, a Fenprof disse que está a acompanhar centenas de situações de docentes aposentados com valores de pensões inferiores aos inicialmente simulados pela Caixa Geral de Aposentações (CGA) e lembrou que, nalguns casos, as diferenças representam perdas de 150 euros ou mais.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Para a Fenprof, esta situação tem \"consequências muito significativas na vida das pessoas\", que \"confiaram na informação disponibilizada pela própria CGA, tomando decisões com base nela\". \"Mais grave, ainda, é a situação dos docentes que, perante a falta de professores nas escolas, prolongaram a sua permanência no ativo tendo em conta as expectativas criadas quanto ao valor da futura aposentação\", sublinhou.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Este erro no cálculo das pensões de cerca de três mil pensionistas foi conhecido na semana passada e as falhas abrangem pensões atribuídas entre maio e agosto deste ano. Devido a um erro no cálculo foram fixados valores acima do previsto por lei.",
+      "links": [
+        {
+          "text": "erro no cálculo das pensões de cerca de três mil pensionistas",
+          "url": "https://www.jn.pt/nacional/artigo/erro-obriga-caixa-geral-de-aposentacoes-a-rever-pensao-de-tres-mil-reformados/18134356"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": "A Fenprof disse que a CGA \"não pode desresponsabilizar-se perante os seus pretensos erros\", nem alegar um lapso de parametrização para tomar decisões que têm consequências concretas na vida de milhares de trabalhadores e exige \"transparência, respeito pelos direitos constituídos e salvaguarda das legítimas expectativas criadas\".",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Segundo a federação, os valores de pensão inicialmente comunicados respeitavam integralmente o quadro legal em vigor, \"o que não acontece com os novos valores (inferiores)\".",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Face a esta situação, a Fenprof exigiu à CGA \"esclarecimentos rigorosos\" sobre a origem destas diferenças, os critérios utilizados e os fundamentos legais que sustentam os novos valores comunicados, bem como a análise individualizada de cada situação.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Considerou ainda que o Governo \"também não pode alhear-se\" de um problema que exige \"respostas urgentes\" e disse estar a acompanhar centenas de situações, disponibilizando aos docentes o apoio jurídico necessário.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Por fim, apelou a todos os professores que ainda não contactaram a sua organização sindical para que o façam para obterem o apoio e o acompanhamento de que precisam.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "A ministra do Trabalho, Solidariedade e Segurança Social, Maria do Rosário Palma Ramalho, já veio confirmar que os valores pagos a mais terão de ser repostos.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "JN/Agências",
+      "role": null,
+      "url": "https://www.jn.pt/autor/jnagencias",
+      "affiliation": null
+    }
+  ],
+  "agencies": [
+    "Agências"
+  ],
+  "byline_raw": "JN/Agências",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/817f052c-8c56-4af4-a412-16cf2c12ef94_1200x675.jpg",
+      "caption": "Este erro no cálculo das pensões de cerca de três mil pensionistas foi conhecido na semana passada",
+      "photographers": [],
+      "credit_raw": "Foto: Arquivo",
+      "agency": null,
+      "is_main": true,
+      "is_archive": true
+    }
+  ],
+  "published_at": "2026-10-13T10:00:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "nacional",
+  "subsection": null,
+  "tags": [
+    "Nacional",
+    "Fenprof",
+    "Pensões"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 341,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Nacional",
+    "section_name": "Nacional",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [],
+    "site_word_count": 366,
+    "reading_minutes": 2,
+    "seo_title": "Fenprof exige esclarecimentos sobre erro no cálculo de pensões",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T11:00:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature (assinatura colectiva 'JN/Agências')",
+    "byline_raw": "rsc:Authors[].Signature",
+    "agencies": "assinatura ['JN/Agências']",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 341 vs WordCount do site 366 (rácio mín. 0.9)",
+    "notas": "assinatura colectiva 'JN/Agências'"
+  }
+}

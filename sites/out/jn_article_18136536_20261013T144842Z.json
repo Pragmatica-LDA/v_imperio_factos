@@ -1,0 +1,102 @@
+{
+  "url": "https://www.jn.pt/justica/artigo/esfaqueou-homem-que-agrediu-a-amiga-num-restaurante-em-coimbra/18136536",
+  "canonical_url": "https://www.jn.pt/justica/artigo/esfaqueou-homem-que-agrediu-a-amiga-num-restaurante-em-coimbra/18136536",
+  "aliases": [
+    "https://www.jn.pt/amp/18136536/esfaqueou-homem-que-agrediu-a-amiga-num-restaurante-em-coimbra"
+  ],
+  "site_article_id": "18136536",
+  "title": "Esfaqueou homem que agrediu a amiga num restaurante em Coimbra",
+  "lead": "A Polícia Judiciária, através da Diretoria do Centro e com a colaboração da GNR, deteve um homem, de 40 anos, pela presumível prática de um crime de homicídio, na forma tentada, ocorrido na madrugada deste domingo, num restaurante na zona de Coimbra. Esfaqueou um homem que havia agredido uma sua amiga.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Segundo a PJ, \"os factos tiveram origem numa altercação entre clientes\" e o suspeito terá assistido à agressão de uma amiga por parte da vítima, um homem. de 31 anos, e o ataque ocorreu no interior do estabelecimento de restauração, durante a madrugada.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na sequência da discussão, o homem, munido de uma faca, terá abordado a vítima pelas costas e desferido vários golpes na região dorsal. A PJ refere que os ferimentos provocados colocaram a vítima \"em risco de vida\".",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O homem foi detido pela PJ, com a colaboração da GNR, e vai ser presente a primeiro interrogatório judicial, para aplicação das medidas de coação consideradas adequadas.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Reis Pinto",
+      "role": null,
+      "url": "https://www.jn.pt/autor/reis-pinto",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Reis Pinto",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/21666d8b-e8f5-4cd6-acd1-450c7295bbd1_1200x675.jpg",
+      "caption": "Judiciária deteve homem por tentativa de homicídio, em Coimbra",
+      "photographers": [
+        "Direitos reservados"
+      ],
+      "credit_raw": "Direitos reservados",
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T09:41:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "justica",
+  "subsection": null,
+  "tags": [
+    "Justiça",
+    "Coimbra",
+    "restaurante",
+    "PJ",
+    "GNR"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 107,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "PJ",
+    "section_name": "Justiça",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [],
+    "site_word_count": 106,
+    "reading_minutes": 1,
+    "seo_title": "Homem detido por esfaquear agressor em restaurante em Coimbra",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T10:41:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature",
+    "byline_raw": "rsc:Authors[].Signature",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 107 vs WordCount do site 106 (rácio mín. 0.9)"
+  }
+}

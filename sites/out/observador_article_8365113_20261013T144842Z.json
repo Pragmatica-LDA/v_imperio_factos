@@ -1,0 +1,108 @@
+{
+  "url": "https://observador.pt/2026/10/12/ministro-e-secretarios-de-estado-tomam-posicao-conjunta-relacao-com-secretario-geral-do-mai-tornou-se-insustentavel/",
+  "canonical_url": "https://observador.pt/2026/10/12/ministro-e-secretarios-de-estado-tomam-posicao-conjunta-relacao-com-secretario-geral-do-mai-tornou-se-insustentavel/",
+  "aliases": [],
+  "site_article_id": "8365113",
+  "title": "Ministro e secretários de Estado tomam posição conjunta: relação com secretário-geral do MAI tornou-se \"insustentável\"",
+  "lead": "Ministro e secretários de Estado denunciam contradições do secretário-geral exonerado. E apontam a \"agastamento\" para justificar declarações de ex-secretário-geral.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Numa tomada de posição pouco comum, senão inédita, o ministro da Administração Interna e os três secretários de Estado da pasta liderada por Luís Neves divulgaram um comunicado conjunto em que refutam as declarações do agora ex-secretário-geral do MAI e saem em defesa da decisão de afastar Ricardo Carrilho das funções. “Um vasto conjunto de episódios, que antecederam a decisão agora tomada, tornaram insustentável a relação com a tutela, com entidades tuteladas e com outras áreas governativas”, justificam.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Em comunicado divulgado na noite desta segunda-feira, os quatro responsáveis políticos do MAI consideram que as declarações de Carrilho — que, entre outras palavras, acusou Luís Neves de o obrigar a tomar decisões que iam contra a lei — terão sido “seguramente motivadas pelo agastamento” do ex-número um da estrutura do MAI, “vieram, de resto, demonstrar à saciedade, que o mesmo não reunia as condições para os desafios que se apresentam a este Ministério, os quais exigem compromisso, confiança e lealdade”.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Os quatro governantes assumem a “quebra de confiança” em Ricardo Carrilho. Como o Observador escreveu, essa relação vinha sofrendo um desgaste que se acentuou depois da saída do secretário-geral adjunto do MAI, em maio deste ano, também em rota de colisão com a tutela. O comunicado faz referência a “situações que comprometeram o funcionamento dos serviços, a articulação institucional e a execução de políticas públicas do Governo”.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "E destaca, como o Observador também já tinha avançado, uma “permanente atitude de confronto, procurando, por todos os meios, prejudicar o funcionamento do SIRESP, o único sistema de comunicações de emergência do Estado”; a extinção do Centro de Operações e Gestão do SIRESP — que levou o ministro a pedir um parecer jurídico que se revelou crítico da decisão de Carrilho, por comprometer a ação do sistema de comunicações críticas; ainda a recusa em pagar valores em dívida à SIRESP, S. A., “alegando agora dúvidas que nunca invocou no passado, constituiu um ato da maior gravidade, por ter colocado em risco os pagamentos a fornecedores e o cumprimento dos compromissos da empresa na época mais crítica”; o “protelamento” de medidas que acabaram por comprometer “projetos urgentes”, como os programas de resposta às tempestades que afetaram o país no início do ano; e, ainda, “a falta de comunicação à tutela de um relatório de auditoria da Inspeção-Geral de Finanças que identificou despesas com remunerações não previstas em projetos financiados por fundos europeus, determinando a devolução de 4,5 milhões de euros à Comissão Europeia”.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O mesmo comunicado, subscrito por Luís Neves, Paulo Simões Ribeiro, Telmo Correia e Rui Rocha, faz ainda referências às várias declarações de Ricardo Carrilho ao longo do dia, e já depois de ser afastado da secretaria-geral do MAI. Essas declarações, dizem os governantes, “enfermam de uma contradição essencial: ao mesmo tempo que, para se autoelogiar, invoca resultados “ímpares e sem qualquer paralelo no MAI”, correspondentes à atual governação, insinua uma suposta ‘paralisia e estrangulamento’ no Ministério, a qual, efetivamente, não existe.”",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Pedro Raínho",
+      "role": "texto",
+      "url": "https://observador.pt/perfil/pmrainho/",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Pedro Raínho",
+  "images": [
+    {
+      "url": "https://s3.observador.pt/wp-content/uploads/2026/09/08123009/ilacerda-luis-neves-comissao-parlamentar-45-scaled.jpg",
+      "caption": "INÊS LACERDA/OBSERVADOR",
+      "photographers": [
+        "Inês Lacerda"
+      ],
+      "credit_raw": "INÊS LACERDA/OBSERVADOR",
+      "agency": "Observador",
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-12T22:08:09+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": "2026-10-12T22:10:25+00:00",
+  "section": "Política",
+  "subsection": "Ministério Administração Interna",
+  "tags": [
+    "Ministério Administração Interna",
+    "Política"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "post",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "html",
+  "word_count": 489,
+  "out_of_scope": null,
+  "site_meta": {
+    "post_type": "post",
+    "small_title": "Ministro e equipa contra Carrilho: relação \"insustentável\"",
+    "main_category": "ministerio-administracao-interna",
+    "top_category": "politica",
+    "exclusive": false,
+    "sponsored": false,
+    "is_initiative": false,
+    "sensitive": 0,
+    "jsonld_word_count": 846,
+    "content_length": 3587,
+    "html_blocks": 5
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "html:body.postid-N",
+    "title": "jsonld:headline",
+    "lead": "html:.article-head-content-headline-lead",
+    "byline_raw": "html:.author-name / .columnist-info-name",
+    "authors": "jsonld:author + html:.author-credit/.columnist (papel e perfil)",
+    "published_at": "jsonld:datePublished",
+    "updated_at": "jsonld:dateModified",
+    "section": "jsonld:articleSection",
+    "subsection": "contextualData.mainCategory + html:article a[href*=/seccao/] (nome)",
+    "tags": "jsonld:keywords",
+    "access": "sem marcas de premium (jsonld/body/contextualData)",
+    "body": "html:.article-body-content (todos os contentores; p, h1.tinymceh1→h2, h2-h4, blockquote, li); promos [..] e anúncios removidos",
+    "word_count": "contagem de palavras do corpo extraído",
+    "body_complete": "html cobre 93% do texto do jsonld:articleBody",
+    "images": "principal: html:figcaption .creditos; 1 imagem(ns) solta(s) no corpo sem legenda/crédito ignorada(s) (promo?) (jsonld:image não tem crédito)",
+    "piece_type_raw": "html:body class / contextualData.postType",
+    "piece_type": "piece_type_raw",
+    "site_meta": "contextualData (pageTargeting + post.*), jsonld:wordCount"
+  }
+}

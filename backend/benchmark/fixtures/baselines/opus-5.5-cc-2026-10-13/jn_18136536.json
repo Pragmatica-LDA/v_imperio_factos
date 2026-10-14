@@ -1,0 +1,26 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "Polícia Judiciária", "canonical_name": "Polícia Judiciária", "type": "instituicao", "is_public": true, "roles": ["fonte", "visado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autora da detenção e fonte da informação, relato factual."},
+    {"name": "GNR", "canonical_name": "Guarda Nacional Republicana", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Colaborou na detenção."},
+    {"name": "homem, de 40 anos", "canonical_name": "Suspeito de 40 anos detido em Coimbra", "type": "pessoa", "is_public": false, "roles": ["acusado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Detido por tentativa de homicídio, esfaqueou a vítima pelas costas."},
+    {"name": "vítima, um homem de 31 anos", "canonical_name": "Vítima de 31 anos esfaqueada em Coimbra", "type": "pessoa", "is_public": false, "roles": ["vitima"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Vítima da agressão, mas descrita como tendo agredido antes a amiga do suspeito."},
+    {"name": "amiga", "canonical_name": "Amiga do suspeito agredida em Coimbra", "type": "pessoa", "is_public": false, "roles": ["vitima"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Agredida pela vítima, sem juízo."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Polícia Judiciária", "partial_attribute": null, "excerpt": "Segundo a PJ, \"os factos tiveram origem numa altercação entre clientes\""}
+  ],
+  "themes": [
+    {"path": ["Justiça", "Crime"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Segurança", "Forças de segurança"], "kind": "tema", "edition": null, "weight": 0.2, "is_new": false}
+  ],
+  "locations": [
+    {"name": "Coimbra", "level": "concelho", "parent": "Coimbra"}
+  ],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia de crime baseada no comunicado da PJ. O suspeito e a vítima são pessoas privadas não nomeadas, centrais na notícia. A vítima tem sentimento negativo porque a peça a descreve como agressora da amiga.",
+    "sources_used": ["lead", "1.º parágrafo (Segundo a PJ)", "3.º parágrafo (detenção)"],
+    "sources_discarded": ["Diretoria do Centro: unidade da PJ, junta na PJ", "restaurante: local sem nome"]
+  }
+}

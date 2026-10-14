@@ -1,0 +1,126 @@
+{
+  "url": "https://observador.pt/2026/10/13/papa-leao-chega-ao-hospital-gemelli-para-remover-nodulo-no-pulmao/",
+  "canonical_url": "https://observador.pt/2026/10/13/papa-leao-chega-ao-hospital-gemelli-para-remover-nodulo-no-pulmao/",
+  "aliases": [],
+  "site_article_id": "8365810",
+  "title": "Papa Leão chega ao hospital Gemelli para remover nódulo no pulmão",
+  "lead": "O pontífice, de 71 anos, vai ser submetido a uma cirurgia para remover um nódulo no pulmão que foi detetado durante exames de rotina.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "O Papa Leão XIV chegou esta terça-feira ao hospital Agostino Gemelli, onde será submetido a uma cirurgia para retirar um nódulo no pulmão.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O pontífice, de 71 anos, revelou no domingo que durante exames de rotina os médicos descobriram um nódulo no pulmão. “Foi detetado numa fase muito inicial e bem localizado. Os médicos consideram adequado intervir e, por isso, seguindo o seu conselho, decidi submeter-me a uma cirurgia para o remover”, disse aos fieis presentes na Praça de São Pedro.",
+      "links": [
+        {
+          "text": "disse aos fieis presentes na Praça de São Pedro",
+          "url": "https://observador.pt/2026/10/11/papa-leao-xiv-anuncia-que-tem-um-nodulo-no-pulmao-sera-submetido-a-uma-cirurgia-nos-proximos-dias/"
+        }
+      ]
+    },
+    {
+      "kind": "quote",
+      "text": "Ver esta publicação no Instagram Uma publicação partilhada por Pope Leo XIV (@pontifex)",
+      "links": [
+        {
+          "text": "Ver esta publicação no Instagram",
+          "url": "https://www.instagram.com/reel/DeWksgXOIXX/?utm_source=ig_embed&utm_campaign=loading"
+        },
+        {
+          "text": "Uma publicação partilhada por Pope Leo XIV (@pontifex)",
+          "url": "https://www.instagram.com/reel/DeWksgXOIXX/?utm_source=ig_embed&utm_campaign=loading"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": "Um porta-voz do Vaticano revelou que a recuperação do Papa deve durar cerca de uma semana.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "“Agradeço a vossa proximidade espiritual e entrego-me às vossas orações”, disse ainda o Papa ao anunciar para breve a cirurgia.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Adriana Alves",
+      "role": "texto",
+      "url": "https://observador.pt/perfil/aralves/",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Adriana Alves",
+  "images": [
+    {
+      "url": "https://s3.observador.pt/wp-content/uploads/2026/09/26150219/47840147.jpg",
+      "caption": "VATICAN MEDIA HANDOUT/EPA",
+      "photographers": [],
+      "credit_raw": "VATICAN MEDIA HANDOUT/EPA",
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T11:10:38+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": "2026-10-13T11:15:31+00:00",
+  "section": "Sociedade",
+  "subsection": "Papa Leão XIV",
+  "tags": [
+    "Papa Leão XIV",
+    "Igreja Católica",
+    "Religião",
+    "Sociedade",
+    "Vaticano",
+    "Itália",
+    "Europa",
+    "Mundo"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "post",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "html",
+  "word_count": 130,
+  "out_of_scope": null,
+  "site_meta": {
+    "post_type": "post",
+    "small_title": "Papa chega ao hospital para remover nódulo no pulmão",
+    "main_category": "papa-leao-xiv",
+    "top_category": "sociedade",
+    "exclusive": false,
+    "sponsored": false,
+    "is_initiative": false,
+    "sensitive": 0,
+    "jsonld_word_count": 221,
+    "content_length": 945,
+    "html_blocks": 5
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "html:body.postid-N",
+    "title": "jsonld:headline",
+    "lead": "html:.article-head-content-headline-lead",
+    "byline_raw": "html:.author-name / .columnist-info-name",
+    "authors": "jsonld:author + html:.author-credit/.columnist (papel e perfil)",
+    "published_at": "jsonld:datePublished",
+    "updated_at": "jsonld:dateModified",
+    "section": "jsonld:articleSection",
+    "subsection": "contextualData.mainCategory + html:article a[href*=/seccao/] (nome)",
+    "tags": "jsonld:keywords",
+    "access": "sem marcas de premium (jsonld/body/contextualData)",
+    "body": "html:.article-body-content (todos os contentores; p, h1.tinymceh1→h2, h2-h4, blockquote, li); promos [..] e anúncios removidos",
+    "word_count": "contagem de palavras do corpo extraído",
+    "body_complete": "html cobre 100% do texto do jsonld:articleBody",
+    "images": "principal: html:figcaption .creditos (jsonld:image não tem crédito)",
+    "piece_type_raw": "html:body class / contextualData.postType",
+    "piece_type": "piece_type_raw",
+    "site_meta": "contextualData (pageTargeting + post.*), jsonld:wordCount"
+  }
+}

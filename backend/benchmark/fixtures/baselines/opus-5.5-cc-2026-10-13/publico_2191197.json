@@ -1,0 +1,39 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "grupo Heitor", "canonical_name": "Grupo de peritos sobre o financiamento europeu para a ciência (grupo Heitor)", "type": "organizacao", "is_public": true, "roles": ["visado", "citado", "fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autor da carta aberta, cujas posições são reproduzidas sem juízo."},
+    {"name": "Manuel Heitor", "canonical_name": "Manuel Heitor", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "presidente do grupo de peritos; antigo ministro português da Ciência", "sentiment": "neutro", "sentiment_reason": "Referido como presidente do grupo."},
+    {"name": "António Costa", "canonical_name": "António Costa", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "presidente do Conselho Europeu", "sentiment": "neutro", "sentiment_reason": "Destinatário da carta."},
+    {"name": "Ursula von der Leyen", "canonical_name": "Ursula von der Leyen", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "presidente da Comissão Europeia", "sentiment": "neutro", "sentiment_reason": "Destinatária da carta."},
+    {"name": "Roberta Metsola", "canonical_name": "Roberta Metsola", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "presidente do Parlamento Europeu", "sentiment": "neutro", "sentiment_reason": "Destinatária da carta."},
+    {"name": "Comissão Europeia", "canonical_name": "Comissão Europeia", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Encomendou o estudo e propôs o orçamento inicial."},
+    {"name": "Estados-membros", "canonical_name": "Conselho da União Europeia", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "A sua nova proposta corta quase 10% na investigação e é alvo do alerta."},
+    {"name": "Parlamento Europeu", "canonical_name": "Parlamento Europeu", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Parte da negociação orçamental."},
+    {"name": "Conselho Europeu", "canonical_name": "Conselho Europeu", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Instituição de um dos destinatários."},
+    {"name": "Mario Draghi", "canonical_name": "Mario Draghi", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autor de outro relatório citado como comparação."},
+    {"name": "Horizonte Europa", "canonical_name": "Horizonte Europa", "type": "outro", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Programa cujo orçamento está em causa."},
+    {"name": "Conny Aerts", "canonical_name": "Conny Aerts", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "membro do grupo de peritos", "sentiment": "neutro", "sentiment_reason": "Signatária."},
+    {"name": "Maria Chiara Carrozza", "canonical_name": "Maria Chiara Carrozza", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "membro do grupo de peritos", "sentiment": "neutro", "sentiment_reason": "Signatária."},
+    {"name": "Heinz Fassmann", "canonical_name": "Heinz Fassmann", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "membro do grupo de peritos", "sentiment": "neutro", "sentiment_reason": "Signatário."},
+    {"name": "Isabelle Ryl", "canonical_name": "Isabelle Ryl", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "membro do grupo de peritos", "sentiment": "neutro", "sentiment_reason": "Signatária."},
+    {"name": "Sylvia Schwaag Serger", "canonical_name": "Sylvia Schwaag Serger", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "membro do grupo de peritos", "sentiment": "neutro", "sentiment_reason": "Signatária."}
+  ],
+  "sources": [
+    {"type": "documento", "entity_name": "Grupo de peritos sobre o financiamento europeu para a ciência (grupo Heitor)", "partial_attribute": "carta aberta", "excerpt": "O rastilho para a carta, a que o PÚBLICO teve acesso"},
+    {"type": "documento", "entity_name": "Grupo de peritos sobre o financiamento europeu para a ciência (grupo Heitor)", "partial_attribute": "estudo de Outubro de 2024", "excerpt": "o seu estudo, de Outubro de 2024, recomendava “pelo menos 220 mil milhões de euros”"},
+    {"type": "documento", "entity_name": "Mario Draghi", "partial_attribute": "relatório Draghi", "excerpt": "um outro relatório liderado por Mario Draghi"},
+    {"type": "documento", "entity_name": "Conselho da União Europeia", "partial_attribute": "proposta orçamental dos Estados-membros", "excerpt": "uma nova proposta dos Estados-membros para o orçamento da União Europeia entre 2028 e 2034"}
+  ],
+  "themes": [
+    {"path": ["Ciência e tecnologia"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Internacional", "União Europeia"], "kind": "tema", "edition": null, "weight": 0.8, "is_new": false},
+    {"path": ["Internacional", "União Europeia", "Orçamento da UE 2028-2034"], "kind": "evento", "edition": null, "weight": 0.7, "is_new": true}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia sobre uma carta aberta. A proposta dos Estados-membros (negativo) é o alvo da crítica; restantes neutros. Tema novo: negociação do orçamento da UE 2028-2034. Os peritos signatários entram como mencionados.",
+    "sources_used": ["lead", "1.º e 2.º parágrafos (carta e proposta orçamental)", "3.º a 6.º parágrafos (citações da carta)"],
+    "sources_discarded": ["China e Estados Unidos: comparação de investimento, não actores", "localização: âmbito europeu, sem local específico"]
+  }
+}

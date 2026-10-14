@@ -1,0 +1,30 @@
+{
+  "piece_type": "opiniao",
+  "entities": [
+    {"name": "Luís Pedro Carvalho", "canonical_name": "Luís Pedro Carvalho", "type": "pessoa", "is_public": true, "roles": ["autor_opiniao"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autor do artigo."},
+    {"name": "Chega", "canonical_name": "Chega", "type": "partido", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "O autor acusa o partido de se julgar acima da lei e de agir de forma arruaceira."},
+    {"name": "Rita Matias", "canonical_name": "Rita Matias", "type": "pessoa", "is_public": true, "roles": ["visado", "acusado"], "position_at_date": "deputada", "sentiment": "negativo", "sentiment_reason": "Uma das deputadas que invadiram as instalações, criticada pelo autor."},
+    {"name": "Associação Académica de Coimbra", "canonical_name": "Associação Académica de Coimbra", "type": "organizacao", "is_public": true, "roles": ["vitima"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Instalações invadidas; sem juízo sobre a associação."},
+    {"name": "Rádio Universidade de Coimbra", "canonical_name": "Rádio Universidade de Coimbra", "type": "meio_comunicacao", "is_public": true, "roles": ["vitima"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Instalações invadidas; sem juízo sobre a rádio."},
+    {"name": "Assembleia da República", "canonical_name": "Assembleia da República", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referida a propósito dos deveres dos deputados."},
+    {"name": "ERC", "canonical_name": "Entidade Reguladora para a Comunicação Social", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referida como via normal de reclamação."},
+    {"name": "Ministério Público", "canonical_name": "Ministério Público", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido como via normal de queixa."},
+    {"name": "Jornal de Notícias", "canonical_name": "Jornal de Notícias", "type": "meio_comunicacao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Exemplo hipotético do autor."},
+    {"name": "Trump", "canonical_name": "Donald Trump", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Referido com ironia como inspirador do comportamento criticado."}
+  ],
+  "sources": [],
+  "themes": [
+    {"path": ["Política", "Partidos", "Invasão da Rádio Universidade de Coimbra por deputadas do Chega"], "kind": "caso", "edition": null, "weight": 1.0, "is_new": true},
+    {"path": ["Política", "Partidos"], "kind": "tema", "edition": null, "weight": 0.6, "is_new": false},
+    {"path": ["Política", "Parlamento"], "kind": "tema", "edition": null, "weight": 0.3, "is_new": false}
+  ],
+  "locations": [
+    {"name": "Coimbra", "level": "concelho", "parent": "Coimbra"}
+  ],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Artigo de opinião (secção e tipo do site, primeira pessoa e juízos de valor). Sentimento é a posição do autor: negativo para o Chega, Rita Matias e Trump. A invasão da RUC é um caso com nome próprio, proposto como tema novo sob Política > Partidos. Rita Matias com papel acusado por ter invadido instalações, segundo o autor.",
+    "sources_used": ["título", "lead", "3.º parágrafo (Rita Matias, ERC, Ministério Público)", "último período (Trump)"],
+    "sources_discarded": ["'relatos que chegam de Coimbra': fonte vaga usada pelo autor, não pela notícia", "TikTok e Instagram: plataformas referidas, sem papel", "a segunda deputada: não é nomeada"]
+  }
+}

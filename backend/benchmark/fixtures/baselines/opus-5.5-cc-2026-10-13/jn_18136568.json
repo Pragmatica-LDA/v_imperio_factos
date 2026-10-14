@@ -1,0 +1,139 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "José Manuel Pureza",
+      "canonical_name": "José Manuel Pureza",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "coordenador do Bloco de Esquerda",
+      "sentiment": "neutro",
+      "sentiment_reason": "As suas críticas são reproduzidas sem juízo da notícia sobre ele."
+    },
+    {
+      "name": "Bloco de Esquerda",
+      "canonical_name": "Bloco de Esquerda",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "A posição do partido é relatada sem avaliação."
+    },
+    {
+      "name": "Luís Neves",
+      "canonical_name": "Luís Neves",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "ministro da Administração Interna",
+      "sentiment": "negativo",
+      "sentiment_reason": "É acusado de não cumprir procedimentos, de confusão e de pressões ilegítimas, e o BE diz que não tem condições para ser ministro."
+    },
+    {
+      "name": "Ministério da Administração Interna",
+      "canonical_name": "Ministério da Administração Interna",
+      "type": "governo",
+      "is_public": true,
+      "roles": ["visado", "fonte"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Descrito como \"novela permanente de casos\" e de \"trapalhadas\"."
+    },
+    {
+      "name": "Ricardo Carrilho",
+      "canonical_name": "Ricardo Carrilho",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "ex-secretário-geral do Ministério da Administração Interna",
+      "sentiment": "negativo",
+      "sentiment_reason": "Foi exonerado e o ministro acusa-o de confronto permanente e de prejudicar o SIRESP."
+    },
+    {
+      "name": "Provedora de Justiça",
+      "canonical_name": "Provedoria de Justiça",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida apenas como destinatária da queixa do BE."
+    },
+    {
+      "name": "Parlamento",
+      "canonical_name": "Assembleia da República",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido como o local onde o BE quer que sejam prestados esclarecimentos."
+    },
+    {
+      "name": "SIRESP",
+      "canonical_name": "SIRESP",
+      "type": "outro",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Rede de comunicações de emergência referida no contexto da exoneração."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Ministério da Administração Interna",
+      "partial_attribute": null,
+      "excerpt": "o Ministério da Administração Interna (MAI) anunciou que o secretário-geral daquele ministério, Ricardo Carrilho, cessou funções"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Luís Neves",
+      "partial_attribute": null,
+      "excerpt": "o ministro emitiu um comunicado no qual justificou a demissão do secretário-geral com \"quebra de confiança\""
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Política", "Administração Interna"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Administração Interna", "Exoneração do secretário-geral do MAI"],
+      "kind": "caso",
+      "edition": null,
+      "weight": 0.9,
+      "is_new": true
+    },
+    {
+      "path": ["Política", "Partidos"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    },
+    {
+      "path": ["Sociedade", "Pensões e Segurança Social"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.15,
+      "is_new": false
+    }
+  ],
+  "locations": [],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Peça noticiosa de agência com declarações do coordenador do BE. As críticas de Pureza são reproduzidas sem juízo sobre ele, por isso fica neutro; o ministro e o MAI ficam negativos pelo retrato de trapalhadas e acusações. Carrilho fica negativo: foi exonerado e é acusado pelo ministro de prejudicar o SIRESP. A exoneração do secretário-geral é um caso com nome próprio, criado como tema novo sob Administração Interna. A queixa sobre as pensões é contexto secundário.",
+    "sources_used": ["lead", "declarações de Pureza (parágrafos 1–7)", "anúncio do MAI", "comunicado do ministro (últimos parágrafos)"],
+    "sources_discarded": ["assinatura JN/Agências: não identifica a agência nem atribui informação no texto", "declarações de Carrilho: acusações/opinião, não informação factual atribuída"]
+  }
+}

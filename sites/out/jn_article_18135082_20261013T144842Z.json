@@ -1,0 +1,143 @@
+{
+  "url": "https://www.jn.pt/nacional/artigo/praga-de-javalis-quais-as-medidas-tomadas-pelo-governo/18135082",
+  "canonical_url": "https://www.jn.pt/nacional/artigo/praga-de-javalis-quais-as-medidas-tomadas-pelo-governo/18135082",
+  "aliases": [
+    "https://www.jn.pt/amp/18135082/praga-de-javalis-quais-as-medidas-tomadas-pelo-governo"
+  ],
+  "site_article_id": "18135082",
+  "title": "Praga de javalis: Quais as medidas tomadas pelo Governo?",
+  "lead": "Está prometida para este mês a concretização do projeto de controlo de javalis, promovido pelo Governo e pelo Instituto da Conservação da Natureza e das Florestas (ICNF). \"O ICNF está a chamar todos os parceiros que têm um papel ativo na caça e são determinantes para aquilo que é a ação, como os municípios, para poder agir e atuar\", afirmou Rui Ladeira, secretário de Estado das Florestas.",
+  "body": [
+    {
+      "kind": "h2",
+      "text": "Qual é a dimensão do excesso de javalis?",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "A espécie cresceu de forma exponencial e estima-se que haja entre 300 mil e 400 mil javalis no país, devido ao abandono das zonas agrícolas, à falta de predadores como o lobo, à sua alta capacidade reprodutiva e à diminuição do número de caçadores.",
+      "links": [
+        {
+          "text": "entre 300 mil e 400 mil javalis",
+          "url": "https://www.jn.pt/pais/artigo/havera-300-mil-javalis-no-pais-e-141-foram-abatidos-em-sintra-cascais/18116509"
+        }
+      ]
+    },
+    {
+      "kind": "h2",
+      "text": "Que problemas são criados pelos animais?",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Os campos agrícolas são os primeiros alvos, com prejuízos causados na destruição de colheitas. Invadem zonas urbanas e praias, gerando acidentes e insegurança. E podem criar problemas de saúde pública.",
+      "links": [
+        {
+          "text": "prejuízos causados na destruição de colheitas",
+          "url": "https://www.jn.pt/nacional/artigo/burocracia-leva-agricultores-a-desistir-de-pedir-indemnizacoes-pelos-estragos-dos-javalis/18085005"
+        }
+      ]
+    },
+    {
+      "kind": "h2",
+      "text": "Houve medidas tomadas pelo Governo?",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O Ministério da Agricultura quer implementar um plano de emergência que prevê o incentivo aos caçadores para o abate nos concelhos considerados críticos. Ainda está em definição. Tem havido ações extraordinárias de abate em zonas mais afetadas.",
+      "links": []
+    },
+    {
+      "kind": "h2",
+      "text": "É permitido abater um javali em Portugal?",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Só pode ser caçado em terrenos cinegéticos ordenados, durante todo o ano venatório. A lei diz que a presença de um javali numa zona urbana não permite que se proceda ao seu abate. Se encontrar um, deve afastar-se com calma e alertar as autoridades.",
+      "links": [
+        {
+          "text": "caçado em terrenos cinegéticos ordenados",
+          "url": "https://www.jn.pt/pais/artigo/caca-com-montarias-e-armadilhas-para-travar-javalis-em-setubal/18115893"
+        }
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "Redação",
+      "role": null,
+      "url": null,
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Redação",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/71c40030-0aef-401d-890e-d8c3e5bf8555_1200x675.jpg",
+      "caption": "Estima-se que haja entre 300 mil e 400 mil javalis no país",
+      "photographers": [],
+      "credit_raw": "Foto: Arquivo",
+      "agency": null,
+      "is_main": true,
+      "is_archive": true
+    }
+  ],
+  "published_at": "2026-10-09T06:50:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "nacional",
+  "subsection": null,
+  "tags": [
+    "Nacional",
+    "Animais",
+    "Javalis",
+    "ICNF",
+    "Explicador"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": false,
+  "body_source": "rsc",
+  "word_count": 181,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Explicador",
+    "section_name": "Nacional",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [
+      "NG:Print"
+    ],
+    "site_word_count": 221,
+    "reading_minutes": 2,
+    "seo_title": "Praga de javalis: Medidas do Governo",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-09T07:50:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature (assinatura colectiva 'Redação')",
+    "byline_raw": "rsc:Authors[].Signature",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 181 vs WordCount do site 221 (rácio mín. 0.9)",
+    "notas": "assinatura colectiva 'Redação'"
+  }
+}

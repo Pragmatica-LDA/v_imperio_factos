@@ -1,0 +1,30 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "filho de 19 anos da vice-presidente da Câmara Municipal de Vila Flor", "canonical_name": "Jovem de 19 anos morto no IC5", "type": "pessoa", "is_public": false, "roles": ["vitima"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Vítima mortal do acidente, sem juízo."},
+    {"name": "Proteção Civil", "canonical_name": "Autoridade Nacional de Emergência e Proteção Civil", "type": "instituicao", "is_public": true, "roles": ["fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Fonte oficial dos dados do acidente."},
+    {"name": "Noel Afonso", "canonical_name": "Noel Afonso", "type": "pessoa", "is_public": true, "roles": ["citado", "fonte"], "position_at_date": "comandante sub-regional das Terras de Trás-os-Montes da Proteção Civil", "sentiment": "neutro", "sentiment_reason": "Dá informação factual sobre o acidente."},
+    {"name": "INEM", "canonical_name": "Instituto Nacional de Emergência Médica", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Helicóptero no local."},
+    {"name": "Lusa", "canonical_name": "Agência Lusa", "type": "meio_comunicacao", "is_public": true, "roles": ["fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Agência a quem o comandante prestou declarações."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Autoridade Nacional de Emergência e Proteção Civil", "partial_attribute": null, "excerpt": "levando ao corte da estrada, adiantou fonte da Proteção Civil"},
+    {"type": "agencia", "entity_name": "Agência Lusa", "partial_attribute": null, "excerpt": "Noel Afonso, revelou, à Lusa, que o pesado de mercadorias terá entrado em despiste"},
+    {"type": "outro", "entity_name": null, "partial_attribute": "informação própria do JN", "excerpt": "O JN sabe que a vítima mortal é o filho de 19 anos da vice-presidente da Câmara Municipal de Vila Flor."}
+  ],
+  "themes": [
+    {"path": ["Sociedade", "Acidentes"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Transportes e infraestruturas"], "kind": "tema", "edition": null, "weight": 0.2, "is_new": false}
+  ],
+  "locations": [
+    {"name": "Vila Flor", "level": "concelho", "parent": "Bragança"},
+    {"name": "Lodões", "level": "freguesia", "parent": "Vila Flor"},
+    {"name": "Mirandela", "level": "concelho", "parent": "Bragança"}
+  ],
+  "ai_indicator": {"score": 3, "signals": []},
+  "debug": {
+    "reasoning": "Notícia de acidente rodoviário (IC5, despiste de camião). A vítima é privada e não é nomeada; entra como pessoa privada por ser o centro da notícia. A informação de que é filho da vice-presidente vem do próprio JN, sem fonte identificada.",
+    "sources_used": ["lead", "1.º parágrafo (Noel Afonso à Lusa)", "2.º e 3.º parágrafos"],
+    "sources_discarded": ["vice-presidente da Câmara de Vila Flor: não é nomeada nem tem papel além do parentesco", "hospital de Mirandela e Macedo de Cavaleiros: locais de apoio, Mirandela fica como local por receber os feridos", "tags do site: confirmam o local"]
+  }
+}

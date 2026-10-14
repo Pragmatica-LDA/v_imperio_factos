@@ -1,0 +1,30 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "Timóteo Macedo", "canonical_name": "Timóteo Macedo", "type": "pessoa", "is_public": true, "roles": ["citado", "fonte"], "position_at_date": "presidente da Solidariedade Imigrante", "sentiment": "neutro", "sentiment_reason": "A notícia reproduz as suas críticas sem juízo sobre ele."},
+    {"name": "Solidariedade Imigrante", "canonical_name": "Solidariedade Imigrante", "type": "organizacao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Apresentada como a maior associação de imigrantes do país."},
+    {"name": "Governo", "canonical_name": "Governo de Portugal", "type": "governo", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Acusado de política racista, xenófoba e neocolonial e de abandonar os bairros."},
+    {"name": "AIMA", "canonical_name": "Agência para a Integração, Migrações e Asilo", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Acusada de transformar a imigração num negócio e de fomentar a litigância."},
+    {"name": "SEF", "canonical_name": "Serviço de Estrangeiros e Fronteiras", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Associado a violações de direitos, agressões e ao homicídio de um imigrante ucraniano por inspetores."},
+    {"name": "Alto Comissariado para as Migrações", "canonical_name": "Alto Comissariado para as Migrações", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido como extinto."},
+    {"name": "PSD", "canonical_name": "Partido Social Democrata", "type": "partido", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Parte da coligação que, segundo o dirigente, não gosta da imigração."},
+    {"name": "CDS", "canonical_name": "CDS – Partido Popular", "type": "partido", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Parte da coligação que, segundo o dirigente, não gosta da imigração."},
+    {"name": "Tribunal Administrativo", "canonical_name": "Tribunais Administrativos", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referidos como via usada pelos advogados para obter agendamentos."},
+    {"name": "Lusa", "canonical_name": "Agência Lusa", "type": "meio_comunicacao", "is_public": true, "roles": ["fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Agência a quem foram feitas as declarações."}
+  ],
+  "sources": [
+    {"type": "agencia", "entity_name": "Agência Lusa", "partial_attribute": null, "excerpt": "São \"políticas racistas e xenófobas\", afirmou à Lusa Timóteo Macedo"},
+    {"type": "outro", "entity_name": "Timóteo Macedo", "partial_attribute": null, "excerpt": "\"Existem, aproximadamente todos os dias, 400 ou 300 agendamentos para reagrupamento familiar\""}
+  ],
+  "themes": [
+    {"path": ["Sociedade", "Imigração"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Política", "Governo"], "kind": "tema", "edition": null, "weight": 0.4, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia de agência com declarações do presidente da Solidariedade Imigrante à Lusa. Sentimento negativo para Governo, AIMA, SEF, PSD e CDS pelas acusações. O dirigente fornece também dados factuais (agendamentos, 40% saíram), por isso é fonte, mas fala em nome de uma associação e não de uma entidade oficial: tipo outro.",
+    "sources_used": ["título", "lead", "1.º parágrafo (à Lusa)", "parágrafos sobre o SEF e a AIMA", "parágrafo do reagrupamento familiar"],
+    "sources_discarded": ["imigrante ucraniano morto por inspetores: pessoa não nomeada, referência histórica", "aeroporto de Lisboa: local de factos passados, não da notícia", "Pacto Europeu para as Migrações e França/Espanha: referências de contexto"]
+  }
+}

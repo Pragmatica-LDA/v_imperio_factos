@@ -1,0 +1,25 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "Polícia Judiciária", "canonical_name": "Polícia Judiciária", "type": "instituicao", "is_public": true, "roles": ["fonte", "visado"], "position_at_date": null, "sentiment": "positivo", "sentiment_reason": "Recolheu em poucas horas os elementos de prova e deteve o suspeito."},
+    {"name": "homem, de 49 anos", "canonical_name": "Suspeito de 49 anos detido por abuso sexual de menor", "type": "pessoa", "is_public": false, "roles": ["acusado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Suspeito de 85 crimes sexuais contra uma menor, em prisão preventiva."},
+    {"name": "menor", "canonical_name": "Menor vítima de abuso sexual", "type": "pessoa", "is_public": false, "roles": ["vitima"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Vítima, sem juízo."},
+    {"name": "Tribunal de Lisboa", "canonical_name": "Tribunal Judicial da Comarca de Lisboa", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Onde decorreu o primeiro interrogatório judicial."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Polícia Judiciária", "partial_attribute": null, "excerpt": "Segundo refere a PJ, em comunicado divulgado esta terça-feira"}
+  ],
+  "themes": [
+    {"path": ["Justiça", "Crime", "Crimes sexuais"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false}
+  ],
+  "locations": [
+    {"name": "Loures", "level": "concelho", "parent": "Lisboa"},
+    {"name": "Lisboa", "level": "concelho", "parent": "Lisboa"}
+  ],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia de crime baseada num comunicado da PJ. Suspeito e vítima são pessoas privadas não nomeadas. A PJ fica com sentimento positivo pela rapidez da investigação descrita no texto.",
+    "sources_used": ["lead", "1.º parágrafo (comunicado da PJ)", "3.º e 4.º parágrafos"],
+    "sources_discarded": ["pai da vítima: referido só como relação com o suspeito"]
+  }
+}

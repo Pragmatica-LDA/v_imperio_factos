@@ -1,0 +1,203 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "Ministério Público",
+      "canonical_name": "Ministério Público",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Constituiu um dossiê de acompanhamento; actuação descrita sem juízo."
+    },
+    {
+      "name": "Procuradoria-Geral da República",
+      "canonical_name": "Procuradoria-Geral da República",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["fonte", "citado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Explica o procedimento em resposta ao jornal."
+    },
+    {
+      "name": "Câmara Municipal de Lisboa",
+      "canonical_name": "Câmara Municipal de Lisboa",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado", "fonte"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "A sua plataforma de sorteio tem fragilidades apontadas por auditoria, está sob análise do MP e suspendeu concursos durante três meses."
+    },
+    {
+      "name": "Carlos Moedas",
+      "canonical_name": "Carlos Moedas",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "presidente da Câmara Municipal de Lisboa",
+      "sentiment": "negativo",
+      "sentiment_reason": "É questionado pela oposição sobre a suspensão dos concursos, atribui os problemas a \"erro humano\" e evita confirmar a intervenção do MP."
+    },
+    {
+      "name": "Vasco Moreira Rato",
+      "canonical_name": "Vasco Moreira Rato",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["fonte"],
+      "position_at_date": "vereador da Habitação da Câmara Municipal de Lisboa",
+      "sentiment": "neutro",
+      "sentiment_reason": "O seu gabinete explica o adiamento sem juízo da notícia."
+    },
+    {
+      "name": "Ricardo Moreira",
+      "canonical_name": "Ricardo Moreira",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "vereador do BE na Câmara Municipal de Lisboa",
+      "sentiment": "neutro",
+      "sentiment_reason": "A sua crítica a Moedas é reproduzida sem avaliação."
+    },
+    {
+      "name": "João Ferreira",
+      "canonical_name": "João Ferreira",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "vereador do PCP na Câmara Municipal de Lisboa",
+      "sentiment": "positivo",
+      "sentiment_reason": "Levantou as dúvidas sobre a integridade do sorteio e o próprio Moedas reconhece \"ainda bem que o PCP alertou\"."
+    },
+    {
+      "name": "Alexandra Leitão",
+      "canonical_name": "Alexandra Leitão",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "vereadora da Câmara Municipal de Lisboa",
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida por ter questionado o presidente sobre o MP."
+    },
+    {
+      "name": "BE",
+      "canonical_name": "Bloco de Esquerda",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Partido do vereador que criticou o adiamento."
+    },
+    {
+      "name": "PCP",
+      "canonical_name": "Partido Comunista Português",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "positivo",
+      "sentiment_reason": "Moedas diz \"ainda bem que o PCP alertou\"."
+    },
+    {
+      "name": "PS",
+      "canonical_name": "Partido Socialista",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Autor da proposta aprovada de auditoria externa."
+    },
+    {
+      "name": "Deloitte",
+      "canonical_name": "Deloitte",
+      "type": "empresa",
+      "is_public": true,
+      "roles": ["fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Autora da auditoria que identificou lacunas na plataforma."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Procuradoria-Geral da República",
+      "partial_attribute": null,
+      "excerpt": "A Procuradoria-Geral da República explica, em resposta ao Observador, que este dossiê de acompanhamento se trata de um “procedimento interno"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Câmara Municipal de Lisboa",
+      "partial_attribute": "fonte oficial da Câmara de Lisboa",
+      "excerpt": "Fonte oficial da Câmara de Lisboa esclarece, porém, que a suspensão da realização dos sorteios"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Vasco Moreira Rato",
+      "partial_attribute": "gabinete do vereador da Habitação",
+      "excerpt": "O gabinete de Vasco Moreira Rato, vereador lisboeta com o pelouro da Habitação, explica que o adiamento temporário"
+    },
+    {
+      "type": "documento",
+      "entity_name": "Deloitte",
+      "partial_attribute": "auditoria externa à plataforma de sorteio",
+      "excerpt": "A Deloitte identificou na plataforma de sorteio de habitações “ lacunas e oportunidades de melhoria"
+    },
+    {
+      "type": "documento",
+      "entity_name": null,
+      "partial_attribute": "relatório de avaliação ao 29.º Concurso do Programa de Renda Acessível",
+      "excerpt": "Quando foi conhecido o relatório de avaliação aos factos ocorridos no 29.º Concurso do Programa de Renda Acessível"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Sociedade", "Habitação"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Autarquias"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.7,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Autarquias", "Sorteio de casas de renda acessível em Lisboa"],
+      "kind": "caso",
+      "edition": null,
+      "weight": 0.9,
+      "is_new": true
+    },
+    {
+      "path": ["Justiça"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Lisboa",
+      "level": "concelho",
+      "parent": "Lisboa"
+    }
+  ],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia com fontes próprias (resposta da PGR ao Observador, fonte oficial da CML). A CML e Moedas ficam negativos pelas fragilidades auditadas, a análise do MP e a suspensão dos concursos; João Ferreira e o PCP ficam positivos porque o próprio presidente reconhece o alerta. A polémica do sorteio é um caso novo sob Autarquias. O caso é administrativo e não criminal, por isso Justiça em geral e não Crime.",
+    "sources_used": ["lead", "resposta da PGR (2.º parágrafo)", "fonte oficial da CML e gabinete do vereador (3.º parágrafo)", "reunião de Câmara de 30 de setembro", "auditoria da Deloitte (último parágrafo)"],
+    "sources_discarded": ["denúncia anónima: é a origem da análise do MP, mas não fornece informação à notícia", "tags do site: redundantes"]
+  }
+}

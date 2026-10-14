@@ -1,0 +1,2597 @@
+[
+  {
+    "url": "https://observador.pt/2022/12/30/quer-poupar-energia-ative-o-dark-mode-do-observador/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Saiba mais",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "promoção institucional (dark mode)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/episodio-5-um-negocio-com-pablo-escobar/",
+    "site_article_id": "8318974",
+    "aliases": [],
+    "title": "Episódio 5. Um negócio com Pablo Escobar",
+    "lead": "Annie volta a apaixonar-se. E o seu último amor vai estar envolvido num dos maiores escândalos da liderança de Fidel. Um caso que envolve o narcotraficante mais conhecido do mundo: Pablo Escobar.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-12T19:55:40+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "destaque",
+    "zones": [
+      "destaque"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/12205412/ep-5.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/liveblogs/ferro-rodrigues-acusa-aguiar-branco-de-normalizar-extrema-direita/",
+    "site_article_id": "8365353",
+    "aliases": [],
+    "title": "Presidente do SIRESP nega falta de \"escrutínio\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Política",
+    "subsection": "Assembleia Da República",
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "destaque",
+    "zones": [
+      "destaque"
+    ],
+    "rank": null,
+    "excluded_reason": "live blog",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/06/11212914/47271864.jpg",
+        "credit_raw": "ANTÓNIO COTRIM/LUSA",
+        "photographers": [
+          "António Cotrim"
+        ],
+        "agency": "Lusa"
+      },
+      "section_slug": "politica"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "site_meta.image": "html:img (src original; crédito no fim do alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/liveblogs/trump-diz-que-irao-quer-um-acordo-mas-nao-sabe-como-alcanca-lo/",
+    "site_article_id": "8365344",
+    "aliases": [],
+    "title": "Afundou um de dois navios atingidos por drones no Mar Negro",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Mundo",
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "destaque",
+    "zones": [
+      "destaque"
+    ],
+    "rank": null,
+    "excluded_reason": "live blog",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/10/13094225/gettyimages-2296043780-scaled.jpg",
+        "credit_raw": "GettyImages-2296043780",
+        "photographers": [],
+        "agency": "Getty Images"
+      },
+      "section_slug": "mundo"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "site_meta.image": "html:img (src original; crédito no fim do alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/06/a-caca-ao-estripador-de-lisboa-o-podcast-plus-do-observador-transforma-se-em-espectaculo-de-teatro-imersivo/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "\"A Caça ao Estripador de Lisboa\" é agora um teatro imersivo",
+    "lead": "O Podcast Plus transformado num espetáculo dá nova vida à investigação do assassino em série que aterrorizou Lisboa nos anos 90. Estreia-se a 28 de outubro e os bilhetes já estão à venda.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "destaque",
+    "zones": [
+      "destaque"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "lead": "html:.lead",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/contra-corrente/e-agora-de-kiev-a-riade-o-mundo-esta-perigoso/",
+    "site_article_id": "8365452",
+    "aliases": [],
+    "title": "E agora? De Kiev a Riade o mundo está perigoso",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:32:03+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "ultimas",
+    "zones": [
+      "ultimas"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/10/01143937/770-podcast-contra-corrente.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/o-bom-o-mau-e-o-vilao/e-um-erro-o-atual-psd-tratar-passos-como-se-fosse-um-inimigo/",
+    "site_article_id": "8365463",
+    "aliases": [],
+    "title": "É um erro o atual PSD tratar Passos como se fosse um inimigo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:39:02+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "ultimas",
+    "zones": [
+      "ultimas",
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/10/29102003/3000-podcast-o-bom-o-mau-e-o-vilao-2025.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/e-o-resto-e-historia/o-dia-em-que-hitler-e-mussolini-se-tornaram-amigos/",
+    "site_article_id": "8365323",
+    "aliases": [],
+    "title": "O dia em que Hitler e Mussolini se tornaram amigos",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T05:06:29+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "ultimas",
+    "zones": [
+      "ultimas"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2021/04/13110052/433-podcaste-o-resto-e-historia.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/gabinete-de-guerra/zelensky-e-o-alvo-facil-de-donald-trump/",
+    "site_article_id": "8365408",
+    "aliases": [],
+    "title": "\"Zelensky é o alvo fácil de Donald Trump\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T06:42:10+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "ultimas",
+    "zones": [
+      "ultimas"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2024/04/15124753/433-podcast-gabinete-de-guerra.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/noticiario/as-noticias-das-12h-2469/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Noticiário: As notícias das 12h",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "ultimas",
+    "zones": [
+      "ultimas"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/radar-imobiliario/numa-era-digital-como-e-que-as-lojas-fisicas-continuam-estrategicas/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Radar Imobiliário: Como é que as lojas físicas continuam estratégicas?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "ultimas",
+    "zones": [
+      "ultimas"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/noticiario/as-noticias-das-00h-2443/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "00h. Passos Coelho pondera regresso se PSD for mal sucedido",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-populares",
+    "zones": [
+      "mais-populares"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/conferencia-de-imprensa/oe-pior-cenario-pode-levar-a-perdas-de-milhoes-de-euros/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "OE. Pior cenário pode levar a perdas de milhões de euros",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-populares",
+    "zones": [
+      "mais-populares"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/noticiario/as-noticias-das-6h-2521/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "6h. UE aprova hoje maiores sanções de sempre contra Rússia",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-populares",
+    "zones": [
+      "mais-populares"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/terapia-de-casal/sobre-jogar-baseball-e-terramotos-no-japao/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Sobre jogar baseball e terramotos no Japão",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-populares",
+    "zones": [
+      "mais-populares"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/pop-up/a-leste-do-paraiso-e-uma-das-series-do-ano-sugestoes/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "“A Leste do Paraíso” é uma das séries do ano? — Sugestões",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-populares",
+    "zones": [
+      "mais-populares"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a .title",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/manual-de-instrues-para-humanos/nao-consigo-dormir-7-estrategias-para-uma-rotina-de-sono/",
+    "site_article_id": "8358045",
+    "aliases": [],
+    "title": "Preciso de Dormir. 7 Estratégias para uma Rotina de Sono",
+    "lead": "Vamos para a cama tarde e pomos quase tudo à frente do tempo de sono. Ou temos filhos pequenos e nunca mais dormimos igual. O que explica isto? E porque é que uma sesta ou um comprimido não ajudam?",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-11T18:05:19+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/10/06170306/770-podcast-manual-de-instrucoesep2.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/quente-e-frio/ultimos-dias-de-verao-em-outubro-depois-de-33oc-quarta-feira-vem-frio-e-pode-regressar-a-chuva-na-proxima-semana/",
+    "site_article_id": "8364399",
+    "aliases": [],
+    "title": "Depois de 33ºC esta quarta, frio e chuva para a semana",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-12T15:41:30+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/07/02151501/433-podcast.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/a-hist-ria-do-dia/donald-trump-volta-a-dar-uma-maozinha-a-russia/",
+    "site_article_id": "8365310",
+    "aliases": [],
+    "title": "Donald Trump volta a dar uma mãozinha à Rússia",
+    "lead": "Trump anunciou um cessar-fogo energético que nem Kiev nem Moscovo confirmaram. Sónia Sénica explica a nova aproximação à Rússia, quem ganha com ela e o que fica a perder a Ucrânia.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T04:03:04+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/01/05143431/770-podcast-a-historia-do-dia-com-pedro-benevides.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/e-o-vencedor-e/montenegro-esteve-bem-ao-mandar-passos-esperar-sentado/",
+    "site_article_id": "8365516",
+    "aliases": [],
+    "title": "Montenegro esteve bem ao mandar Passos esperar sentado?",
+    "lead": "O primeiro-ministro mostrou dentes e firmeza a Passos Coelho para travar a oposição interna. Já Ferro Rodrigues voltou sem réstia de autocrítica e desmarcou-se da responsabilidade no subir do Chega.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:28:56+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2021/04/13110132/770-podcast-e-o-vencedor-e.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/momentos-de-glria/luis-montenegro-levou-um-carrinho-do-sporting/",
+    "site_article_id": "8365460",
+    "aliases": [],
+    "title": "O primeiro-ministro levou um \"carrinho\" do Sporting?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:38:04+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/10/13004433/770-podcast-momentos-de-gloria-sem-rita.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/aprender-a-comer/o-seu-intestino-tambem-bebe-cafe/",
+    "site_article_id": "8365320",
+    "aliases": [],
+    "title": "O seu intestino também bebe café?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T05:02:59+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2023/10/12171523/433-podcast-aprender-a-comerainda-bem-1.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/noticiario/as-noticias-das-10h-2493/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Noticiário 10h. Menezes não percebe críticas a Passos Coelho",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/comissao-de-inquerito/joao-almeida-sobre-criticas-de-passos-ao-psd-e-a-vida/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Comissão de Inquérito João Almeida sobre críticas de Passos ao PSD: \"É a vida\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/explicador/leiam-a-historia-do-partido-psd-e-convivam-com-a-critica/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Explicador \"Leiam a história do partido [PSD] e convivam com a crítica\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/boa-moeda-ma-moeda/jovens-portugueses-so-saem-de-casa-quase-aos-29-anos/",
+    "site_article_id": "8365499",
+    "aliases": [],
+    "title": "Boa moeda, má moeda Jovens portugueses só saem de casa quase aos 29 anos",
+    "lead": "Os jovens em Portugal continuam a sair de casa dos pais mais tarde do que a média europeia. A idade média de saída do lar familiar é de 28,8 anos.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:11:50+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2021/11/16233301/770-podcast-boa-moeda-ma-moedaainda-bem.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "lead": "html:.lead",
+      "published_at": "html:time.timeago[datetime]"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/ciencia-de-campeoes/ha-criancas-analfabetas-do-ponto-de-vista-motor/",
+    "site_article_id": "8356113",
+    "aliases": [],
+    "title": "“Há crianças analfabetas do ponto de vista motor\"",
+    "lead": "Carlos Neto, professor jubilado da FMH, defende que as crianças devem mexer-se, brincar livremente, contactar com a natureza e enfrentar riscos. \"O tempo em que o corpo não se mexe paga-se caro.\"",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-08T06:04:31+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-do-que-desporto",
+    "zones": [
+      "mais-do-que-desporto"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/08/06131321/dventura-carlos-neto-5-scaled.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/sem-idade-o-desporto-em-duas-geracoes/treinar-ajuda-a-passar-o-tempo-e-a-aliviar-a-cabeca/",
+    "site_article_id": "8353398",
+    "aliases": [],
+    "title": "\"Treinar ajuda a passar o tempo e a aliviar a cabeça\"",
+    "lead": "Manuel tem 71 anos, Melissa tem 14. O halterofilismo juntou-os. Ele foi campeão nacional há décadas. Ela trouxe agora para Portugal a medalha de bronze no campeonato europeu. Encontro de gerações.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-07T19:48:25+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-do-que-desporto",
+    "zones": [
+      "mais-do-que-desporto"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/10/06182544/thumb-sem-idade.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/dooutrolado/do-outro-lado-o-homem-que-parecia-nao-ter-salvacao-mas-recomecou-aos-70-anos/",
+    "site_article_id": "8337209",
+    "aliases": [],
+    "title": "O homem que parecia não ter salvação",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-04T14:01:48+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mental",
+    "zones": [
+      "mental"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/25151331/capa-sem-titulosetembro.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/dooutrolado/do-outro-lado-a-jovem-com-uma-ansiedade-tao-grave-que-ja-nao-conseguia-ir-a-escola/",
+    "site_article_id": "8267418",
+    "aliases": [],
+    "title": "A jovem com ansiedade que já não conseguia ir à escola",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-06T09:10:08+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mental",
+    "zones": [
+      "mental"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/03154826/horizontal-stitulo.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/amiga-faz-parte/saber-sair-tambem-e-amor/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Amiga, faz parte - Saber sair também é amor",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/e-o-resto-e-historia/francisco-de-assis-o-santo-que-morreu-ha-800-anos/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "E o Resto é História - Francisco de Assis, o santo que morreu há 800 anos",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/portugues-suave/a-lingua-portuguesa-esta-a-perder-espaco-na-china/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Português Suave - A língua portuguesa está a perder espaço na China?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/realpolitik/os-franceses-querem-outra-vez-tirar-a-guilhotina-do-armario/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Realpolitik - Os franceses querem outra vez tirar a guilhotina do armário?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/o-esplendor-e-a-infamia/da-soberba-ao-donaltim-7-maravilhas-do-escandalo-ronaldo/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "O Esplendor e a Infâmia - Da soberba ao Donaltim: 7 maravilhas do escândalo Ronaldo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/do-avesso/como-se-lava-roupa-suja-na-chanel/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Do Avesso - Como se lava roupa suja na Chanel?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/terapia-de-casal/sobre-ter-gatos-e-ir-de-viagem-c-o-gato-fica/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Terapia de Casal - Sobre ter gatos e ir de viagem c/ O Gato Fica",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/mundo-ia/tarefa-era-simples-agente-acabou-a-demonstrar-sentimentos/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Mundo IA - Tarefa era simples, agente acabou a \"demonstrar sentimentos\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/atualidade/fibromialgia-tens-a-doenca-das-mulheres-preguicosas-disse-me-uma-medica/",
+    "site_article_id": "8267893",
+    "aliases": [],
+    "title": "\"'Tens a doença das mulheres preguiçosas', disse uma médica\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-08-22T12:32:36+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "dor",
+    "zones": [
+      "dor"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/08/14122405/cronico-ep4-credit-mariana-alvarez-cortes-1-scaled.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/tres-toques/amber-heard-troca-drama-em-tribunais-por-corridas-em-espanha/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Três Toques - Amber Heard troca drama em tribunais por corridas em Espanha",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/fora-do-baralho/capitais-europeus-estao-a-fugir-para-eua-ouvintes/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Fora do Baralho - Capitais europeus estão a fugir para EUA? — Ouvintes",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/conversas-do-fim-do-mundo/pedro-pacheco-uma-vida-dedicada-as-cordas/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Conversas do Fim do Mundo - Pedro Pacheco, uma vida dedicada às cordas",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/5-continentes/tensao-politica-em-espanha-e-em-franca-deixa-ue-mais-fragil/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "5 Continentes - Tensão política em Espanha e em França deixa UE mais frágil?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "grelha",
+    "zones": [
+      "grelha"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {},
+    "extraction_debug": {
+      "title": "html:a",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/tres-toques/a-publicidade-do-benfica-aos-ovos-foi-ingenuidade-ou-azar/",
+    "site_article_id": "8365442",
+    "aliases": [],
+    "title": "A publicidade do Benfica aos ovos foi ingenuidade ou azar?",
+    "lead": "Encarnados deram um tiro no pé com a publicidade às galinhas na Luz. Já Haaland comprou casa no Dubai, mas há suspeitas que tenha sido oferecida. E Vinícius Júnior foi expulso e ainda ficou solteiro.",
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:21:28+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/11/06151953/770-podcast-tres-toques-2025-v2.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "lead": "html:.lead",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/convidado-extra/manuel-monteiro-sabemos-o-no-de-livros-vendidos-nao-o-de-livros-lidos/",
+    "site_article_id": "8365364",
+    "aliases": [],
+    "title": "“Sabemos o nº de livros vendidos, não o de livros lidos”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T06:01:25+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2021/04/13105535/770-podcast-convidado-extra.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/tratar-da-saude/acordar-as-5h-disciplina-ou-falta-de-sono/",
+    "site_article_id": "8365317",
+    "aliases": [],
+    "title": "Acordar às 5h: disciplina ou falta de sono?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T05:01:29+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/08/30205051/tratar-da-saude433-podcast-tratar-da-saude.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/a-nossa-cultura/segredo-na-ceramica-o-truque-proibido-de-liliana-velho/",
+    "site_article_id": "8365319",
+    "aliases": [],
+    "title": "Segredo na cerâmica: o truque proibido de Liliana Velho!",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T05:02:10+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2024/10/10120711/770-podcast-a-nossa-cultura-radio-observador-viseu-1.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/mundo-ia/fmi-diz-que-ia-pode-transformar-40-dos-empregos-no-mundo/",
+    "site_article_id": "8363899",
+    "aliases": [],
+    "title": "FMI diz que IA pode transformar 40% dos empregos no mundo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-12T11:48:21+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcasts-radio-observador",
+    "zones": [
+      "podcasts-radio-observador"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/27142941/433-mundoia.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/estreia-os-escandalos-de-uma-revolucionaria-episodio-1-a-filha-do-diretor-da-pide-desapareceu/",
+    "site_article_id": "8318934",
+    "aliases": [],
+    "title": "Episódio 1. A filha do diretor da PIDE desapareceu",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-14T21:00:22+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/07180701/770-os-escandalos-de-uma-revolucionaria.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/episodio-2-deslumbrada-por-che-guevara/",
+    "site_article_id": "8318955",
+    "aliases": [],
+    "title": "Episódio 2. Deslumbrada por Che Guevara",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-21T21:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/21195939/ep-2.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/episodio-3-aqui-o-papa-nao-manda-nada/",
+    "site_article_id": "8318959",
+    "aliases": [],
+    "title": "Episódio 3. “Aqui o papá não manda nada”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-28T20:00:31+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/28204628/ep-3.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/episodio-4-uma-deusa-no-25-de-abril/",
+    "site_article_id": "8318969",
+    "aliases": [],
+    "title": "Episódio 4. Uma “deusa” no 25 de Abril",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-05T21:00:37+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/05220019/ep-4-1.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/episodio-6-cheguei-tarde-que-horror/",
+    "site_article_id": "8318980",
+    "aliases": [],
+    "title": "Episódio 6. “Cheguei tarde, que horror”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-14T21:31:15+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/07180701/770-os-escandalos-de-uma-revolucionaria.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/especiais/das-festas-nas-embaixadas-as-senhas-de-racionamento-a-portuguesa-annie-silva-pais-juntou-se-a-revolucao-cubana/",
+    "site_article_id": "8344181",
+    "aliases": [],
+    "title": "Annie Silva Pais: do luxo às senhas de racionamento",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2026-10-04T09:52:52+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": "obs_longform",
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/10/02153531/433especial-3.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/especiais/annie-silva-pais-a-vida-e-os-escandalos-da-filha-do-ultimo-diretor-da-pide/",
+    "site_article_id": "8280793",
+    "aliases": [],
+    "title": "Annie Silva Pais, a vida e escândalos de uma revolucionária",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2026-09-19T18:01:09+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": "obs_longform",
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/15173712/1280-especial-annie-1.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/a-musica-de-frankie-chavez-para-os-escandalos-de-uma-revolucionaria/",
+    "site_article_id": "8312267",
+    "aliases": [],
+    "title": "A música de \"Os Escândalos de uma Revolucionária\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-10T11:50:42+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/07180700/433-os-escandalos-de-uma-revolucionaria.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/programas/os-escndalos-de-uma-revolucionria/trailer-os-escandalos-de-uma-revolucionaria-estreia-a-15-de-setembro/",
+    "site_article_id": "8307157",
+    "aliases": [],
+    "title": "Trailer \"Os Escândalos de uma Revolucionária\"",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-09-07T21:00:43+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "podcast-plus-para-assinantes",
+    "zones": [
+      "podcast-plus-para-assinantes"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast/rádio (episódio)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/09/07180700/433-os-escandalos-de-uma-revolucionaria.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      }
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/09/08/a-vida-dupla-do-espiao-traidor-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "8308791",
+    "aliases": [],
+    "title": "Ouça aqui. A Vida Dupla do Espião Traidor",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2026-09-08T16:33:44+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/07/20154236/770-a-vida-dupla-do-espiao-traidor.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/05/18/os-ficheiros-do-caso-carlos-castro-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "8121034",
+    "aliases": [],
+    "title": "Ouça aqui. Os Ficheiros do Caso Carlos Castro",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2026-05-18T14:28:49+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/03/26104948/ficheiros-ccc-433x433-1.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/03/04/os-segredos-da-seita-do-yoga-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "7989618",
+    "aliases": [],
+    "title": "Ouça aqui. Os Segredos da Seita do Yoga",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2026-03-04T17:52:41+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2026/01/19173957/capa-yoga-fundo-16-9.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2025/11/11/a-eleicao-mais-louca-de-sempre-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "7775306",
+    "aliases": [],
+    "title": "Ouça aqui. A eleição mais louca de sempre",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2025-11-11T18:08:04+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/09/22173657/770-a-eleicao-mais-louca-de-sempre.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2025/09/09/1983-portugal-a-queima-roupa-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "7644592",
+    "aliases": [],
+    "title": "Ouça aqui. 1983: Portugal à queima-roupa",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2025-09-09T12:59:30+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/07/14145850/433-1983-portugal-a-queima-roupa-v2.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2025/01/24/a-caca-ao-estripador-de-lisboa-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "7147485",
+    "aliases": [],
+    "title": "Ouça aqui. A Caça ao Estripador de Lisboa",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2025-01-24T08:24:47+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/01/24121608/a-caca-ao-estripador-de-lisboa.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2025/05/09/o-misterioso-engenheiro-jardim-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "7384554",
+    "aliases": [],
+    "title": "Ouça aqui. O Misterioso Engenheiro Jardim",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2025-05-09T16:33:29+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2025/03/19095256/o-misterioso-engenheiro-jardim-1x1-v3.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/11/29/a-grande-provocadora-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "7050252",
+    "aliases": [],
+    "title": "Ouça aqui. A Grande Provocadora",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2024-11-29T13:04:06+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2024/09/22081037/a-grande-provocadora-16-9-fundo.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/09/27/um-rei-na-boca-do-inferno-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6928118",
+    "aliases": [],
+    "title": "Ouça aqui. Um Rei na Boca do Inferno",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": "Podcast Plus",
+    "published_at": "2024-09-27T15:14:09+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/podcast-plus/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2024/07/19204051/um-rei-na-boca-do-inferno-spotify.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "subsection": "html:a.topic (texto)",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/07/30/matar-o-papa-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6830448",
+    "aliases": [],
+    "title": "Ouça aqui. Matar o Papa",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": null,
+    "published_at": "2024-07-30T15:09:19+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2024/05/03181500/matar-o-papa-spotify.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/02/26/o-encantador-de-ricos-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6495165",
+    "aliases": [],
+    "title": "Ouça aqui. O Encantador de Ricos",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": null,
+    "published_at": "2024-02-26T12:09:39+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2023/10/21001757/o-encantador-de-ricos-3000x3000-1.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/02/26/um-espiao-no-kremlin-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6495118",
+    "aliases": [],
+    "title": "Ouça aqui. Um Espião no Kremlin",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": null,
+    "published_at": "2024-02-26T12:08:38+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2023/07/26191943/espiaokremlin-16x9-logos-v2.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/04/17/operacao-papagaio-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6582227",
+    "aliases": [],
+    "title": "Ouça aqui. Operação Papagaio",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": null,
+    "published_at": "2024-04-17T12:11:13+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2024/02/16150852/operacaopapagaio-1x1-site.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/02/26/piratinha-do-ar-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6495062",
+    "aliases": [],
+    "title": "Ouça aqui. Piratinha do Ar",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": null,
+    "published_at": "2024-02-26T12:08:10+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2023/05/15164353/pda-1x1-2.png",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  },
+  {
+    "url": "https://observador.pt/2024/02/26/o-sargento-na-cela-7-ouca-aqui-todos-os-episodios/",
+    "site_article_id": "6494963",
+    "aliases": [],
+    "title": "Ouça aqui. O Sargento na Cela 7",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "Podcasts",
+    "subsection": null,
+    "published_at": "2024-02-26T12:09:11+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "os-nossos-podcasts-plus",
+    "zones": [
+      "os-nossos-podcasts-plus"
+    ],
+    "rank": null,
+    "excluded_reason": "podcast / promoção dos podcasts do jornal (a.topic /seccao/podcasts/)",
+    "site_meta": {
+      "image": {
+        "url": "https://s3.observador.pt/wp-content/uploads/2023/03/03210817/sargentocela7-1-final-1x1-03022023-edita.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "section_slug": "podcasts"
+    },
+    "extraction_debug": {
+      "title": "html:a[aria-label]",
+      "piece_type_raw": "html:.mod-posttype-*",
+      "site_article_id": "html:.mod class (post-N/obs_<tipo>-N)",
+      "published_at": "html:time.timeago[datetime]",
+      "site_meta.image": "html:img (sem crédito no alt)",
+      "section": "html:a.topic[href] (1.º nível) + nome do menu",
+      "piece_type": "piece_type_raw",
+      "excluded_reason": "regras de âmbito (_noise_reason)"
+    }
+  }
+]

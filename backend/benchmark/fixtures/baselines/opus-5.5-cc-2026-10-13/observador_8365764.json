@@ -1,0 +1,32 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "José Manuel Pureza", "canonical_name": "José Manuel Pureza", "type": "pessoa", "is_public": true, "roles": ["citado"], "position_at_date": "coordenador do BE", "sentiment": "neutro", "sentiment_reason": "Tem as suas críticas reproduzidas sem juízo do texto."},
+    {"name": "BE", "canonical_name": "Bloco de Esquerda", "type": "partido", "is_public": true, "roles": ["citado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Partido que pede esclarecimentos, retratado de forma factual."},
+    {"name": "Luís Neves", "canonical_name": "Luís Neves", "type": "pessoa", "is_public": true, "roles": ["visado", "citado"], "position_at_date": "ministro da Administração Interna", "sentiment": "negativo", "sentiment_reason": "Alvo de críticas duras (\"não tem condições para ser ministro\", \"trapalhadas\") e de acusações do ex-secretário-geral."},
+    {"name": "Ministério da Administração Interna", "canonical_name": "Ministério da Administração Interna", "type": "governo", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Descrito como \"novela permanente de casos\" e \"trapalhadas\"."},
+    {"name": "Ricardo Carrilho", "canonical_name": "Ricardo Carrilho", "type": "pessoa", "is_public": true, "roles": ["visado", "citado", "acusado"], "position_at_date": "ex-secretário-geral do MAI", "sentiment": "negativo", "sentiment_reason": "Exonerado e acusado pelo ministro de confronto e de prejudicar o SIRESP."},
+    {"name": "SIRESP", "canonical_name": "Sistema Integrado das Redes de Emergência e Segurança de Portugal", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Objecto da disputa, sem juízo próprio."},
+    {"name": "Provedora de Justiça", "canonical_name": "Provedoria de Justiça", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Destinatária da queixa sobre as pensões."},
+    {"name": "Parlamento", "canonical_name": "Assembleia da República", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Local onde o BE quer esclarecimentos."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Bloco de Esquerda", "partial_attribute": null, "excerpt": "O coordenador do Bloco de Esquerda falava aos jornalistas sobre este tema"},
+    {"type": "oficial", "entity_name": "Ministério da Administração Interna", "partial_attribute": null, "excerpt": "o Ministério da Administração Interna (MAI) anunciou que o secretário-geral do ministério, Ricardo Carrilho, cessou funções"},
+    {"type": "documento", "entity_name": "Luís Neves", "partial_attribute": "comunicado do ministro", "excerpt": "o ministro emitiu um comunicado no qual justificou a demissão do secretário-geral com “quebra de confiança”"},
+    {"type": "oficial", "entity_name": "Ricardo Carrilho", "partial_attribute": null, "excerpt": "o agora ex-secretário-geral do MAI considerou a exoneração “um ato de retaliação”"}
+  ],
+  "themes": [
+    {"path": ["Política", "Administração Interna"], "kind": "tema", "edition": null, "weight": 0.9, "is_new": false},
+    {"path": ["Política", "Administração Interna", "Exoneração do secretário-geral do MAI"], "kind": "caso", "edition": null, "weight": 1.0, "is_new": true},
+    {"path": ["Política", "Partidos"], "kind": "tema", "edition": null, "weight": 0.4, "is_new": false},
+    {"path": ["Sociedade", "Pensões e Segurança Social"], "kind": "tema", "edition": null, "weight": 0.2, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Take da Lusa com críticas do BE. Luís Neves e o MAI ficam negativos porque a notícia é sobre críticas a eles e acusações cruzadas; Carrilho negativo por ser exonerado e acusado pelo ministro. Pureza e BE neutros (tom do texto é relato). Caso novo: exoneração do secretário-geral do MAI. Pensões só como contexto (peso baixo).",
+    "sources_used": ["lead", "citações de Pureza", "penúltimos parágrafos (comunicado do MAI, declarações de Carrilho)", "último parágrafo (acusações do ministro)"],
+    "sources_discarded": ["COG do SIRESP: detalhe do caso, não entidade autónoma", "erro no cálculo das pensões: contexto da deslocação de Pureza"]
+  }
+}

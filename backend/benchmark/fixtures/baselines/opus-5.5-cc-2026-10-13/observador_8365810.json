@@ -1,0 +1,119 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "Papa Leão XIV",
+      "canonical_name": "Papa Leão XIV",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": [
+        "visado",
+        "citado"
+      ],
+      "position_at_date": "Papa",
+      "sentiment": "neutro",
+      "sentiment_reason": "Notícia de saúde, descritiva; diagnóstico precoce relatado sem juízo."
+    },
+    {
+      "name": "hospital Agostino Gemelli",
+      "canonical_name": "Policlínico Agostino Gemelli",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": [
+        "mencionado"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Local da cirurgia."
+    },
+    {
+      "name": "Vaticano",
+      "canonical_name": "Santa Sé",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": [
+        "fonte"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Um porta-voz informa sobre a recuperação."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Santa Sé",
+      "partial_attribute": "porta-voz do Vaticano",
+      "excerpt": "Um porta-voz do Vaticano revelou que a recuperação do Papa deve durar cerca de uma semana"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Papa Leão XIV",
+      "partial_attribute": null,
+      "excerpt": "disse aos fieis presentes na Praça de São Pedro"
+    },
+    {
+      "type": "redes_sociais",
+      "entity_name": "Papa Leão XIV",
+      "partial_attribute": "conta @pontifex no Instagram",
+      "excerpt": "Uma publicação partilhada por Pope Leo XIV (@pontifex)"
+    }
+  ],
+  "themes": [
+    {
+      "path": [
+        "Sociedade",
+        "Religião"
+      ],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.8,
+      "is_new": false
+    },
+    {
+      "path": [
+        "Sociedade",
+        "Religião",
+        "Cirurgia do Papa Leão XIV"
+      ],
+      "kind": "evento",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": true
+    },
+    {
+      "path": [
+        "Sociedade",
+        "Saúde"
+      ],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Vaticano",
+      "level": "internacional",
+      "parent": null
+    }
+  ],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia factual sobre a cirurgia do Papa, sentimento neutro. Evento novo: cirurgia do Papa Leão XIV. Localização: só o Vaticano (Praça de São Pedro); a cidade do hospital não está no texto e não é acrescentada.",
+    "sources_used": [
+      "lead",
+      "citação do Papa na Praça de São Pedro",
+      "porta-voz do Vaticano",
+      "embed do Instagram"
+    ],
+    "sources_discarded": [
+      "tags do site Itália/Europa/Mundo: genéricas",
+      "Roma: não aparece no texto (seria conhecimento prévio)"
+    ]
+  }
+}

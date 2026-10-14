@@ -1,0 +1,168 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "Luís Montenegro",
+      "canonical_name": "Luís Montenegro",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": [
+        "visado",
+        "citado"
+      ],
+      "position_at_date": "primeiro-ministro",
+      "sentiment": "neutro",
+      "sentiment_reason": "As suas declarações são relatadas sem juízo do jornalista."
+    },
+    {
+      "name": "Passos Coelho",
+      "canonical_name": "Pedro Passos Coelho",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": [
+        "visado",
+        "citado"
+      ],
+      "position_at_date": "antigo primeiro-ministro e antigo líder do PSD",
+      "sentiment": "neutro",
+      "sentiment_reason": "Citado na entrevista em que admite regressar; a notícia relata sem juízo."
+    },
+    {
+      "name": "PSD",
+      "canonical_name": "Partido Social Democrata",
+      "type": "partido",
+      "is_public": true,
+      "roles": [
+        "visado"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Partido no centro da disputa, retratado de forma factual."
+    },
+    {
+      "name": "Pedro Duarte",
+      "canonical_name": "Pedro Duarte",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": [
+        "citado"
+      ],
+      "position_at_date": "presidente da Câmara do Porto",
+      "sentiment": "positivo",
+      "sentiment_reason": "A sua vitória autárquica é celebrada como sucesso."
+    },
+    {
+      "name": "Chega",
+      "canonical_name": "Chega",
+      "type": "partido",
+      "is_public": true,
+      "roles": [
+        "mencionado"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido como parceiro de acordos."
+    },
+    {
+      "name": "PS",
+      "canonical_name": "Partido Socialista",
+      "type": "partido",
+      "is_public": true,
+      "roles": [
+        "mencionado"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido como parceiro de acordos."
+    },
+    {
+      "name": "SIC Notícias",
+      "canonical_name": "SIC Notícias",
+      "type": "meio_comunicacao",
+      "is_public": true,
+      "roles": [
+        "fonte"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Meio onde Passos Coelho deu a entrevista."
+    }
+  ],
+  "sources": [
+    {
+      "type": "outro_meio",
+      "entity_name": "SIC Notícias",
+      "partial_attribute": "entrevista de Passos Coelho",
+      "excerpt": "Pedro Passos Coelho, em entrevista no domingo à SIC Notícias, afirmou"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Luís Montenegro",
+      "partial_attribute": "intervenção no jantar comemorativo",
+      "excerpt": "durante a sua intervenção no jantar comemorativo do primeiro aniversário da vitória de Pedro Duarte"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Pedro Duarte",
+      "partial_attribute": null,
+      "excerpt": "o apelo lançado pelo autarca do Porto de “não cair em tentações de olhar para trás”"
+    }
+  ],
+  "themes": [
+    {
+      "path": [
+        "Política",
+        "Partidos"
+      ],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": [
+        "Política",
+        "Partidos",
+        "Possível regresso de Passos Coelho"
+      ],
+      "kind": "caso",
+      "edition": null,
+      "weight": 0.8,
+      "is_new": true
+    },
+    {
+      "path": [
+        "Política",
+        "Governo"
+      ],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Porto",
+      "level": "concelho",
+      "parent": null
+    }
+  ],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia política factual. Montenegro e Passos neutros: o texto relata a troca de recados sem tomar partido. Pedro Duarte positivo pela celebração da vitória. Caso novo: possível regresso de Passos Coelho.",
+    "sources_used": [
+      "lead",
+      "1.º parágrafo",
+      "2.º e 3.º parágrafos (entrevista SIC)",
+      "4.º a 6.º parágrafos (intervenção no jantar)"
+    ],
+    "sources_discarded": [
+      "eleições autárquicas: só contexto do aniversário",
+      "assinatura 'Lusa e PÚBLICO': metadado, não é fonte atribuída no texto"
+    ]
+  }
+}

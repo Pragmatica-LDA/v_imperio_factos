@@ -1,0 +1,204 @@
+{
+  "piece_type": "opiniao",
+  "entities": [
+    {
+      "name": "Miguel Santos Carrapatoso",
+      "canonical_name": "Miguel Santos Carrapatoso",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["autor_opiniao"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Autor do artigo de opinião."
+    },
+    {
+      "name": "Chega",
+      "canonical_name": "Chega",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Apresentado como destino do voto de protesto jovem; o autor recusa fazer juízos de heróis e vilões."
+    },
+    {
+      "name": "André Ventura",
+      "canonical_name": "André Ventura",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": "líder do Chega",
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido apenas como líder do partido."
+    },
+    {
+      "name": "AD",
+      "canonical_name": "Aliança Democrática",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida como termo de comparação eleitoral."
+    },
+    {
+      "name": "Mélenchon",
+      "canonical_name": "Jean-Luc Mélenchon",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Acusado de instrumentalizar os jovens manifestantes."
+    },
+    {
+      "name": "Le Pen",
+      "canonical_name": "Marine Le Pen",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Acusada de instrumentalizar os jovens manifestantes."
+    },
+    {
+      "name": "Vox",
+      "canonical_name": "Vox",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Exemplo do voto jovem nos extremos em Espanha."
+    },
+    {
+      "name": "Santiago Abascal",
+      "canonical_name": "Santiago Abascal",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": "líder do Vox",
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido como líder do Vox."
+    },
+    {
+      "name": "Podemos",
+      "canonical_name": "Podemos",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Exemplo anterior do voto jovem em Espanha."
+    },
+    {
+      "name": "AfD",
+      "canonical_name": "Alternativa para a Alemanha",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Exemplo do voto jovem nos extremos na Alemanha."
+    },
+    {
+      "name": "Partido pela Liberdade",
+      "canonical_name": "Partido pela Liberdade",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Exemplo do voto jovem nos Países Baixos."
+    },
+    {
+      "name": "Donald Trump",
+      "canonical_name": "Donald Trump",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido como beneficiário do voto dos jovens homens nos EUA."
+    },
+    {
+      "name": "Partido Democrata",
+      "canonical_name": "Partido Democrata",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido pela nova vaga de \"socialistas\"."
+    }
+  ],
+  "sources": [],
+  "themes": [
+    {
+      "path": ["Sociedade", "Juventude"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": true
+    },
+    {
+      "path": ["Política", "Partidos"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.6,
+      "is_new": false
+    },
+    {
+      "path": ["Internacional", "Protestos estudantis em França"],
+      "kind": "evento",
+      "edition": null,
+      "weight": 0.5,
+      "is_new": true
+    },
+    {
+      "path": ["Economia", "Emprego e trabalho"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.3,
+      "is_new": false
+    },
+    {
+      "path": ["Sociedade", "Habitação"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.2,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Lisboa",
+      "level": "concelho",
+      "parent": null
+    },
+    {
+      "name": "Porto",
+      "level": "concelho",
+      "parent": null
+    },
+    {
+      "name": "França",
+      "level": "internacional",
+      "parent": null
+    },
+    {
+      "name": "Paris",
+      "level": "internacional",
+      "parent": "França"
+    }
+  ],
+  "ai_indicator": {
+    "score": 8,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Artigo de opinião (assinado, tese própria, tom argumentativo). O tema central é o descontentamento da juventude e a sua tradução em voto nos extremos, que não existe na taxonomia: tema novo Sociedade > Juventude. Os protestos em França são o ponto de partida, como evento novo. Mélenchon e Le Pen ficam negativos porque o autor diz que instrumentalizaram os jovens; os restantes partidos são exemplos sem juízo, e o autor diz explicitamente não avaliar heróis e vilões.",
+    "sources_used": ["lead", "parágrafos 2–4 (instrumentalização e voto jovem)", "parágrafo 6 (dados sobre jovens)"],
+    "sources_discarded": ["estatísticas sobre jovens: sem fonte atribuída no texto", "Bélgica, Espanha, Alemanha, Países Baixos e EUA: exemplos comparativos, não localização da peça"]
+  }
+}

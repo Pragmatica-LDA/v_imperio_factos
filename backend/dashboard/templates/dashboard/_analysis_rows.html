@@ -1,0 +1,28 @@
+{% if rows %}
+<div class="scroll"><table>
+  <thead><tr>
+    <th>{% if mode == "running" %}Começou{% elif mode == "done" or mode == "failed" %}Terminou{% else %}Criada{% endif %}</th>
+    <th>Site</th><th>Notícia</th><th>Modelo</th>
+    {% if mode == "done" %}<th class="num">Entidades</th><th class="num">Temas</th><th class="num">Latência</th><th class="num">Tokens</th>{% endif %}
+    {% if mode == "failed" or mode == "deferred" %}<th class="num">Tentativas</th><th>Erro</th>{% endif %}
+  </tr></thead><tbody>
+  {% for x in rows %}
+    <tr>
+      <td>{% if mode == "running" %}{{ x.started_at|date:"d/m H:i:s" }}
+            {% if x.is_stale %}<span class="chip stale">stale</span>{% endif %}
+          {% elif mode == "done" or mode == "failed" %}{{ x.finished_at|date:"d/m H:i:s" }}{% else %}{{ x.created_at|date:"d/m H:i" }}{% endif %}</td>
+      <td>{{ x.version.article.site.slug }}</td>
+      <td class="title"><a href="{% url 'dashboard:article' x.version.article_id %}?v={{ x.version.number }}">{{ x.version.article.title|default:x.version.article.canonical_url|truncatechars:110 }}</a> <span class="muted">v{{ x.version.number }}</span></td>
+      <td>{{ x.model }}</td>
+      {% if mode == "done" %}
+        <td class="num">{{ x.n_entities }}</td><td class="num">{{ x.n_topics }}</td>
+        <td class="num">{% if x.usage.latency_ms %}{{ x.usage.latency_ms }} ms{% else %}—{% endif %}</td>
+        <td class="num">{% if x.usage.tokens_in %}{{ x.usage.tokens_in }}/{{ x.usage.tokens_out }}{% else %}—{% endif %}</td>
+      {% endif %}
+      {% if mode == "failed" or mode == "deferred" %}
+        <td class="num">{{ x.attempts }}</td><td class="err">{{ x.error|truncatechars:180 }}</td>
+      {% endif %}
+    </tr>
+  {% endfor %}
+</tbody></table></div>
+{% else %}<div class="empty">Nada.</div>{% endif %}

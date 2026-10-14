@@ -1,0 +1,287 @@
+{
+  "type": "object",
+  "required": [
+    "piece_type",
+    "entities",
+    "sources",
+    "themes",
+    "locations",
+    "ai_indicator",
+    "debug"
+  ],
+  "properties": {
+    "debug": {
+      "type": "object",
+      "required": [
+        "reasoning",
+        "sources_used",
+        "sources_discarded"
+      ],
+      "properties": {
+        "reasoning": {
+          "type": "string"
+        },
+        "sources_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources_discarded": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "kind",
+          "edition",
+          "weight",
+          "is_new"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "tema",
+              "evento",
+              "caso"
+            ],
+            "type": "string"
+          },
+          "path": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "is_new": {
+            "type": "boolean"
+          },
+          "weight": {
+            "type": "number"
+          },
+          "edition": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "entity_name",
+          "partial_attribute",
+          "excerpt"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "anonima",
+              "oficial",
+              "documento",
+              "agencia",
+              "redes_sociais",
+              "especialista",
+              "outro_meio",
+              "testemunha",
+              "outro"
+            ],
+            "type": "string"
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "entity_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "partial_attribute": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "canonical_name",
+          "type",
+          "is_public",
+          "roles",
+          "position_at_date",
+          "sentiment",
+          "sentiment_reason"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "pessoa",
+              "partido",
+              "governo",
+              "instituicao",
+              "empresa",
+              "organizacao",
+              "meio_comunicacao",
+              "local",
+              "outro"
+            ],
+            "type": "string"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "visado",
+                "citado",
+                "acusado",
+                "vitima",
+                "fonte",
+                "autor_opiniao",
+                "entrevistado",
+                "mencionado"
+              ],
+              "type": "string"
+            }
+          },
+          "is_public": {
+            "type": "boolean"
+          },
+          "sentiment": {
+            "enum": [
+              "positivo",
+              "negativo",
+              "neutro"
+            ],
+            "type": "string"
+          },
+          "canonical_name": {
+            "type": "string"
+          },
+          "position_at_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sentiment_reason": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "level",
+          "parent"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "level": {
+            "enum": [
+              "freguesia",
+              "concelho",
+              "distrito",
+              "regiao",
+              "pais",
+              "internacional"
+            ],
+            "type": "string"
+          },
+          "parent": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "piece_type": {
+      "enum": [
+        "noticia",
+        "opiniao",
+        "entrevista",
+        "analise",
+        "editorial",
+        "reportagem",
+        "outro"
+      ],
+      "type": "string"
+    },
+    "ai_indicator": {
+      "type": "object",
+      "required": [
+        "score",
+        "signals"
+      ],
+      "properties": {
+        "score": {
+          "type": "integer"
+        },
+        "signals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

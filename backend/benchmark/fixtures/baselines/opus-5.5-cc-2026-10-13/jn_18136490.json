@@ -1,0 +1,27 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "Paulo Batista", "canonical_name": "Paulo Batista", "type": "pessoa", "is_public": true, "roles": ["citado", "fonte"], "position_at_date": "último diretor do SEF", "sentiment": "neutro", "sentiment_reason": "A notícia reproduz as suas críticas sem juízo sobre ele."},
+    {"name": "SEF", "canonical_name": "Serviço de Estrangeiros e Fronteiras", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Retratado com problemas na fase final (pendências, falta de meios) mas defendido como tendo cumprido a missão."},
+    {"name": "AIMA", "canonical_name": "Agência para a Integração, Migrações e Asilo", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Acusada de não ter resolvido os problemas e de trabalhar sem coordenação com os outros organismos."},
+    {"name": "PSP", "canonical_name": "Polícia de Segurança Pública", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "A Unidade de Estrangeiros e Fronteiras da PSP é criticada por valorizar a parte punitiva e faltar-lhe o acompanhamento."},
+    {"name": "Alto Comissariado para as Migrações", "canonical_name": "Alto Comissariado para as Migrações", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido como extinto com a criação da AIMA."},
+    {"name": "Governo PSD/CDS", "canonical_name": "Governo de Portugal", "type": "governo", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Descrição factual das medidas tomadas (fim da Manifestação de Interesse, estrutura de missão)."},
+    {"name": "Lusa", "canonical_name": "Agência Lusa", "type": "meio_comunicacao", "is_public": true, "roles": ["fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autora da entrevista (podcast Lusa Extra) de onde vêm as declarações."}
+  ],
+  "sources": [
+    {"type": "agencia", "entity_name": "Agência Lusa", "partial_attribute": null, "excerpt": "Em entrevista ao podcast \"Lusa Extra\" por ocasião dos três anos da criação da Agência para a Integração, Migrações e Asilo"},
+    {"type": "outro", "entity_name": "Paulo Batista", "partial_attribute": null, "excerpt": "Paulo Batista reconheceu que houve um agravamento das pendências devido à demora do processo"}
+  ],
+  "themes": [
+    {"path": ["Sociedade", "Imigração"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Segurança", "Forças de segurança"], "kind": "tema", "edition": null, "weight": 0.3, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia de agência (JN/Agências) baseada numa entrevista da Lusa. Paulo Batista é citado e fornece informação factual sobre as pendências; já não fala em nome de uma instituição, por isso a fonte não é oficial. AIMA e PSP com sentimento negativo pelas críticas; SEF neutro porque a peça mistura problemas e defesa.",
+    "sources_used": ["título", "lead", "1.º parágrafo (Lusa Extra)", "parágrafos sobre a AIMA e a Unidade de Estrangeiros e Fronteiras da PSP"],
+    "sources_discarded": ["Manifestação de Interesse: mecanismo, não entidade", "Conselho Diretivo da AIMA: incluído na AIMA", "tags do site: confirmam o tema"]
+  }
+}

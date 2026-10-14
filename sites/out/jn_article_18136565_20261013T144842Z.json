@@ -1,0 +1,105 @@
+{
+  "url": "https://www.jn.pt/justica/artigo/homem-detido-por-85-crimes-sexuais-contra-filha-menor-de-um-amigo/18136565",
+  "canonical_url": "https://www.jn.pt/justica/artigo/homem-detido-por-85-crimes-sexuais-contra-filha-menor-de-um-amigo/18136565",
+  "aliases": [
+    "https://www.jn.pt/amp/18136565/homem-detido-por-85-crimes-sexuais-contra-filha-menor-de-um-amigo"
+  ],
+  "site_article_id": "18136565",
+  "title": "Homem detido por 85 crimes sexuais contra filha menor de um amigo",
+  "lead": "A Polícia Judiciária (PJ) deteve um homem, de 49 anos, suspeito da prática de 85 crimes de natureza sexual contra uma menor, que ocorreram ao longo de mais de um ano, período durante o qual a vítima tinha entre 14 e 15 anos, em Loures e Lisboa. O suspeito, que era amigo do pai da vítima, ficou em prisão preventiva.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Segundo refere a PJ, em comunicado divulgado esta terça-feira, o suspeito, indiciado pela prática dos crimes de abuso sexual de menor dependente ou em situação particularmente vulnerável e de violação agravada, \"é amigo do pai da adolescente, com a qual mantinha uma relação de proximidade e confiança, tendo chegado a residir na habitação do agregado familiar\".",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Os factos terão ocorrido tanto na residência da menor, em Lisboa, como na habitação do suspeito, em Loures e a situação chegou ao conhecimento das autoridades na sequência de um pedido de ajuda da vítima, que denunciou os factos.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na sequência da denúncia, a Polícia Judiciária desenvolveu diligências de investigação que permitiram recolher, em poucas horas, elementos probatórios relevantes para o esclarecimento dos factos e a detenção do autor.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O detido, com 49 anos, foi ouvido em primeiro interrogatório judicial no Tribunal de Lisboa, tendo-lhe sido aplicada a medida de coação de prisão preventiva.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Reis Pinto",
+      "role": null,
+      "url": "https://www.jn.pt/autor/reis-pinto",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Reis Pinto",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/cc15dc1e-71c8-4e94-abcf-c714376d2c62_1200x675.jpg",
+      "caption": "Judiciária deteve homem suspeito de abusar da filha de um amigo",
+      "photographers": [],
+      "credit_raw": "Foto: Arquivo",
+      "agency": null,
+      "is_main": true,
+      "is_archive": true
+    }
+  ],
+  "published_at": "2026-10-13T11:55:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "justica",
+  "subsection": null,
+  "tags": [
+    "Justiça",
+    "Loures",
+    "Lisboa",
+    "PJ",
+    "abuso sexual"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 150,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "PJ",
+    "section_name": "Justiça",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [],
+    "site_word_count": 151,
+    "reading_minutes": 1,
+    "seo_title": "Homem detido por 85 crimes sexuais contra menor em Loures e Lisboa",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T12:55:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature",
+    "byline_raw": "rsc:Authors[].Signature",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 150 vs WordCount do site 151 (rácio mín. 0.9)"
+  }
+}

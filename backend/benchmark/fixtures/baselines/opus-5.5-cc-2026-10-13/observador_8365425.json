@@ -1,0 +1,126 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "Paulo Batista",
+      "canonical_name": "Paulo Batista",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "último diretor do Serviço de Estrangeiros e Fronteiras",
+      "sentiment": "neutro",
+      "sentiment_reason": "As suas críticas e explicações são reproduzidas sem juízo."
+    },
+    {
+      "name": "SEF",
+      "canonical_name": "Serviço de Estrangeiros e Fronteiras",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "A extinção é criticada, mas o próprio serviço acumulou pendências; retrato misto."
+    },
+    {
+      "name": "AIMA",
+      "canonical_name": "Agência para a Integração, Migrações e Asilo",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Acusada de não ter resolvido os problemas e de trabalhar sem coordenação com outros organismos."
+    },
+    {
+      "name": "Alto Comissariado para as Migrações",
+      "canonical_name": "Alto Comissariado para as Migrações",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido como extinto com a criação da AIMA."
+    },
+    {
+      "name": "PSP",
+      "canonical_name": "Polícia de Segurança Pública",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida a propósito do reforço das suas competências."
+    },
+    {
+      "name": "Unidade de Estrangeiros e Fronteiras na PSP",
+      "canonical_name": "Unidade de Estrangeiros e Fronteiras da PSP",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Criticada por valorizar a parte persecutória e punitiva e não acompanhar os imigrantes."
+    },
+    {
+      "name": "Governo PSD/CDS",
+      "canonical_name": "Governo de Portugal",
+      "type": "governo",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido pela suspensão da manifestação de interesse e pela estrutura de missão."
+    },
+    {
+      "name": "Lusa",
+      "canonical_name": "Agência Lusa",
+      "type": "meio_comunicacao",
+      "is_public": true,
+      "roles": ["fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Fez a entrevista no podcast Lusa Extra."
+    }
+  ],
+  "sources": [
+    {
+      "type": "agencia",
+      "entity_name": "Agência Lusa",
+      "partial_attribute": "entrevista ao podcast Lusa Extra",
+      "excerpt": "Em entrevista ao ‘podcast’ Lusa Extra por ocasião dos três anos da criação da Agência para a Integração"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Sociedade", "Imigração"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Segurança", "Forças de segurança"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.3,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Administração Interna"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.2,
+      "is_new": false
+    }
+  ],
+  "locations": [],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia baseada numa entrevista da Lusa a Paulo Batista. O tema é imigração e a reorganização do controlo migratório. A AIMA e a nova unidade da PSP ficam negativas pelas críticas; o SEF fica neutro porque é defendido, mas também se reconhece a acumulação de pendências. A peça não é uma entrevista em formato pergunta-resposta, por isso noticia.",
+    "sources_used": ["lead", "entrevista ao podcast Lusa Extra (citações ao longo do texto)"],
+    "sources_discarded": ["tags do site (Mundo, Polícia): genéricas", "Conselho Diretivo da AIMA: interlocutor referido de passagem"]
+  }
+}

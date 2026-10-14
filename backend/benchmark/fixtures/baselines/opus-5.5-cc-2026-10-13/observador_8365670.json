@@ -1,0 +1,22 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "INE", "canonical_name": "Instituto Nacional de Estatística", "type": "instituicao", "is_public": true, "roles": ["fonte", "citado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Fonte dos dados estatísticos, sem juízo."},
+    {"name": "Eurostat", "canonical_name": "Eurostat", "type": "instituicao", "is_public": true, "roles": ["fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Fonte da estimativa para a área do euro."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Instituto Nacional de Estatística", "partial_attribute": null, "excerpt": "O Instituto Nacional de Estatística (INE) confirmou esta terça-feira o valor da estimativa"},
+    {"type": "oficial", "entity_name": "Eurostat", "partial_attribute": null, "excerpt": "inferior em 0,2 pontos ao valor estimado pelo Eurostat para a área do euro"}
+  ],
+  "themes": [
+    {"path": ["Economia", "Inflação e preços"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Economia", "Energia"], "kind": "tema", "edition": null, "weight": 0.4, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 8, "signals": []},
+  "debug": {
+    "reasoning": "Notícia estatística baseada no INE. Energia como tema secundário porque os combustíveis explicam a aceleração. Sem localização específica (nacional).",
+    "sources_used": ["lead", "1.º parágrafo (INE)", "2.º parágrafo (energéticos)", "4.º parágrafo (Eurostat)"],
+    "sources_discarded": ["área do euro: termo de comparação, não local da notícia", "tags do site: Consumo genérico"]
+  }
+}

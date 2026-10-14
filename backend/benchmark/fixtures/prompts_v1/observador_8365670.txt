@@ -1,0 +1,19 @@
+Site: observador
+Secção: Economia / Inflação
+Tipo segundo o site: noticia
+Publicado: 2026-10-13T10:15:05+00:00
+Assinatura: Ana Sanlez
+Tags do site: Inflação, Preços, Consumo, Economia
+
+Título: INE confirma inflação de 3,6% em setembro com combustíveis a puxar pelos preços
+
+Lead: A inflação de setembro fixou-se em 3,6%, confirmou esta terça-feira o INE. Aumento do preço dos combustíveis explica grande parte da aceleração.
+
+Corpo:
+A inflação homóloga de setembro acelerou para 3,6% em setembro. O Instituto Nacional de Estatística (INE) confirmou esta terça-feira o valor da estimativa já avançada, que é 0,3 pontos percentuais superior à do mês anterior. A aceleração do índice de preços no consumidor “é explicada em grande medida pelo aumento do preço dos combustíveis”, constata o INE.
+
+A inflação subjacente, que exclui produtos alimentares não transformados e energéticos, teve uma variação homóloga de 2,7%. O índice relativo aos produtos energéticos aumentou para 15,3%, que compara com os 12,2% do mês anterior, enquanto o índice dos produtos alimentares não transformados registou uma variação de 3,7%, acelerando em relação aos 3,4% registados em agosto.
+
+A variação mensal do índice de preços no consumidor foi de 1,2%, depois de ter sido nula no mês precedente. Já a variação média dos últimos doze meses foi 2,8%, acima dos 2,7% do mês anterior.
+
+O Índice Harmonizado de Preços no Consumidor (IHPC) português, que serve de base para as comparações europeias, também registou uma variação homóloga de 3,6%, uma taxa idêntica à do mês anterior e inferior em 0,2 pontos ao valor estimado pelo Eurostat para a área do euro.

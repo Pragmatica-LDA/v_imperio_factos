@@ -1,0 +1,96 @@
+{
+  "url": "https://www.jn.pt/opiniao/artigo/chega-sem-lei/18136260",
+  "canonical_url": "https://www.jn.pt/opiniao/artigo/chega-sem-lei/18136260",
+  "aliases": [
+    "https://www.jn.pt/amp/18136260/chega-sem-lei"
+  ],
+  "site_article_id": "18136260",
+  "title": "Chega sem lei",
+  "lead": "A triste figura sorridente de duas deputadas da Nação a posar para a câmara, após terem invadido as instalações da Associação Académica de Coimbra e da Rádio Universidade de Coimbra, é um preocupante sinal de que o partido a que pertencem se julga acima das leis nacionais. Tanto pugnam pelo cumprimento escrupuloso da lei quando se trata de outras pessoas, que não as da sua clique, como a seguir se esquecem das mais elementares leis e decidem invadir as instalações de uma associação e de um meio de comunicação.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "A triste figura sorridente de duas deputadas da Nação a posar para a câmara, após terem invadido as instalações da Associação Académica de Coimbra e da Rádio Universidade de Coimbra, é um preocupante sinal de que o partido a que pertencem se julga acima das leis nacionais. Tanto pugnam pelo cumprimento escrupuloso da lei quando se trata de outras pessoas, que não as da sua clique, como a seguir se esquecem das mais elementares leis e decidem invadir as instalações de uma associação e de um meio de comunicação.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Não é difícil perceber o objetivo. É criar ruído, confusão e fazer uns vídeos para as redes sociais a mostrar que são muito fortes e decididas, para gáudio de um grupo de aficionados (alguns verdadeiros e outros que serão apenas bots de reprodução de conteúdos). Pelo caminho, ficam as leis que as senhoras deputadas deveriam defender e enxovalham ainda mais as instituições nacionais. Recordo que um dos deveres dos legisladores que nos representam no Parlamento é \"respeitar a dignidade da Assembleia da República e dos Deputados\", o que claramente não aconteceu.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Este é um precedente gravíssimo. Se hoje mesmo a deputada Rita Matias não gostar de um texto publicado no Jornal de Notícias terá o direito de entrar neste edifício acompanhada de militantes do seu partido e sentar-se na cadeira da administração ou na redação, com uns insultos à mistura, segundo relatos que chegam de Coimbra? Se considerava que o partido estava a ser injustiçado por ter de participar à distância num programa de debate político, teria todo o direito de apresentar um protesto, de fazer uma reclamação à ERC ou ao Ministério Público, uma atuação normal de quem sente que lhe estão a sonegar um direito. Desta forma arruaceira, o objetivo é apenas criar espetáculo, degradar instituições e fingir indignação, para gerar barulho e \"engagement\" no TikTok ou Instagram. O amigo Trump ficaria orgulhoso por ter seguidores do movimento que criou.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Luís Pedro Carvalho",
+      "role": null,
+      "url": "https://www.jn.pt/autor/luis-pedro-carvalho",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Luís Pedro Carvalho",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/7c6615d8-a8f1-4986-8cb4-69e4a26f744e_1200x675.jpg",
+      "caption": null,
+      "photographers": [],
+      "credit_raw": null,
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-12T23:05:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "opiniao",
+  "subsection": null,
+  "tags": [
+    "Opinião"
+  ],
+  "piece_type": "opiniao",
+  "piece_type_raw": "NG:Opinião",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 321,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Opinião",
+    "section_name": "Opinião",
+    "subsection_name": null,
+    "layout_code": "NG:Opinião",
+    "layout_name": "Opinião",
+    "categories": [],
+    "site_word_count": 322,
+    "reading_minutes": 2,
+    "seo_title": "Chega sem lei",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T00:05:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url | FALHA DE CRÉDITO: Media[0] sem crédito nem legenda no RSC: Flags=[]",
+    "authors": "rsc:Authors[].Signature",
+    "byline_raw": "rsc:Authors[].Signature",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Opinion",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 321 vs WordCount do site 322 (rácio mín. 0.9)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://observador.pt/2026/10/13/ine-confirma-inflacao-de-36-em-setembro-com-combustiveis-a-puxar-pelos-precos/",
+  "canonical_url": "https://observador.pt/2026/10/13/ine-confirma-inflacao-de-36-em-setembro-com-combustiveis-a-puxar-pelos-precos/",
+  "aliases": [],
+  "site_article_id": "8365670",
+  "title": "INE confirma inflação de 3,6% em setembro com combustíveis a puxar pelos preços",
+  "lead": "A inflação de setembro fixou-se em 3,6%, confirmou esta terça-feira o INE. Aumento do preço dos combustíveis explica grande parte da aceleração.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "A inflação homóloga de setembro acelerou para 3,6% em setembro. O Instituto Nacional de Estatística (INE) confirmou esta terça-feira o valor da estimativa já avançada, que é 0,3 pontos percentuais superior à do mês anterior. A aceleração do índice de preços no consumidor “é explicada em grande medida pelo aumento do preço dos combustíveis”, constata o INE.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "A inflação subjacente, que exclui produtos alimentares não transformados e energéticos, teve uma variação homóloga de 2,7%. O índice relativo aos produtos energéticos aumentou para 15,3%, que compara com os 12,2% do mês anterior, enquanto o índice dos produtos alimentares não transformados registou uma variação de 3,7%, acelerando em relação aos 3,4% registados em agosto.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "A variação mensal do índice de preços no consumidor foi de 1,2%, depois de ter sido nula no mês precedente. Já a variação média dos últimos doze meses foi 2,8%, acima dos 2,7% do mês anterior.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O Índice Harmonizado de Preços no Consumidor (IHPC) português, que serve de base para as comparações europeias, também registou uma variação homóloga de 3,6%, uma taxa idêntica à do mês anterior e inferior em 0,2 pontos ao valor estimado pelo Eurostat para a área do euro.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Ana Sanlez",
+      "role": "texto",
+      "url": "https://observador.pt/perfil/asanlez/",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Ana Sanlez",
+  "images": [
+    {
+      "url": "https://s3.observador.pt/wp-content/uploads/2026/09/07195608/dventura-aumento-preco-combustiveis-22-scaled.jpg",
+      "caption": "DIOGO VENTURA/OBSERVADOR",
+      "photographers": [
+        "Diogo Ventura"
+      ],
+      "credit_raw": "DIOGO VENTURA/OBSERVADOR",
+      "agency": "Observador",
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T10:15:05+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": "2026-10-13T10:30:09+00:00",
+  "section": "Economia",
+  "subsection": "Inflação",
+  "tags": [
+    "Inflação",
+    "Preços",
+    "Consumo",
+    "Economia"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "post",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "html",
+  "word_count": 194,
+  "out_of_scope": null,
+  "site_meta": {
+    "post_type": "post",
+    "small_title": "INE confirma inflação de 3,6% em setembro",
+    "main_category": "inflacao-economia",
+    "top_category": "economia",
+    "exclusive": false,
+    "sponsored": false,
+    "is_initiative": false,
+    "sensitive": 0,
+    "jsonld_word_count": 293,
+    "content_length": 1351,
+    "html_blocks": 4
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "html:body.postid-N",
+    "title": "jsonld:headline",
+    "lead": "html:.article-head-content-headline-lead",
+    "byline_raw": "html:.author-name / .columnist-info-name",
+    "authors": "jsonld:author + html:.author-credit/.columnist (papel e perfil)",
+    "published_at": "jsonld:datePublished",
+    "updated_at": "jsonld:dateModified",
+    "section": "jsonld:articleSection",
+    "subsection": "contextualData.mainCategory + html:article a[href*=/seccao/] (nome)",
+    "tags": "jsonld:keywords",
+    "access": "sem marcas de premium (jsonld/body/contextualData)",
+    "body": "html:.article-body-content (todos os contentores; p, h1.tinymceh1→h2, h2-h4, blockquote, li); promos [..] e anúncios removidos",
+    "word_count": "contagem de palavras do corpo extraído",
+    "body_complete": "html cobre 96% do texto do jsonld:articleBody",
+    "images": "principal: html:figcaption .creditos (jsonld:image não tem crédito)",
+    "piece_type_raw": "html:body class / contextualData.postType",
+    "piece_type": "piece_type_raw",
+    "site_meta": "contextualData (pageTargeting + post.*), jsonld:wordCount"
+  }
+}

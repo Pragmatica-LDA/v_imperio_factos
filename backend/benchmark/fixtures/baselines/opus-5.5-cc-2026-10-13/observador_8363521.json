@@ -1,0 +1,221 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "Luís Neves",
+      "canonical_name": "Luís Neves",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "ministro da Administração Interna",
+      "sentiment": "negativo",
+      "sentiment_reason": "No centro de uma crise com o secretário-geral, acusado de deixar comunicações sem resposta, de nomeação controversa no SIRESP e de atitude \"arrogante\" por Ventura."
+    },
+    {
+      "name": "Ricardo Carrilho",
+      "canonical_name": "Ricardo Alberto Gasiba Carrilho",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": "secretário-geral do Ministério da Administração Interna (cessante)",
+      "sentiment": "neutro",
+      "sentiment_reason": "Afastado do cargo, mas as suas reservas sobre o pagamento ao SIRESP são descritas como fundamentadas; retrato equilibrado."
+    },
+    {
+      "name": "Nuno Parreira da Silva",
+      "canonical_name": "Nuno Parreira da Silva",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": "major-general, comandante da Escola da GNR, novo secretário-geral do MAI",
+      "sentiment": "positivo",
+      "sentiment_reason": "Nomeado para o cargo, com percurso e formação académica descritos de forma elogiosa."
+    },
+    {
+      "name": "Ministério da Administração Interna",
+      "canonical_name": "Ministério da Administração Interna",
+      "type": "governo",
+      "is_public": true,
+      "roles": ["visado", "fonte", "citado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Justifica a decisão em comunicado; as suas posições são reproduzidas sem juízo."
+    },
+    {
+      "name": "Secretaria-Geral do Ministério da Administração Interna",
+      "canonical_name": "Secretaria-Geral do Ministério da Administração Interna",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Serviço em reestruturação e gestor do contrato do SIRESP."
+    },
+    {
+      "name": "SIRESP, SA",
+      "canonical_name": "SIRESP, SA",
+      "type": "empresa",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Recebe 26 milhões com contrato caducado, sem controlo externo, e é alvo de denúncia por prejuízo ao Estado."
+    },
+    {
+      "name": "Paulo Viegas Nunes",
+      "canonical_name": "Paulo Viegas Nunes",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": "presidente do SIRESP",
+      "sentiment": "negativo",
+      "sentiment_reason": "Nomeação descrita como controversa por estar associada a anteriores irregularidades na gestão do sistema."
+    },
+    {
+      "name": "Expresso",
+      "canonical_name": "Expresso",
+      "type": "meio_comunicacao",
+      "is_public": true,
+      "roles": ["fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Semanário que revelou a degradação da relação e teve acesso aos documentos."
+    },
+    {
+      "name": "GNR",
+      "canonical_name": "Guarda Nacional Republicana",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida no percurso do novo secretário-geral."
+    },
+    {
+      "name": "Procuradoria-Geral da República",
+      "canonical_name": "Procuradoria-Geral da República",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Destinatária da denúncia da Secretaria-Geral."
+    },
+    {
+      "name": "IGAI",
+      "canonical_name": "Inspeção-Geral da Administração Interna",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Abriu processo de inquérito aos procedimentos concursais."
+    },
+    {
+      "name": "André Ventura",
+      "canonical_name": "André Ventura",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "líder do Chega",
+      "sentiment": "neutro",
+      "sentiment_reason": "As suas críticas ao ministro são reproduzidas sem juízo."
+    },
+    {
+      "name": "Chega",
+      "canonical_name": "Chega",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Anunciou o pedido de audição urgente do ministro."
+    },
+    {
+      "name": "Luís Montenegro",
+      "canonical_name": "Luís Montenegro",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": "primeiro-ministro",
+      "sentiment": "neutro",
+      "sentiment_reason": "Interpelado por Ventura, sem avaliação."
+    },
+    {
+      "name": "Parlamento",
+      "canonical_name": "Assembleia da República",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Local da audição pedida pelo Chega."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Ministério da Administração Interna",
+      "partial_attribute": null,
+      "excerpt": "Em comunicado, o MAI refere que “o ministro da Administração Interna, Luís Neves, determinou a cessação do exercício de funções"
+    },
+    {
+      "type": "outro_meio",
+      "entity_name": "Expresso",
+      "partial_attribute": null,
+      "excerpt": "De acordo com o jornal Expresso, que teve acesso a um conjunto de documentos e comunicações"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Luís Neves",
+      "partial_attribute": "gabinete do ministro da Administração Interna",
+      "excerpt": "“ É falso que o Gabinete do senhor ministro da Administração Interna não tenha respondido."
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Chega",
+      "partial_attribute": null,
+      "excerpt": "o Chega anunciou que pediu a audição urgente no Parlamento do ministro da Administração Interna"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Política", "Administração Interna"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Administração Interna", "Exoneração do secretário-geral do MAI"],
+      "kind": "caso",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": true
+    },
+    {
+      "path": ["Segurança", "Protecção civil e emergência"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.5,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Partidos"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.2,
+      "is_new": false
+    }
+  ],
+  "locations": [],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia com base no comunicado do MAI e em revelações do Expresso. Neves fica negativo pelo conflito, a nomeação controversa no SIRESP e as críticas de Ventura; Carrilho fica neutro porque é afastado mas as suas reservas são apresentadas como fundamentadas. O sucessor é descrito de forma elogiosa. O SIRESP é a rede de emergência, daí o tema Protecção civil e emergência. A exoneração é o caso principal, criado como tema novo.",
+    "sources_used": ["lead", "comunicado do MAI", "relato do Expresso", "resposta do gabinete do ministro", "declarações de Ventura e anúncio do Chega (secção final)"],
+    "sources_discarded": ["exposição de Carrilho ao ministro: conhecida via Expresso, já contada nessa fonte", "Tribunal de Contas e Ministério Público: referidos só como hipóteses"]
+  }
+}

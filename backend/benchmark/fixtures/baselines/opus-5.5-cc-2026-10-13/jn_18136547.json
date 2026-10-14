@@ -1,0 +1,25 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "Fenprof", "canonical_name": "Federação Nacional de Professores", "type": "organizacao", "is_public": true, "roles": ["visado", "citado", "fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Relato factual das exigências do sindicato."},
+    {"name": "Caixa Geral de Aposentações", "canonical_name": "Caixa Geral de Aposentações", "type": "instituicao", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Responsável pelo erro no cálculo das pensões e acusada de se desresponsabilizar."},
+    {"name": "Governo", "canonical_name": "Governo de Portugal", "type": "governo", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "A Fenprof diz que não pode alhear-se do problema."},
+    {"name": "Maria do Rosário Palma Ramalho", "canonical_name": "Maria do Rosário Palma Ramalho", "type": "pessoa", "is_public": true, "roles": ["citado", "fonte"], "position_at_date": "ministra do Trabalho, Solidariedade e Segurança Social", "sentiment": "neutro", "sentiment_reason": "Confirmou que os valores pagos a mais terão de ser repostos, sem juízo."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Federação Nacional de Professores", "partial_attribute": null, "excerpt": "Em comunicado, a Fenprof disse que está a acompanhar centenas de situações de docentes aposentados"},
+    {"type": "oficial", "entity_name": "Maria do Rosário Palma Ramalho", "partial_attribute": null, "excerpt": "já veio confirmar que os valores pagos a mais terão de ser repostos"}
+  ],
+  "themes": [
+    {"path": ["Sociedade", "Pensões e Segurança Social"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Sociedade", "Pensões e Segurança Social", "Erro no cálculo das pensões da CGA"], "kind": "caso", "edition": null, "weight": 0.9, "is_new": true},
+    {"path": ["Sociedade", "Educação"], "kind": "tema", "edition": null, "weight": 0.3, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia baseada num comunicado da Fenprof sobre o erro no cálculo de pensões da CGA. É um caso com nome próprio, por isso tema novo do tipo caso. A CGA tem sentimento negativo por ser a responsável pelo erro; o Governo também, pela crítica da Fenprof; a ministra fica neutra.",
+    "sources_used": ["lead", "1.º parágrafo (comunicado)", "3.º parágrafo (três mil pensionistas)", "último parágrafo (ministra)"],
+    "sources_discarded": ["docentes aposentados: grupo genérico, não entidade", "tags do site: confirmam o tema"]
+  }
+}

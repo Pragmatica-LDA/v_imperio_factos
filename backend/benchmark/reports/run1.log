@@ -1,0 +1,74 @@
+Connection to db (172.23.0.4) 5432 port [tcp/postgresql] succeeded!
+Connection to redis-broker (172.23.0.3) 6379 port [tcp/redis] succeeded!
+run 1: 12 modelos × 29 artigos × 1
+
+== haiku-5-5-low (anthropic:claude-haiku-5-5) · 29 pedidos · concorrência 4
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 5.8s · score 0.773
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [2/29] jn_18136490 #1 · 6.9s · score 0.440
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [3/29] jn_18136260 #1 · 7.1s · score 0.838
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [4/29] jn_18135667 #1 · 8.4s · score 0.718
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [5/29] jn_18136536 #1 · 3.5s · ERRO resposta degenerada: sem entidades nem temas num artigo com texto
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [6/29] jn_18136505 #1 · 6.7s · score 0.882
+  [7/29] jn_18136491 #1 · 7.6s · score 0.765
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [8/29] jn_18136539 #1 · 7.5s · score 0.972
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [9/29] jn_18136547 #1 · 7.0s · score 0.817
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [10/29] jn_18136565 #1 · 6.8s · score 0.879
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [11/29] jn_18136577 #1 · 4.8s · score 0.721
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [12/29] jn_18136568 #1 · 8.9s · score 0.846
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [13/29] observador_8359486 #1 · 10.3s · score 0.864
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [14/29] observador_8363879 #1 · 8.8s · score 0.914
+  [15/29] observador_8364379 #1 · 7.2s · score 0.689
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [16/29] observador_8363521 #1 · 9.8s · score 0.690
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [17/29] observador_8365425 #1 · 3.5s · ERRO resposta degenerada: sem entidades nem temas num artigo com texto
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [18/29] observador_8365329 #1 · 5.0s · score 0.724
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [19/29] observador_8365113 #1 · 7.3s · score 0.731
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [20/29] observador_8364912 #1 · 9.7s · score 0.802
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [21/29] observador_8365478 #1 · 5.9s · score 0.748
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [22/29] observador_8365532 #1 · 5.7s · score 0.794
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [23/29] observador_8365670 #1 · 5.4s · score 0.830
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [24/29] observador_8365578 #1 · 8.2s · score 0.725
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [25/29] observador_8365810 #1 · 5.5s · score 0.664
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [26/29] observador_8365764 #1 · 7.2s · score 0.559
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [27/29] observador_8365824 #1 · 5.6s · score 0.902
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [28/29] publico_2191197 #1 · 4.1s · ERRO resposta degenerada: sem entidades nem temas num artigo com texto
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [29/29] publico_2191168 #1 · 7.0s · score 0.732
+
+== haiku-5-5-medium (anthropic:claude-haiku-5-5) · 29 pedidos · concorrência 4
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [1/29] jn_18136490 #1 · 7.4s · score 0.685
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [2/29] jn_18136463 #1 · 8.2s · score 0.773
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [3/29] jn_18135667 #1 · 8.4s · score 0.654
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [4/29] jn_18136505 #1 · 4.0s · ERRO resposta degenerada: sem entidades nem temas num artigo com texto
+

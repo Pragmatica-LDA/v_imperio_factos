@@ -1,0 +1,108 @@
+{
+  "url": null,
+  "canonical_url": "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775",
+  "aliases": [],
+  "site_article_id": "2190775",
+  "title": "Sem noites em branco, com mais de 150 pessoas e uma “ajudinha” da IA: como se fez o OE2027",
+  "lead": "Um cronograma seguido ao detalhe, mais de 150 pessoas e ferramentas de inteligência artificial ajudaram a preparar o OE2027 sem as maratonas de antigamente. Como são os bastidores do Orçamento?",
+  "body": [],
+  "authors": [
+    {
+      "name": "Liliana Borges",
+      "role": "texto",
+      "url": "https://www.publico.pt/autor/liliana-pascoal-borges",
+      "affiliation": null
+    },
+    {
+      "name": "Joana Gonçalves",
+      "role": "video",
+      "url": "https://www.publico.pt/autor/joana-goncalves",
+      "affiliation": null
+    },
+    {
+      "name": "Daniel Rocha",
+      "role": "fotografia",
+      "url": "https://www.publico.pt/autor/daniel-rocha",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Liliana Borges (texto), Joana Gonçalves (vídeo) e Daniel Rocha (fotografia)",
+  "images": [
+    {
+      "url": "https://imagens.publico.pt/imagens.aspx/2121681?tp=UH&db=IMAGENS&type=JPG",
+      "caption": "Os bastidores da preparação da proposta do Orçamento do Estado 2027 (OE2027) com o ministro das Finanças Joaquim Miranda Sarmento, no Ministério das Finanças e a sua equipa de secretários de Estado",
+      "photographers": [
+        "Daniel Rocha"
+      ],
+      "credit_raw": "Daniel Rocha",
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-09T13:42:45+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "Política",
+  "subsection": null,
+  "tags": [
+    "Política",
+    "Orçamento do Estado 2027",
+    "Ministério das Finanças",
+    "Joaquim Miranda Sarmento",
+    "Parlamento",
+    "Assembleia da República",
+    "Finanças públicas"
+  ],
+  "piece_type": "reportagem",
+  "piece_type_raw": "reportagem",
+  "access": "premium",
+  "body_complete": false,
+  "body_source": null,
+  "word_count": null,
+  "out_of_scope": "premium_sem_texto_integral",
+  "site_meta": {
+    "page_type": "News",
+    "sponsored": false,
+    "is_exclusivo": true,
+    "is_premium": false,
+    "lock_item": false,
+    "paywall_size": 30,
+    "is_azul": false,
+    "tag_ids": [
+      870,
+      17811,
+      501,
+      13282,
+      6245,
+      3775,
+      909
+    ],
+    "author_slugs": [
+      "liliana-pascoal-borges",
+      "joana-goncalves",
+      "daniel-rocha"
+    ],
+    "section_slug": "politica",
+    "image": "https://imagens.publico.pt/imagens.aspx/2121681?tp=UH&db=IMAGENS&type=JPG"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "html:article#story[data-article-id]",
+    "title": "jsonld:headline",
+    "lead": "html:.story__blurb",
+    "byline_raw": "html:.byline address",
+    "authors": "jsonld:author + html:.byline (role/url/affiliation)",
+    "published_at": "jsonld:datePublished",
+    "published_at_precision": "jsonld (data e hora)",
+    "section": "jsonld:articleSection",
+    "tags": "publicoConfig.pageTags",
+    "piece_type_raw": "url:<tipo>",
+    "piece_type": "url:<tipo>",
+    "access": "publicoConfig.isExclusivo/isPremium/lockItem",
+    "images": "html:figure.story__media (principal) + #story-body figure; crédito em figcaption > span.credit ('FOTÓGRAFO/AGÊNCIA'); JSON-LD image sem crédito",
+    "body_complete": "premium sem articleBody: HTML cortado (1 blocos, 173 palavras; corpo parcial descartado)",
+    "out_of_scope": "publicoConfig.isExclusivo/isPremium/lockItem"
+  }
+}

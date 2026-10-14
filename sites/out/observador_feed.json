@@ -1,0 +1,2143 @@
+[
+  {
+    "url": "https://observador.pt/2026/10/13/be-diz-que-mai-e-novela-permanente-de-casos-e-quer-esclarecimentos-sobre-saida-de-secretario-geral/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "BE diz que MAI é uma \"novela permanente de casos\"",
+    "lead": "José Manuel Pureza afirmou que Luís Neves \"não tem condições para ser ministro\". Os bloquistas pedem \"esclarecimentos cabais\" e criticam a sucessão de casos polémicos a envolver o ministro.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:48:26+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 0,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:22/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/02192259/47447414.jpg",
+        "credit_raw": "RODRIGO ANTUNES/LUSA",
+        "photographers": [
+          "Rodrigo Antunes"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Ministério Administração Interna",
+        "Política",
+        "Bloco de Esquerda"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/prisao-preventiva-para-5-dos-15-detidos-em-operacao-contra-trafico-de-droga-no-porto/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Tráfico de droga. Prisão preventiva para 5 dos 15 detidos",
+    "lead": "PSP do Porto explica que a cinco dos detidos foi aplicada como medida de coação a prisão preventiva, a seis deles a obrigação de apresentações bissemanais, a um a obrigação de apresentações diárias.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:46:46+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 1,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/01164231/jporfirio-reportagem-forte-do-alto-do-duque-psp-investigacao-criminal-01-10-2026-01-15-scaled.jpg",
+        "credit_raw": "JOÃO PORFÍRIO/OBSERVADOR",
+        "photographers": [
+          "João Porfírio"
+        ],
+        "agency": "Observador"
+      },
+      "categories": [
+        "Porto",
+        "País",
+        "Sociedade",
+        "Tráfico de Droga",
+        "Crime",
+        "PSP",
+        "Polícia",
+        "Segurança"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/mais-de-um-terco-do-calcado-da-shein-e-temu-falha-regras-europeias/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Mais de um terço do calçado da Shein e Temu falha regras",
+    "lead": "Investigação em sete países europeus, incluindo Portugal, concluiu que 35,5% do calçado analisado proveniente de plataformas como a Shein e Temu não cumpriu pelo menos um limite regulamentar europeu.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:42:18+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 2,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/29052031/47693629.jpg",
+        "credit_raw": "MAY JAMES/EPA",
+        "photographers": [
+          "May James"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Economia",
+        "Calçado",
+        "Indústria"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/presidente-da-republica-estara-na-eslovenia-para-estreia-em-reunioes-do-grupo-de-arraiolos/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Seguro estreia-se em reuniões do Grupo de Arraiolos",
+    "lead": "Tema da reunião será \"A União Europeia numa época de múltiplas crises: entre a desistência e a perseverança\". Este fórum informal entre chefes de estado foi lançado em 2003 com Jorge Sampaio.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:41:11+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 3,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1938:1088:nowe:62:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/14163218/47650290.jpg",
+        "credit_raw": "MANUEL FERNANDO ARAUJO/LUSA",
+        "photographers": [
+          "Manuel Fernando Araujo"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Eslovénia",
+        "Europa",
+        "Mundo",
+        "Presidente da República",
+        "Política",
+        "União Europeia"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/ines-carneiro-vence-premio-fernando-tavora-com-projeto-sobre-arquiteturas-do-cosmos/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Inês Carneiro vence Prémio Fernando Távora",
+    "lead": "Proposta vencedora tem uma \"dimensão humanista/filosófica\", vendo \"os observatórios astronómicos como instrumentos científicos, e megalómanas arquiteturas, mas também filosóficos e políticos\".",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:32:28+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 5,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:105/q:70/plain/https://s3.observador.pt/wp-content/uploads/2021/04/09131411/23262485.jpg",
+        "credit_raw": "MANUEL ARAÚJO/LUSA",
+        "photographers": [
+          "Manuel Araújo"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Arquitetura",
+        "Cultura",
+        "Habitação e Urbanismo",
+        "País",
+        "Sociedade"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/pcp-diz-que-linha-do-vouga-nao-pode-esperar-15-anos-e-quer-obras-ate-agueda/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "PCP diz que Linha do Vouga não pode esperar 15 anos",
+    "lead": "Comunistas pedem a \"revisão integral do projeto\". Está previsto um investimento de 100 milhões de euros para requalificar e eletreficar a Linha do Vouga até 2030.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:28:58+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 6,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2016/09/30172529/linha-do-vouga-santa-maria-da-feira_770x433_acf_cropped.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Aveiro",
+        "País",
+        "Sociedade",
+        "PCP",
+        "Política",
+        "Obras Públicas",
+        "Investimento público"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/incendio-numa-residencia-no-funchal-deixa-uma-pessoa-desalojada/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Incêndio numa casa no Funchal deixa uma pessoa desalojada",
+    "lead": "Incêndio começou por causa da explosão de uma garrafa de gás. Não há registos de danos pessoais. Para o local foram deslocados operacionais da Corporação dos Voluntários Madeirense.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:26:53+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 7,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/09/21185738/43599874.jpg",
+        "credit_raw": "JOSÉ COELHO/LUSA",
+        "photographers": [
+          "José Coelho"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Madeira",
+        "País",
+        "Sociedade",
+        "Funchal",
+        "Acidente"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/aguiar-branco-rejeita-conflito-de-interesses-de-ventura-a-presidir-a-comissao-de-inquerito-sobre-luis-neves/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Aguiar-Branco rejeita conflito de interesses de Ventura",
+    "lead": "Livre fez um pedido de apreciação formal para apurar se existia um conflito de interesses que impedisse André Ventura de presidir à comissão de inquérito parlamentar sobre Luís Neves.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:26:02+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 9,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/02190818/47515350.jpg",
+        "credit_raw": "AMPE ROGÉRIO/LUSA",
+        "photographers": [
+          "Ampe Rogério"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "André Ventura",
+        "Partido Chega",
+        "Política",
+        "José Pedro Aguiar-Branco",
+        "Assembleia Da República",
+        "Parlamento",
+        "Partido LIVRE",
+        "Comissão de Inquérito"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/eleicoes-intercalares-para-paco-em-arcos-de-valdevez-marcadas-para-10-de-janeiro/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Eleições intercalares para Paçô marcadas para 10 de janeiro",
+    "lead": "Presidente da Câmara de Arcos de Valdevez revelou que a Freguesia de Paçô ia realizar eleições intercalares porque as listas eleitas em 2025 não chegaram a um consenso para a constituição da junta.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:24:01+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 10,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:77/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/11/04113241/45833332.jpg",
+        "credit_raw": "ANDRÉ KOSTERS/LUSA",
+        "photographers": [
+          "André Kosters"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Eleições",
+        "Política",
+        "Autarquias",
+        "País",
+        "Sociedade",
+        "Viana do Castelo"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/retomadas-buscas-por-pescador-ludico-desaparecido-em-peniche-2/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Retomadas buscas por pescador lúdico desaparecido em Peniche",
+    "lead": "Homem de 53 anos está desaparecido desde sábado depois de ter saído de casa para praticar a atividade de pesca lúdica e não ter voltado. As buscas por mar ainda estão interrompidas devido ao nevoeiro.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:19:03+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 11,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/08/30202210/22633707_770x433_acf_cropped.jpg",
+        "credit_raw": "CARLOS BARROSO/LUSA",
+        "photographers": [
+          "Carlos Barroso"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Acidente",
+        "Sociedade",
+        "Buscas",
+        "Peniche",
+        "País"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/gnr-de-moimenta-da-beira-deteve-dez-pessoas-suspeitas-de-trafico-de-droga/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "GNR deteve dez pessoas suspeitas de tráfico de droga",
+    "lead": "Durante a operação, foram apreendidas 112,50 doses de cocaína, 600.000 doses de LSD, 7,4 doses de canábis, 3,74 doses de haxixe e 238,80 gramas de produto de corte.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:17:22+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 12,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2048:1152:nowe:0:91/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/02/25184514/gnr.jpg",
+        "credit_raw": "GNR/Facebook",
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Tráfico de Droga",
+        "Crime",
+        "Sociedade",
+        "GNR",
+        "Polícia",
+        "Segurança"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/ciclista-italiano-filippo-ganna-assina-pela-lidl-trek/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Ciclista italiano Filippo Ganna assina pela Lidl-Trek",
+    "lead": "\"O duas vezes campeão mundial de contrarrelógio\" vai representar a equipa alemã Lidl-Trek nos próximos três anos. Diretor executivo da equipa mostra-se convicto face ao talento do ciclista italiano.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:16:28+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 14,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13111406/47501807.jpg",
+        "credit_raw": "GUILLAUME HORCAJUELO/EPA",
+        "photographers": [
+          "Guillaume Horcajuelo"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Ciclismo",
+        "Desporto",
+        "Itália",
+        "Europa",
+        "Mundo",
+        "Alemanha"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/franca-uniao-estudantil-diz-que-90-das-universidades-estao-fechadas-ou-bloqueadas/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "União Estudantil: 90% de universidades fechadas e bloqueadas",
+    "lead": "União fala em forte mobilização do ensino superior. Ministério da Educação nota diminuição do número de escolas secundárias fechadas no dia em que a ativista Greta Thunberg se junta aos protestos.",
+    "authors": [
+      {
+        "name": "Adriana Alves",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Adriana Alves",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:15:44+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 15,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3184:1793:nowe:0:325/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/06184448/gettyimages-2298297900.jpg",
+        "credit_raw": "Getty Images",
+        "photographers": [],
+        "agency": "Getty Images"
+      },
+      "categories": [
+        "França",
+        "Europa",
+        "Mundo",
+        "Protestos",
+        "Sociedade",
+        "Estudantes",
+        "Educação",
+        "Ensino Superior"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/movimento-estudantil-questiona-ventura-sobre-invasao-de-estudio-de-radio-em-coimbra/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Movimento estudantil questiona Ventura sobre invasão à rádio",
+    "lead": "Carta, dirigida a André Ventura, que condena invasão que ocorreu na segunda-feira e consequente interrupção da emissão da rádio, é subscrita por várias associações académicas de universidades no país.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:14:58+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 16,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/08/24180041/47643846.jpg",
+        "credit_raw": "TIAGO PETINGA/LUSA",
+        "photographers": [
+          "Tiago Petinga"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Coimbra",
+        "País",
+        "Sociedade",
+        "André Ventura",
+        "Partido Chega",
+        "Política",
+        "Rádio",
+        "Media"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/papa-leao-chega-ao-hospital-gemelli-para-remover-nodulo-no-pulmao/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Papa chega ao hospital para remover nódulo no pulmão",
+    "lead": "O pontífice, de 71 anos, vai ser submetido a uma cirurgia para remover um nódulo no pulmão que foi detetado durante exames de rotina.",
+    "authors": [
+      {
+        "name": "Adriana Alves",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Adriana Alves",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:10:38+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 17,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/26150219/47840147.jpg",
+        "credit_raw": "VATICAN MEDIA HANDOUT/EPA",
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Papa Leão XIV",
+        "Igreja Católica",
+        "Religião",
+        "Sociedade",
+        "Vaticano",
+        "Itália",
+        "Europa",
+        "Mundo"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/academia-portuguesa-da-agua-alerta-para-risco-para-a-agua-ao-reativar-mina-da-borralha/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Reativação da Mina da Borralha apresenta riscos para a água",
+    "lead": "Reativação de mina pode afetar a bacia hidrográfica do rio Cávado, uma linha que assegura o abastecimento de 400 mil habitantes. Projeto da mina visa reforçar o abastecimento da UE em matérias-primas.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T11:04:18+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 19,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:104/q:70/plain/https://s3.observador.pt/wp-content/uploads/2021/08/25131609/34102072.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Minas",
+        "Economia",
+        "Água",
+        "Natureza",
+        "Ambiente",
+        "Ciência"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/intercalares-elon-musk-investe-276-milhoes-de-dolares-para-manter-maioria-republicana-no-congresso/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Eleições. Musk financia republicanos com 276 milhões",
+    "lead": "Musk reverte promessa de reduzir gastos políticos e financia campanha republicana para as intercalares de 3 de novembro. Democratas acusam republicanos de tentarem \"comprar as eleições\".",
+    "authors": [
+      {
+        "name": "Manuel Nobre Monteiro",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Manuel Nobre Monteiro",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T10:29:14+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 20,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1121:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/02/26084112/44450838.jpg",
+        "credit_raw": "WILL OLIVER / POOL/EPA",
+        "photographers": [
+          "Will Oliver"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Eleições EUA",
+        "Estados Unidos da América",
+        "América",
+        "Mundo",
+        "Donald Trump",
+        "Partido Democrata",
+        "Republicanos"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/smart-2-chega-ao-mercado-para-substituir-o-antigo-eq-fortwo/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Smart #2 chega ao mercado para substituir o antigo EQ Fortwo",
+    "lead": "Está de regresso ao mercado o pequeno Smart com apenas dois lugares. O #2 é um citadino puramente eléctrico, mas agora oferece mais argumentos e uma autonomia muito superior.",
+    "authors": [
+      {
+        "name": "Alfredo Lavrador",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Alfredo Lavrador",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T10:25:45+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 21,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3000:1687:nowe:0:157/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13102212/710055-smart-hashtag2-premium-laser-red-rgb-3-4252e5-original-1791811079.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Smart",
+        "Marcas",
+        "Auto",
+        "Elétricos",
+        "Salão de Paris",
+        "Atualidade"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/ine-confirma-inflacao-de-36-em-setembro-com-combustiveis-a-puxar-pelos-precos/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "INE confirma inflação de 3,6% em setembro",
+    "lead": "A inflação de setembro fixou-se em 3,6%, confirmou esta terça-feira o INE. Aumento do preço dos combustíveis explica grande parte da aceleração.",
+    "authors": [
+      {
+        "name": "Ana Sanlez",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Sanlez",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T10:15:05+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 22,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2298:nowe:0:250/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/09/07195608/dventura-aumento-preco-combustiveis-22-scaled.jpg",
+        "credit_raw": "DIOGO VENTURA/OBSERVADOR",
+        "photographers": [
+          "Diogo Ventura"
+        ],
+        "agency": "Observador"
+      },
+      "categories": [
+        "Inflação",
+        "Preços",
+        "Consumo",
+        "Economia"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/bolivia-investiga-ex-presidente-morales-por-ligacao-a-homicidio-de-europeus-pelas-autoridades-em-2009/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Bolívia investiga Morales por ligação a morte de europeus",
+    "lead": "Antigo Presidente boliviano é acusado de crimes de homicídio, abuso, tortura e detenção ilegal por novo procurador-geral da Bolívia. Depois da morte de três europeus, acusou-os de serem \"mercenários\".",
+    "authors": [
+      {
+        "name": "Miguel Pereira Santos",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Miguel Pereira Santos",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T10:06:58+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 23,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:85/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/10/12224658/43699059.jpg",
+        "credit_raw": "JORGE ABREGO/EPA",
+        "photographers": [
+          "Jorge Abrego"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Bolívia",
+        "Mundo",
+        "Crime",
+        "Sociedade"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/unicornio-tekever-expande-se-para-a-alemanha-para-estabelecer-base-duradoura-para-crescimento-regional/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Tekever lança operação na Alemanha",
+    "lead": "Na sequência da ronda de financiamento de 518 milhões de euros, a portuguesa Tekever lança operações na Alemanha. A partir de Munique, o unicórnio servirá também os mercados da Áustria e Suíça.",
+    "authors": [
+      {
+        "name": "Cátia Rocha",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Cátia Rocha",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T09:57:18+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 24,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:33/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13103109/ar6-swindon-edited-25.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Empresas",
+        "Economia",
+        "Tecnologia",
+        "Alemanha",
+        "Europa",
+        "Mundo"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/andre-ventura-e-candidato-unico-a-lideranca-do-chega-nas-diretas-do-final-do-mes/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "André Ventura é candidato único à liderança do Chega",
+    "lead": "André Ventura formalizou a sua recandidatura durante a tarde de segunda-feira. O prazo para a entrega de candidaturas terminou na segunda-feira à noite e o atual líder foi o único a apresentar-se.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T09:37:02+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 25,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:59/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13093648/47850500.jpg",
+        "credit_raw": "ANDRÉ KOSTERS/LUSA",
+        "photographers": [
+          "André Kosters"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Partido Chega",
+        "Política",
+        "André Ventura"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/militares-israelitas-mataram-cinco-membros-do-hamas-e-da-jihad-islamica-em-gaza/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Israel mata cinco membros do Hamas e da Jihad Islâmica",
+    "lead": "Forças israelitas abateram no domingo três militantes da Jihad Islâmica e outros dois alegados militantes ligados ao Hamas, num ataque contra o sul da faixa de Gaza. Vários feridos foram reportados.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T09:29:30+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 27,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13092845/47910100.jpg",
+        "credit_raw": "MOHAMMED SABER/EPA",
+        "photographers": [
+          "Mohammed Saber"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Conflito Israelo-palestiniano",
+        "Mundo",
+        "Faixa de Gaza",
+        "Médio Oriente",
+        "Hamas",
+        "Israel",
+        "Militares",
+        "Defesa",
+        "Sociedade",
+        "Terrorismo",
+        "Jihadismo",
+        "Islão",
+        "Religião",
+        "Morte",
+        "Guerra",
+        "Conflitos"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/russia-abateu-604-drones-ucranianos-no-seu-territorio/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Rússia abateu 604 drones ucranianos no seu território",
+    "lead": "\"Durante a noite passada, as defesas antiaéreas intercetaram e destruíram 604 drones ucranianos de asa fixa\" sobre 15 regiões russas e o mar de Azov, declarou o comando militar russo no Telegram.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:55:02+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 29,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1126:nowe:0:40/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13091521/47490012.jpg",
+        "credit_raw": "STRINGER/EPA",
+        "photographers": [
+          "Stringer"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Guerra na Ucrânia",
+        "Ucrânia",
+        "Europa",
+        "Mundo",
+        "Rússia"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/fenprof-exige-esclarecimentos-rigorosos-sobre-erro-no-calculo-das-pensoes/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Pensões. Fenprof quer esclarecimentos sobre erro no cálculo",
+    "lead": "Fenprof garante que está a acompanhar centenas de situações de docentes aposentados com valores de pensões inferiores aos inicialmente simulados pela Caixa Geral de Aposentações.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:54:29+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 30,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:170/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13093149/47888351.jpg",
+        "credit_raw": "TIAGO PETINGA/LUSA",
+        "photographers": [
+          "Tiago Petinga"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Professores",
+        "Educação",
+        "Pensões",
+        "Segurança Social",
+        "Economia",
+        "Fenprof",
+        "Sindicatos de Professores"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/um-morto-em-despiste-de-camiao-no-ic5-perto-de-vila-flor/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Um morto em despiste de camião no IC5 perto de Vila Flor",
+    "lead": "Pesado de mercadorias terá entrado em despiste, no IC5, perto da saída de Lodões e tombou para cima de dois carros, que seguiam no sentido contrário, causando a morte de um jovem.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:51:29+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 31,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1729:974:nowe:211:359/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/01/28092302/44097714.jpg",
+        "credit_raw": "CARLOS BARROSO/LUSA",
+        "photographers": [
+          "Carlos Barroso"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Acidente Rodoviário",
+        "Acidente",
+        "Sociedade",
+        "Bragança",
+        "País"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/fmi-preve-crescimento-global-de-31-em-2026-e-34-em-2027/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "FMI prevê crescimento global de 3,1% em 2026 e 3,4% em 2027",
+    "lead": "O crescimento nas economias avançadas deve aumentar ligeiramente, passando de 2% em 2025 para 2,1% em 2026, antes de desacelerar para 1,8% em 2027.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:51:05+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 32,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1123:nowe:0:51/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13030401/46901760.jpg",
+        "credit_raw": "SHAWN THEW/EPA",
+        "photographers": [
+          "Shawn Thew"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Crescimento Económico",
+        "Macroeconomia",
+        "Economia",
+        "Fundo Monetário Internacional"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/desnutricao-associada-a-doenca-atinge-cerca-de-115-mil-doentes-diz-associacao/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Desnutrição associada à doença atinge de 115 mil doentes",
+    "lead": "Uma intervenção nutricional adequada reduz complicações, diminui o tempo de internamento, melhora prognósticos, aumenta a qualidade de vida e previne mortalidade evitável.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:49:17+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 33,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1500:842:nowe:0:188/q:70/plain/https://s3.observador.pt/wp-content/uploads/2023/01/06170024/plant-based-nsb-entrada.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "Nutrição",
+        "Ciência",
+        "Alimentação",
+        "Sociedade"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/alteracao-do-preco-dos-genericos-deve-ser-acompanhada-do-reforco-da-oferta-diz-associacao/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Associação alerta sobre alterações do preço dos genéricos",
+    "lead": "Posição de associação de utentes surge depois de a Associação Portuguesa de Medicamentos pela Equidade em Saúde ter pedido ao Governo medidas para evitar risco de ruturas de medicamentos essenciais.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:46:18+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 35,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2019/10/10102412/108339198_770x433_acf_cropped.jpg",
+        "credit_raw": "Getty Images",
+        "photographers": [],
+        "agency": "Getty Images"
+      },
+      "categories": [
+        "Medicamentos",
+        "Farmácias",
+        "País",
+        "Sociedade",
+        "Indústria Farmacêutica",
+        "Indústria",
+        "Economia"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/china-aprova-preparativos-da-visa-para-entrar-no-mercado-de-cartoes-bancarios/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Visa prepara entrada no mercado chinês de cartões bancários",
+    "lead": "Visa Information Technology (Pequim), sociedade constituída na China pela multinacional norte-americana, terá um ano para concluir os preparativos até ter autorização para iniciar operações.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:42:11+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 36,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1124:nowe:0:101/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13090730/1977376.jpg",
+        "credit_raw": null,
+        "photographers": [],
+        "agency": null
+      },
+      "categories": [
+        "China",
+        "Mundo",
+        "Empresas",
+        "Economia"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/cirurgia-bariatrica-ou-metabolica-reduz-impacto-de-doencas-associadas-a-obesidade/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Obesidade. Cirurgia bariátrica reduz impacto de doenças",
+    "lead": "Grupo de investigadores acompanhou, ao longo de três anos, 383 doentes do Centro de Responsabilidade Integrado de Obesidade da Unidade Local de Saúde São João, no Porto.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:30:03+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 37,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:199/q:70/plain/https://s3.observador.pt/wp-content/uploads/2022/05/16093729/28400506.jpg",
+        "credit_raw": "ESTELA SILVA/LUSA",
+        "photographers": [
+          "Estela Silva"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Estudo Científico",
+        "Ciência",
+        "Doenças",
+        "Saúde",
+        "Medicina",
+        "Indústria Farmacêutica",
+        "Indústria",
+        "Economia",
+        "Inovação",
+        "Tecnologia",
+        "Ensino Superior",
+        "Educação",
+        "Universidades",
+        "Porto",
+        "País",
+        "Sociedade",
+        "Universidade do Porto"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/agente-da-psp-atropelado-enquanto-sinalizava-limpeza-de-via-em-loures/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Loures. PSP atropelado enquanto sinalizava acidente de carro",
+    "lead": "Polícia sofreu rotura de ligamentos após ser atingido por espelho de carro e foi transportado para o Hospital Santa Maria. Estava a sinalizar acidente de carro, em Santa Iria de Azóia.",
+    "authors": [
+      {
+        "name": "Miguel Pereira Santos",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Miguel Pereira Santos",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T08:26:41+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 39,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2298:nowe:0:98/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/03/17011818/arquivo-diogofariareis-9052-scaled.jpg",
+        "credit_raw": "DIOGO FARIA REIS/OBSERVADOR",
+        "photographers": [
+          "Diogo Faria Reis"
+        ],
+        "agency": "Observador"
+      },
+      "categories": [
+        "Loures",
+        "País",
+        "Sociedade",
+        "PSP",
+        "Polícia",
+        "Segurança"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/ultimo-diretor-do-sef-critica-extincao-e-diz-que-aima-nao-resolveu-problemas/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Último diretor do SEF critica a extinção do serviço",
+    "lead": "Por ocasião dos três anos da criação da AIMA, na sequência da extinção do SEF, o último diretor do SEF Paulo Batista reconheceu que houve um agravamento das pendências devido à demora do processo.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:35:23+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 45,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:81/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13080107/41742239.jpg",
+        "credit_raw": "MIGUEL A. LOPES/LUSA",
+        "photographers": [
+          "Miguel A. Lopes"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Serviço De Estrangeiros E Fronteiras",
+        "Polícia",
+        "Segurança",
+        "Sociedade",
+        "AIMA",
+        "Imigração",
+        "Mundo"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/agencia-espacial-europeia-apoia-competicao-universitaria-de-foguetes-em-portugal/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Agência Espacial Europeia apoia competição em Portugal",
+    "lead": "European Rocketry Challenge (EuRoC) é uma competição que coloca estudantes a desenvolver foguetes em Constância. Apoio da agência reforça a ligação entre o ensino superior e o setor espacial europeu.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:33:29+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 46,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:211/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/10/15081051/45847479.jpg",
+        "credit_raw": "PAULO CUNHA/LUSA",
+        "photographers": [
+          "Paulo Cunha"
+        ],
+        "agency": "Lusa"
+      },
+      "categories": [
+        "Exploração Espacial",
+        "Espaço",
+        "Ciência",
+        "Estudantes",
+        "Educação",
+        "Ensino Superior",
+        "Europa",
+        "Mundo"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  },
+  {
+    "url": "https://observador.pt/2026/10/13/arabia-saudita-intercepta-tres-misseis-lancados-por-houthis-apos-ataques/",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Arábia Saudita intercepta três mísseis lançados por houthis",
+    "lead": "Coligação militar anti-houthis refere que \"um míssil balístico lançado pela milícia terrorista\" contra a capital, Riade, foi intercetado e destruído assim como outros que tinham como alvo o sudoeste.",
+    "authors": [
+      {
+        "name": "Agência Lusa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Agência Lusa",
+    "section": null,
+    "subsection": null,
+    "published_at": "2026-10-13T07:26:37+00:00",
+    "published_at_precision": "datetime",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "post",
+    "zone": "rss",
+    "zones": [],
+    "rank": 48,
+    "excluded_reason": null,
+    "site_meta": {
+      "image": {
+        "url": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2000:1122:nowe:0:103/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/13065034/47913960.jpg",
+        "credit_raw": "YAHYA ARHAB/EPA",
+        "photographers": [
+          "Yahya Arhab"
+        ],
+        "agency": "EPA"
+      },
+      "categories": [
+        "Médio Oriente",
+        "Mundo",
+        "Mísseis",
+        "Armamento",
+        "Defesa",
+        "Sociedade",
+        "Arábia Saudita"
+      ]
+    },
+    "extraction_debug": {
+      "url": "rss:link",
+      "rank": "ordem no feed",
+      "piece_type_raw": "url (permalink do tipo de post)",
+      "title": "rss:title",
+      "lead": "rss:description",
+      "published_at": "rss:pubDate",
+      "byline_raw": "rss:dc:creator",
+      "authors": "rss:dc:creator",
+      "agencies": "rss:dc:creator (assinatura de agência)",
+      "site_meta.image": "rss:media:content + media:credit",
+      "site_meta.categories": "rss:category",
+      "piece_type": "piece_type_raw"
+    }
+  }
+]

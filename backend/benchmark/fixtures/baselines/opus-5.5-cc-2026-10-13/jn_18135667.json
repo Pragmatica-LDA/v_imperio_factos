@@ -1,0 +1,37 @@
+{
+  "piece_type": "entrevista",
+  "entities": [
+    {"name": "Mário Centeno", "canonical_name": "Mário Centeno", "type": "pessoa", "is_public": true, "roles": ["entrevistado", "citado", "fonte"], "position_at_date": "ex-ministro das Finanças", "sentiment": "neutro", "sentiment_reason": "É o entrevistado; a peça reproduz as suas posições sem juízo sobre ele."},
+    {"name": "Governo", "canonical_name": "Governo de Portugal", "type": "governo", "is_public": true, "roles": ["visado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Centeno acusa-o de incompetência, de erros de política e de governar sem bússola."},
+    {"name": "Luís Montenegro", "canonical_name": "Luís Montenegro", "type": "pessoa", "is_public": true, "roles": ["visado"], "position_at_date": "primeiro-ministro", "sentiment": "negativo", "sentiment_reason": "Centeno lança-lhe farpas e compara-o a Sócrates em 2009, acusando-o de ter votado medidas que aumentaram o défice."},
+    {"name": "André Ventura", "canonical_name": "André Ventura", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "deputado", "sentiment": "negativo", "sentiment_reason": "O lead diz que Centeno lança farpas a Ventura, a propósito do que aconteceu no seu gabinete."},
+    {"name": "António Costa", "canonical_name": "António Costa", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "negativo", "sentiment_reason": "Centeno chama 'idiota' ao código de conduta criado no seu Governo."},
+    {"name": "Marcelo Rebelo de Sousa", "canonical_name": "Marcelo Rebelo de Sousa", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "presidente da República", "sentiment": "neutro", "sentiment_reason": "Pergunta sobre se foi interventivo; Centeno responde de forma genérica, sem crítica directa."},
+    {"name": "PS", "canonical_name": "Partido Socialista", "type": "partido", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido a propósito de um eventual Bloco Central e da liderança."},
+    {"name": "PSD", "canonical_name": "Partido Social Democrata", "type": "partido", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido a propósito do Bloco Central de 1983 e de um eventual novo."},
+    {"name": "Sócrates", "canonical_name": "José Sócrates", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Comparação histórica com 2009, sem juízo sobre ele."},
+    {"name": "Mário Soares", "canonical_name": "Mário Soares", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Exemplo histórico de presidente interventivo."},
+    {"name": "Ramalho Eanes", "canonical_name": "Ramalho Eanes", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Exemplo histórico (criou um partido)."},
+    {"name": "Jorge Sampaio", "canonical_name": "Jorge Sampaio", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "positivo", "sentiment_reason": "Centeno diz que teve uma intervenção importantíssima no país."},
+    {"name": "Cavaco Silva", "canonical_name": "Aníbal Cavaco Silva", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Exemplo histórico (presidente durante a crise financeira)."},
+    {"name": "Santana Lopes", "canonical_name": "Pedro Santana Lopes", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido a propósito da demissão do seu governo por Sampaio."},
+    {"name": "FMI", "canonical_name": "Fundo Monetário Internacional", "type": "organizacao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referência histórica à intervenção externa de 1983."}
+  ],
+  "sources": [
+    {"type": "especialista", "entity_name": "Mário Centeno", "partial_attribute": null, "excerpt": "Até agosto, a despesa na saúde estava crescer 12%, e, em três anos, vai quase em 30% de aumento."}
+  ],
+  "themes": [
+    {"path": ["Economia", "Finanças públicas"], "kind": "tema", "edition": null, "weight": 0.8, "is_new": false},
+    {"path": ["Política", "Orçamento do Estado"], "kind": "tema", "edition": "OE2027", "weight": 0.6, "is_new": false},
+    {"path": ["Política", "Governo"], "kind": "tema", "edition": null, "weight": 0.6, "is_new": false},
+    {"path": ["Política", "Partidos"], "kind": "tema", "edition": null, "weight": 0.3, "is_new": false},
+    {"path": ["Sociedade", "Saúde"], "kind": "tema", "edition": null, "weight": 0.2, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Entrevista JN/TSF em formato pergunta-resposta (tipo do site confirma). Sentimento negativo para Governo e Montenegro pelas acusações de incompetência; Ventura negativo porque o lead fala em farpas; Costa negativo pelo código de conduta 'idiota'. Centeno é fonte de dados factuais (desvio de 6,2 mil milhões, despesa na saúde), classificado como especialista por falar como ex-ministro e economista, não em nome de uma instituição. OE2027 nas tags e na referência à conta de 2027.",
+    "sources_used": ["lead", "1.º bloco (Diabo, desvio, saúde)", "bloco sobre o código de conduta", "bloco sobre presidentes", "tags do site (OE2027)"],
+    "sources_discarded": ["fotografias (Rita Chantre): crédito de imagem, não é entidade da notícia", "Jorge Palma e livro de Centeno: referência cultural sem papel", "AD de 1983: referência histórica vaga", "Lisboa e Porto (apresentação do livro): não são o local da notícia"]
+  }
+}

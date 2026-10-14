@@ -1,0 +1,28 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "André Ventura", "canonical_name": "André Ventura", "type": "pessoa", "is_public": true, "roles": ["visado", "citado"], "position_at_date": "presidente do Chega", "sentiment": "neutro", "sentiment_reason": "Relato factual da recandidatura e das suas declarações."},
+    {"name": "Chega", "canonical_name": "Chega", "type": "partido", "is_public": true, "roles": ["visado", "fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Relato factual das diretas e da convenção; as invalidações do TC são referidas sem juízo."},
+    {"name": "Tribunal Constitucional", "canonical_name": "Tribunal Constitucional", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido por ter invalidado convenções e alterações aos estatutos."},
+    {"name": "Lusa", "canonical_name": "Agência Lusa", "type": "meio_comunicacao", "is_public": true, "roles": ["fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Agência a quem o partido confirmou a informação."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Chega", "partial_attribute": "fonte oficial do partido", "excerpt": "confirmou à Lusa fonte oficial do partido"},
+    {"type": "agencia", "entity_name": "Agência Lusa", "partial_attribute": null, "excerpt": "confirmou à Lusa fonte oficial do partido"},
+    {"type": "oficial", "entity_name": "André Ventura", "partial_attribute": null, "excerpt": "De acordo com o próprio, a sua candidatura foi subscrita por todos os presidentes das estruturas distritais"}
+  ],
+  "themes": [
+    {"path": ["Política", "Partidos", "Eleições internas"], "kind": "tema", "edition": "Diretas do Chega 2026", "weight": 1.0, "is_new": false},
+    {"path": ["Política", "Partidos", "VII Convenção Nacional do Chega"], "kind": "evento", "edition": null, "weight": 0.5, "is_new": true},
+    {"path": ["Política", "Partidos"], "kind": "tema", "edition": null, "weight": 0.5, "is_new": false}
+  ],
+  "locations": [
+    {"name": "Lisboa", "level": "concelho", "parent": "Lisboa"}
+  ],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia de agência sobre a recandidatura de Ventura como candidato único às diretas de 31 de outubro. Tom factual: sentimentos neutros. Diretas como edição de Eleições internas (recorrência por evento); a convenção de novembro é um evento novo. Lisboa por ser onde foi entregue a candidatura.",
+    "sources_used": ["lead (fonte oficial do partido à Lusa)", "3.º parágrafo (de acordo com o próprio)", "parágrafos finais (Tribunal Constitucional)"],
+    "sources_discarded": ["Viana do Castelo: local da convenção anterior, não desta notícia", "Orçamento do Estado para 2027: só referência de calendário", "eleições presidenciais: contexto"]
+  }
+}

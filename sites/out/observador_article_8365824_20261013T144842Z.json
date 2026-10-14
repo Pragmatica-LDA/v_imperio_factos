@@ -1,0 +1,116 @@
+{
+  "url": "https://observador.pt/2026/10/13/prisao-preventiva-para-5-dos-15-detidos-em-operacao-contra-trafico-de-droga-no-porto/",
+  "canonical_url": "https://observador.pt/2026/10/13/prisao-preventiva-para-5-dos-15-detidos-em-operacao-contra-trafico-de-droga-no-porto/",
+  "aliases": [],
+  "site_article_id": "8365824",
+  "title": "Prisão preventiva para 5 dos 15 detidos em operação contra tráfico de droga no Porto",
+  "lead": "PSP do Porto explica que a cinco dos detidos foi aplicada como medida de coação a prisão preventiva, a seis deles a obrigação de apresentações bissemanais, a um a obrigação de apresentações diárias.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Cinco dos 15 detidos, na quarta-feira, no Porto, no âmbito de uma operação contra o tráfico de droga, ficam em prisão preventiva, e os restantes com obrigação de apresentações junto das autoridades, foi esta terça-feira anunciado.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na quarta-feira, a PSP deteve 15 pessoas, 12 homens e três mulheres, e apreendeu mais de 24 mil doses de droga, no âmbito de uma operação centrada nos concelhos do Porto, Gaia, Vila do Conde e Matosinhos.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Em comunicado, o Comando Metropolitano da PSP do Porto explica que a cinco dos detidos foi aplicada como medida de coação a prisão preventiva, a seis deles a obrigação de apresentações bissemanais, a um a obrigação de apresentações diárias e o último ficou com Termo de Identidade e Residência.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Os detidos têm idades entre os 22 e os 63 anos e são residentes no Porto, Vila Nova de Gaia e Vila do Conde.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Daquela operação, centrada na zona da Arrábida, bairro da Pasteleira e bairro Pinheiro Torres, no Porto, bem como em Vila do Conde, Matosinhos e Gaia, resultou a apreensão de mais de 24 mil doses de estupefaciente e de mais de 340 mil euros.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Agência Lusa",
+      "role": "texto",
+      "url": "https://observador.pt/perfil/lusa/",
+      "affiliation": null
+    }
+  ],
+  "agencies": [
+    "Lusa"
+  ],
+  "byline_raw": "Agência Lusa",
+  "images": [
+    {
+      "url": "https://s3.observador.pt/wp-content/uploads/2026/10/01164231/jporfirio-reportagem-forte-do-alto-do-duque-psp-investigacao-criminal-01-10-2026-01-15-scaled.jpg",
+      "caption": "Os detidos têm idades entre os 22 e os 63 anos e são residentes no Porto, Vila Nova de Gaia e Vila do Conde",
+      "photographers": [
+        "João Porfírio"
+      ],
+      "credit_raw": "JOÃO PORFÍRIO/OBSERVADOR",
+      "agency": "Observador",
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T11:46:46+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "Sociedade",
+  "subsection": "Porto",
+  "tags": [
+    "Porto",
+    "País",
+    "Sociedade",
+    "Tráfico de Droga",
+    "Crime",
+    "PSP",
+    "Polícia",
+    "Segurança"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "post",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "html",
+  "word_count": 189,
+  "out_of_scope": null,
+  "site_meta": {
+    "post_type": "post",
+    "small_title": "Tráfico de droga. Prisão preventiva para 5 dos 15 detidos",
+    "main_category": "porto",
+    "top_category": "sociedade",
+    "exclusive": false,
+    "sponsored": false,
+    "is_initiative": false,
+    "sensitive": 0,
+    "jsonld_word_count": 377,
+    "content_length": 1163,
+    "html_blocks": 5
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "html:body.postid-N",
+    "title": "jsonld:headline",
+    "lead": "html:.article-head-content-headline-lead",
+    "byline_raw": "html:.author-name / .columnist-info-name",
+    "authors": "jsonld:author + html:.author-credit/.columnist (papel e perfil)",
+    "published_at": "jsonld:datePublished",
+    "section": "jsonld:articleSection",
+    "subsection": "contextualData.mainCategory + html:article a[href*=/seccao/] (nome)",
+    "tags": "jsonld:keywords",
+    "access": "sem marcas de premium (jsonld/body/contextualData)",
+    "body": "html:.article-body-content (todos os contentores; p, h1.tinymceh1→h2, h2-h4, blockquote, li); promos [..] e anúncios removidos",
+    "word_count": "contagem de palavras do corpo extraído",
+    "body_complete": "html cobre 100% do texto do jsonld:articleBody",
+    "images": "principal: html:figcaption .creditos; 1 imagem(ns) solta(s) no corpo sem legenda/crédito ignorada(s) (promo?) (jsonld:image não tem crédito)",
+    "agencies": "autor",
+    "piece_type_raw": "html:body class / contextualData.postType",
+    "piece_type": "piece_type_raw",
+    "site_meta": "contextualData (pageTargeting + post.*), jsonld:wordCount"
+  }
+}

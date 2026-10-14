@@ -1,0 +1,96 @@
+{
+  "url": null,
+  "canonical_url": "https://www.jn.pt/nacional/artigo/governo-admite-rombo-de-dois-mil-milhoes-na-riqueza-do-pais-se-a-economia-piorar/18135966",
+  "aliases": [],
+  "site_article_id": "18135966",
+  "title": "Governo admite rombo de dois mil milhões na riqueza do país se a economia piorar",
+  "lead": "Travagem do consumo ameaça crescimento da economia previsto de 2,1% e subida dos juros pode destruir excedente de 0,1%, colocando o país em défice. Cenários previstos no Orçamento do Estado para 2027 podem empurrar contas para o vermelho.",
+  "body": [],
+  "authors": [
+    {
+      "name": "António José Gouveia",
+      "role": null,
+      "url": "https://www.jn.pt/autor/antonio-jose-gouveia",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "António José Gouveia",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/78009221-b891-4854-a7f8-226ae391ca02_1200x675.jpg",
+      "caption": "A subida das taxas de juro pode agravar o saldo das contas públicas em 1703 milhões de euros, fazendo desaparecer o excedente de 0,1%",
+      "photographers": [
+        "António Pedro Santos"
+      ],
+      "credit_raw": "Foto: António Pedro Santos/Lusa",
+      "agency": "Lusa",
+      "is_main": true,
+      "is_archive": false
+    },
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/image.webp?brand=jn&type=generate&guid=4a8450b9-895c-4659-9031-8309537de082",
+      "caption": null,
+      "photographers": [],
+      "credit_raw": null,
+      "agency": null,
+      "is_main": false,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-12T06:00:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "nacional",
+  "subsection": null,
+  "tags": [
+    "Nacional",
+    "OE2027",
+    "Impostos",
+    "Economia",
+    "taxas de juro",
+    "consumo",
+    "Governo"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "premium",
+  "body_complete": false,
+  "body_source": null,
+  "word_count": null,
+  "out_of_scope": "premium_sem_texto_integral",
+  "site_meta": {
+    "headline": "Orçamento do Estado",
+    "section_name": "Nacional",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [
+      "NG:Exclusivo",
+      "NG:Print"
+    ],
+    "site_word_count": 873,
+    "reading_minutes": 5,
+    "seo_title": "Governo admite rombo de dois mil milhões se economia piorar",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-12T07:00:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url | FALHA DE CRÉDITO: Media[1] sem crédito nem legenda no RSC: imagem inserida no texto (Flags=text); não desenhada no HTML (corpo cortado pelo paywall?)",
+    "authors": "rsc:Authors[].Signature",
+    "byline_raw": "rsc:Authors[].Signature",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "premium sem texto integral: 72 palavras no source vs WordCount 873; caixa de paywall no HTML; corpo parcial descartado",
+    "out_of_scope": "access=premium e corpo incompleto"
+  }
+}

@@ -1,0 +1,4223 @@
+[
+  {
+    "url": "https://www.jn.pt/pais/artigo/jovem-morre-apos-despiste-de-camiao-que-tombou-em-cima-de-carros-no-ic5/18136505",
+    "site_article_id": "18136505",
+    "aliases": [],
+    "title": "Filho da \"vice\" de Vila Flor morre em acidente com camião que tombou sobre carros",
+    "lead": "O despiste de um camião, esta terça-feira de manhã, provocou um morto e três feridos no Itinerário Complementar 5 (IC5), perto de Vila Flor, levando ao corte da estrada, adiantou fonte da Proteção Civil. O JN sabe que a vítima mortal é o filho de 19 anos da vice-presidente da Câmara Municipal de Vila Flor.",
+    "authors": [
+      {
+        "name": "Fernando Pires",
+        "role": null,
+        "url": "https://www.jn.pt/autor/fernando-pires",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Fernando Pires",
+    "section": "pais",
+    "subsection": "vila-flor",
+    "published_at": "2026-10-13T08:06:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "pais"
+    ],
+    "rank": 0,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Tinha 19 anos",
+      "section_name": "Vila Flor",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "ad6008b4-5a26-4f3d-b464-6c06c4973e44"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/a-noite-foi-complicada-cerca-de-50-manifestantes-dormiram-ao-relento-no-porto/18136532",
+    "site_article_id": "18136532",
+    "aliases": [],
+    "title": "\"A noite foi complicada\". Cerca de 50 manifestantes dormiram ao relento no Porto",
+    "lead": "Cerca de 50 manifestantes passaram a noite ao relento na Praça de D. João I, no Porto, em protesto contra os preços da habitação, depois de, na segunda-feira, a autarquia ter mandado retirar as tendas, por falta de autorização.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "pais",
+    "subsection": "porto",
+    "published_at": "2026-10-13T09:30:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "pais"
+    ],
+    "rank": 1,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Habitação",
+      "section_name": "Porto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "eb58df00-c036-448b-9892-ca8afce449db"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/media/artigo/germano-silva-95-anos-a-contar-as-pedras-e-as-gentes-que-fazem-a-alma-do-porto/18136423",
+    "site_article_id": "18136423",
+    "aliases": [],
+    "title": "Germano Silva: 95 anos a contar as pedras e as gentes que fazem a alma do Porto",
+    "lead": "Germano Silva celebra hoje aniversário marcado por homenagens várias. Sem sinais de cansaço, prossegue a missão de divulgar a História (e as histórias) da cidade.",
+    "authors": [
+      {
+        "name": "Sérgio Almeida",
+        "role": null,
+        "url": "https://www.jn.pt/autor/sergio-almeida",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Sérgio Almeida",
+    "section": "media",
+    "subsection": null,
+    "published_at": "2026-10-13T06:43:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 2,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Aniversário",
+      "section_name": "Média",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "424d3296-0d6d-469b-9f37-a63cea52a998"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/federacao-portuguesa-de-futebol-celebra-golo-de-ronaldo-pelo-al-nassr/18136492",
+    "site_article_id": "18136492",
+    "aliases": [],
+    "title": "Federação Portuguesa de Futebol celebra golo de Ronaldo pelo Al Nassr",
+    "lead": "Cristiano Ronaldo está suspenso preventivamente da seleção nacional e sob alçada disciplinar, mas isso não impediu que a Federação Portuguesa de Futebol (FPF) celebrasse o golo de ontem à noite do português, pelo Al Nassr, da Arábia Saudita, após a vitória na Liga dos Campeões da Ásia.",
+    "authors": [
+      {
+        "name": "Luís Pedro Carvalho",
+        "role": null,
+        "url": "https://www.jn.pt/autor/luis-pedro-carvalho",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Luís Pedro Carvalho",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T07:34:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "desporto"
+    ],
+    "rank": 3,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Futebol",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "9f54c038-d4dc-4324-b088-850405b78c68"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/gemelli-o-que-precisa-de-saber-sobre-o-hospital-dos-papas/18136573",
+    "site_article_id": "18136573",
+    "aliases": [],
+    "title": "Gemelli: o que precisa de saber sobre o \"hospital dos Papas\"",
+    "lead": "O Papa Leão XIV foi internado hoje no hospital Policlinico Universitario Agostino Gemelli, em Roma, para a cirurgia de remoção de um nódulo no pulmão. Apesar de ser a primeira vez, desde que se tornou Papa, que vai ser internado na instituição, ao longo dos anos, o Gemelli tem vindo a tratar vários pontífices, sendo inclusivamente chamado de \"hospital dos Papas\".",
+    "authors": [
+      {
+        "name": "Mariana Bettencourt",
+        "role": null,
+        "url": "https://www.jn.pt/autor/mariana-bettencourt",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Mariana Bettencourt",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13T11:14:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "explicador"
+    ],
+    "rank": 4,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Papa Leão XIV",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "6de361c3-5a51-4549-aad1-6f37ff706fde"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/justica/artigo/prisao-preventiva-para-5-dos-15-traficantes-da-arrabida-detidos/18136577",
+    "site_article_id": "18136577",
+    "aliases": [],
+    "title": "Cinco traficantes da Arrábida vão para a cadeia",
+    "lead": "Cinco dos 15 detidos, na quarta-feira, no Porto, no âmbito de uma operação contra o tráfico de droga, ficam em prisão preventiva, e os restantes com obrigação de apresentações junto das autoridades, foi anunciado esta terça-feira.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "justica",
+    "subsection": null,
+    "published_at": "2026-10-13T11:19:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 5,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Tráfico",
+      "section_name": "Justiça",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "88d57192-7e18-41eb-83a4-bfa47422131a"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/porto-atlantico-interpoe-providencia-cautelar-para-parar-obras-do-emporium-park/18136544",
+    "site_article_id": "18136544",
+    "aliases": [],
+    "title": "Porto Atlântico interpõe providência cautelar para parar obras do Emporium Park",
+    "lead": "A associação Porto Atlântico interpôs uma providência cautelar para suspender as obras do empreendimento Emporium Park, junto ao Parque da Cidade, considerando ineficaz o embargo \"parcial\" da Câmara do Porto, a quem esta ação judicial é dirigida, segundo nota enviada à Lusa.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "pais",
+    "subsection": "porto",
+    "published_at": "2026-10-13T09:54:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "pais"
+    ],
+    "rank": 6,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Empreendimento",
+      "section_name": "Porto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "ecf214ee-608f-43ba-b7c2-d876f49107da"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/alverca-rescinde-contrato-com-guarda-redes-que-agrediu-jogador-adversario/18136554",
+    "site_article_id": "18136554",
+    "aliases": [],
+    "title": "Alverca rescinde contrato com guarda-redes que agrediu jogador adversário",
+    "lead": "O Alverca comunicou que rescindiu contrato com Mateus Mendes, guarda-redes que agrediu um jogador do Oliveira do Hospital, após o fim da partida.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T10:26:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "desporto"
+    ],
+    "rank": 7,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Futebol",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "764ae09e-c00b-4cb2-898d-d7890554cb0d"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/aviao-parado-ha-meses-em-lisboa-apos-carga-solta-ter-destruido-interior/18136540",
+    "site_article_id": "18136540",
+    "aliases": [],
+    "title": "Avião parado há meses em Lisboa após carga solta ter destruído interior",
+    "lead": "Um Airbus A330-900 da companhia brasileira Azul está, desde 17 de abril, estacionado no Aeroporto de Lisboa, por ter sofridos \"danos significativos\" ao aterrar no nosso país, devido a uma palete mal acondicionada no compartimento de carga. A investigação aponta para \"deficiências no processo de carregamento\" no aeroporto de origem, no Brasil.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-13T10:12:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "nacional"
+    ],
+    "rank": 8,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Incidente",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "3d7c6a38-a71c-477b-b166-5e75f70f29ca"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/o-bacalhau-esta-mau-hoje-artur-jorge-discute-com-adepto-durante-jogo-apos-comentario-xenofobo/18136523",
+    "site_article_id": "18136523",
+    "aliases": [],
+    "title": "\"O bacalhau está mau hoje\". Artur Jorge discute com adepto durante jogo após comentário xenófobo",
+    "lead": "O Cruzeiro, de Artur Jorge, perdeu (4-2) na jornada 30 do Brasileirão, em casa do Red Bull Bragantino, num jogo marcado pela discussão do treinador português com um adepto adversário durante o jogo.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T09:14:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "desporto"
+    ],
+    "rank": 9,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Vídeo",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "e46c3ec3-57ae-440e-bbae-187f4087ab83"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/dois-navios-atingidos-por-drones-ao-largo-da-bulgaria-um-afundou/18136480",
+    "site_article_id": "18136480",
+    "aliases": [],
+    "title": "Dois navios atingidos por drones ao largo da Bulgária. Um afundou",
+    "lead": "Dois navios, um deles de propriedade ucraniana, foram atingidos por drones no Mar Negro, anunciou o primeiro-ministro da Bulgária, Rumen Radev, esta terça-feira. O incidente ocorreu a cerca de 24 quilómetros da costa da Bulgária, uma semana depois de um incidente semelhante.",
+    "authors": [
+      {
+        "name": "Maria Campos",
+        "role": null,
+        "url": "https://www.jn.pt/autor/maria-campos",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Maria Campos",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13T06:11:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais"
+    ],
+    "rank": 10,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Mar Negro",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "07759743-d057-4e75-bebd-359a49004965"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/ministerio-da-administracao-interna-e-novela-permanente-de-casos-diz-bloco-de-esquerda/18136568",
+    "site_article_id": "18136568",
+    "aliases": [],
+    "title": "Ministério da Administração Interna é \"novela permanente de casos\", diz Bloco de Esquerda",
+    "lead": "O coordenador do BE, José Manuel Pureza, pediu esclarecimentos sobre o afastamento do secretário-geral do ministério da Administração Interna, considerando \"um bocadinho constrangedor\" a sucessão de \"casos e trapalhadas\" naquele ministério.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-13T11:00:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais",
+      "nacional"
+    ],
+    "rank": 11,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Nacional",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "ad7b77b7-f9c2-40df-8276-c31b4b6c1aa9"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/china-vai-executar-membros-de-grupo-criminoso-que-lucrou-milhoes-com-burlas/18136545",
+    "site_article_id": "18136545",
+    "aliases": [],
+    "title": "China vai executar membros de grupo criminoso que lucrou milhões com burlas",
+    "lead": "O Tribunal Popular Intermediário de Quanzhou condenou à morte, esta terça-feira, três membros de um grupo criminoso que realizavam burlas na região de Kokang, em Mianmar, na fronteira com a China, e prendeu dezenas de elementos do mesmo grupo.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13T10:03:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais"
+    ],
+    "rank": 12,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "China",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "42ad85a8-0300-4c02-9804-be6ba919a994"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/renault-vai-reduzir-producao-em-300-mil-veiculos-devido-a-metas-europeias/18136576",
+    "site_article_id": "18136576",
+    "aliases": [],
+    "title": "Renault vai reduzir produção em 300 mil veículos devido a metas europeias",
+    "lead": "O presidente executivo (CEO) da Renault, François Provost, alertou, esta terça-feira, que terá de reduzir a produção do grupo na Europa em 300 mil veículos se Bruxelas não flexibilizar as metas de emissões de carbono fixadas para 2030.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13T11:18:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais"
+    ],
+    "rank": 13,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "UE",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "07ae598c-bdca-4086-b82a-09f8d5c804de"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/justica/artigo/esfaqueou-homem-que-agrediu-a-amiga-num-restaurante-em-coimbra/18136536",
+    "site_article_id": "18136536",
+    "aliases": [],
+    "title": "Esfaqueou homem que agrediu a amiga num restaurante em Coimbra",
+    "lead": "A Polícia Judiciária, através da Diretoria do Centro e com a colaboração da GNR, deteve um homem, de 40 anos, pela presumível prática de um crime de homicídio, na forma tentada, ocorrido na madrugada deste domingo, num restaurante na zona de Coimbra. Esfaqueou um homem que havia agredido uma sua amiga.",
+    "authors": [
+      {
+        "name": "Reis Pinto",
+        "role": null,
+        "url": "https://www.jn.pt/autor/reis-pinto",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Reis Pinto",
+    "section": "justica",
+    "subsection": null,
+    "published_at": "2026-10-13T09:41:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais"
+    ],
+    "rank": 14,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "PJ",
+      "section_name": "Justiça",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "21666d8b-e8f5-4cd6-acd1-450c7295bbd1"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/montenegrino-arbitra-rececao-do-benfica-ao-celtic-na-liga-europa/18136566",
+    "site_article_id": "18136566",
+    "aliases": [],
+    "title": "Montenegrino arbitra receção do Benfica ao Celtic na Liga Europa",
+    "lead": "O montenegrino Nikola Dabanovic vai arbitrar a receção do Benfica ao Celtic, da Liga Europa de futebol, com o albanês Enea Jorgji a estar no encontro entre o Torreense e o Sunderland, anunciou esta terça-feira a UEFA.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T11:24:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais",
+      "desporto"
+    ],
+    "rank": 15,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Futebol",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "65e78d3d-190d-4ddb-af1d-e3627a17f5b4"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/justica/artigo/detido-por-cuspir-e-agredir-a-mae-na-cabeca-em-cascais/18136560",
+    "site_article_id": "18136560",
+    "aliases": [],
+    "title": "Detido por agredir a mãe na cabeça e cuspir-lhe na cara",
+    "lead": "Uma mulher, de 67 anos, terá vivido durante vários anos num clima de medo e intimidação provocado pelo próprio filho, de 34 anos, que acabou detido pela PSP, em Cascais, por suspeita de violência doméstica. Chegou a cuspir-lhe na cara e a agredi-la na cabeça. Ficou em prisão preventiva.",
+    "authors": [
+      {
+        "name": "Reis Pinto",
+        "role": null,
+        "url": "https://www.jn.pt/autor/reis-pinto",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Reis Pinto",
+    "section": "justica",
+    "subsection": null,
+    "published_at": "2026-10-13T10:29:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais"
+    ],
+    "rank": 16,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Cascais",
+      "section_name": "Justiça",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "28cc466a-83c0-4b2b-9a61-8ae5fa8a4671"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/movimento-estudantil-questiona-ventura-sobre-invasao-da-radio-universidade-de-coimbra/18136542",
+    "site_article_id": "18136542",
+    "aliases": [],
+    "title": "Movimento estudantil questiona Ventura sobre invasão da Rádio Universidade de Coimbra",
+    "lead": "O Movimento Associativo Estudantil (MAE) endereçou, esta terça-feira, uma carta ao presidente do Chega, André Ventura, questionando o líder partidário sobre a invasão do estúdio da Rádio Universidade de Coimbra (RUC) por uma comitiva liderada por duas deputadas do partido.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-13T09:55:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "jnmais",
+    "zones": [
+      "jnmais",
+      "nacional"
+    ],
+    "rank": 17,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Estudantes",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "420e1115-d819-4039-92a7-181fe8f32f12"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/governo-admite-rombo-de-dois-mil-milhoes-na-riqueza-do-pais-se-a-economia-piorar/18135966",
+    "site_article_id": "18135966",
+    "aliases": [],
+    "title": "Governo admite rombo de dois mil milhões na riqueza do país se a economia piorar",
+    "lead": "Travagem do consumo ameaça crescimento da economia previsto de 2,1% e subida dos juros pode destruir excedente de 0,1%, colocando o país em défice. Cenários previstos no Orçamento do Estado para 2027 podem empurrar contas para o vermelho.",
+    "authors": [
+      {
+        "name": "António José Gouveia",
+        "role": null,
+        "url": "https://www.jn.pt/autor/antonio-jose-gouveia",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "António José Gouveia",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-12T06:00:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "oe2027",
+    "zones": [
+      "oe2027"
+    ],
+    "rank": 18,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Orçamento do Estado",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "78009221-b891-4854-a7f8-226ae391ca02"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/centeno-a-politica-nao-e-para-batermos-no-peito-como-se-fossemos-o-tarzan/18135667",
+    "site_article_id": "18135667",
+    "aliases": [],
+    "title": "Centeno: \"A política não é para batermos no peito como se fôssemos o Tarzan\"",
+    "lead": "Mário Centeno dispara em todas as direções. Acusa o Governo de \"incompetência\", arrasa a credibilidade das contas públicas após um desvio de 6,2 mil milhões de euros e põe em causa os cortes na saúde. O ex-ministro das Finanças diz que o problema não é o \"Diabo\", mas os erros de quem governa. Ataca a falta de rumo político, chama \"idiota\" ao código de conduta de Costa e lança farpas a Montenegro e Ventura.",
+    "authors": [
+      {
+        "name": "António José Gouveia",
+        "role": null,
+        "url": null,
+        "affiliation": "JN"
+      },
+      {
+        "name": "Judith Menezes e Sousa",
+        "role": null,
+        "url": null,
+        "affiliation": "TSF"
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "António José Gouveia (JN) e Judith Menezes e Sousa (TSF)",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-11T08:25:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "entrevista",
+    "piece_type_raw": "NG:Article | antetítulo: Entrevista JN/TSF",
+    "zone": "oe2027",
+    "zones": [
+      "oe2027"
+    ],
+    "rank": 19,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Entrevista JN/TSF",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "6973b463-ff41-42bb-9a67-4cca1950e8f8"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Headline (heurística antetítulo)",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/centeno-faz-sentido-reduzir-impostos-a-quem-ganha-mais-de-10-mil-euros-por-mes/18135662",
+    "site_article_id": "18135662",
+    "aliases": [],
+    "title": "Centeno: \"Faz sentido reduzir impostos a quem ganha mais de 10 mil euros por mês?\"",
+    "lead": "Académico, antigo ministro das Finanças e antigo governador do Banco de Portugal, já lhe chamaram \"Ronaldo do Ecofin\" e das Finanças, mas também \"Mário, o Cativador\", e desde esta semana é conselheiro independente da seguradora Abanca Vida e Pensões. Mário Centeno, sobre o passado, escreveu \"Contas certas\" juntamente com Filipe Santos Costa, o livro que o traz aqui. Sobre o futuro ainda deixa muitas interrogações à solta.",
+    "authors": [
+      {
+        "name": "António José Gouveia",
+        "role": null,
+        "url": null,
+        "affiliation": "JN"
+      },
+      {
+        "name": "Judith Menezes e Sousa",
+        "role": null,
+        "url": null,
+        "affiliation": "TSF"
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "António José Gouveia (JN) e Judith Menezes e Sousa (TSF)",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-11T08:23:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "entrevista",
+    "piece_type_raw": "NG:Article | antetítulo: Entrevista JN/TSF",
+    "zone": "oe2027",
+    "zones": [
+      "oe2027"
+    ],
+    "rank": 20,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Entrevista JN/TSF",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "ab4fa2ee-32a8-4be5-a8da-b33f01e9647a"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Headline (heurística antetítulo)",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/portugal-paga-em-2027-mais-de-metade-do-que-recebe-da-uniao-europeia/18135771",
+    "site_article_id": "18135771",
+    "aliases": [],
+    "title": "Portugal paga em 2027 mais de metade do que recebe da União Europeia",
+    "lead": "Com o fim do Plano de Recuperação e Resiliência (PRR), Portugal terá um rombo de 33,3% nos fundos da União Europeia (UE). As transferências para o nosso país deverão cair de 9,8 mil milhões de euros previstos em 2026 para quase 6,6 mil milhões no próximo ano, segundo o relatório do Orçamento do Estado (OE).",
+    "authors": [
+      {
+        "name": "Carla Soares",
+        "role": null,
+        "url": "https://www.jn.pt/autor/carla-soares",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Carla Soares",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-11T07:50:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "oe2027",
+    "zones": [
+      "oe2027"
+    ],
+    "rank": 21,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Fundos",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "221ccb91-e162-414b-9a01-48ba1b7f0032"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/propinas-podem-subir-cerca-de-20-euros-e-superar-os-700-euros/18135475",
+    "site_article_id": "18135475",
+    "aliases": [],
+    "title": "Propinas podem subir cerca de 20 euros e superar os 700 euros",
+    "lead": "Se o descongelamento das propinas entrasse hoje em vigor, o valor máximo de 697 euros seria atualizado pela taxa de inflação determinada para agosto (2,66%), resultando num aumento de 18,5 euros, e os estudantes passariam a pagar, por ano, 715,5 euros. Grupo de associações já agendou protesto para dia 21. Estudantes pedem \"coerência\" a PS e Chega que mantiveram congelamento no ano passado.",
+    "authors": [
+      {
+        "name": "Alexandra Inácio",
+        "role": null,
+        "url": "https://www.jn.pt/autor/alexandra-inacio",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Alexandra Inácio",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-10T10:41:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "oe2027",
+    "zones": [
+      "oe2027"
+    ],
+    "rank": 22,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Educação",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "feae243d-f9fd-4e0f-8ac8-3faff9a7a637"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/helena-tem-70-anos-e-ainda-trabalha-faz-limpezas-para-completar-pensao-de-560-euros/18135428",
+    "site_article_id": "18135428",
+    "aliases": [],
+    "title": "Helena tem 70 anos e ainda trabalha: faz limpezas para completar pensão de 560 euros",
+    "lead": "São cada vez mais os idosos que trabalham e descontam para a Segurança Social em Portugal, como revela o relatório da proposta do Orçamento do Estado para 2027. Helena Cruz Aos 70 anos, reformada ainda trabalha \"com muito esforço\" para manter o carro e \"comer uma comidinha melhor\".",
+    "authors": [
+      {
+        "name": "Ana Peixoto Fernandes",
+        "role": null,
+        "url": "https://www.jn.pt/autor/ana-peixoto-fernandes",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Peixoto Fernandes",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-10T07:24:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "oe2027",
+    "zones": [
+      "oe2027"
+    ],
+    "rank": 23,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Trabalho",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "8c9f8ff3-c006-4ccf-b692-662b338bcfb2"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/o-nodulo-a-cirurgia-e-o-papel-do-camerlengo-o-que-precisa-de-saber-sobre-a-operacao-do-papa/18136172",
+    "site_article_id": "18136172",
+    "aliases": [],
+    "title": "O nódulo, a cirurgia e o Camerlengo. O que precisa de saber sobre a operação do Papa",
+    "lead": "O Papa Leão XIV anunciou, este domingo durante o Angelus, que vai ser operado a um nódulo no pulmão, ainda em fase inicial. Segundo o Vaticano, vai ser hospitalizado na terça-feira, antes das 12 horas, embora não se saiba se a cirurgia vai decorrer no mesmo dia. O pontífice de 71 anos sucedeu a Francisco, em maio de 2025.",
+    "authors": [
+      {
+        "name": "Mariana Bettencourt",
+        "role": null,
+        "url": "https://www.jn.pt/autor/mariana-bettencourt",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Mariana Bettencourt",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-12T10:54:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "explicador",
+    "zones": [
+      "explicador"
+    ],
+    "rank": 30,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Papa Leão XVI",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "4a3daab5-e3c3-45eb-8cd0-dee5161abf93"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/praga-de-javalis-quais-as-medidas-tomadas-pelo-governo/18135082",
+    "site_article_id": "18135082",
+    "aliases": [],
+    "title": "Praga de javalis: Quais as medidas tomadas pelo Governo?",
+    "lead": "Está prometida para este mês a concretização do projeto de controlo de javalis, promovido pelo Governo e pelo Instituto da Conservação da Natureza e das Florestas (ICNF). \"O ICNF está a chamar todos os parceiros que têm um papel ativo na caça e são determinantes para aquilo que é a ação, como os municípios, para poder agir e atuar\", afirmou Rui Ladeira, secretário de Estado das Florestas.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-09T06:50:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "explicador",
+    "zones": [
+      "explicador"
+    ],
+    "rank": 31,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Explicador",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "71c40030-0aef-401d-890e-d8c3e5bf8555"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/estudantes-deixam-franca-a-ferro-e-fogo-o-que-precisa-de-saber/18134849",
+    "site_article_id": "18134849",
+    "aliases": [],
+    "title": "Estudantes deixam França a ferro e fogo: o que precisa de saber",
+    "lead": "Há mais de duas semanas que os estudantes de Ensino Secundário protestam em França. As manifestações, que já contam com apoio de outros setores, são consideradas as maiores em décadas e as comparações com o Maio de 68 são inevitáveis. Eis o que precisa de saber sobre o que está a acontecer em França.",
+    "authors": [
+      {
+        "name": "Carolina Vasconcelos Moreira",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Carolina Vasconcelos Moreira",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-08T14:14:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "explicador",
+    "zones": [
+      "explicador"
+    ],
+    "rank": 32,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Explicador",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "c69cd118-6405-43ff-8397-7d66d443a326"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/os-casos-e-casinhos-que-marcaram-a-legislatura-de-sanchez-e-o-psoe/18133837",
+    "site_article_id": "18133837",
+    "aliases": [],
+    "title": "Os casos e casinhos que marcaram a legislatura de Sánchez e o PSOE",
+    "lead": "O primeiro-ministro espanhol, Pedro Sánchez, convocou, esta segunda-feira, eleições antecipadas para 29 de novembro, pondo fim a uma legislatura marcada por casos judiciais, tensões do poder executivo com juízes e um bloqueio legislativo no Parlamento.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-05T18:02:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "explicador",
+    "zones": [
+      "explicador"
+    ],
+    "rank": 34,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Espanha",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "c794a8ac-8c5b-4990-8f4a-f4f490c6fec5"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/chega-sem-lei/18136260",
+    "site_article_id": "18136260",
+    "aliases": [],
+    "title": "Chega sem lei",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Luís Pedro Carvalho",
+        "role": null,
+        "url": "https://www.jn.pt/autor/luis-pedro-carvalho",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Luís Pedro Carvalho",
+    "section": "opiniao",
+    "subsection": null,
+    "published_at": "2026-10-12T23:05:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "opiniao",
+    "zones": [
+      "opiniao"
+    ],
+    "rank": 35,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Opinião",
+      "section_name": "Opinião",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "7c6615d8-a8f1-4986-8cb4-69e4a26f744e"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/entregas-rapidas-cidades-lentas/18136264",
+    "site_article_id": "18136264",
+    "aliases": [],
+    "title": "Entregas rápidas, cidades lentas",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Paula Teles",
+        "role": null,
+        "url": "https://www.jn.pt/autor/paula-teles",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Paula Teles",
+    "section": "opiniao",
+    "subsection": "praca-da-liberdade",
+    "published_at": "2026-10-12T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "opiniao",
+    "zones": [
+      "opiniao"
+    ],
+    "rank": 36,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Praça da Liberdade",
+      "section_name": "Praça da Liberdade",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "86a894df-8671-4008-992b-32c292660620"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/muita-obra-e-pouco-verde/18136461",
+    "site_article_id": "18136461",
+    "aliases": [],
+    "title": "Muita obra e pouco verde",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Capicua",
+        "role": null,
+        "url": "https://www.jn.pt/autor/capicua",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Capicua",
+    "section": "opiniao",
+    "subsection": null,
+    "published_at": "2026-10-12T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "opiniao",
+    "zones": [
+      "opiniao"
+    ],
+    "rank": 37,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Opinião",
+      "section_name": "Opinião",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "65dd8c67-47b7-4b5d-8f20-38585a3daa48"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/contas-certas/18136462",
+    "site_article_id": "18136462",
+    "aliases": [],
+    "title": "Contas certas?",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Pedro Nuno Teixeira",
+        "role": null,
+        "url": "https://www.jn.pt/autor/pedro-nuno-teixeira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Pedro Nuno Teixeira",
+    "section": "opiniao",
+    "subsection": "praca-da-liberdade",
+    "published_at": "2026-10-12T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "opiniao",
+    "zones": [
+      "opiniao"
+    ],
+    "rank": 38,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Praça da Liberdade",
+      "section_name": "Praça da Liberdade",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "b8f9e585-7d9d-4643-9344-dc61e80fb146"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/a-proposito-do-orcamento-2027/18136463",
+    "site_article_id": "18136463",
+    "aliases": [],
+    "title": "A propósito do Orçamento 2027",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Joaquim Cunha",
+        "role": null,
+        "url": "https://www.jn.pt/autor/joaquim-cunha",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Joaquim Cunha",
+    "section": "opiniao",
+    "subsection": "praca-da-liberdade",
+    "published_at": "2026-10-12T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "opiniao",
+    "zones": [
+      "opiniao"
+    ],
+    "rank": 39,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Praça da Liberdade",
+      "section_name": "Praça da Liberdade",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "613a3af3-d63f-431e-9e69-963bc8e41fc3"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/oito-em-oito/18136464",
+    "site_article_id": "18136464",
+    "aliases": [],
+    "title": "Oito em oito",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Marta Massada",
+        "role": null,
+        "url": "https://www.jn.pt/autor/marta-massada",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marta Massada",
+    "section": "opiniao",
+    "subsection": "bancada-jn",
+    "published_at": "2026-10-12T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "opiniao",
+    "zones": [
+      "opiniao"
+    ],
+    "rank": 40,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Bancada JN",
+      "section_name": "Bancada JN",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "cf01b109-459f-4775-b8d5-60bb7d2dfa64"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pessoas/artigo/filho-de-luis-represas-casa-se-com-homenagem-ao-pai-durante-a-cerimonia/18135891",
+    "site_article_id": "18135891",
+    "aliases": [],
+    "title": "Filho de Luís Represas casa-se com homenagem ao pai durante a cerimónia",
+    "lead": "João Nicolau trocou alianças com Nadine Castro este sábado, meses depois da morte de Luís Represas, aos 69 anos. Uma fotografia de infância do noivo ao lado do pai e um lugar vazio assinalaram a homenagem ao músico, que morreu em julho, vítima de cancro do pulmão.",
+    "authors": [
+      {
+        "name": "Sara Oliveira",
+        "role": null,
+        "url": "https://www.jn.pt/autor/sara-oliveira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Sara Oliveira",
+    "section": "pessoas",
+    "subsection": null,
+    "published_at": "2026-10-11T15:23:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 41,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Memória",
+      "section_name": "Pessoas",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "0b41f8c7-e4db-44f3-b2e5-77d4b100b4b0"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/mercado-do-cais-de-gaia-vai-fechar-a-maior-parte-dos-comerciantes-vai-para-o-desemprego/18136007",
+    "site_article_id": "18136007",
+    "aliases": [],
+    "title": "Mercado do Cais de Gaia vai fechar: \"A maior parte dos comerciantes vai para o desemprego\"",
+    "lead": "\"São 42 famílias que estão aqui. A maior parte de nós vive disto, e o presidente da Câmara diz que é irreversível\" a decisão de acabar com o Mercado do Cais de Gaia no final do ano, lamenta Fernanda Ferreira, que tem 70 anos e há seis vende bijuteria e vários outros artigos, na feira que \"mistura artesanato e urbano\" e que já funciona há mais de duas décadas, instalada perto da entrada do teleférico.",
+    "authors": [
+      {
+        "name": "Ana Correia Costa",
+        "role": null,
+        "url": "https://www.jn.pt/autor/ana-correia-costa",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Correia Costa",
+    "section": "pais",
+    "subsection": "vila-nova-de-gaia",
+    "published_at": "2026-10-12T06:58:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 42,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Comércio local",
+      "section_name": "Vila Nova de Gaia",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "1fe8b4d8-02b8-4b3d-a26d-a115f4037fb4"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/tres-mortos-em-acidente-de-trabalho-numa-fossa-septica-em-loule/18136240",
+    "site_article_id": "18136240",
+    "aliases": [],
+    "title": "Três operários morrem dentro reservatório de água em Loulé",
+    "lead": "Três homens morreram e três ficaram feridos, ao início da tarde desta segunda-feira, no interior de um reservatório de água de uma moradia privada na Quinta do Lago, no concelho de Loulé, quando realizavam trabalhos de manutenção. As vítimas mortais são dois irmãos, de 21 e 24 anos, e um tio, de 40 anos, que será o proprietário da empresa contratada para executar os trabalhos. Os trabalhadores são todos de nacionalidade romena.",
+    "authors": [
+      {
+        "name": "Marisa Rodrigues",
+        "role": null,
+        "url": "https://www.jn.pt/autor/marisa-rodrigues",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marisa Rodrigues",
+    "section": "pais",
+    "subsection": "loule",
+    "published_at": "2026-10-12T13:35:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 43,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Quinta do Lago",
+      "section_name": "Loulé",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "15cafcef-d284-4336-80ee-2ad5fec9b24d"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/empresa-fecha-em-oliveira-de-azemeis-e-lanca-mais-de-300-pessoas-no-desemprego/18136329",
+    "site_article_id": "18136329",
+    "aliases": [],
+    "title": "Empresa fecha em Oliveira de Azeméis e lança mais de 300 pessoas no desemprego",
+    "lead": "Os 318 trabalhadores da Schmidt Light Metal, uma das empresas de referência de Oliveira de Azeméis ligada ao setor automóvel, vão ficar no desemprego. A administração comunicou o encerramento da unidade até ao final do ano, após uma tentativa de recuperação da empresa pelos novos proprietários ter fracassado.",
+    "authors": [
+      {
+        "name": "Salomão Rodrigues",
+        "role": null,
+        "url": "https://www.jn.pt/autor/salomao-rodrigues",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Salomão Rodrigues",
+    "section": "pais",
+    "subsection": "oliveira-de-azemeis",
+    "published_at": "2026-10-12T20:34:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 44,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Setor automóvel",
+      "section_name": "Oliveira de Azeméis",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "b260fbbe-02e1-4934-8620-f51d3eb822d6"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/cultura/artigo/rui-veloso-pondera-pausa-na-carreira-para-cumprir-sonhos-apos-morte-de-represas-e-palma/18136306",
+    "site_article_id": "18136306",
+    "aliases": [],
+    "title": "Rui Veloso pondera pausa na carreira para cumprir sonhos após morte de Represas e Palma",
+    "lead": "O músico Rui Veloso anunciou no concerto de sexta-feira na Super Bock Arena - Pavilhão Rosa Mota, no Porto, que deverá fazer uma pausa na carreira porque \"a vida passa depressa demais\", avançou a Blitz. \"Tenho uma 'bucket list' a completar que não posso adiar\", acrescentou o artista, de 69 anos.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "cultura",
+    "subsection": null,
+    "published_at": "2026-10-12T16:19:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 45,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Música",
+      "section_name": "Cultura",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "f7c4e38f-9def-4818-bbda-2af05df5a48e"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/deputadas-do-chega-invadem-radio-universidade-de-coimbra-durante-emissao/18136171",
+    "site_article_id": "18136171",
+    "aliases": [],
+    "title": "Deputadas do Chega invadem Rádio Universidade de Coimbra durante emissão",
+    "lead": "As deputadas do Chega Rita Matias e Madalena Cordeiro, acompanhadas por militantes e apoiantes do partido, entraram nesta segunda-feira nos estúdios da Rádio Universidade de Coimbra (RUC), no edifício da Associação Académica de Coimbra (AAC), durante a emissão de um programa de debate entre representantes de juventudes partidárias. A emissão foi interrompida e não chegou a ser retomada. A PSP confirmou ter sido contactada pela Direção-Geral da AAC durante a ocorrência e ter enviado agentes ao local.",
+    "authors": [
+      {
+        "name": "Luísa Malva",
+        "role": null,
+        "url": "https://www.jn.pt/autor/luisa-malva",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Luísa Malva",
+    "section": "pais",
+    "subsection": "coimbra",
+    "published_at": "2026-10-12T10:42:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 46,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "PSP",
+      "section_name": "Coimbra",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "c2b04454-0cca-4d9a-bb20-ce58af005135"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/milhares-foram-ver-a-nova-casa-da-santinha-de-balasar/18135997",
+    "site_article_id": "18135997",
+    "aliases": [],
+    "title": "Milhares foram ver a nova casa da \"Santinha\" de Balasar",
+    "lead": "O Santuário de Balasar, na Póvoa de Varzim, é o primeiro a ser construído de raiz no século XXI. O povo aplaudiu a obra de culto religioso inaugurada neste domingo.",
+    "authors": [
+      {
+        "name": "Ana Trocado Marques",
+        "role": null,
+        "url": "https://www.jn.pt/autor/ana-trocado-marques",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Trocado Marques",
+    "section": "pais",
+    "subsection": "povoa-de-varzim",
+    "published_at": "2026-10-11T19:34:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 47,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Póvoa de Varzim",
+      "section_name": "Póvoa de Varzim",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "798b9cb3-42aa-41bc-bf9a-55981b3d0b79"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/mundo/artigo/passageira-que-se-atirou-de-cruzeiro-resgatada-apos-20-horas-no-mar-jonico/18136251",
+    "site_article_id": "18136251",
+    "aliases": [],
+    "title": "Passageira que se atirou de cruzeiro resgatada após 20 horas no mar",
+    "lead": "Uma mulher que se terá atirado de um navio de cruzeiro no Mar Jónico foi resgatada no fim de semana após 20 horas na água, informou esta segunda-feira a guarda costeira grega.",
+    "authors": [
+      {
+        "name": "AFP",
+        "role": null,
+        "url": "https://www.jn.pt/autor/afp",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "AFP"
+    ],
+    "byline_raw": "AFP",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-12T14:02:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 48,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Grécia",
+      "section_name": "Mundo",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "c5a121f1-7501-44af-95d2-c918d59ba5a4"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'AFP'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/justica/artigo/rede-da-arrabida-usava-uber-e-bolt-para-guardar-droga-em-casa-de-recuo-em-vila-do-conde/18135971",
+    "site_article_id": "18135971",
+    "aliases": [],
+    "title": "\"Rede da Arrábida\" usava Uber e Bolt para enviar droga para casa de recuo em Vila do Conde",
+    "lead": "Alguns membros da \"Rede da Arrábida\", desmantelada na quarta-feira pela PSP do Porto, por suspeita de tráfico de droga, terão recorrido às plataformas de transporte Bolt e Uber para enviar cocaína ou objetos relacionados com a atividade criminosa para uma casa, em Labruge, Vila do Conde. O carro seguia para o destino sem passageiros e apenas com o pacote de droga. Os detidos conhecem esta segunda-feira as medidas de coação, no Tribunal de Instrução Criminal do Porto.",
+    "authors": [
+      {
+        "name": "César Castro",
+        "role": null,
+        "url": "https://www.jn.pt/autor/cesar-castro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "César Castro",
+    "section": "justica",
+    "subsection": null,
+    "published_at": "2026-10-11T18:12:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 49,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Investigação",
+      "section_name": "Justiça",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "e9eabf34-f245-4579-9975-4759672e73b9"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/justica/artigo/pj-apreendeu-tres-toneladas-de-cocaina-em-operacao-que-acabou-com-suspeito-morto/18136174",
+    "site_article_id": "18136174",
+    "aliases": [],
+    "title": "PJ apreendeu três toneladas de cocaína em operação que acabou com suspeito morto",
+    "lead": "O Algarve voltou a ser palco de uma grande apreensão de cocaína. Desta vez, a operação decorreu no passado domingo e visou uma embarcação que navegava ao largo de Faro.",
+    "authors": [
+      {
+        "name": "Roberto Bessa Moreira",
+        "role": null,
+        "url": "https://www.jn.pt/autor/roberto-bessa-moreira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Roberto Bessa Moreira",
+    "section": "justica",
+    "subsection": null,
+    "published_at": "2026-10-12T10:52:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "mais-vistas",
+    "zones": [
+      "mais-vistas"
+    ],
+    "rank": 50,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Algarve",
+      "section_name": "Justiça",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "da349718-30ba-425a-a970-f03319cdfa77"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/poder-local/artigo/arrancou-o-centenario-de-sao-joao-da-madeira/18136157",
+    "site_article_id": "18136157",
+    "aliases": [],
+    "title": "Arrancou o centenário de São João da Madeira",
+    "lead": "Foi a 11 de outubro de 1926 que a então vila conquistou a autonomia administrativa. Ontem, a propósito das celebrações do centenário e da iniciativa \"50 anos do Poder Local\", falou-se de passado e futuro.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "poder-local",
+    "subsection": null,
+    "published_at": "2026-10-12T10:14:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "poder-local",
+    "zones": [
+      "poder-local"
+    ],
+    "rank": 51,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Efeméride",
+      "section_name": "Poder local",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "1afacc18-e3d8-4072-850b-8ca3d66dc0dc"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/observatorio-do-poder-local-ainda-nao-permitiu-avaliar-custos-da-descentralizacao/18135933",
+    "site_article_id": "18135933",
+    "aliases": [],
+    "title": "Observatório do Poder Local ainda não permitiu avaliar custos da descentralização",
+    "lead": "O Observatório do Poder Local já está online, mas a primeira versão ficou aquém da informação que a Associação Nacional de Municípios Portugueses (ANMP) queria disponibilizar. O projeto começou com a previsão de 500 a 600 indicadores de cerca de 40 entidades, mas reúne agora pouco mais de 250, estando já prevista uma segunda fase para acrescentar informação e melhorar a ligação entre sistemas.",
+    "authors": [
+      {
+        "name": "Paulo Lourenço",
+        "role": null,
+        "url": "https://www.jn.pt/autor/paulo-lourenco",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Paulo Lourenço",
+    "section": "pais",
+    "subsection": "lisboa",
+    "published_at": "2026-10-12T07:09:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "poder-local",
+    "zones": [
+      "poder-local"
+    ],
+    "rank": 52,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Acompanhamento",
+      "section_name": "Lisboa",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "6cfaa230-664f-4f60-9a1f-c47c31336f99"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/poder-local/artigo/vila-verde-inova-com-plano-diretor-agricola/18135192",
+    "site_article_id": "18135192",
+    "aliases": [],
+    "title": "Vila Verde inova com Plano Diretor Agrícola",
+    "lead": "Na 34.ª edição da Festa das Colheitas, autarca Júlia Fernandes afirma que o novo instrumento, que também abrange setor florestal, vai caracterizar melhor a realidade para ajudar os investidores.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "poder-local",
+    "subsection": null,
+    "published_at": "2026-10-09T10:44:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "poder-local",
+    "zones": [
+      "poder-local"
+    ],
+    "rank": 53,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Poder Local",
+      "section_name": "Poder local",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "eddd80ba-f8e8-4f7c-a683-d1bd6a6c4742"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/quem-lava-os-cestos/18133591",
+    "site_article_id": "18133591",
+    "aliases": [],
+    "title": "Quem lava os cestos?",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Manuel Cordeiro",
+        "role": null,
+        "url": "https://www.jn.pt/autor/manuel-cordeiro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Manuel Cordeiro",
+    "section": "opiniao",
+    "subsection": "praca-da-liberdade",
+    "published_at": "2026-10-04T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "poder-local",
+    "zones": [
+      "poder-local"
+    ],
+    "rank": 54,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Praça da Liberdade",
+      "section_name": "Praça da Liberdade",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "f94635e2-a6cd-4dd8-9542-43566ea4e24c"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/opiniao/artigo/o-futuro-ve-se-melhor-de-perto/18133590",
+    "site_article_id": "18133590",
+    "aliases": [],
+    "title": "O futuro vê-se melhor de perto",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Frederico Castro",
+        "role": null,
+        "url": "https://www.jn.pt/autor/frederico-castro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Frederico Castro",
+    "section": "opiniao",
+    "subsection": "praca-da-liberdade",
+    "published_at": "2026-10-04T23:00:01+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "opiniao",
+    "piece_type_raw": "NG:Opinião",
+    "zone": "poder-local",
+    "zones": [
+      "poder-local"
+    ],
+    "rank": 55,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Praça da Liberdade",
+      "section_name": "Praça da Liberdade",
+      "layout_code": "NG:Opinião",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "2e038d79-5139-43e1-b83c-caf46d2ba656"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Opinion",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/poder-local/artigo/metro-traz-nova-frente-de-evolucao-a-gondomar/18133114",
+    "site_article_id": "18133114",
+    "aliases": [],
+    "title": "Metro traz nova frente de evolução a Gondomar",
+    "lead": "Nova linha deverá chegar ao centro da cidade em 2031. Câmara aposta em habitação, saúde, emprego e valorização da frente ribeirinha do Douro, com investimentos turísticos na calha.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "poder-local",
+    "subsection": null,
+    "published_at": "2026-10-02T22:55:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "poder-local",
+    "zones": [
+      "poder-local"
+    ],
+    "rank": 56,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Poder local",
+      "section_name": "Poder local",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "02484413-b47e-425d-b9c2-a62cd8ba9cd2"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/bruno-cristiano-sucede-a-luisinho-no-comando-tecnico-do-baiao/18136557",
+    "site_article_id": "18136557",
+    "aliases": [],
+    "title": "Bruno Cristiano sucede a Luisinho no comando técnico do Baião",
+    "lead": "O Baião, que no domingo empatou 1-1 na casa do líder da Liga Pro, o Nogueirense, vai ser orientado por Bruno Cristiano até final da temporada, sucedendo a Luisinho.",
+    "authors": [
+      {
+        "name": "Rui Cardoso",
+        "role": null,
+        "url": "https://www.jn.pt/autor/rui-cardoso",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Rui Cardoso",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T10:28:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 75,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Distrital",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "4adf858a-77b8-42ad-abf0-0f92c1038287"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/portugal-estreia-se-no-mundial-de-hoquei-em-patins-com-goleada-a-suica/18136522",
+    "site_article_id": "18136522",
+    "aliases": [],
+    "title": "Portugal estreia-se no Mundial de hóquei em patins com goleada à Suíça",
+    "lead": "A seleção portuguesa de hóquei em patins estreou-se na segunda-feira no Mundial masculino com uma goleada por 10-0 sobre a Suíça, num encontro da primeira jornada do Grupo A, no COP Arena, no Paraguai.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T09:15:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 76,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Modalidades",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "34cdac09-77b5-408e-bfe2-9f07ab35ba6b"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/rui-borges-acelera-o-mercedes-na-champions/18136458",
+    "site_article_id": "18136458",
+    "aliases": [],
+    "title": "Rui Borges acelera o Mercedes na Champions",
+    "lead": "Treinador do Sporting volta a utilizar a analogia e, desta vez, sobe de estatuto, mesmo que ainda não seja um topo de gama. Qualidade do Lens dita um \"grande desafio\" em França",
+    "authors": [
+      {
+        "name": "Miguel Pataco",
+        "role": null,
+        "url": "https://www.jn.pt/autor/miguel-pataco",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Miguel Pataco",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13T07:57:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 77,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Sporting",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "8b207d08-07c0-46f6-86dd-187d1074b905"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/daniel-braganca-estreia-se-a-marcar-pelo-torino/18136430",
+    "site_article_id": "18136430",
+    "aliases": [],
+    "title": "Daniel Bragança estreia-se a marcar pelo Torino",
+    "lead": "O médio português Daniel Bragança estreou-se, esta segunda-feira, a marcar na liga italiana, contribuindo para a vitória do Torino sobre a Udinese, por 2-1, no jogo que fechou a sexta jornada.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12T21:29:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 78,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Desporto",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "927df7f2-866a-40b4-9985-1f8b50f8bec8"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/ronaldo-e-trincao-marcam-na-liga-dos-campeoes-asiatica/18136426",
+    "site_article_id": "18136426",
+    "aliases": [],
+    "title": "Ronaldo e Trincão marcam na Liga dos Campeões Asiática",
+    "lead": "Al Nassr e Al Ahli venceram, esta segunda-feira, na segunda jornada da fase de liga da Champions asiática, com os dois avançados portugueses em destaque.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12T21:26:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 79,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Al Nassr",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "21c24320-35a2-4759-82a9-3f07e0c85a1a"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/alverca-soma-terceira-vitoria-seguida-na-i-liga-em-famalicao/18136431",
+    "site_article_id": "18136431",
+    "aliases": [],
+    "title": "Alverca soma terceira vitória seguida na I Liga em Famalicão",
+    "lead": "O Alverca somou, esta segunda-feira, o terceiro triunfo seguido na I Liga, ao vencer em casa do Famalicão por expressivos 1-4, no jogo que encerrou a oitava jornada.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12T21:26:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 80,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Futebol",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "5396df07-c4a9-46dd-bda1-8e01b9b28e9d"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/pepe-assume-cargo-na-fundacao-fpf/18136389",
+    "site_article_id": "18136389",
+    "aliases": [],
+    "title": "Pepe assume cargo na Fundação FPF",
+    "lead": "A Federação Portuguesa de Futebol (FPF) anunciou, esta segunda-feira, que o ex-internacional português Pepe \"tomou posse como membro do Conselho de Administração da Fundação FPF\".",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12T19:49:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 81,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Conselho de Administração",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "170e553d-1a93-4e48-9f1b-94f84d4c9d5e"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/desporto/artigo/jogo-do-al-nassr-atrasado-devido-a-potencial-perigo-tera-sido-intercetado-um-drone/18136362",
+    "site_article_id": "18136362",
+    "aliases": [],
+    "title": "Jogo do Al Nassr atrasado devido a \"potencial perigo\". Terá sido intercetado um drone",
+    "lead": "Um drone terá sido intercetado no exterior do estádio Al-Awwal Park e, por motivos de segurança, o início do jogo foi atrasado.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12T18:46:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "desporto",
+    "zones": [
+      "desporto"
+    ],
+    "rank": 82,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Arábia Saudita",
+      "section_name": "Desporto",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "d1eccc9b-8d5a-4b0f-a756-8a1ebfb5de04"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/jovem-morre-em-despiste-na-a2-na-marateca/18136581",
+    "site_article_id": "18136581",
+    "aliases": [],
+    "title": "Jovem morre em despiste na A2 na Marateca",
+    "lead": "Um jovem de 20 anos morreu num despiste seguido de capotamento do carro que conduzia na A2, na Marateca, distrito de Setúbal. O alerta foi dado às 4 horas desta terça-feira, no nó de saída da Marateca, no sentido norte sul.",
+    "authors": [
+      {
+        "name": "Rogério Matos",
+        "role": null,
+        "url": "https://www.jn.pt/autor/rogerio-matos",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Rogério Matos",
+    "section": "pais",
+    "subsection": "palmela",
+    "published_at": "2026-10-13T11:23:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "pais",
+    "zones": [
+      "pais"
+    ],
+    "rank": 83,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Acidente",
+      "section_name": "Palmela",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "ecfe7d6a-dbe6-4215-9fde-8ce57f7375cc"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/buscas-por-pescador-desaparecido-retomadas-por-terra-devido-a-nevoeiro-intenso-em-peniche/18136537",
+    "site_article_id": "18136537",
+    "aliases": [],
+    "title": "Buscas por pescador desaparecido retomadas por terra devido a \"nevoeiro intenso\" em Peniche",
+    "lead": "As buscas pelo pescador lúdico desaparecido desde a noite de sábado em Peniche voltaram a ser retomadas depois da sua suspensão na última noite, informou a Autoridade Marítima Nacional (AMN).",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "pais",
+    "subsection": "peniche",
+    "published_at": "2026-10-13T09:46:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "pais",
+    "zones": [
+      "pais"
+    ],
+    "rank": 84,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Operação",
+      "section_name": "Peniche",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "8ad23497-efcd-44f9-bc1a-6e91520e9aa4"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/um-desalojado-num-incendio-numa-residencia-no-funchal/18136533",
+    "site_article_id": "18136533",
+    "aliases": [],
+    "title": "Morador fica desalojado após incêndio em casa no Funchal",
+    "lead": "Uma pessoa ficou desalojada, esta terça-feira, na sequência de um incêndio na casa onde habitava, no Funchal, disse fonte dos Bombeiros Voluntários Madeirenses.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "pais",
+    "subsection": "funchal",
+    "published_at": "2026-10-13T09:36:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "pais",
+    "zones": [
+      "pais"
+    ],
+    "rank": 85,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Madeira",
+      "section_name": "Funchal",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "8ce01e2c-a0a8-4c3c-8124-940913ac77e1"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/alfarrabistas-do-porto-unidos-em-associacao-para-criar-eventos-e-promover-leitura/18136275",
+    "site_article_id": "18136275",
+    "aliases": [],
+    "title": "Alfarrabistas do Porto unidos em associação para criar eventos e promover leitura",
+    "lead": "Um grupo de 15 livreiros fundou a Associação de Alfarrabistas do Grande Porto, com o objetivo de criar feiras temáticas e melhorar a divulgação do trabalho feito pelo setor da venda de livros usados.",
+    "authors": [
+      {
+        "name": "Maria Saraiva Brandão",
+        "role": null,
+        "url": "https://www.jn.pt/autor/maria-saraiva-brandao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Maria Saraiva Brandão",
+    "section": "pais",
+    "subsection": "porto",
+    "published_at": "2026-10-13T07:53:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "premium",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "pais",
+    "zones": [
+      "pais"
+    ],
+    "rank": 86,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Livros",
+      "section_name": "Porto",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Exclusivo",
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "77e2b506-00d1-4622-b6df-fcb7f8a57970"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/pais/artigo/lisboa-eleita-melhor-destino-de-cruzeiros-da-europa-pela-terceira-vez/18136471",
+    "site_article_id": "18136471",
+    "aliases": [],
+    "title": "Lisboa eleita \"Melhor Destino de Cruzeiros\" da Europa pela terceira vez",
+    "lead": "Lisboa foi eleita, esta segunda-feira, \"Melhor Destino de Cruzeiros\" da Europa, nos World Cruise Awards, realizados na Jamaica, conquistando pela terceira vez a distinção, depois das vitórias em 2021 e 2024, anunciou a Administração do Porto de Lisboa (APL).",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "pais",
+    "subsection": "lisboa",
+    "published_at": "2026-10-12T23:38:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "pais",
+    "zones": [
+      "pais"
+    ],
+    "rank": 87,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Prémio",
+      "section_name": "Lisboa",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "4d83acb3-2ae1-485b-8ab3-7d8af0cb9757"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "subsection": "rsc:SectionSlug",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/fenprof-exige-esclarecimentos-rigorosos-sobre-erro-no-calculo-das-pensoes/18136547",
+    "site_article_id": "18136547",
+    "aliases": [],
+    "title": "Fenprof exige \"esclarecimentos rigorosos\" sobre erro no cálculo das pensões",
+    "lead": "A Federação Nacional de Professores (Fenprof) exigiu, esta terça-feira, \"esclarecimentos rigorosos\" da Caixa Geral de Aposentações por causa do erro de cálculo nas pensões, que afetou centenas de docentes, a quem estão a ser exigidas verbas erradamente pagas.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-13T10:00:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "nacional",
+    "zones": [
+      "nacional"
+    ],
+    "rank": 88,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Nacional",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "817f052c-8c56-4af4-a412-16cf2c12ef94"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/andre-ventura-e-candidato-unico-a-lideranca-do-chega-nas-diretas-do-final-do-mes/18136539",
+    "site_article_id": "18136539",
+    "aliases": [],
+    "title": "André Ventura é candidato único à liderança do Chega nas diretas do final do mês",
+    "lead": "O presidente do Chega, André Ventura, é novamente candidato único à liderança do partido nas eleições diretas marcadas para dia 31 de outubro, confirmou à Lusa fonte oficial do partido.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-13T09:49:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "nacional",
+    "zones": [
+      "nacional"
+    ],
+    "rank": 89,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Nacional",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "e3fe0630-aa29-44d7-96eb-9d387528589f"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/cirurgia-bariatrica-ou-metabolica-reduz-impacto-de-doencas-associadas-a-obesidade/18136511",
+    "site_article_id": "18136511",
+    "aliases": [],
+    "title": "Cirurgia bariátrica ou metabólica reduz impacto de doenças associadas à obesidade",
+    "lead": "Um estudo da Faculdade de Medicina da Universidade do Porto (FMUP) demonstrou que a cirurgia bariátrica ou metabólica reduz em 36% a carga de incapacidade provocada pelas doenças associadas à obesidade, melhorando a qualidade de vida.",
+    "authors": [
+      {
+        "name": "JN/Agências",
+        "role": null,
+        "url": "https://www.jn.pt/autor/jnagencias",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Agências"
+    ],
+    "byline_raw": "JN/Agências",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-13T08:28:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "nacional",
+    "zones": [
+      "nacional"
+    ],
+    "rank": 90,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Saúde",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "2f34d7f8-1eb2-4051-a027-2bd5a48674f4"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "agencies": "rsc:Author.Signature",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'JN/Agências'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/entre-o-preconceito-e-o-medo-do-retrocesso-a-saude-mental-das-pessoas-trans-em-portugal/18134480",
+    "site_article_id": "18134480",
+    "aliases": [],
+    "title": "Entre o preconceito e o medo do retrocesso: a saúde mental das pessoas trans em Portugal",
+    "lead": "Na comunidade LGBTQIA+, a letra T representa as pessoas trans que, para a assistente social Margarida Tusto Portillo, é o \"subgrupo que atualmente enfrenta mais desafios\". Numa altura em que muito se debate a lei 38/2018, a saúde mental nas pessoas trans fica mais frágil.",
+    "authors": [
+      {
+        "name": "Ana Margarida Sousa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Margarida Sousa",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-10-07T15:24:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "academia-de-noticias",
+    "zones": [
+      "academia-de-noticias"
+    ],
+    "rank": 155,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Academia de Notícias",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "b456c69c-bc93-4b39-8735-08e2b012cbd3"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/fatima-percursos-de-devocao/18102213",
+    "site_article_id": "18102213",
+    "aliases": [],
+    "title": "Fátima: Percursos de devoção",
+    "lead": "Todos os anos, milhões de pessoas chegam a Fátima movidas pela fé, pela tradição ou pela procura de um significado. Mas o que torna este lugar um fenómeno religioso e cultural único? Nesta reportagem, percorremos as múltiplas dimensões e geografias de Fátima, um espaço de encontro, de memória, de identidade e de transformação, onde convivem a tradição e a modernidade.",
+    "authors": [
+      {
+        "name": "Maria Leonor Maltez",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      },
+      {
+        "name": "Mafalda Ribeiro",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Maria Leonor Maltez e Mafalda Ribeiro",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-07-03T14:05:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "academia-de-noticias",
+    "zones": [
+      "academia-de-noticias"
+    ],
+    "rank": 156,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Academia de Notícias",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "941755c1-48fa-4b7f-b54f-22540bcd3e58"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/media/artigo/o-futuro-do-jornalismo-comeca-nas-universidades/18101445",
+    "site_article_id": "18101445",
+    "aliases": [],
+    "title": "O futuro do jornalismo começa nas universidades",
+    "lead": "A curiosidade inata, tantas vezes apontada como o motor do jornalismo, está a ser ameaçada pelas bolhas digitais que moldam a mente dos estudantes. Entre professores que alertam para a falta de contacto com o mundo real e jovens que tentam adaptar-se a uma profissão em constante mudança, as universidades tornam-se o primeiro campo de batalha para recuperar aquilo que faz um bom jornalista.",
+    "authors": [
+      {
+        "name": "Diana Teixeira",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Diana Teixeira",
+    "section": "media",
+    "subsection": null,
+    "published_at": "2026-07-01T15:37:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "academia-de-noticias",
+    "zones": [
+      "academia-de-noticias"
+    ],
+    "rank": 157,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Academia de Notícias",
+      "section_name": "Média",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "ade09e4e-2b35-4273-8346-5e32a4f109f0"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/media/artigo/segunda-edicao-das-bolsas-da-academia-de-noticias-ja-tem-vencedores/18099575",
+    "site_article_id": "18099575",
+    "aliases": [],
+    "title": "Segunda edição das bolsas da Academia de Notícias já tem vencedores",
+    "lead": "São já conhecidos os vencedores da segunda edição das Bolsas Academia de Notícias, iniciativa que este ano tem como mote as comemorações dos 50 anos do Poder Local e que visa apoiar a produção de jornalismo por estudantes e recém-licenciados.",
+    "authors": [
+      {
+        "name": "Redação",
+        "role": null,
+        "url": "https://www.jn.pt/autor/redacao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Redação",
+    "section": "media",
+    "subsection": null,
+    "published_at": "2026-06-30T08:08:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "academia-de-noticias",
+    "zones": [
+      "academia-de-noticias"
+    ],
+    "rank": 158,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Iniciativa",
+      "section_name": "Média",
+      "layout_code": "NG:Article",
+      "categories": [
+        "NG:Print"
+      ],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "07596439-ad3f-4493-beef-a070bd89175f"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)",
+      "notas": "assinatura colectiva 'Redação'"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/incendios-um-problema-sem-solucao/18095739",
+    "site_article_id": "18095739",
+    "aliases": [],
+    "title": "Incêndios: um problema sem solução",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Catarina Gonçalves",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      },
+      {
+        "name": "Constança Costa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      },
+      {
+        "name": "Ricardo Pereira",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Catarina Gonçalves, Constança Costa, Ricardo Pereira",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-06-16T08:37:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": null,
+    "piece_type_raw": "NG:Infografia",
+    "zone": "academia-de-noticias",
+    "zones": [
+      "academia-de-noticias"
+    ],
+    "rank": 159,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Academia de Notícias",
+      "section_name": "Nacional",
+      "layout_code": "NG:Infografia",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "0a726f19-2e10-4383-8b60-befc076b7246"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  },
+  {
+    "url": "https://www.jn.pt/nacional/artigo/a-vida-no-limite-do-relogio/18091544",
+    "site_article_id": "18091544",
+    "aliases": [],
+    "title": "A vida no limite do relógio",
+    "lead": "Entre horários sobrecarregados, noites de pouco descanso e dilemas constantes, a realidade dos trabalhadores-estudantes em Portugal surge marcada por exigências contínuas. Estudar e trabalhar é, cada vez mais, um cenário presente no nível superior de ensino, evidenciando mudanças sociais, económicas e académicas que continuam a formar o percurso de inúmeros estudantes.",
+    "authors": [
+      {
+        "name": "Marta Bessa",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      },
+      {
+        "name": "João Santos",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marta Bessa e João Santos",
+    "section": "nacional",
+    "subsection": null,
+    "published_at": "2026-06-03T16:12:00+00:00",
+    "published_at_precision": "datetime",
+    "access": "free",
+    "piece_type": "noticia",
+    "piece_type_raw": "NG:Article",
+    "zone": "academia-de-noticias",
+    "zones": [
+      "academia-de-noticias"
+    ],
+    "rank": 160,
+    "excluded_reason": null,
+    "site_meta": {
+      "headline": "Academia de Notícias",
+      "section_name": "Nacional",
+      "layout_code": "NG:Article",
+      "categories": [],
+      "has_video": false,
+      "has_audio": false,
+      "picture_guid": "a9116efc-a846-46d9-83a9-828d2052893f"
+    },
+    "extraction_debug": {
+      "url": "rsc:Url (normalizado)",
+      "site_article_id": "url",
+      "title": "rsc:Title",
+      "lead": "rsc:Abstract",
+      "authors": "rsc:Author.Signature (+Author.Url)",
+      "byline_raw": "rsc:Author.Signature",
+      "section": "url",
+      "published_at": "rsc:Date -> UTC",
+      "published_at_precision": "rsc:Date (ISO com hora e fuso)",
+      "access": "rsc:Categories[].Premium / Layout.Premium",
+      "piece_type": "rsc:Layout.Code",
+      "piece_type_raw": "rsc:Layout.Code",
+      "zone": "rsc:slice Config.Code/Title",
+      "zones": "rsc:slices onde o Id aparece",
+      "rank": "ordem de 1.ª aparição nas slices do RSC (conta também os excluídos)"
+    }
+  }
+]

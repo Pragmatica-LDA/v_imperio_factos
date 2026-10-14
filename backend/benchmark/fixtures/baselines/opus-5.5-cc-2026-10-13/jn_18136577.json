@@ -1,0 +1,105 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "PSP",
+      "canonical_name": "Polícia de Segurança Pública",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["visado", "fonte"],
+      "position_at_date": null,
+      "sentiment": "positivo",
+      "sentiment_reason": "Realizou a operação que levou a detenções e a apreensões de droga e dinheiro."
+    },
+    {
+      "name": "Comando Metropolitano da PSP do Porto",
+      "canonical_name": "Comando Metropolitano da PSP do Porto",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Fonte do comunicado sobre as medidas de coação."
+    },
+    {
+      "name": "15 detidos",
+      "canonical_name": "Detidos na operação contra o tráfico de droga no Porto",
+      "type": "outro",
+      "is_public": false,
+      "roles": ["acusado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Suspeitos de tráfico de droga, cinco ficam em prisão preventiva."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Comando Metropolitano da PSP do Porto",
+      "partial_attribute": null,
+      "excerpt": "Em comunicado, o Comando Metropolitano da PSP do Porto explica que a cinco dos detidos foi aplicada como medida de coação a prisão preventiva"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Justiça", "Crime", "Tráfico de droga"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Segurança", "Forças de segurança"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Arrábida",
+      "level": "freguesia",
+      "parent": "Porto"
+    },
+    {
+      "name": "Bairro da Pasteleira",
+      "level": "freguesia",
+      "parent": "Porto"
+    },
+    {
+      "name": "Bairro Pinheiro Torres",
+      "level": "freguesia",
+      "parent": "Porto"
+    },
+    {
+      "name": "Porto",
+      "level": "concelho",
+      "parent": "Porto"
+    },
+    {
+      "name": "Vila Nova de Gaia",
+      "level": "concelho",
+      "parent": "Porto"
+    },
+    {
+      "name": "Vila do Conde",
+      "level": "concelho",
+      "parent": "Porto"
+    },
+    {
+      "name": "Matosinhos",
+      "level": "concelho",
+      "parent": "Porto"
+    }
+  ],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia curta de agência sobre medidas de coação após uma operação da PSP. A PSP fica positiva pelo resultado da operação; os detidos são pessoas privadas acusadas, agrupadas numa entidade colectiva porque o texto não os identifica. Os bairros (Arrábida, Pasteleira, Pinheiro Torres) são zonas do concelho do Porto, registados no nível mais fino disponível (freguesia) com o Porto como pai.",
+    "sources_used": ["lead", "comunicado do Comando Metropolitano da PSP do Porto (2.º parágrafo)", "último parágrafo (zonas da operação)"],
+    "sources_discarded": ["assinatura JN/Agências: não atribui informação no texto", "tags do site: genéricas"]
+  }
+}

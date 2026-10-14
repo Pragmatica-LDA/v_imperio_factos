@@ -1,0 +1,135 @@
+# Ambiente de desenvolvimento do Factos.
+# Arranque: ./start_local.sh  (ou: cp .env.example .env && docker compose up --build)
+
+x-backend-base: &backend-base
+  build: ./backend
+  image: factos-backend
+  env_file: .env
+  volumes:
+    - ./backend:/app
+    - raw_html:/data/raw
+    # Artigos extraídos pelos parsers da PoC (import para a análise)
+    - ./sites/out:/data/sites_out:ro
+
+# Os serviços Django só arrancam depois das migrações (evita o beat a ler tabelas que ainda não existem).
+x-backend: &backend
+  <<: *backend-base
+  environment:
+    # Os eventos de ficheiros não atravessam o bind mount do Docker Desktop: o watchfiles faz polling.
+    WATCHFILES_FORCE_POLLING: "true"
+  depends_on:
+    migrate:
+      condition: service_completed_successfully
+    redis-broker:
+      condition: service_healthy
+    redis-cache:
+      condition: service_healthy
+  restart: unless-stopped
+
+services:
+  db:
+    image: pgvector/pgvector:0.8.7-pg18-trixie
+    # PID 1 = tini: reaps os processos de `docker exec`/healthcheck. Sem isto o postmaster é o PID 1, vê esses
+    # processos como filhos desconhecidos e, se um sair com erro (ex.: pg_isready com timeout), reinicia tudo.
+    init: true
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql
+    ports:
+      - "${POSTGRES_HOST_PORT:-5442}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  # Broker do Celery: sem eviction e com AOF, para nunca perder tarefas.
+  redis-broker:
+    image: redis:8.8.3-alpine
+    command: redis-server --appendonly yes --maxmemory-policy noeviction
+    ports:
+      - "${REDIS_BROKER_HOST_PORT:-6390}:6379"
+    volumes:
+      - redisbroker:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  # Cache do front-office: volátil, com eviction LRU. Separada do broker.
+  redis-cache:
+    image: redis:8.8.3-alpine
+    command: >
+      redis-server --save "" --appendonly no
+      --maxmemory ${REDIS_CACHE_MAXMEMORY:-256mb} --maxmemory-policy allkeys-lru
+    ports:
+      - "${REDIS_CACHE_HOST_PORT:-6391}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  migrate:
+    <<: *backend-base
+    command: sh -c "python manage.py migrate --noinput && python manage.py ensure_superuser && python manage.py bootstrap"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis-broker:
+        condition: service_healthy
+    restart: "no"
+
+  # Em dev o backend e o frontend correm na máquina (./start_local.sh). Em Docker: --profile docker-app.
+  backend:
+    <<: *backend
+    profiles: ["docker-app"]
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "${BACKEND_HOST_PORT:-8010}:8000"
+
+  # Workers por grupo de filas: um pico de análises LLM não bloqueia o crawl.
+  worker-crawl:
+    <<: *backend
+    # Reinicia sozinho quando o código Python muda (hot reload em dev).
+    command: >
+      watchfiles --filter python
+      "celery -A config worker -l info -n crawl@%h -Q discovery,crawl,revisits,maintenance --concurrency ${CELERY_CRAWL_CONCURRENCY:-4}"
+      /app
+
+  worker-analysis:
+    <<: *backend
+    command: >
+      watchfiles --filter python
+      "celery -A config worker -l info -n analysis@%h -Q analysis,enrichment --concurrency ${CELERY_ANALYSIS_CONCURRENCY:-2}"
+      /app
+
+  beat:
+    <<: *backend
+    command: watchfiles --filter python "celery -A config beat -l info" /app
+
+  frontend:
+    profiles: ["docker-app"]
+    build: ./frontend
+    environment:
+      VITE_API_PROXY_TARGET: http://backend:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "${FRONTEND_HOST_PORT:-5180}:5173"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  redisbroker:
+  raw_html:

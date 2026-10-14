@@ -1,0 +1,142 @@
+{
+  "url": "https://www.jn.pt/pais/artigo/porto-atlantico-interpoe-providencia-cautelar-para-parar-obras-do-emporium-park/18136544",
+  "canonical_url": "https://www.jn.pt/pais/artigo/porto-atlantico-interpoe-providencia-cautelar-para-parar-obras-do-emporium-park/18136544",
+  "aliases": [
+    "https://www.jn.pt/amp/18136544/porto-atlantico-interpoe-providencia-cautelar-para-parar-obras-do-emporium-park"
+  ],
+  "site_article_id": "18136544",
+  "title": "Porto Atlântico interpõe providência cautelar para parar obras do Emporium Park",
+  "lead": "A associação Porto Atlântico interpôs uma providência cautelar para suspender as obras do empreendimento Emporium Park, junto ao Parque da Cidade, considerando ineficaz o embargo \"parcial\" da Câmara do Porto, a quem esta ação judicial é dirigida, segundo nota enviada à Lusa.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "A providência cautelar de suspensão de eficácia contra o município, que deu entrada no Tribunal Administrativo e Fiscal do Porto no dia 29 de setembro, e foi admitida no dia 06 de outubro, tem como contrainteressada a sociedade que explora o empreendimento, junto ao Parque da Cidade, quando já há uma ação administrativa a decorrer, interposta pela mesma associação.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "A 11 de setembro, a Câmara do Porto levantou o embargo parcial que tinha aplicado em abril, por considerar que tinham sido corrigidas as \"irregularidades detetadas\". Em causa está o embargo parcial ao Emporium Park anunciado pela Câmara do Porto a 29 de abril, após uma ação de fiscalização municipal que detetou \"um desvio na construção de 80 centímetros acima da altura máxima autorizada\".",
+      "links": [
+        {
+          "text": "levantou o embargo parcial",
+          "url": "https://www.jn.pt/pais/artigo/camara-do-porto-levanta-embargo-a-obra-junto-ao-parque-da-cidade/18125649"
+        },
+        {
+          "text": "detetou \"um desvio na construção de 80 centímetros",
+          "url": "https://www.jn.pt/pais/artigo/camara-do-porto-interrompe-obra-de-condominio-de-luxo-junto-ao-parque-da-cidade-por-80-centimetros/18078352"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": "Segundo a associação, cuja assembleia geral aprovou por unanimidade a intenção de avançar com a providência cautelar, o embargo \"parcial promovido pela Câmara do Porto\" revelou \"ineficácia\".",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "\"Com a apresentação desta providência cautelar, a Associação Porto Atlântico pretende obter, nos termos que vierem a ser apreciados pelo tribunal, a suspensão da eficácia do ato contestado enquanto decorre a ação principal\", pode ler-se na nota enviada às redações.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na prática, pretende impedir a consolidação do facto consumado que possa vir a ser condenado judicialmente, para evitar \"o agravamento dos custos de uma eventual reposição da legalidade\".",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "A decisão relativa ao Emporium Park foi saudada, quer pela Associação Porto Atlântico, que tinha interposto uma ação de caráter popular no Tribunal Administrativo e Fiscal do Porto para travar aquela obra entre o Parque da Cidade e a Avenida da Boavista, quer pela vereação do Chega.",
+      "links": [
+        {
+          "text": "saudada, quer pela Associação Porto Atlântico",
+          "url": "https://www.jn.pt/pais/artigo/associacao-elogia-coragem-politica-do-presidente-da-camara-do-porto-ao-embargar-obra/18078933"
+        }
+      ]
+    },
+    {
+      "kind": "p",
+      "text": "O Emporium Park é um empreendimento em betão com uma área de construção de mais de 22 mil metros quadrados, composto por 22 apartamentos espalhados por edifícios com três pisos.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Em março de 2023, a responsável pela reabilitação urbana da consultora imobiliária Predibisa revelou à Lusa que o terreno, que foi ocupado até maio de 2022 pelo Horto da Boavista, iria acolher um condomínio privado com 22 apartamentos e que a obra deveria arrancar no final de 2023.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "JN/Agências",
+      "role": null,
+      "url": "https://www.jn.pt/autor/jnagencias",
+      "affiliation": null
+    }
+  ],
+  "agencies": [
+    "Agências"
+  ],
+  "byline_raw": "JN/Agências",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/ecf214ee-608f-43ba-b7c2-d876f49107da_1200x675.jpg",
+      "caption": "Emporium Park está a a ser construído junto ao Parque da Cidade, na Avenida da Boavista",
+      "photographers": [
+        "Adelino Meireles"
+      ],
+      "credit_raw": "Foto: Adelino Meireles",
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T09:54:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "pais",
+  "subsection": null,
+  "tags": [
+    "Concelho Porto",
+    "Emporium Park"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": false,
+  "body_source": "rsc",
+  "word_count": 343,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Empreendimento",
+    "section_name": "Porto",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [],
+    "site_word_count": 416,
+    "reading_minutes": 3,
+    "seo_title": "Porto Atlântico interpõe providência cautelar contra Emporium Park",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T10:54:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature (assinatura colectiva 'JN/Agências')",
+    "byline_raw": "rsc:Authors[].Signature",
+    "agencies": "assinatura ['JN/Agências']",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 343 vs WordCount do site 416 (rácio mín. 0.9)",
+    "notas": "assinatura colectiva 'JN/Agências'"
+  }
+}

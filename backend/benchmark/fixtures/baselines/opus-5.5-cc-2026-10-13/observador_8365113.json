@@ -1,0 +1,136 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "Luís Neves",
+      "canonical_name": "Luís Neves",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "ministro da Administração Interna",
+      "sentiment": "neutro",
+      "sentiment_reason": "Subscreve o comunicado que defende a decisão; a peça relata sem juízo."
+    },
+    {
+      "name": "Ricardo Carrilho",
+      "canonical_name": "Ricardo Carrilho",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": "ex-secretário-geral do Ministério da Administração Interna",
+      "sentiment": "negativo",
+      "sentiment_reason": "Acusado pela tutela de confronto permanente, de prejudicar o SIRESP, de protelar medidas e de contradições."
+    },
+    {
+      "name": "Paulo Simões Ribeiro",
+      "canonical_name": "Paulo Simões Ribeiro",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "secretário de Estado no Ministério da Administração Interna",
+      "sentiment": "neutro",
+      "sentiment_reason": "Subscritor do comunicado conjunto."
+    },
+    {
+      "name": "Telmo Correia",
+      "canonical_name": "Telmo Correia",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "secretário de Estado no Ministério da Administração Interna",
+      "sentiment": "neutro",
+      "sentiment_reason": "Subscritor do comunicado conjunto."
+    },
+    {
+      "name": "Rui Rocha",
+      "canonical_name": "Rui Rocha",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "secretário de Estado no Ministério da Administração Interna",
+      "sentiment": "neutro",
+      "sentiment_reason": "Subscritor do comunicado conjunto."
+    },
+    {
+      "name": "MAI",
+      "canonical_name": "Ministério da Administração Interna",
+      "type": "governo",
+      "is_public": true,
+      "roles": ["fonte", "visado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Origem do comunicado; posição relatada sem avaliação."
+    },
+    {
+      "name": "SIRESP, S. A.",
+      "canonical_name": "SIRESP, SA",
+      "type": "empresa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida a propósito dos pagamentos em dívida."
+    },
+    {
+      "name": "Inspeção-Geral de Finanças",
+      "canonical_name": "Inspeção-Geral de Finanças",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Autora do relatório de auditoria referido no comunicado."
+    },
+    {
+      "name": "Comissão Europeia",
+      "canonical_name": "Comissão Europeia",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Destinatária da devolução de 4,5 milhões de euros."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Ministério da Administração Interna",
+      "partial_attribute": "comunicado conjunto do ministro e dos três secretários de Estado",
+      "excerpt": "Em comunicado divulgado na noite desta segunda-feira, os quatro responsáveis políticos do MAI consideram"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Política", "Administração Interna"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Administração Interna", "Exoneração do secretário-geral do MAI"],
+      "kind": "caso",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": true
+    },
+    {
+      "path": ["Segurança", "Protecção civil e emergência"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.3,
+      "is_new": false
+    }
+  ],
+  "locations": [],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia sobre o comunicado conjunto da equipa do MAI. Carrilho fica negativo pela lista de acusações da tutela; os governantes ficam neutros porque a peça só relata a posição deles. O texto não diz que pasta tem cada secretário de Estado, por isso o cargo fica genérico. O caso é o mesmo da exoneração do secretário-geral.",
+    "sources_used": ["lead", "comunicado conjunto (citações ao longo do texto)"],
+    "sources_discarded": ["referências a notícias anteriores do próprio Observador: não são fonte externa", "parecer jurídico e auditoria da IGF: conhecidos apenas através do comunicado"]
+  }
+}

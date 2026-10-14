@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+staticfiles/
+.DS_Store
+backend/data/
+.local/
+
+# Gravações de ecrã (22 GB)
+videos/

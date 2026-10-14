@@ -1,0 +1,116 @@
+{
+  "url": "https://www.jn.pt/opiniao/artigo/a-proposito-do-orcamento-2027/18136463",
+  "canonical_url": "https://www.jn.pt/opiniao/artigo/a-proposito-do-orcamento-2027/18136463",
+  "aliases": [
+    "https://www.jn.pt/amp/18136463/a-proposito-do-orcamento-2027"
+  ],
+  "site_article_id": "18136463",
+  "title": "A propósito do Orçamento 2027",
+  "lead": "Todos os anos, por esta altura, as nossas esperanças de que alguma coisa vai mudar ganham ânimo à boleia da preparação do orçamento. É pura ilusão que rapidamente se desvanece uma vez que nada de substancial muda, ou se muda, não é por esta via que disso tomamos conhecimento.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Todos os anos, por esta altura, as nossas esperanças de que alguma coisa vai mudar ganham ânimo à boleia da preparação do orçamento. É pura ilusão que rapidamente se desvanece uma vez que nada de substancial muda, ou se muda, não é por esta via que disso tomamos conhecimento.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na verdade, o orçamento não tem sido um instrumento das políticas públicas antes um álibi para as mesmas enquanto justificativo para a não ação.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na saúde a situação não é diferente: longe de ser o corolário de uma estratégia de modernização e mudança a médio prazo, é sobretudo o escudo formal para uma gestão cada vez mais de vistas curtas apenas preocupada com a resposta ao dia a dia.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Merece, no entanto, ser referido que esta realidade não é uma marca de quem de momento nos governa antes, infelizmente, uma constante de há já umas décadas e por isso, com grande probabilidade, uma das razões para o que de menos bom nos tem sido disponibilizado: uma grande coligação para a mediania - por vezes a roçar a mediocridade - quando o que necessitamos, e merecemos, é um ímpeto ambicioso e de rasgo para a mudança.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Na saúde esta mudança não é uma opção, antes uma inevitabilidade: a manutenção do status quo vai (está a) levar-nos ao desastre. A boa notícia é que são mais do que conhecidos os desafios que estão em cima da mesa bem como as respostas necessárias à sua superação. Nos primeiros incluem-se a pressão demográfica, a escassez de recursos humanos e o desejo - mais do que legítimo - de querermos mais e melhores cuidados. As segundas passam pela incorporação maciça de tecnologia, pela utilização das mais avançadas ferramentas de gestão e pela evolução nos paradigmas vigentes: do foco nas situações agudas para o acompanhamento da doença crónica; e do tratamento para a prevenção. A má notícia é que, aparentemente, não somos coletivamente capazes de quebrar o ciclo infernal do imobilismo e agir.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "De uma forma geral esta realidade não é só nossa. Com pequenas cambiantes e ajustes de cor local, observa-se um pouco por todas as geografias onde existem sistemas estruturados de saúde. Mas este não estarmos sozinhos não nos deve confortar, antes preocupar, uma vez que é em si uma das fontes da resistência à mudança.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Uma rutura precisa-se! E para isso só vejo dois gatilhos: o cidadão/doente assumir na plenitude o seu papel de consumidor, informado e ativo; as novas tecnologias, nomeadamente de informação e comunicação, darem um salto quântico na sua incorporação no ecossistema de inovação em saúde. Aposto no segundo!",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Joaquim Cunha",
+      "role": null,
+      "url": "https://www.jn.pt/autor/joaquim-cunha",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Joaquim Cunha",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/613a3af3-d63f-431e-9e69-963bc8e41fc3_1200x675.jpg",
+      "caption": null,
+      "photographers": [],
+      "credit_raw": null,
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-12T23:00:01+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "opiniao",
+  "subsection": null,
+  "tags": [
+    "Opinião"
+  ],
+  "piece_type": "opiniao",
+  "piece_type_raw": "NG:Opinião",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 428,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Praça da Liberdade",
+    "section_name": "Praça da Liberdade",
+    "subsection_name": null,
+    "layout_code": "NG:Opinião",
+    "layout_name": "Opinião",
+    "categories": [],
+    "site_word_count": 429,
+    "reading_minutes": 3,
+    "seo_title": "Orçamento 2027: Saúde precisa de rutura e mudança",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T00:00:01+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url | FALHA DE CRÉDITO: Media[0] sem crédito nem legenda no RSC: Flags=[]",
+    "authors": "rsc:Authors[].Signature",
+    "byline_raw": "rsc:Authors[].Signature",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Opinion",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 428 vs WordCount do site 429 (rácio mín. 0.9)"
+  }
+}

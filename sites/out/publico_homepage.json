@@ -1,0 +1,4146 @@
+[
+  {
+    "url": "https://www.publico.pt/2026/10/13/politica/entrevista/ferro-rodrigues-psd-mao-estendida-extremadireita-ficar-mao-2190658",
+    "site_article_id": "2190658",
+    "aliases": [],
+    "title": "Ferro Rodrigues: PSD tem “uma mão estendida à extrema-direita” e pode ficar “sem mão”",
+    "lead": "Socialista considera que Seguro “não podia deixar de mandar para o TC” as alterações ao processo penal. Sobre Aguiar-Branco, diz que tem tido “grande tolerância” para com extrema-direita.",
+    "authors": [
+      {
+        "name": "São José Almeida",
+        "role": null,
+        "url": "https://www.publico.pt/autor/sao-jose-almeida",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "São José Almeida",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "entrevista",
+    "piece_type_raw": "entrevista",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 0,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 2
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/politica/entrevista/ferro-opus-sistema-seguranca-social-aberto-2190652",
+    "site_article_id": "2190652",
+    "aliases": [
+      "https://www.publico.pt/n2190652"
+    ],
+    "title": "Ferro: “Nunca me opus a que houvesse um sistema [da Segurança Social] mais aberto”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "entrevista",
+    "piece_type_raw": "entrevista",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 1,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "column": "Política",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/noticia/ministro-pressionoume-cometer-ilegalidades-secretariogeral-mai-demitido-2191142",
+    "site_article_id": "2191142",
+    "aliases": [],
+    "title": "“O ministro pressionou-me para cometer ilegalidades”, acusa secretário-geral demitido",
+    "lead": "Ricardo Carrilho, que foi demitido nesta segunda-feira do cargo de secretário-geral da Administração Interna pelo ministro Luís Neves, diz que ministério está “paralisado”.",
+    "authors": [
+      {
+        "name": "Mariana Oliveira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/mariana-oliveira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Mariana Oliveira",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 2,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 3
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2191171",
+    "site_article_id": "2191171",
+    "aliases": [],
+    "title": "MAI rejeita acusações de Ricardo Carrilho e fala em “quebra de confiança”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 3,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "related_of": "2191142"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2191061",
+    "site_article_id": "2191061",
+    "aliases": [],
+    "title": "Luís Neves demite secretário-geral do MAI e nomeia Nuno Parreira da Silva para o cargo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 4,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "related_of": "2191142"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/politica/noticia/aguiarbranco-rejeita-conflito-interesses-ventura-comissao-inquerito-luis-neves-2191196",
+    "site_article_id": "2191196",
+    "aliases": [],
+    "title": "Aguiar-Branco rejeita conflito de interesses de Ventura na CPI a Luís Neves",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Liliana Borges",
+        "role": null,
+        "url": "https://www.publico.pt/autor/liliana-pascoal-borges",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Liliana Borges",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 5,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/politica/noticia/passoapasso-passos-vontade-voltar-governar-2191143",
+    "site_article_id": "2191143",
+    "aliases": [],
+    "title": "Passo-a-passo de Passos: do “fora de tudo” à vontade de voltar a governar",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Filipe Santa-Bárbara",
+        "role": null,
+        "url": "https://www.publico.pt/autor/filipe-santabarbara",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Filipe Santa-Bárbara",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 6,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/politica/noticia/mencionar-passos-coelho-montenegro-quer-insucesso-psd-esperar-sentado-2191168",
+    "site_article_id": "2191168",
+    "aliases": [
+      "https://www.publico.pt/n2191168"
+    ],
+    "title": "Montenegro diz que quem quer o insucesso do PSD “tem de esperar sentado”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Lusa",
+        "role": null,
+        "url": "https://www.publico.pt/autor/lusa",
+        "affiliation": null
+      },
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Lusa e PÚBLICO",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 7,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "agencies": "byline",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2191152",
+    "site_article_id": "2191152",
+    "aliases": [],
+    "title": "Que é que tem o Passos que é diferente dos outros?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": "opiniao",
+    "piece_type_raw": null,
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 8,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "label": "Opinião.",
+      "related_of": "2191143"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)",
+      "piece_type": "html:rótulo <b>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/economia/noticia/reforco-estado-ren-poe-peninsula-iberica-frente-china-2191135",
+    "site_article_id": "2191135",
+    "aliases": [],
+    "title": "Reforço do Estado na REN põe Península Ibérica à frente da China",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Diogo Cavaleiro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/diogo-cavaleiro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Diogo Cavaleiro",
+    "section": "economia",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 9,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/ciencia/noticia/peritos-relatorio-heitor-avisam-costa-von-der-leyen-nao-cortem-ciencia-europeia-2191197",
+    "site_article_id": "2191197",
+    "aliases": [],
+    "title": "Peritos do “Relatório Heitor” avisam Costa e Von der Leyen: não cortem na ciência",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Tiago Ramalho",
+        "role": null,
+        "url": "https://www.publico.pt/autor/tiago-ramalho",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Tiago Ramalho",
+    "section": "ciencia",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 10,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/culturaipsilon/noticia/tumulo-d-dinis-restaurado-original-julgava-2191115",
+    "site_article_id": "2191115",
+    "aliases": [],
+    "title": "O túmulo de D. Dinis foi restaurado e tem mais do original do que se julgava",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Lucinda Canelas",
+        "role": null,
+        "url": "https://www.publico.pt/autor/lucinda-canelas",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Lucinda Canelas",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 11,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/sociedade/noticia/fertilidade-ceo-clinica-faliu-promete-devolver-250-mil-euros-pacientes-afectadas-2191159",
+    "site_article_id": "2191159",
+    "aliases": [],
+    "title": "Fertilidade: CEO da clínica que faliu promete devolver 250 mil euros a pacientes",
+    "lead": "Quantia não é suficiente para cobrir os cerca de 425 mil euros reclamados por pessoas que pagaram mas não fizeram os tratamentos. Material biológico e dados dos pacientes já estão na clínica Ava.",
+    "authors": [
+      {
+        "name": "Inês Schreck",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ines-schreck",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Inês Schreck",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 12,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "ultimas_1",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/mundo/noticia/dois-navios-atacados-largo-costa-bulgara-2191182",
+    "site_article_id": "2191182",
+    "aliases": [],
+    "title": "Dois navios atacados ao largo da costa búlgara",
+    "lead": "Primeiro-ministro búlgaro vai reunir-se com embaixadora russa. Não há “provas concretas” da autoria do ataque, mas Radev acredita que beneficia a Rússia. Von der Leyen considera ataque “inaceitável”.",
+    "authors": [
+      {
+        "name": "Mariana Durães",
+        "role": null,
+        "url": "https://www.publico.pt/autor/mariana-duraes",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Mariana Durães",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 13,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "ultimas_1",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/mundo/noticia/documentos-falsificados-ajudaram-ocultar-patrimonio-abramovich-investigacao-2191170",
+    "site_article_id": "2191170",
+    "aliases": [],
+    "title": "Documentos falsificados ajudaram a ocultar património de Abramovich, diz investigação",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 14,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "ultimas_1",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/economia/noticia/indicador-pressao-turistica-subiu-lisboa-porto-2191116",
+    "site_article_id": "2191116",
+    "aliases": [],
+    "title": "Indicador de pressão turística subiu em Lisboa e mais ainda no Porto",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Luís Villalobos",
+        "role": null,
+        "url": "https://www.publico.pt/autor/luis-villalobos",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Luís Villalobos",
+    "section": "economia",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 15,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "ultimas_1",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/culturaipsilon/noticia/desenho-carla-filipe-aparecem-mulheres-esquecemos-2190334",
+    "site_article_id": "2190334",
+    "aliases": [],
+    "title": "No desenho de Carla Filipe, aparecem as mulheres que esquecemos",
+    "lead": "A portuguesa faz do arquivo matéria viva, onde os rostos e as feridas ainda gritam — e cantam. Uma exposição partilhada com o artista basco Taxio Ardanaz.",
+    "authors": [
+      {
+        "name": "José Marmeleira, em San Sebastián",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "José Marmeleira, em San Sebastián",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "magazine",
+    "zones": [
+      "magazine",
+      "categorias"
+    ],
+    "rank": 16,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_magazine_3",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 2,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/local/noticia/torre-construcao-seculo-xiv-escondida-martim-moniz-sera-reabilitada-2190463",
+    "site_article_id": "2190463",
+    "aliases": [],
+    "title": "Torre da Péla, construção do século XIV “escondida” no Martim Moniz, será reabilitada",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Samuel Alemão",
+        "role": "texto",
+        "url": "https://www.publico.pt/autor/samuel-alemao",
+        "affiliation": null
+      },
+      {
+        "name": "Daniel Rocha",
+        "role": "fotografia",
+        "url": "https://www.publico.pt/autor/daniel-rocha",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Samuel Alemão (texto) e Daniel Rocha (fotografia)",
+    "section": "local",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "magazine",
+    "zones": [
+      "magazine"
+    ],
+    "rank": 17,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_magazine_3",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/enter/noticia/ciberseguranca-inteligencia-artificial-joga-dois-lados-tabuleiro-2191082",
+    "site_article_id": "2191082",
+    "aliases": [],
+    "title": "Na cibersegurança, a inteligência artificial joga dos dois lados do tabuleiro",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Laura Ferreira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/laura-ferreira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Laura Ferreira",
+    "section": "enter",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "magazine",
+    "zones": [
+      "magazine",
+      "categorias"
+    ],
+    "rank": 18,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_magazine_3",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/culturaipsilon/noticia/andre-santos-sopa-pedra-vivo-beber-sabedoria-popular-madeirense-2191078",
+    "site_article_id": "2191078",
+    "aliases": [],
+    "title": "André Santos e Sopa de Pedra ao vivo, a “beber da sabedoria popular madeirense”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Nuno Pacheco",
+        "role": null,
+        "url": "https://www.publico.pt/autor/nuno-pacheco",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Nuno Pacheco",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "magazine",
+    "zones": [
+      "magazine",
+      "categorias"
+    ],
+    "rank": 19,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_magazine_3",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/desporto/noticia/futebol-feminino-cresce-milhoes-migalhas-2191128",
+    "site_article_id": "2191128",
+    "aliases": [],
+    "title": "Futebol feminino cresce entre milhões e migalhas",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Diogo Cardoso Oliveira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/diogo-cardoso-oliveira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Diogo Cardoso Oliveira",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "magazine",
+    "zones": [
+      "magazine",
+      "categorias"
+    ],
+    "rank": 20,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_magazine_3",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/economia/noticia/gerir-melhor-dados-ha-questionar-ia-2190146",
+    "site_article_id": "2190146",
+    "aliases": [],
+    "title": "Para gerir melhor muitos dados, há que questionar a IA",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Diogo Ferreira Nunes",
+        "role": "texto",
+        "url": "https://www.publico.pt/autor/diogo-ferreira-nunes",
+        "affiliation": null
+      },
+      {
+        "name": "José Carvalheiro",
+        "role": "ilustracao",
+        "url": "https://www.publico.pt/autor/jose-carvalheiro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Diogo Ferreira Nunes (texto) e José Carvalheiro (Ilustração)",
+    "section": "economia",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "especial-executivos",
+    "zones": [
+      "especial-executivos",
+      "categorias"
+    ],
+    "rank": 21,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_4",
+      "card_type": "NOTICIA",
+      "tone": "feature",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/noticia/ia-ganha-espaco-formacao-executivos-2191064",
+    "site_article_id": "2191064",
+    "aliases": [],
+    "title": "IA ganha cada vez mais espaço na formação para executivos",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Andreia Sanches",
+        "role": null,
+        "url": "https://www.publico.pt/autor/andreia-sanches",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Andreia Sanches",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "especial-executivos",
+    "zones": [
+      "especial-executivos"
+    ],
+    "rank": 22,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_4",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/noticia/formacao-executivos-tres-nomes-portugueses-ranking-mba-financial-times-2191051",
+    "site_article_id": "2191051",
+    "aliases": [],
+    "title": "Três nomes portugueses no ranking do Financial Times de MBA para executivos",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Andreia Sanches",
+        "role": null,
+        "url": "https://www.publico.pt/autor/andreia-sanches",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Andreia Sanches",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "especial-executivos",
+    "zones": [
+      "especial-executivos"
+    ],
+    "rank": 23,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_4",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/sociedade/noticia/cerca-50-manifestantes-direito-habitacao-passaram-noite-relento-porto-2191188",
+    "site_article_id": "2191188",
+    "aliases": [],
+    "title": "Cerca de 50 manifestantes pelo direito à habitação passaram noite ao relento no Porto",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Catarina Pinho",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Catarina Pinho",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 24,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/desporto/noticia/sporting-aposta-crescimento-lidar-intensidade-lens-2191156",
+    "site_article_id": "2191156",
+    "aliases": [],
+    "title": "Sporting aposta no crescimento para lidar com intensidade do Lens",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Augusto Bernardino",
+        "role": null,
+        "url": "https://www.publico.pt/autor/augusto-bernardino",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Augusto Bernardino",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 25,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/noticia/pj-apreendeu-3700-quilos-cocaina-suspeitos-morreu-durante-operacao-2191132",
+    "site_article_id": "2191132",
+    "aliases": [],
+    "title": "PJ apreende 3700 quilos de cocaína numa lancha, um dos suspeitos morreu na operação",
+    "lead": null,
+    "authors": [
+      {
+        "name": "João Pedro Pincha",
+        "role": null,
+        "url": "https://www.publico.pt/autor/joao-pedro-pincha",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "João Pedro Pincha",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 26,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/noticia/tres-trabalhadores-morrem-intoxicados-dentro-cisterna-algarve-2191099",
+    "site_article_id": "2191099",
+    "aliases": [],
+    "title": "Três trabalhadores morrem intoxicados dentro de reservatório de água no Algarve",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Mariana Durães",
+        "role": null,
+        "url": "https://www.publico.pt/autor/mariana-duraes",
+        "affiliation": null
+      },
+      {
+        "name": "Idálio Revez",
+        "role": null,
+        "url": "https://www.publico.pt/autor/idalio-revez",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Mariana Durães e Idálio Revez",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 27,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/mundo/noticia/antiga-nora-trump-kimberly-guilfoyle-tornouse-embaraco-eua-grecia-2191107",
+    "site_article_id": "2191107",
+    "aliases": [],
+    "title": "Ex-”nora” de Trump, Kimberly Guilfoyle tornou-se um embaraço para os EUA na Grécia",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Pedro Guerreiro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/pedro-guerreiro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Pedro Guerreiro",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 28,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/azul/noticia/brasil-povos-indigenas-recebem-ameacas-invasao-bolsonaro-ganhar-eleicoes-2191144",
+    "site_article_id": "2191144",
+    "aliases": [],
+    "title": "Brasil: povos indígenas recebem ameaças de invasão se Bolsonaro ganhar eleições",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Ana Bottallo",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Bottallo",
+    "section": "azul",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "marcas"
+    ],
+    "rank": 29,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "azul"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/11/desporto/cronica_de_jogo/regresso-benfica-regressou-vitorias-2191020",
+    "site_article_id": "2191020",
+    "aliases": [],
+    "title": "No regresso, o Benfica regressou às vitórias",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Marco Vaza",
+        "role": null,
+        "url": "https://www.publico.pt/autor/marco-vaza",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marco Vaza",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-11",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "cronica_de_jogo",
+    "zone": "futebol",
+    "zones": [
+      "futebol"
+    ],
+    "rank": 30,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_6",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/11/desporto/noticia/boulaye-dia-electricista-nao-desligou-corrente-2191023",
+    "site_article_id": "2191023",
+    "aliases": [],
+    "title": "Boulaye Dia, o electricista que não desligou a corrente",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Diogo Cardoso Oliveira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/diogo-cardoso-oliveira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Diogo Cardoso Oliveira",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-11",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "futebol",
+    "zones": [
+      "futebol"
+    ],
+    "rank": 31,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_6",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/10/desporto/cronica_de_jogo/fc-porto-ficou-centimetro-perder-pontos-madeira-2190962",
+    "site_article_id": "2190962",
+    "aliases": [],
+    "title": "FC Porto ficou a um centímetro de perder pontos na Madeira",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Marco Vaza",
+        "role": null,
+        "url": "https://www.publico.pt/autor/marco-vaza",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marco Vaza",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-10",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "cronica_de_jogo",
+    "zone": "futebol",
+    "zones": [
+      "futebol"
+    ],
+    "rank": 32,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_6",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/10/desporto/noticia/junior-messias-golos-frigorificos-2190965",
+    "site_article_id": "2190965",
+    "aliases": [],
+    "title": "Junior Messias e os golos depois dos frigoríficos",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Diogo Cardoso Oliveira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/diogo-cardoso-oliveira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Diogo Cardoso Oliveira",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-10",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "futebol",
+    "zones": [
+      "futebol"
+    ],
+    "rank": 33,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_6",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/09/desporto/cronica_de_jogo/sporting-banco-buscar-chave-vitoria-braga-2190899",
+    "site_article_id": "2190899",
+    "aliases": [],
+    "title": "O Sporting foi ao banco buscar a chave da vitória em Braga",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Marco Vaza",
+        "role": null,
+        "url": "https://www.publico.pt/autor/marco-vaza",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marco Vaza",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-09",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "cronica_de_jogo",
+    "zone": "futebol",
+    "zones": [
+      "futebol"
+    ],
+    "rank": 34,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_6",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/investigacao/investigacao-novos-elementos-revelam-pj-ajudou-doyen-caso-rui-pinto-2190980",
+    "site_article_id": "2190980",
+    "aliases": [],
+    "title": "Novos elementos revelam como PJ ajudou Doyen no caso Rui Pinto",
+    "lead": "Inspector da PJ redigiu proposta à PGR e pediu que ocultassem a origem. Troca de informações permitiu à Doyen obter identidade e localização do autor do Football Leaks.",
+    "authors": [
+      {
+        "name": "Paulo Curado",
+        "role": null,
+        "url": "https://www.publico.pt/autor/paulo-curado",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Paulo Curado",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "investigacao",
+    "piece_type_raw": "investigacao",
+    "zone": "rui-pinto",
+    "zones": [
+      "rui-pinto"
+    ],
+    "rank": 35,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_7",
+      "card_type": "NOTICIA",
+      "tone": "research",
+      "level": 3
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/sociedade/noticia/football-leaks-pj-reconhece-veridico-documento-mencionar-escuta-continua-negala-2191157",
+    "site_article_id": "2191157",
+    "aliases": [],
+    "title": "Football Leaks: PJ valida documento a mencionar escuta, mas continua a negá-la",
+    "lead": "Judiciária não consegue explicar ao tribunal o que se terá passado para um relatório interno seu aludir à realização de gravações em circunstâncias em que estas não tinham sido autorizadas.",
+    "authors": [
+      {
+        "name": "Ana Henriques",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ana-henriques",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Henriques",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "rui-pinto",
+    "zones": [
+      "rui-pinto",
+      "categorias"
+    ],
+    "rank": 36,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_7",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 3
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/azul/noticia/transicao-energetica-europa-poupar-34-mil-vidas-ano-2191177",
+    "site_article_id": "2191177",
+    "aliases": [],
+    "title": "Transição energética na Europa pode poupar 34 mil vidas por ano",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "azul",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 37,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Azul",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "azul"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/azul/noticia/volta-autorizacoes-municipais-travam-expansao-rede-quiosques-2191134",
+    "site_article_id": "2191134",
+    "aliases": [],
+    "title": "Volta diz que autorizações municipais travam expansão da rede de quiosques",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "azul",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas",
+      "categorias"
+    ],
+    "rank": 38,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Azul",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "azul"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/azul/noticia/medo-siberia-apos-dezenas-ataques-mortais-abriu-caca-ursos-2191079",
+    "site_article_id": "2191079",
+    "aliases": [],
+    "title": "Medo na Sibéria: após dezenas de ataques mortais, abriu a caça aos ursos",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "azul",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 39,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Azul",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "azul"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/culturaipsilon/noticia/sao-soldados-naza-netanyahu-quer-saber-2191041",
+    "site_article_id": "2191041",
+    "aliases": [],
+    "title": "Quem são os 24 soldados de NAZA? Netanyahu quer saber",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 40,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "ípsilon",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/11/culturaipsilon/noticia/jon-folio-continuo-rapaz-12-anos-escrever-2190971",
+    "site_article_id": "2190971",
+    "aliases": [],
+    "title": "Jon Fosse no Fólio: “Continuo a ser aquele rapaz de 12 anos que está a escrever”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-11",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 41,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "ípsilon",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/08/culturaipsilon/noticia/portela-2037-ira-acontecer-espaco-aeroporto-lisboa-2190390",
+    "site_article_id": "2190390",
+    "aliases": [],
+    "title": "Portela 2037: o que irá acontecer ao espaço do aeroporto de Lisboa?",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-08",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 42,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "ípsilon",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/07/culturaipsilon/noticia/espada-d-dinis-bonita-europa-nao-2190606",
+    "site_article_id": "2190606",
+    "aliases": [],
+    "title": "Espada de D. Dinis é “a mais bonita da Europa”, mas pode não ter sido feita para ele",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Lucinda Canelas",
+        "role": "texto",
+        "url": "https://www.publico.pt/autor/lucinda-canelas",
+        "affiliation": null
+      },
+      {
+        "name": "Daniel Rocha",
+        "role": "fotografia",
+        "url": "https://www.publico.pt/autor/daniel-rocha",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Lucinda Canelas (texto) e Daniel Rocha (fotografia)",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-07",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas",
+      "escolha-dos-editores"
+    ],
+    "rank": 43,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "ípsilon",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>",
+      "byline_raw": "html:.article__byline",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/impar/noticia/actriz-selma-blair-detida-acusada-agredir-assistentes-bordo-2191175",
+    "site_article_id": "2191175",
+    "aliases": [],
+    "title": "Actriz Selma Blair detida e acusada de agredir assistentes de bordo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "impar",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 44,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Ímpar",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "impar"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/impar/cronica/ansia-consumista-2191129",
+    "site_article_id": "2191129",
+    "aliases": [],
+    "title": "A que se deve a nossa ânsia consumista?",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Ana Stilwell",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ana-stilwell",
+        "affiliation": null
+      },
+      {
+        "name": "Isabel Stilwell",
+        "role": null,
+        "url": "https://www.publico.pt/autor/isabel-stilwell",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Stilwell e Isabel Stilwell",
+    "section": "impar",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 45,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Ímpar",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 5,
+      "brand": "impar"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/impar/cronica/gato-fofinho-versus-fuzilamento-2191050",
+    "site_article_id": "2191050",
+    "aliases": [],
+    "title": "Gato fofinho versus fuzilamento",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Henrique Pinto de Mesquita",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Henrique Pinto de Mesquita",
+    "section": "impar",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 46,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Ímpar",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 5,
+      "brand": "impar"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/impar/cronica/jose-luis-carneiro-700-km-esperanca-2191046",
+    "site_article_id": "2191046",
+    "aliases": [],
+    "title": "José Luís Carneiro nos 700 km de Esperança",
+    "lead": null,
+    "authors": [
+      {
+        "name": "João da Silva",
+        "role": null,
+        "url": "https://www.publico.pt/autor/joao-da-silva",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "João da Silva",
+    "section": "impar",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 47,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Ímpar",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 5,
+      "brand": "impar"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/p3/cronica/maior-arrependimento-2191118",
+    "site_article_id": "2191118",
+    "aliases": [],
+    "title": "O meu maior arrependimento",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Cláudia Lucas Chéu",
+        "role": null,
+        "url": "https://www.publico.pt/autor/claudia-lucas-cheu-",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Cláudia Lucas Chéu",
+    "section": "p3",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 48,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "P3",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 4,
+      "brand": "p3"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/p3/cronica/consumo-drogas-criminalizado-ha-100-anos-2191072",
+    "site_article_id": "2191072",
+    "aliases": [],
+    "title": "O consumo de drogas foi criminalizado há 100 anos",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Cristiana Vale Pires",
+        "role": null,
+        "url": "https://www.publico.pt/autor/cristiana-vale-pires",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Cristiana Vale Pires",
+    "section": "p3",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 49,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "P3",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 5,
+      "brand": "p3"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/11/p3/cronica/tudologos-ha-palerma-2190903",
+    "site_article_id": "2190903",
+    "aliases": [],
+    "title": "Tudólogos há muitos, seu palerma",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Cláudia Lucas Chéu",
+        "role": null,
+        "url": "https://www.publico.pt/autor/claudia-lucas-cheu-",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Cláudia Lucas Chéu",
+    "section": "p3",
+    "subsection": null,
+    "published_at": "2026-10-11",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 50,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "P3",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 5,
+      "brand": "p3"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/11/p3/noticia/homem-morto-tigre-parque-vida-selvagem-inglaterra-2191006",
+    "site_article_id": "2191006",
+    "aliases": [],
+    "title": "Homem morto por tigre num parque de vida selvagem em Inglaterra",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "p3",
+    "subsection": null,
+    "published_at": "2026-10-11",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 51,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "P3",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "p3"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/fugas/noticia/porto-cidade-acolhedora-europa-lista-conde-nast-traveller-2191130",
+    "site_article_id": "2191130",
+    "aliases": [],
+    "title": "Porto é a cidade mais acolhedora da Europa na lista da Condé Nast Traveller",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "fugas",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 52,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Fugas",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "fugas"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/fugas/noticia/douro-vai-kura-grupo-hoteleiro-portugues-anuncia-resort-cinco-estrelas-2191114",
+    "site_article_id": "2191114",
+    "aliases": [],
+    "title": "Douro vai ter Kura: grupo hoteleiro português anuncia resort cinco estrelas",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "fugas",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 53,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Fugas",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "fugas"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/fugas/noticia/santiago-cacem-chamanos-turismo-natureza-fimdesemana-observalagunas-2191109",
+    "site_article_id": "2191109",
+    "aliases": [],
+    "title": "Santiago do Cacém chama-nos ao turismo de natureza: fim-de-semana de ObservaLagunas",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "fugas",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 54,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Fugas",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "fugas"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/fugas/noticia/terca-dia-classicos-reinventados-miseraveis-mad-mozart-2191094",
+    "site_article_id": "2191094",
+    "aliases": [],
+    "title": "O que fazer? Terça é dia de clássicos reinventados com Os Miseráveis e Mad Mozart",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "fugas",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "marcas",
+    "zones": [
+      "marcas"
+    ],
+    "rank": 55,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "brands_8",
+      "column": "Fugas",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "fugas"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/enter/noticia/citroen-2cv-electrico-vai-custar-15-mil-euros-chega-2028-2191040",
+    "site_article_id": "2191040",
+    "aliases": [],
+    "title": "O Citroën 2 CV eléctrico vai custar 15 mil euros e chega em 2028",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Sérgio Magno",
+        "role": null,
+        "url": "https://www.publico.pt/autor/sergio-magno",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Sérgio Magno, em Paris",
+    "section": "enter",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "enter",
+    "zones": [
+      "enter",
+      "categorias"
+    ],
+    "rank": 56,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_10",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/enter/noticia/ia-podera-transformar-40-empregos-nivel-global-asia-maior-impacto-2191034",
+    "site_article_id": "2191034",
+    "aliases": [],
+    "title": "IA poderá transformar 40% dos empregos a nível global, Ásia com maior impacto",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Lusa",
+        "role": null,
+        "url": "https://www.publico.pt/autor/lusa",
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Lusa",
+    "section": "enter",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "enter",
+    "zones": [
+      "enter",
+      "categorias"
+    ],
+    "rank": 57,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_10",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "agencies": "byline",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/culturaipsilon/critica/dopamine-chamber-fontaines-dc-escombros-presente-indecisos-nova-pele-2191125",
+    "site_article_id": "2191125",
+    "aliases": [],
+    "title": "Dopamine Chamber: os Fontaines D.C. indecisos na sua nova pele",
+    "lead": "Viagem introspectiva por um presente desconfortável e sombrio, scroll infinito como ponto de fuga. Segue o trilho de Romance, com resultados desequilibrados. Sai sexta-feira.",
+    "authors": [
+      {
+        "name": "Mário Lopes",
+        "role": null,
+        "url": "https://www.publico.pt/autor/mario-lopes",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Mário Lopes",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "critica",
+    "piece_type_raw": "critica",
+    "zone": "criticas-ipsilon",
+    "zones": [
+      "criticas-ipsilon"
+    ],
+    "rank": 58,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_11",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 3,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/culturaipsilon/critica/maes-solteiras-gritam-puxavida-fazem-jingles-luta-2191077",
+    "site_article_id": "2191077",
+    "aliases": [],
+    "title": "Os Mães Solteiras gritam Puxa-Vida e fazem jingles para a luta",
+    "lead": "Puxa-Vida, o segundo álbum dos Mães Solteiras em 2026, entrega punk rock com tudo no sítio e desejos de comunidade.",
+    "authors": [
+      {
+        "name": "Pedro Rios",
+        "role": null,
+        "url": "https://www.publico.pt/autor/pedro-rios",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Pedro Rios",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "critica",
+    "piece_type_raw": "critica",
+    "zone": "criticas-ipsilon",
+    "zones": [
+      "criticas-ipsilon"
+    ],
+    "rank": 59,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_11",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 3,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/09/culturaipsilon/critica/maxime-denuc-monta-rave-mental-orgao-tubos-igreja-2189507",
+    "site_article_id": "2189507",
+    "aliases": [],
+    "title": "Maxime Denuc monta uma rave (mental) com órgão de tubos de igreja",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Pedro Rios",
+        "role": null,
+        "url": "https://www.publico.pt/autor/pedro-rios",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Pedro Rios",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-09",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "critica",
+    "piece_type_raw": "critica",
+    "zone": "criticas-ipsilon",
+    "zones": [
+      "criticas-ipsilon"
+    ],
+    "rank": 60,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_11",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/10/culturaipsilon/critica/parede-13-contos-marlen-haushofer-regressam-casa-2190435",
+    "site_article_id": "2190435",
+    "aliases": [],
+    "title": "Depois de A Parede, 13 contos de Marlen Haushofer regressam à casa",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Isabel Lucas",
+        "role": null,
+        "url": "https://www.publico.pt/autor/isabel-lucas",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Isabel Lucas",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-10",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "critica",
+    "piece_type_raw": "critica",
+    "zone": "criticas-ipsilon",
+    "zones": [
+      "criticas-ipsilon"
+    ],
+    "rank": 61,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_11",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/07/culturaipsilon/critica/veredicto-social-ajuste-contas-mark-zuckerberg-2190572",
+    "site_article_id": "2190572",
+    "aliases": [],
+    "title": "O Veredicto Social: ajuste de contas com Mark Zuckerberg",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Luís Miguel Oliveira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/luis-miguel-oliveira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Luís Miguel Oliveira",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-07",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "critica",
+    "piece_type_raw": "critica",
+    "zone": "criticas-ipsilon",
+    "zones": [
+      "criticas-ipsilon"
+    ],
+    "rank": 62,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_2_destaques_11",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/culturaipsilon/noticia/revelados-sete-finalistas-premio-novos-artistas-fundacao-edp-20262027-2191123",
+    "site_article_id": "2191123",
+    "aliases": [],
+    "title": "São sete os finalistas do Prémio Novos Artistas Fundação EDP 2026/2027",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias"
+    ],
+    "rank": 63,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/economia/noticia/venda-gasoleo-russo-tera-impacto-escassez-global-economistas-2191105",
+    "site_article_id": "2191105",
+    "aliases": [],
+    "title": "Venda de gasóleo russo terá pouco impacto sobre a escassez global, dizem economistas",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Rafaela Burd Relvas",
+        "role": null,
+        "url": "https://www.publico.pt/autor/rafaela-burd-relvas",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Rafaela Burd Relvas",
+    "section": "economia",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias"
+    ],
+    "rank": 64,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2191045",
+    "site_article_id": "2191045",
+    "aliases": [],
+    "title": "“Putin não lê a Truth Social”: Zelensky diz que a Rússia não está a respeitar “cessar-fogo energético” de Trump",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias"
+    ],
+    "rank": 65,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "related_of": "2191105"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/local/noticia/obra-troco-altavelocidade-arranca-projecto-fechado-2191149",
+    "site_article_id": "2191149",
+    "aliases": [],
+    "title": "Obra de primeiro troço da alta-velocidade arranca com “projecto fechado”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Camilo Soldado",
+        "role": null,
+        "url": "https://www.publico.pt/autor/camilo-soldado",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Camilo Soldado",
+    "section": "local",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias",
+      "categorias"
+    ],
+    "rank": 66,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/politica/noticia/cip-quer-governo-militares-atentos-industria-nacional-hora-encomendas-2191138",
+    "site_article_id": "2191138",
+    "aliases": [],
+    "title": "CIP quer Governo e militares atentos à indústria nacional na hora das encomendas",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Álvaro Vieira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/alvaro-vieira",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Álvaro Vieira",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias"
+    ],
+    "rank": 67,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/politica/noticia/ventura-confirma-recandidatura-lideranca-chega-garante-partido-disruptivo-2191162",
+    "site_article_id": "2191162",
+    "aliases": [],
+    "title": "Ventura confirma recandidatura à liderança do Chega e garante partido “disruptivo”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Lusa",
+        "role": null,
+        "url": "https://www.publico.pt/autor/lusa",
+        "affiliation": null
+      },
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [
+      "Lusa"
+    ],
+    "byline_raw": "Lusa e PÚBLICO",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias",
+      "categorias"
+    ],
+    "rank": 68,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "agencies": "byline",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/mundo/noticia/burnham-russia-interferiu-referendo-brexit-2191073",
+    "site_article_id": "2191073",
+    "aliases": [],
+    "title": "Burnham diz que a Rússia interferiu no referendo do “Brexit”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "António Saraiva Lima",
+        "role": null,
+        "url": "https://www.publico.pt/autor/antonio-saraiva-lima",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "António Saraiva Lima",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias"
+    ],
+    "rank": 69,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/09/politica/reportagem/noites-branco-150-pessoas-ajudinha-ia-fez-oe2027-2190775",
+    "site_article_id": "2190775",
+    "aliases": [],
+    "title": "Sem noites em branco e com uma “ajudinha” da IA: como se fez o OE2027",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Liliana Borges",
+        "role": "texto",
+        "url": "https://www.publico.pt/autor/liliana-pascoal-borges",
+        "affiliation": null
+      },
+      {
+        "name": "Joana Gonçalves",
+        "role": "video",
+        "url": "https://www.publico.pt/autor/joana-goncalves",
+        "affiliation": null
+      },
+      {
+        "name": "Daniel Rocha",
+        "role": "fotografia",
+        "url": "https://www.publico.pt/autor/daniel-rocha",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Liliana Borges (texto), Joana Gonçalves (vídeo) e Daniel Rocha (fotografia)",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-09",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "reportagem",
+    "piece_type_raw": "reportagem",
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 70,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "card_type": "NOTICIA",
+      "tone": "feature",
+      "level": 3
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2190760",
+    "site_article_id": "2190760",
+    "aliases": [],
+    "title": "Um OE com um saldo quase igual, mas com uma ajuda mais pequena à economia",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 71,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "related_of": "2190775"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2190889",
+    "site_article_id": "2190889",
+    "aliases": [],
+    "title": "O OE pode vir a ser demasiado optimista no emprego, investimento e salários",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 72,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "related_of": "2190775"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/08/desporto/reportagem/idade-vantagem-emmanuel-eseme-2190563",
+    "site_article_id": "2190563",
+    "aliases": [],
+    "title": "A idade é uma vantagem para Emmanuel Eseme",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Marco Vaza",
+        "role": "texto",
+        "url": "https://www.publico.pt/autor/marco-vaza",
+        "affiliation": null
+      },
+      {
+        "name": "Sofia Marvão",
+        "role": "video",
+        "url": "https://www.publico.pt/autor/sofia-marvao",
+        "affiliation": null
+      },
+      {
+        "name": "Ana Padilla",
+        "role": "fotografia",
+        "url": "https://www.publico.pt/autor/ana-padilla",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marco Vaza (texto), Sofia Marvão (vídeo) e Ana Padilla (fotografia)",
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-08",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "reportagem",
+    "piece_type_raw": "reportagem",
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 73,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2117895",
+    "site_article_id": "2117895",
+    "aliases": [],
+    "title": "Esta é a cara que a ciência deu ao rei D. Dinis",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 74,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "related_of": "2190606"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2026318",
+    "site_article_id": "2026318",
+    "aliases": [],
+    "title": "“A espada de D. Dinis é uma jóia”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 75,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "related_of": "2190606"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/04/culturaipsilon/noticia/portugal-vai-celebrar-900-anos-saber-certo-nasceu-2188411",
+    "site_article_id": "2188411",
+    "aliases": [],
+    "title": "Portugal vai celebrar 900 anos sem saber ao certo quando nasceu",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Manuel Carvalho",
+        "role": null,
+        "url": "https://www.publico.pt/autor/manuel-carvalho",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Manuel Carvalho",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-04",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 76,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "card_type": "NOTICIA",
+      "tone": "feature",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/09/30/azul/noticia/longe-arrabida-javali-ja-tira-sono-agricultores-sao-pedro-sul-2189778",
+    "site_article_id": "2189778",
+    "aliases": [],
+    "title": "Longe da Arrábida, o javali já tira o sono aos agricultores de São Pedro do Sul",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Aline Flor",
+        "role": null,
+        "url": "https://www.publico.pt/autor/aline-flor",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Aline Flor",
+    "section": "azul",
+    "subsection": null,
+    "published_at": "2026-09-30",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 77,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "azul"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/n2173059",
+    "site_article_id": "2173059",
+    "aliases": [],
+    "title": "Inflação acentua subida para 3,4% em Abril com aumento dos combustíveis",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 78,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": null,
+      "related_of": "27244"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__related a",
+      "note": "link curto /n<ID>: tipo, secção e data desconhecidos (só via redirect)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/sociedade/noticia/morto-despiste-camiao-ic5-perto-vila-flor-2191183",
+    "site_article_id": "2191183",
+    "aliases": [],
+    "title": "Um morto em despiste de camião no IC5 perto de Vila Flor",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 79,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Sociedade",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/local/noticia/lisboa-retoma-programa-renda-acessivel-jovem-sorteio-25-habitacoes-2191147",
+    "site_article_id": "2191147",
+    "aliases": [],
+    "title": "Lisboa retoma programa de renda acessível jovem com sorteio de 25 habitações",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "local",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 80,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Local",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/local/noticia/ministro-agricultura-pastores-razao-ataques-lobo-2191126",
+    "site_article_id": "2191126",
+    "aliases": [],
+    "title": "Ministro da Agricultura diz que pastores têm toda a razão sobre ataques do lobo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "local",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 81,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Local",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/economia/noticia/fmi-espera-inflacao-menos-crescimento-governo-2191158",
+    "site_article_id": "2191158",
+    "aliases": [],
+    "title": "FMI à espera de mais inflação e menos crescimento que o Governo",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "economia",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 82,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Economia",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/mundo/noticia/arabia-saudita-intercepta-tres-misseis-lancados-houthis-apos-ataques-2191179",
+    "site_article_id": "2191179",
+    "aliases": [],
+    "title": "Arábia Saudita intercepta três mísseis lançados por houthis após ataques",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 83,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Mundo",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/culturaipsilon/noticia/premio-fernando-tavora-ines-carneiro-projecto-arquitecturas-cosmos-2191190",
+    "site_article_id": "2191190",
+    "aliases": [],
+    "title": "Prémio Távora para Inês Carneiro com projecto sobre “Arquitecturas do Cosmos”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 84,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Cultura",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/culturaipsilon/noticia/rj-mitte-serie-breaking-bad-activista-direitos-pessoas-deficiencia-morre-34-anos-2191172",
+    "site_article_id": "2191172",
+    "aliases": [],
+    "title": "RJ Mitte, actor da série Breaking Bad, morre aos 34 anos",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 85,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Cultura",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/desporto/noticia/ricardo-jesus-ronaldo-vaise-resolver-certeza-2191160",
+    "site_article_id": "2191160",
+    "aliases": [],
+    "title": "Ricardo sobre Jesus e Ronaldo: “Vai-se tudo resolver de certeza”",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 86,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Desporto",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/desporto/noticia/homem-jogo-lucas-franca-muralha-atlantico-2191112",
+    "site_article_id": "2191112",
+    "aliases": [],
+    "title": "Homem do Jogo: Lucas França, a muralha do Atlântico",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "desporto",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 87,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Desporto",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/ciencia/noticia/robo-perseverance-bate-recorde-distancia-percorrida-planeta-2191180",
+    "site_article_id": "2191180",
+    "aliases": [],
+    "title": "Robô Perseverance bate recorde de distância percorrida fora do nosso planeta",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "ciencia",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 88,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Ciência",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/ciencia/noticia/portugal-deposita-334-amostras-sementes-cofre-apocalipse-noruega-2191074",
+    "site_article_id": "2191074",
+    "aliases": [],
+    "title": "Portugal deposita mais 334 amostras de sementes no “cofre do apocalipse” na Noruega",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "ciencia",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 89,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Ciência",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/ciencia/noticia/corte-10-verbas-ciencia-nova-proposta-orcamento-europeu-2191052",
+    "site_article_id": "2191052",
+    "aliases": [],
+    "title": "Corte de 10% nas verbas para a ciência na nova proposta de orçamento europeu",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "ciencia",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 90,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Ciência",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/enter/noticia/piratas-informaticos-desligaram-frigorificos-centenas-supermercados-franca-2191087",
+    "site_article_id": "2191087",
+    "aliases": [],
+    "title": "Piratas informáticos desligaram frigoríficos de centenas de supermercados em França",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": "enter",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "categorias",
+    "zones": [
+      "categorias"
+    ],
+    "rank": 91,
+    "excluded_reason": null,
+    "site_meta": {
+      "collection": "bloco_cat_15",
+      "column": "Tecnologia",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 5
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  }
+]

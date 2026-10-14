@@ -1,0 +1,79 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "FMI",
+      "canonical_name": "Fundo Monetário Internacional",
+      "type": "organizacao",
+      "is_public": true,
+      "roles": ["visado", "fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "As suas previsões são relatadas sem juízo."
+    },
+    {
+      "name": "Governo",
+      "canonical_name": "Governo de Portugal",
+      "type": "governo",
+      "is_public": true,
+      "roles": ["mencionado", "fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "As suas previsões servem de comparação."
+    }
+  ],
+  "sources": [
+    {
+      "type": "documento",
+      "entity_name": "Fundo Monetário Internacional",
+      "partial_attribute": "World Economic Outlook",
+      "excerpt": "segundo o World Economic Outlook divulgado esta terça-feira"
+    },
+    {
+      "type": "documento",
+      "entity_name": "Governo de Portugal",
+      "partial_attribute": "proposta de Orçamento do Estado para 2027",
+      "excerpt": "segundo a proposta de Orçamento do Estado para 2027 prevê um crescimento da economia de 2,3% este ano"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Economia", "Crescimento e PIB"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Economia", "Inflação e preços"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Orçamento do Estado"],
+      "kind": "tema",
+      "edition": "OE2027",
+      "weight": 0.3,
+      "is_new": false
+    },
+    {
+      "path": ["Economia", "Emprego e trabalho"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.2,
+      "is_new": false
+    }
+  ],
+  "locations": [],
+  "ai_indicator": {
+    "score": 10,
+    "signals": ["texto muito curto e formulaico, típico de take de agência"]
+  },
+  "debug": {
+    "reasoning": "Take de agência sobre as previsões do FMI comparadas com as do Governo. As duas entidades ficam neutras. O tema principal é o crescimento; a inflação e o desemprego são secundários. O Orçamento do Estado para 2027 aparece como termo de comparação, com a edição OE2027.",
+    "sources_used": ["lead", "World Economic Outlook (1.º parágrafo)", "proposta de OE2027 (2.º parágrafo)"],
+    "sources_discarded": ["assinatura Agência Lusa: não atribui informação no texto", "relatório do Artigo IV de junho: só serve de comparação, não é fonte desta notícia"]
+  }
+}

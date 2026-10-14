@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fila de análises · Factos</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --chip: rgba(11,11,11,0.05);
+    --s1: #2a78d6; --critical: #d03b3b; --good: #0ca30c; --warning: #b77f00;
+    --good-bg: rgba(12,163,12,0.10); --warn-bg: rgba(250,178,25,0.16); --alert-bg: rgba(208,59,59,0.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --chip: rgba(255,255,255,0.06);
+      --s1: #3987e5; --warning: #eda100;
+      --good-bg: rgba(12,163,12,0.16); --warn-bg: rgba(250,178,25,0.14); --alert-bg: rgba(208,59,59,0.20);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--s1); }
+  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+           padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--surface); }
+  header h1 { font-size: 18px; margin: 0; }
+  header .meta { color: var(--muted); font-size: 12px; }
+  nav a { margin-left: 14px; color: var(--ink-2); }
+  main { max-width: 1280px; margin: 0 auto; padding: 20px 24px 48px; display: grid; gap: 20px; }
+  @media (max-width: 700px) { main, header { padding: 16px; } }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+  .kpi b { display: block; font-size: 24px; font-variant-numeric: tabular-nums; }
+  .kpi span { color: var(--muted); font-size: 12px; }
+  .kpi.warn { border-left: 4px solid var(--warning); } .kpi.alert { border-left: 4px solid var(--critical); }
+  .bar { height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; margin-top: 8px; }
+  .bar i { display: block; height: 100%; background: var(--s1); }
+  .grid2 { display: grid; gap: 20px; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+  @media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; min-width: 0; }
+  .panel h2 { font-size: 15px; margin: 0 0 4px; }
+  .panel p.sub { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
+  .chart { position: relative; height: 220px; }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.title { max-width: 520px; }
+  .muted { color: var(--muted); }
+  .err { color: var(--critical); font-size: 12px; }
+  .chip { display: inline-block; padding: 1px 8px; border-radius: 999px; background: var(--chip); font-size: 12px; }
+  .chip.stale { background: var(--alert-bg); color: var(--critical); }
+  .empty { color: var(--muted); font-size: 13px; }
+  .banner { padding: 10px 14px; border-radius: 8px; background: var(--warn-bg); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Fila de análises</h1>
+    <div class="meta">{{ cfg.provider }} · {{ cfg.model_id }} · actualizado {{ now|date:"H:i:s" }} · recarrega a cada 30 s</div>
+  </div>
+  <nav><a href="{% url 'dashboard:crawl' %}">Fiabilidade do crawl</a><a href="/admin/">Admin</a></nav>
+</header>
+
+<main>
+  {% if not enabled %}<div class="banner">A análise automática está desligada (<code>analysis.enabled = false</code>): as versões novas não entram na fila.</div>{% endif %}
+
+  <section class="kpis" aria-label="Resumo">
+    <div class="kpi {% if queue_len.analysis and queue_len.analysis > 200 %}warn{% endif %}">
+      <b>{{ queue_len.analysis|default_if_none:"—" }}</b><span>tarefas na fila <code>analysis</code> (análises + duplicados)</span></div>
+    <div class="kpi"><b>{{ pending_total }}</b><span>versões por analisar ({{ without_count }} sem análise{% if by_status.skipped_budget %}, {{ by_status.skipped_budget }} adiadas{% endif %})</span></div>
+    <div class="kpi"><b>{{ by_status.running|default:0 }}</b><span>a correr agora</span></div>
+    <div class="kpi"><b>{{ done_last_hour }}</b><span>feitas na última hora{% if avg_latency_s %} · {{ avg_latency_s }} s/análise{% endif %}</span></div>
+    <div class="kpi"><b>{% if eta_min is not None %}{% if eta_min < 120 %}{{ eta_min }} min{% else %}{% widthratio eta_min 60 1 %} h{% endif %}{% else %}—{% endif %}</b><span>para esvaziar, ao ritmo actual</span></div>
+    <div class="kpi {% if by_status.failed %}alert{% endif %}"><b>{{ by_status.failed|default:0 }}</b><span>falhadas</span></div>
+    <div class="kpi {% if budget_left <= 0 %}alert{% endif %}">
+      <b>{{ used_today }} / {{ daily_limit }}</b><span>orçamento diário (UTC)</span>
+      <div class="bar"><i style="width: {% widthratio used_today daily_limit 100 %}%"></i></div></div>
+    <div class="kpi"><b>{{ by_status.done|default:0 }}</b><span>feitas no total</span></div>
+  </section>
+
+  <div class="grid2">
+    <section class="panel">
+      <h2>Análises por hora</h2>
+      <p class="sub">Últimas 24 h, por hora de conclusão</p>
+      <div class="chart"><canvas id="per-hour"></canvas></div>
+    </section>
+    <section class="panel">
+      <h2>Por modelo</h2>
+      <p class="sub">Análises feitas</p>
+      <table><tbody>{% for m in by_model %}
+        <tr><td>{{ m.model }} <span class="muted">{{ m.provider }}</span></td><td class="num">{{ m.n }}</td></tr>
+      {% empty %}<tr><td class="empty">Sem análises.</td></tr>{% endfor %}</tbody></table>
+    </section>
+  </div>
+
+  <section class="panel">
+    <h2>A correr</h2>
+    <p class="sub">Marcadas como "stale" se passaram {{ stale_min|floatformat:0 }} min (worker reiniciado ou morto): o drain retoma-as.</p>
+    {% include "dashboard/_analysis_rows.html" with rows=running mode="running" %}
+  </section>
+
+  <section class="panel">
+    <h2>À espera</h2>
+    <p class="sub">As 20 versões activas mais antigas ainda sem análise (estão na fila do Celery)</p>
+    {% if waiting %}
+    <div class="scroll"><table>
+      <thead><tr><th>Versão criada</th><th>Site</th><th>Notícia</th><th class="num">Palavras</th></tr></thead><tbody>
+      {% for v in waiting %}
+        <tr><td>{{ v.created_at|date:"d/m H:i" }}</td><td>{{ v.article.site.slug }}</td>
+          <td class="title"><a href="{% url 'dashboard:article' v.article_id %}?v={{ v.number }}">{{ v.article.title|default:v.article.canonical_url|truncatechars:110 }}</a> <span class="muted">v{{ v.number }}</span></td>
+          <td class="num">{{ v.word_count }}</td></tr>
+      {% endfor %}</tbody></table></div>
+    {% else %}<div class="empty">Nada à espera.</div>{% endif %}
+  </section>
+
+  {% if deferred %}
+  <section class="panel">
+    <h2>Adiadas</h2>
+    <p class="sub">Pendentes ou adiadas pelo limite diário: o drain retoma-as a cada 5 min</p>
+    {% include "dashboard/_analysis_rows.html" with rows=deferred mode="deferred" %}
+  </section>
+  {% endif %}
+
+  <section class="panel">
+    <h2>Falhadas</h2>
+    <p class="sub">As 20 mais recentes; repetem-se até <code>analysis.max_attempts</code></p>
+    {% include "dashboard/_analysis_rows.html" with rows=failed mode="failed" %}
+  </section>
+
+  <section class="panel">
+    <h2>Feitas</h2>
+    <p class="sub">As 20 mais recentes</p>
+    {% include "dashboard/_analysis_rows.html" with rows=done mode="done" %}
+  </section>
+</main>
+
+{{ per_hour|json_script:"per-hour-data" }}
+<script>
+(() => {
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const rows = JSON.parse(document.getElementById("per-hour-data").textContent);
+  const labels = rows.map((r) => new Date(r.h).toLocaleTimeString("pt-PT", { hour: "2-digit", minute: "2-digit" }));
+  if (window.Chart) {
+    new Chart(document.getElementById("per-hour"), {
+      type: "bar",
+      data: { labels, datasets: [
+        { label: "Feitas", data: rows.map((r) => r.done), backgroundColor: css("--s1"), borderRadius: 3, maxBarThickness: 24 },
+        { label: "Falhadas", data: rows.map((r) => r.failed), backgroundColor: css("--critical"), borderRadius: 3, maxBarThickness: 24 },
+      ] },
+      options: { responsive: true, maintainAspectRatio: false, animation: false,
+        scales: { x: { stacked: true, grid: { display: false }, ticks: { color: css("--muted") }, border: { color: css("--axis") } },
+                  y: { stacked: true, beginAtZero: true, grid: { color: css("--grid") }, border: { display: false },
+                       ticks: { color: css("--muted"), precision: 0 } } },
+        plugins: { legend: { position: "bottom", labels: { color: css("--ink"), boxWidth: 12 } } } },
+    });
+  }
+  setTimeout(() => location.reload(), 30000);
+})();
+</script>
+</body>
+</html>

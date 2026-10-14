@@ -1,0 +1,139 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {
+      "name": "PSP",
+      "canonical_name": "Polícia de Segurança Pública",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": [
+        "visado",
+        "fonte"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "A instituição é referida pelo agente ferido e confirma a ocorrência, sem juízo."
+    },
+    {
+      "name": "agente da PSP",
+      "canonical_name": "Agente da PSP da esquadra de São João da Talha",
+      "type": "pessoa",
+      "is_public": false,
+      "roles": [
+        "vitima",
+        "visado"
+      ],
+      "position_at_date": "agente da PSP da esquadra de São João da Talha",
+      "sentiment": "neutro",
+      "sentiment_reason": "Vítima de um atropelamento acidental, retratada sem juízo de valor."
+    },
+    {
+      "name": "Hospital de Santa Maria",
+      "canonical_name": "Hospital de Santa Maria",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": [
+        "mencionado"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido apenas como destino do ferido."
+    },
+    {
+      "name": "Comando de Emergência e Proteção Civil de Lisboa",
+      "canonical_name": "Comando Sub-regional de Emergência e Proteção Civil de Lisboa",
+      "type": "instituicao",
+      "is_public": true,
+      "roles": [
+        "fonte"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Fornece informação sobre os meios de socorro."
+    },
+    {
+      "name": "Correio da Manhã",
+      "canonical_name": "Correio da Manhã",
+      "type": "meio_comunicacao",
+      "is_public": true,
+      "roles": [
+        "fonte"
+      ],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Meio que divulgou a informação da Proteção Civil."
+    }
+  ],
+  "sources": [
+    {
+      "type": "oficial",
+      "entity_name": "Polícia de Segurança Pública",
+      "partial_attribute": "fonte oficial da direção da PSP",
+      "excerpt": "segundo confirmou ao Observador fonte oficial da direção da PSP"
+    },
+    {
+      "type": "oficial",
+      "entity_name": "Comando Sub-regional de Emergência e Proteção Civil de Lisboa",
+      "partial_attribute": null,
+      "excerpt": "Segundo informação do Comando de Emergência e Proteção Civil de Lisboa"
+    },
+    {
+      "type": "outro_meio",
+      "entity_name": "Correio da Manhã",
+      "partial_attribute": null,
+      "excerpt": "avançada ao Correio da Manhã"
+    }
+  ],
+  "themes": [
+    {
+      "path": [
+        "Segurança",
+        "Forças de segurança"
+      ],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.8,
+      "is_new": false
+    },
+    {
+      "path": [
+        "Sociedade",
+        "Acidentes"
+      ],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.7,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Santa Iria de Azóia",
+      "level": "freguesia",
+      "parent": "Loures"
+    },
+    {
+      "name": "Loures",
+      "level": "concelho",
+      "parent": "Lisboa"
+    }
+  ],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "Notícia factual curta sobre um acidente com um agente; sem juízos, todos os sentimentos neutros. Temas da taxonomia: forças de segurança e acidentes.",
+    "sources_used": [
+      "lead",
+      "1.º parágrafo (fonte oficial da PSP)",
+      "2.º parágrafo",
+      "3.º parágrafo (Proteção Civil via Correio da Manhã)"
+    ],
+    "sources_discarded": [
+      "tags do site: genéricas (País, Polícia)",
+      "Rua Bartolomeu Dias: nível de rua, abaixo da freguesia",
+      "Lisboa: só destino hospitalar, não local da ocorrência"
+    ]
+  }
+}

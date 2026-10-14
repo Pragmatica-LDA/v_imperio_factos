@@ -1,0 +1,30 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "José Pedro Aguiar-Branco", "canonical_name": "José Pedro Aguiar-Branco", "type": "pessoa", "is_public": true, "roles": ["visado", "citado"], "position_at_date": "presidente da Assembleia da República", "sentiment": "neutro", "sentiment_reason": "Autor do despacho, cujos argumentos são reproduzidos sem juízo."},
+    {"name": "André Ventura", "canonical_name": "André Ventura", "type": "pessoa", "is_public": true, "roles": ["visado"], "position_at_date": "líder do Chega e deputado", "sentiment": "neutro", "sentiment_reason": "Alvo de uma alegação de conflito de interesses que é rejeitada; o desfecho é-lhe favorável mas o texto não faz juízo."},
+    {"name": "Livre", "canonical_name": "LIVRE", "type": "partido", "is_public": true, "roles": ["visado", "citado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autor do pedido, cujos argumentos são reproduzidos e depois rejeitados, sem juízo."},
+    {"name": "Luís Neves", "canonical_name": "Luís Neves", "type": "pessoa", "is_public": true, "roles": ["mencionado"], "position_at_date": "ministro (antigo diretor nacional da PJ)", "sentiment": "neutro", "sentiment_reason": "Objecto da comissão de inquérito, apenas referido."},
+    {"name": "Chega", "canonical_name": "Chega", "type": "partido", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Partido a quem cabe a presidência da comissão."},
+    {"name": "Assembleia da República", "canonical_name": "Assembleia da República", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Contexto institucional."},
+    {"name": "PJ", "canonical_name": "Polícia Judiciária", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referida pelo cargo anterior de Luís Neves."},
+    {"name": "Lusa", "canonical_name": "Agência Lusa", "type": "meio_comunicacao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Teve acesso ao despacho."}
+  ],
+  "sources": [
+    {"type": "documento", "entity_name": "José Pedro Aguiar-Branco", "partial_attribute": "despacho do presidente da Assembleia da República", "excerpt": "Esta posição consta de um despacho de José Pedro Aguiar-Branco ao qual a agência Lusa teve esta terça-feira acesso"},
+    {"type": "documento", "entity_name": "LIVRE", "partial_attribute": "pedido de apreciação formal do Livre", "excerpt": "o Livre fez um pedido de apreciação formal para apurar se existia um conflito de interesses"},
+    {"type": "agencia", "entity_name": "Agência Lusa", "partial_attribute": null, "excerpt": "ao qual a agência Lusa teve esta terça-feira acesso"}
+  ],
+  "themes": [
+    {"path": ["Política", "Parlamento", "Comissões de inquérito"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Política", "Parlamento", "Comissões de inquérito", "Comissão de inquérito a Luís Neves"], "kind": "caso", "edition": null, "weight": 0.8, "is_new": true},
+    {"path": ["Justiça", "Crime", "Assalto ao gabinete de André Ventura"], "kind": "caso", "edition": null, "weight": 0.3, "is_new": true}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Notícia factual baseada num despacho. Sentimentos neutros: o texto relata argumentos das partes sem tomar posição. Proposto o caso da comissão de inquérito a Luís Neves e, com peso menor, o caso do assalto ao gabinete de Ventura, que é o fundamento do pedido do Livre.",
+    "sources_used": ["1.º e 2.º parágrafos (despacho)", "3.º a 5.º parágrafos (argumentos do Livre)", "restantes parágrafos (citações do despacho)"],
+    "sources_discarded": ["tags do site: genéricas", "localização: nenhuma específica além do parlamento"]
+  }
+}

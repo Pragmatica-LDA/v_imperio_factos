@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiabilidade do crawl · Factos</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300;
+    --good: #0ca30c; --warning: #fab219; --critical: #d03b3b;
+    --good-bg: rgba(12,163,12,0.10); --warn-bg: rgba(250,178,25,0.16); --alert-bg: rgba(208,59,59,0.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+      --good-bg: rgba(12,163,12,0.16); --warn-bg: rgba(250,178,25,0.14); --alert-bg: rgba(208,59,59,0.20);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink);
+         font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+           padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--surface); }
+  header h1 { font-size: 18px; margin: 0; }
+  header .meta { color: var(--muted); font-size: 12px; }
+  header a { color: var(--ink-2); }
+  main { max-width: 1280px; margin: 0 auto; padding: 20px 24px 48px; display: grid; gap: 20px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .seg button, select { font: inherit; color: var(--ink); background: var(--surface); border: 0; padding: 6px 12px;
+                        cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+  select { border: 1px solid var(--border); border-radius: 8px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;
+          border-left: 4px solid var(--good); }
+  .card.warn { border-left-color: var(--warning); }
+  .card.alert { border-left-color: var(--critical); }
+  .card h3 { margin: 0 0 6px; font-size: 15px; display: flex; justify-content: space-between; gap: 8px; }
+  .badge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; text-transform: uppercase;
+           letter-spacing: .03em; background: var(--good-bg); color: var(--ink); white-space: nowrap; }
+  .badge.warn { background: var(--warn-bg); }
+  .badge.alert { background: var(--alert-bg); }
+  .kpis { display: flex; gap: 16px; margin: 6px 0; }
+  .kpi b { display: block; font-size: 20px; }
+  .kpi span { color: var(--muted); font-size: 12px; }
+  .reasons { margin: 6px 0 0; padding-left: 18px; color: var(--ink-2); font-size: 13px; }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .panel h2 { font-size: 15px; margin: 0 0 4px; }
+  .panel p.sub { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 20px; }
+  .chart-box { position: relative; height: 260px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.url { max-width: 420px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .kind-error { color: var(--critical); font-weight: 600; }
+  .empty { color: var(--muted); padding: 12px 0; }
+  .error-box { background: var(--alert-bg); border-radius: 8px; padding: 10px 14px; display: none; }
+  @media (max-width: 520px) { main, header { padding-left: 16px; padding-right: 16px; }
+                              .charts { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Fiabilidade do crawl</h1>
+    <div class="meta" id="meta">A carregar…</div>
+  </div>
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Período">
+      <button type="button" data-bucket="hour" aria-pressed="true">Por hora</button>
+      <button type="button" data-bucket="day" aria-pressed="false">Por dia</button>
+    </div>
+    <select id="site" aria-label="Site">
+      <option value="">Todos os sites</option>
+      {% for s in sites %}<option value="{{ s.slug }}">{{ s.name }}{% if not s.active %} (inactivo){% endif %}</option>{% endfor %}
+    </select>
+    <a href="{% url 'dashboard:analysis' %}">Fila de análises</a>
+    <a href="{% url 'admin:index' %}">Admin</a>
+  </div>
+</header>
+<main>
+  <div class="error-box" id="error"></div>
+
+  <section class="cards" id="cards" aria-label="Estado por site"></section>
+
+  <section class="charts">
+    <div class="panel">
+      <h2>Taxa de sucesso das leituras</h2>
+      <p class="sub">Leituras com HTTP e parse bem-sucedidos ÷ leituras feitas</p>
+      <div class="chart-box"><canvas id="chart-success"></canvas></div>
+    </div>
+    <div class="panel">
+      <h2>Taxa de qualidade da extracção</h2>
+      <p class="sub">Leituras com o essencial extraído (quality_ok) ÷ leituras com diagnóstico</p>
+      <div class="chart-box"><canvas id="chart-quality"></canvas></div>
+    </div>
+    <div class="panel">
+      <h2>Itens encontrados por execução da descoberta</h2>
+      <p class="sub">Média por período; uma queda brusca costuma ser um parser partido</p>
+      <div class="chart-box"><canvas id="chart-discovery"></canvas></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Campos que mais falham</h2>
+    <p class="sub">Erros e avisos do diagnóstico de qualidade (crawl/quality.py), no período</p>
+    <div id="quality-table"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Últimas leituras</h2>
+    <p class="sub">Os 10 crawls de artigos mais recentes (/api/fetches/). Clica no título para ver tudo o que foi extraído e analisado.</p>
+    <div id="fetches-table"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Últimas falhas técnicas</h2>
+    <p class="sub">As 20 mais recentes (/api/failures/)</p>
+    <div id="failures-table"></div>
+  </section>
+</main>
+
+<script>
+(() => {
+  const STATUS_LABEL = { ok: "OK", warn: "Aviso", alert: "Alerta" };
+  const STATUS_ICON = { ok: "✓", warn: "!", alert: "✕" };
+  const FAILURE_STATUS = { open: "Aberta", retrying: "Em nova tentativa", given_up: "Desistida", resolved: "Resolvida" };
+  const OUTCOME_LABEL = { ok: "Nova versão", unchanged: "Sem alterações", out_of_scope: "Fora de âmbito",
+    deleted: "Apagada", redirect: "Redirect", technical_failure: "Falha técnica", parse_error: "Erro de parse",
+    rate_limited: "Adiada" };
+  const OUTCOME_BAD = new Set(["technical_failure", "parse_error"]);
+  const REASON_LABEL = { new: "nova", revisit: "revisita", late: "revisita tardia", manual: "manual",
+    retry: "nova tentativa", lastmod: "lastmod" };
+  const state = { bucket: "hour", site: "" };
+  const charts = {};
+  const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const seriesColors = () => ["--s1", "--s2", "--s3", "--s4", "--s5", "--s6"].map(css);
+  // A cor segue o site (ordem fixa por slug), nunca a posição na resposta.
+  const siteOrder = [{% for s in sites %}"{{ s.slug|escapejs }}",{% endfor %}];
+  const colorFor = (slug) => seriesColors()[Math.max(0, siteOrder.indexOf(slug)) % 6];
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const pct = (v) => (v === null || v === undefined) ? "—" : `${(v * 100).toFixed(0)}%`;
+  const fmtBucket = (iso) => {
+    const d = new Date(iso);
+    return state.bucket === "hour"
+      ? d.toLocaleString("pt-PT", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })
+      : d.toLocaleDateString("pt-PT", { day: "2-digit", month: "2-digit" });
+  };
+  const fmtDate = (iso) => iso ? new Date(iso).toLocaleString("pt-PT") : "—";
+
+  async function getJSON(url) {
+    const r = await fetch(url, { credentials: "same-origin", headers: { Accept: "application/json" } });
+    if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+    return r.json();
+  }
+
+  function renderCards(data) {
+    const el = document.getElementById("cards");
+    el.innerHTML = data.sites.map((s) => `
+      <article class="card ${s.status}">
+        <h3><span>${esc(s.name)}</span>
+            <span class="badge ${s.status}">${STATUS_ICON[s.status]} ${STATUS_LABEL[s.status]}</span></h3>
+        <div class="kpis">
+          <div class="kpi"><b>${pct(s.latest.success_rate)}</b><span>sucesso</span></div>
+          <div class="kpi"><b>${pct(s.latest.quality_ok_rate)}</b><span>qualidade</span></div>
+          <div class="kpi"><b>${s.totals.fetch_total}</b><span>leituras</span></div>
+          <div class="kpi"><b>${s.totals.discovery_runs}</b><span>descobertas</span></div>
+        </div>
+        ${s.reasons.length
+          ? `<ul class="reasons">${s.reasons.map((r) => `<li>${esc(r.message)}</li>`).join("")}</ul>`
+          : `<div class="reasons" style="padding:0">Sem problemas no último período.</div>`}
+      </article>`).join("") || `<div class="empty">Sem sites.</div>`;
+  }
+
+  function lineChart(id, data, field, isRate) {
+    const labelsIso = [...new Set(data.sites.flatMap((s) => s.series.map((b) => b.bucket)))].sort();
+    const datasets = data.sites.map((s) => {
+      const byBucket = Object.fromEntries(s.series.map((b) => [b.bucket, b[field]]));
+      const c = colorFor(s.site);
+      return {
+        label: s.name, data: labelsIso.map((b) => byBucket[b] ?? null),
+        borderColor: c, backgroundColor: c, borderWidth: 2, pointRadius: 0, pointHoverRadius: 5,
+        pointHoverBorderWidth: 2, pointHoverBorderColor: css("--surface"), spanGaps: true, tension: 0.2,
+      };
+    });
+    const grid = css("--grid"), muted = css("--muted"), ink = css("--ink");
+    const cfg = {
+      type: "line",
+      data: { labels: labelsIso.map(fmtBucket), datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false,
+        interaction: { mode: "index", intersect: false },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: muted, maxRotation: 0, autoSkipPadding: 16 },
+               border: { color: css("--axis") } },
+          y: { grid: { color: grid }, border: { display: false }, beginAtZero: true,
+               ...(isRate ? { max: 1, ticks: { color: muted, callback: (v) => `${Math.round(v * 100)}%` } }
+                          : { ticks: { color: muted } }) },
+        },
+        plugins: {
+          legend: { position: "bottom", labels: { color: ink, boxWidth: 12, boxHeight: 2, usePointStyle: false } },
+          tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${
+            ctx.parsed.y === null ? "—" : isRate ? pct(ctx.parsed.y) : ctx.parsed.y.toFixed(1)}` } },
+        },
+      },
+    };
+    if (charts[id]) charts[id].destroy();
+    charts[id] = new Chart(document.getElementById(id), cfg);
+  }
+
+  function renderQuality(data) {
+    const rows = data.sites.flatMap((s) => s.top_quality_fields.map((q) => ({ site: s.name, ...q })));
+    document.getElementById("quality-table").innerHTML = rows.length ? `
+      <table><thead><tr><th>Site</th><th>Código</th><th>Tipo</th><th class="num">Ocorrências</th>
+        <th class="num">% das leituras</th></tr></thead><tbody>
+      ${rows.map((r) => `<tr><td>${esc(r.site)}</td><td><code>${esc(r.code)}</code></td>
+        <td class="${r.kind === "error" ? "kind-error" : ""}">${r.kind === "error" ? "Erro" : "Aviso"}</td>
+        <td class="num">${r.count}</td><td class="num">${pct(r.rate)}</td></tr>`).join("")}
+      </tbody></table>` : `<div class="empty">Sem diagnósticos no período.</div>`;
+  }
+
+  async function renderFetches() {
+    const q = new URLSearchParams({ limit: "10" });
+    if (state.site) q.set("site", state.site);
+    const data = await getJSON(`/api/fetches/?${q}`);
+    const rows = data.results || [];
+    document.getElementById("fetches-table").innerHTML = rows.length ? `
+      <table><thead><tr><th>Data</th><th>Site</th><th>Artigo</th><th class="num">HTTP</th><th>Resultado</th>
+        <th>Qualidade</th><th>Motivo</th><th class="num">ms</th></tr></thead><tbody>
+      ${rows.map((f) => {
+        const url = f.final_url || f.url;
+        const status = f.http_status ?? "—";
+        const httpBad = !f.http_status || f.http_status >= 400;
+        const quality = f.quality_ok === null ? "—" : f.quality_ok ? "OK"
+          : `<span class="kind-error" title="${esc((f.quality.errors || []).join(", "))}">${esc((f.quality.errors || []).join(", ") || "falhou")}</span>`;
+        return `<tr><td>${fmtDate(f.requested_at)}</td><td>${esc(f.site)}</td>
+          <td class="url" title="${esc(url)}"><a href="/dashboard/articles/${encodeURIComponent(f.article)}/">${esc(f.article_title || url)}</a>
+            <a href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="Abrir no site" aria-label="Abrir no site">↗</a></td>
+          <td class="num ${httpBad ? "kind-error" : ""}">${esc(status)}</td>
+          <td class="${OUTCOME_BAD.has(f.outcome) ? "kind-error" : ""}">${esc(OUTCOME_LABEL[f.outcome] || f.outcome)}</td>
+          <td>${quality}</td><td>${esc(REASON_LABEL[f.reason] || f.reason)}</td>
+          <td class="num">${esc(f.duration_ms ?? "—")}</td></tr>`;
+      }).join("")}
+      </tbody></table>` : `<div class="empty">Ainda não há leituras.</div>`;
+  }
+
+  async function renderFailures() {
+    const q = new URLSearchParams({ limit: "20" });
+    if (state.site) q.set("site", state.site);
+    const data = await getJSON(`/api/failures/?${q}`);
+    const rows = data.results || [];
+    document.getElementById("failures-table").innerHTML = rows.length ? `
+      <table><thead><tr><th>Última</th><th>Tipo</th><th>HTTP</th><th class="num">Tentativas</th>
+        <th>Estado</th><th>URL</th><th>Erro</th></tr></thead><tbody>
+      ${rows.map((f) => `<tr><td>${fmtDate(f.last_at)}</td><td>${esc(f.kind)}</td><td>${esc(f.http_status ?? "—")}</td>
+        <td class="num">${f.attempts}</td><td>${esc(FAILURE_STATUS[f.status] || f.status)}</td>
+        <td class="url" title="${esc(f.url)}"><a href="${esc(f.url)}" target="_blank" rel="noopener noreferrer">${esc(f.url)}</a></td>
+        <td>${esc((f.last_error || "").slice(0, 120))}</td></tr>`).join("")}
+      </tbody></table>` : `<div class="empty">Sem falhas técnicas.</div>`;
+  }
+
+  async function load() {
+    const err = document.getElementById("error");
+    err.style.display = "none";
+    const q = new URLSearchParams({ bucket: state.bucket });
+    if (state.site) q.set("site", state.site);
+    try {
+      const data = await getJSON(`/api/stats/crawl-health/?${q}`);
+      const worst = STATUS_LABEL[data.status];
+      document.getElementById("meta").textContent =
+        `Estado global: ${worst} · desde ${fmtDate(data.since)} · gerado ${fmtDate(data.generated_at)} · ` +
+        `limiares: aviso < ${pct(data.thresholds.success_warn)}, alerta < ${pct(data.thresholds.success_alert)}, ` +
+        `queda ≥ ${pct(data.thresholds.drop_alert)}`;
+      renderCards(data);
+      lineChart("chart-success", data, "success_rate", true);
+      lineChart("chart-quality", data, "quality_ok_rate", true);
+      lineChart("chart-discovery", data, "discovery_found_avg", false);
+      renderQuality(data);
+      await Promise.all([renderFetches(), renderFailures()]);
+    } catch (e) {
+      err.textContent = `Erro a carregar os dados: ${e.message}`;
+      err.style.display = "block";
+    }
+  }
+
+  document.querySelectorAll("[data-bucket]").forEach((b) => b.addEventListener("click", () => {
+    state.bucket = b.dataset.bucket;
+    document.querySelectorAll("[data-bucket]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    load();
+  }));
+  document.getElementById("site").addEventListener("change", (e) => { state.site = e.target.value; load(); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", load);
+  load();
+  setInterval(load, 60000);
+})();
+</script>
+</body>
+</html>

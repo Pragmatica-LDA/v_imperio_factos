@@ -1,0 +1,27 @@
+{
+  "piece_type": "noticia",
+  "entities": [
+    {"name": "André Ventura", "canonical_name": "André Ventura", "type": "pessoa", "is_public": true, "roles": ["visado", "citado"], "position_at_date": "presidente do Chega", "sentiment": "neutro", "sentiment_reason": "Notícia descritiva da recandidatura; refere apoios internos mas também as invalidações do TC, sem juízo do jornalista."},
+    {"name": "Chega", "canonical_name": "Chega", "type": "partido", "is_public": true, "roles": ["visado", "fonte"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Factos sobre o calendário interno; menção às convenções invalidadas pelo TC é factual."},
+    {"name": "Tribunal Constitucional", "canonical_name": "Tribunal Constitucional", "type": "instituicao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Referido pelas decisões que invalidaram convenções e estatutos do Chega."},
+    {"name": "Lusa", "canonical_name": "Agência Lusa", "type": "meio_comunicacao", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Agência a quem a fonte oficial confirmou a informação."}
+  ],
+  "sources": [
+    {"type": "oficial", "entity_name": "Chega", "partial_attribute": "fonte oficial do partido", "excerpt": "confirmou esta terça-feira à Lusa fonte oficial do partido"},
+    {"type": "agencia", "entity_name": "Agência Lusa", "partial_attribute": null, "excerpt": "confirmou esta terça-feira à Lusa fonte oficial do partido"},
+    {"type": "oficial", "entity_name": "André Ventura", "partial_attribute": null, "excerpt": "Em conferência de imprensa depois da formalização, o presidente do partido disse"}
+  ],
+  "themes": [
+    {"path": ["Política", "Partidos", "Eleições internas"], "kind": "evento", "edition": "Diretas do Chega 2026", "weight": 1.0, "is_new": false},
+    {"path": ["Política", "Partidos", "Eleições internas", "Convenção Nacional do Chega"], "kind": "evento", "edition": "VII Convenção do Chega 2026", "weight": 0.5, "is_new": true}
+  ],
+  "locations": [
+    {"name": "Lisboa", "level": "concelho", "parent": "Lisboa"}
+  ],
+  "ai_indicator": {"score": 5, "signals": []},
+  "debug": {
+    "reasoning": "Take da Lusa, notícia factual. Ventura é visado e citado; sentimento neutro porque não há juízo do texto. Tema principal: eleições internas (edição diretas 2026); a convenção é um evento proposto como novo. O OE2027 aparece só como referência de calendário e foi descartado como tema.",
+    "sources_used": ["1.º parágrafo (fonte oficial do partido à Lusa)", "4.º a 7.º parágrafos (declarações de Ventura)", "últimos parágrafos (TC)"],
+    "sources_discarded": ["Orçamento do Estado 2027: só referência temporal", "Viana do Castelo: local da convenção de 2024, não da notícia", "eleições presidenciais: contexto"]
+  }
+}

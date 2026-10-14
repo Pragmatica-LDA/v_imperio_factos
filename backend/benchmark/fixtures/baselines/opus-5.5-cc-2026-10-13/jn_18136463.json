@@ -1,0 +1,20 @@
+{
+  "piece_type": "opiniao",
+  "entities": [
+    {"name": "Joaquim Cunha", "canonical_name": "Joaquim Cunha", "type": "pessoa", "is_public": true, "roles": ["autor_opiniao"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "Autor do artigo."},
+    {"name": "quem de momento nos governa", "canonical_name": "Governo de Portugal", "type": "governo", "is_public": true, "roles": ["mencionado"], "position_at_date": null, "sentiment": "neutro", "sentiment_reason": "O autor diz expressamente que a falta de estratégia não é marca do actual Governo, mas uma constante de décadas."}
+  ],
+  "sources": [],
+  "themes": [
+    {"path": ["Sociedade", "Saúde"], "kind": "tema", "edition": null, "weight": 1.0, "is_new": false},
+    {"path": ["Política", "Orçamento do Estado"], "kind": "tema", "edition": "OE2027", "weight": 0.5, "is_new": false},
+    {"path": ["Ciência e tecnologia"], "kind": "tema", "edition": null, "weight": 0.3, "is_new": false}
+  ],
+  "locations": [],
+  "ai_indicator": {"score": 8, "signals": []},
+  "debug": {
+    "reasoning": "Opinião sobre o orçamento como álibi e sobre a necessidade de mudança no sistema de saúde; o assunto principal é a saúde. OE2027 pelo título. A aposta final na incorporação de tecnologia justifica Ciência e tecnologia com peso baixo. Quase sem entidades nomeadas.",
+    "sources_used": ["título", "lead", "parágrafos 3 a 5 (saúde)", "último parágrafo (tecnologia)"],
+    "sources_discarded": ["tag 'Opinião': só indica o tipo", "'cidadão/doente': referência genérica, não é entidade"]
+  }
+}

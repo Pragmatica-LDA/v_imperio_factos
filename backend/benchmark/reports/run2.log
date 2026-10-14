@@ -1,0 +1,379 @@
+Connection to db (172.23.0.4) 5432 port [tcp/postgresql] succeeded!
+Connection to redis-broker (172.23.0.3) 6379 port [tcp/redis] succeeded!
+run 2: 12 modelos × 29 artigos × 1
+
+== haiku-5-5-low (anthropic:claude-haiku-5-5) · 29 pedidos · concorrência 4
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 5.9s · score 0.877
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [2/29] jn_18136260 #1 · 7.1s · score 0.633
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [3/29] jn_18135667 #1 · 12.6s · score 0.620
+  [4/29] jn_18136505 #1 · 5.7s · score 0.773
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [5/29] jn_18136491 #1 · 7.3s · score 0.689
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [6/29] jn_18136490 #1 · 14.8s · score 0.600
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [7/29] jn_18136536 #1 · 5.8s · score 0.850
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [8/29] jn_18136539 #1 · 6.5s · score 0.848
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [9/29] jn_18136547 #1 · 7.3s · score 0.791
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [10/29] jn_18136565 #1 · 7.2s · score 0.821
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [11/29] jn_18136577 #1 · 4.9s · score 0.721
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [12/29] jn_18136568 #1 · 7.3s · score 0.756
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [13/29] observador_8359486 #1 · 9.7s · score 0.882
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [14/29] observador_8364379 #1 · 4.9s · score 0.612
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [15/29] observador_8363521 #1 · 9.1s · score 0.687
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [16/29] observador_8363879 #1 · 7.3s · score 0.900
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [17/29] observador_8365329 #1 · 4.9s · score 0.848
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [18/29] observador_8365113 #1 · 5.7s · score 0.824
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [19/29] observador_8365425 #1 · 6.4s · score 0.651
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [20/29] observador_8364912 #1 · 8.1s · score 0.835
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [21/29] observador_8365532 #1 · 5.9s · score 0.842
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [22/29] observador_8365670 #1 · 4.3s · score 0.730
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [23/29] observador_8365478 #1 · 6.8s · score 0.846
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [24/29] observador_8365578 #1 · 5.9s · score 0.614
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [25/29] observador_8365810 #1 · 4.7s · score 0.676
+  [26/29] observador_8365824 #1 · 4.7s · score 0.670
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [27/29] observador_8365764 #1 · 8.3s · score 0.612
+  [28/29] publico_2191168 #1 · 7.1s · score 0.739
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [29/29] publico_2191197 #1 · 7.3s · score 0.658
+
+== haiku-5-5-medium (anthropic:claude-haiku-5-5) · 29 pedidos · concorrência 4
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 4.7s · score 0.711
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [2/29] jn_18135667 #1 · 7.7s · score 0.616
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [3/29] jn_18136490 #1 · 8.0s · score 0.661
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [4/29] jn_18136260 #1 · 9.3s · score 0.913
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [5/29] jn_18136536 #1 · 11.1s · score 0.863
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [6/29] jn_18136539 #1 · 11.0s · score 0.904
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [7/29] jn_18136491 #1 · 16.8s · score 0.840
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [8/29] jn_18136505 #1 · 16.0s · score 0.815
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [9/29] jn_18136547 #1 · 6.9s · score 0.794
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [10/29] jn_18136565 #1 · 7.0s · score 0.813
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [11/29] jn_18136568 #1 · 6.9s · score 0.735
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [12/29] jn_18136577 #1 · 8.5s · score 0.849
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [13/29] observador_8359486 #1 · 23.2s · score 0.913
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [14/29] observador_8363879 #1 · 24.2s · score 0.781
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [15/29] observador_8364379 #1 · 21.0s · score 0.799
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [16/29] observador_8363521 #1 · 30.4s · score 0.880
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [17/29] observador_8364912 #1 · 8.9s · score 0.685
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [18/29] observador_8365329 #1 · 8.9s · score 0.759
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [19/29] observador_8365425 #1 · 6.3s · score 0.657
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [20/29] observador_8365113 #1 · 16.9s · score 0.879
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [21/29] observador_8365478 #1 · 13.2s · score 0.957
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [22/29] observador_8365670 #1 · 4.8s · score 0.809
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [23/29] observador_8365532 #1 · 16.5s · score 0.842
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [24/29] observador_8365764 #1 · 7.5s · score 0.684
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [25/29] observador_8365578 #1 · 15.8s · score 0.753
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [26/29] observador_8365810 #1 · 5.3s · score 0.820
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [27/29] publico_2191168 #1 · 7.5s · score 0.853
+  [28/29] publico_2191197 #1 · 7.2s · score 0.603
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [29/29] observador_8365824 #1 · 14.7s · score 0.745
+
+== sonnet-5-5-low (anthropic:claude-sonnet-5-5) · 29 pedidos · concorrência 4
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 3.8s · score 0.712
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [2/29] jn_18136260 #1 · 8.9s · score 0.806
+  [3/29] jn_18136490 #1 · 9.5s · score 0.867
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [4/29] jn_18136536 #1 · 6.9s · score 0.885
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [5/29] jn_18135667 #1 · 17.0s · score 0.708
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [6/29] jn_18136505 #1 · 9.1s · score 0.922
+  [7/29] jn_18136491 #1 · 14.5s · score 0.661
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [8/29] jn_18136547 #1 · 6.8s · score 0.943
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [9/29] jn_18136539 #1 · 10.6s · score 0.920
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [10/29] jn_18136568 #1 · 11.3s · score 0.896
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [11/29] jn_18136565 #1 · 12.8s · score 0.926
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [12/29] jn_18136577 #1 · 14.3s · score 0.954
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [13/29] observador_8363879 #1 · 11.4s · score 0.905
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [14/29] observador_8359486 #1 · 17.9s · score 0.957
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [15/29] observador_8364379 #1 · 11.9s · score 0.857
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [16/29] observador_8363521 #1 · 20.8s · score 0.770
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [17/29] observador_8365113 #1 · 11.7s · score 0.862
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [18/29] observador_8364912 #1 · 17.0s · score 0.862
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [19/29] observador_8365425 #1 · 10.0s · score 0.766
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [20/29] observador_8365329 #1 · 13.3s · ERRO resposta degenerada: sem entidades nem temas num artigo com texto
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [21/29] observador_8365478 #1 · 7.4s · score 0.929
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [22/29] observador_8365670 #1 · 5.3s · score 0.901
+  [23/29] observador_8365532 #1 · 9.3s · score 0.882
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [24/29] observador_8365578 #1 · 10.8s · score 0.865
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [25/29] observador_8365810 #1 · 9.1s · score 0.957
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [26/29] observador_8365764 #1 · 15.2s · score 0.867
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [27/29] observador_8365824 #1 · 12.1s · score 0.829
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [28/29] publico_2191197 #1 · 10.3s · score 0.760
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+  [29/29] publico_2191168 #1 · 16.6s · score 0.932
+
+== ollama-deepseek-v4-1-flash (ollama:deepseek-v4.1-flash) · 29 pedidos · concorrência 3
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 5.8s · score 0.919
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [2/29] jn_18136260 #1 · 10.8s · score 0.810
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [3/29] jn_18136490 #1 · 11.2s · score 0.726
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [4/29] jn_18136491 #1 · 13.5s · score 0.880
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [5/29] jn_18135667 #1 · 27.6s · score 0.703
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [6/29] jn_18136505 #1 · 11.6s · score 0.840
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [7/29] jn_18136536 #1 · 7.9s · score 0.974
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [8/29] jn_18136547 #1 · 8.0s · score 0.931
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [9/29] jn_18136539 #1 · 10.7s · score 0.965
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [10/29] jn_18136565 #1 · 10.7s · score 0.824
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [11/29] jn_18136577 #1 · 13.2s · score 0.900
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [12/29] jn_18136568 #1 · 16.1s · score 0.912
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [13/29] observador_8359486 #1 · 17.4s · score 0.902
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [14/29] observador_8363879 #1 · 17.1s · score 0.710
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [15/29] observador_8363521 #1 · 22.6s · score 0.865
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [16/29] observador_8364379 #1 · 17.6s · score 0.944
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [17/29] observador_8365329 #1 · 5.3s · score 0.862
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [18/29] observador_8365113 #1 · 12.6s · score 0.792
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [19/29] observador_8364912 #1 · 21.1s · score 0.859
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [20/29] observador_8365478 #1 · 9.1s · score 0.951
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [21/29] observador_8365532 #1 · 10.7s · score 0.844
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [22/29] observador_8365425 #1 · 20.8s · score 0.733
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [23/29] observador_8365670 #1 · 4.6s · score 0.872
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [24/29] observador_8365578 #1 · 12.7s · score 0.913
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [25/29] observador_8365810 #1 · 8.3s · score 0.897
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [26/29] observador_8365764 #1 · 11.1s · score 0.908
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [27/29] observador_8365824 #1 · 10.0s · score 0.942
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [28/29] publico_2191168 #1 · 7.9s · score 0.913
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [29/29] publico_2191197 #1 · 15.4s · score 0.850
+
+== ollama-gemma4-31b (ollama:gemma4:31b) · 29 pedidos · concorrência 3
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 2.3s · score 0.933
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [2/29] jn_18136260 #1 · 4.9s · score 0.759
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [3/29] jn_18136490 #1 · 4.8s · score 0.705
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [4/29] jn_18135667 #1 · 8.9s · score 0.703
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [5/29] jn_18136491 #1 · 4.8s · score 0.828
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [6/29] jn_18136505 #1 · 4.8s · score 0.800
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [7/29] jn_18136536 #1 · 3.7s · score 0.914
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [8/29] jn_18136539 #1 · 4.6s · score 0.905
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [9/29] jn_18136565 #1 · 3.1s · score 0.956
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [10/29] jn_18136547 #1 · 4.7s · score 0.915
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [11/29] jn_18136577 #1 · 4.5s · score 0.876
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [12/29] jn_18136568 #1 · 7.3s · score 0.871
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [13/29] observador_8363879 #1 · 6.3s · score 0.904
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [14/29] observador_8363521 #1 · 8.4s · score 0.751
+  [15/29] observador_8359486 #1 · 12.3s · score 0.852
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [16/29] observador_8364379 #1 · 5.4s · score 0.922
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [17/29] observador_8365113 #1 · 6.2s · score 0.832
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [18/29] observador_8365329 #1 · 3.2s · score 0.889
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [19/29] observador_8364912 #1 · 9.3s · score 0.846
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [20/29] observador_8365425 #1 · 3.8s · score 0.761
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [21/29] observador_8365478 #1 · 4.4s · score 0.914
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [22/29] observador_8365532 #1 · 3.8s · score 0.841
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [23/29] observador_8365670 #1 · 3.1s · score 0.829
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [24/29] observador_8365764 #1 · 5.2s · score 0.825
+  [25/29] observador_8365810 #1 · 3.1s · score 0.939
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [26/29] observador_8365578 #1 · 10.1s · score 0.849
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [27/29] observador_8365824 #1 · 3.2s · score 0.900
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [28/29] publico_2191168 #1 · 4.4s · score 0.921
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [29/29] publico_2191197 #1 · 6.6s · score 0.724
+
+== ollama-glm-5-3-flash (ollama:glm-5.3-flash) · 29 pedidos · concorrência 3
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [1/29] jn_18136463 #1 · 28.6s · score 0.916
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [2/29] jn_18136260 #1 · 49.2s · score 0.753
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [3/29] jn_18135667 #1 · 84.1s · score 0.783
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [4/29] jn_18136491 #1 · 46.8s · score 0.822
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [5/29] jn_18136505 #1 · 36.7s · score 0.805
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [6/29] jn_18136536 #1 · 35.0s · score 0.909
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [7/29] jn_18136547 #1 · 39.6s · score 0.838
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [8/29] jn_18136565 #1 · 42.1s · score 0.928
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [9/29] jn_18136539 #1 · 98.8s · score 0.876
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [10/29] jn_18136577 #1 · 50.3s · score 0.806
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [11/29] jn_18136568 #1 · 58.8s · score 0.915
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [12/29] observador_8359486 #1 · 46.7s · score 0.903
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [13/29] jn_18136490 #1 · — · ERRO resposta truncada (done_reason=length): 
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [14/29] observador_8363521 #1 · 99.8s · score 0.852
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [15/29] observador_8363879 #1 · 77.5s · score 0.698
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [16/29] observador_8364379 #1 · 100.1s · score 0.835
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [17/29] observador_8365329 #1 · 17.1s · score 0.957
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [18/29] observador_8365113 #1 · 82.9s · score 0.841
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [19/29] observador_8364912 #1 · 106.2s · score 0.817
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [20/29] observador_8365478 #1 · 37.3s · score 0.852
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [21/29] observador_8365578 #1 · 26.9s · score 0.948
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [22/29] observador_8365425 #1 · 89.7s · score 0.758
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [23/29] observador_8365670 #1 · 19.5s · score 0.950
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [24/29] observador_8365532 #1 · 102.5s · score 0.806
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [25/29] observador_8365810 #1 · 41.9s · score 0.920
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [26/29] observador_8365824 #1 · 30.6s · score 0.902
+HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+  [27/29] observador_8365764 #1 · 75.3s · score 0.859
+

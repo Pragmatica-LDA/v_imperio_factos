@@ -1,0 +1,110 @@
+{
+  "url": "https://www.jn.pt/pais/artigo/jovem-morre-apos-despiste-de-camiao-que-tombou-em-cima-de-carros-no-ic5/18136505",
+  "canonical_url": "https://www.jn.pt/pais/artigo/jovem-morre-apos-despiste-de-camiao-que-tombou-em-cima-de-carros-no-ic5/18136505",
+  "aliases": [
+    "https://www.jn.pt/amp/18136505/jovem-morre-apos-despiste-de-camiao-que-tombou-em-cima-de-carros-no-ic5"
+  ],
+  "site_article_id": "18136505",
+  "title": "Filho da \"vice\" de Vila Flor morre em acidente com camião que tombou sobre carros",
+  "lead": "O despiste de um camião, esta terça-feira de manhã, provocou um morto e três feridos no Itinerário Complementar 5 (IC5), perto de Vila Flor, levando ao corte da estrada, adiantou fonte da Proteção Civil. O JN sabe que a vítima mortal é o filho de 19 anos da vice-presidente da Câmara Municipal de Vila Flor.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "O acidente aconteceu pelas 7.40 horas. O comandante sub-regional das Terras de Trás-os-Montes da Proteção Civil, Noel Afonso, revelou, à Lusa, que o pesado de mercadorias terá entrado em despiste, no IC5, perto da saída de Lodões (Vila Flor), e tombou para cima de dois veículos ligeiros, que seguiam no sentido contrário, provocando a morte a um jovem. O óbito foi declarado no local. O acidente provocou ainda três feridos, sem gravidade, que terão sido transportados para o hospital de Mirandela, distrito de Bragança.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Pelas 8.30 horas, Noel Afonso disse que, devido ao acidente, o trânsito foi cortado nos dois sentidos da estrada e desviado por uma estrada nacional.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "No local estavam 23 operacionais, apoiados por seis viaturas e ainda o helicóptero do INEM, sediado em Macedo de Cavaleiros.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Fernando Pires",
+      "role": null,
+      "url": "https://www.jn.pt/autor/fernando-pires",
+      "affiliation": null
+    },
+    {
+      "name": "JN/Agências",
+      "role": null,
+      "url": "https://www.jn.pt/autor/jnagencias",
+      "affiliation": null
+    }
+  ],
+  "agencies": [
+    "Agências"
+  ],
+  "byline_raw": "Fernando Pires, JN/Agências",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/ad6008b4-5a26-4f3d-b464-6c06c4973e44_1200x675.jpg",
+      "caption": "Helicóptero esteve no local para prestar auxílio às vítimas",
+      "photographers": [
+        "Direitos Reservados"
+      ],
+      "credit_raw": "Foto: Direitos Reservados",
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T08:06:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "pais",
+  "subsection": null,
+  "tags": [
+    "Concelho Vila Flor",
+    "acidente",
+    "Despiste"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 129,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Tinha 19 anos",
+    "section_name": "Vila Flor",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [],
+    "site_word_count": 129,
+    "reading_minutes": 1,
+    "seo_title": "Jovem morre em despiste de camião no IC5 perto de Vila Flor",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T09:06:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature (assinatura colectiva 'JN/Agências')",
+    "byline_raw": "rsc:Authors[].Signature",
+    "agencies": "assinatura ['Fernando Pires', 'JN/Agências']",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 129 vs WordCount do site 129 (rácio mín. 0.9)",
+    "notas": "assinatura colectiva 'JN/Agências'"
+  }
+}

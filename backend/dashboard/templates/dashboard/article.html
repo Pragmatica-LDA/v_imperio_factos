@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ a.title|default:"Notícia"|truncatechars:60 }} · Factos</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --border: rgba(11,11,11,0.10); --chip: rgba(11,11,11,0.05);
+    --good: #0ca30c; --warning: #b77f00; --critical: #d03b3b; --accent: #2a78d6;
+    --good-bg: rgba(12,163,12,0.10); --warn-bg: rgba(250,178,25,0.16); --alert-bg: rgba(208,59,59,0.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --border: rgba(255,255,255,0.10); --chip: rgba(255,255,255,0.06);
+      --warning: #eda100; --accent: #3987e5;
+      --good-bg: rgba(12,163,12,0.16); --warn-bg: rgba(250,178,25,0.14); --alert-bg: rgba(208,59,59,0.20);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--accent); }
+  header { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--surface); }
+  header .crumbs { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  header h1 { font-size: 20px; margin: 0 0 6px; line-height: 1.3; }
+  header .meta { color: var(--ink-2); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  main { max-width: 1280px; margin: 0 auto; padding: 20px 24px 48px; display: grid; gap: 20px;
+         grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; padding: 16px; } header { padding: 16px; } }
+  .col { display: grid; gap: 20px; align-content: start; min-width: 0; }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; min-width: 0; }
+  .panel h2 { font-size: 15px; margin: 0 0 4px; }
+  .panel p.sub { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  .chip { display: inline-block; padding: 1px 8px; border-radius: 999px; background: var(--chip); font-size: 12px;
+          margin: 1px 2px 1px 0; white-space: nowrap; }
+  .chip.positivo { background: var(--good-bg); color: var(--good); }
+  .chip.negativo { background: var(--alert-bg); color: var(--critical); }
+  .chip.neutro { color: var(--ink-2); }
+  .chip.por_rever { background: var(--warn-bg); color: var(--warning); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }
+  .kpi { background: var(--chip); border-radius: 10px; padding: 10px 12px; }
+  .kpi b { display: block; font-size: 20px; font-variant-numeric: tabular-nums; }
+  .kpi span { color: var(--muted); font-size: 12px; }
+  .bar { height: 8px; border-radius: 4px; background: var(--chip); overflow: hidden; margin-top: 6px; }
+  .bar i { display: block; height: 100%; background: var(--accent); }
+  .lead { font-size: 15px; color: var(--ink-2); margin: 0 0 12px; }
+  .body p, .body li { margin: 0 0 10px; }
+  .body h2, .body h3 { font-size: 15px; margin: 16px 0 8px; }
+  .body blockquote { margin: 0 0 10px; padding-left: 12px; border-left: 3px solid var(--border); color: var(--ink-2); }
+  .muted { color: var(--muted); }
+  .evidence { color: var(--ink-2); font-size: 12px; }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
+  pre { white-space: pre-wrap; word-break: break-word; font-size: 12px; background: var(--chip); padding: 10px;
+        border-radius: 8px; max-height: 420px; overflow: auto; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 0; font-size: 13px; }
+  dt { color: var(--muted); } dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  .versions a { margin-right: 6px; }
+  .versions a.current { font-weight: 700; color: var(--ink); text-decoration: none; }
+  .empty { color: var(--muted); font-size: 13px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+  button.primary { font: inherit; font-weight: 600; color: var(--surface); background: var(--ink); border: 0;
+                   border-radius: 8px; padding: 6px 14px; cursor: pointer; }
+  button.primary:disabled { opacity: .6; cursor: wait; }
+  .msg { padding: 8px 12px; border-radius: 8px; font-size: 13px; margin-top: 10px; }
+  .msg.success { background: var(--good-bg); } .msg.error { background: var(--alert-bg); }
+</style>
+</head>
+<body>
+<header>
+  <div class="crumbs"><a href="{% url 'dashboard:crawl' %}">← Fiabilidade do crawl</a> · notícia #{{ a.pk }}</div>
+  <h1>{{ a.title|default:"(sem título)" }}</h1>
+  <div class="meta">
+    <span><b>{{ a.site.name }}</b>{% if a.site_article_id %} · ID {{ a.site_article_id }}{% endif %}</span>
+    {% if a.section %}<span>{{ a.section }}</span>{% endif %}
+    <span>Publicada {{ a.published_at|date:"d/m/Y H:i"|default:"—" }}</span>
+    <span>Estado: <b>{{ a.get_status_display }}</b>{% if a.out_of_scope_reason %} ({{ a.out_of_scope_reason }}){% endif %}{% if a.deleted_reason %} ({{ a.deleted_reason }}){% endif %}</span>
+    <span><a href="{{ a.canonical_url }}" target="_blank" rel="noopener noreferrer">Abrir no site ↗</a></span>
+  </div>
+  {% if version %}
+  <form class="actions" method="post" action="{% url 'dashboard:analyze_now' a.pk %}"
+        onsubmit="this.querySelector('button').disabled=true; this.querySelector('button').textContent='A analisar…';">
+    {% csrf_token %}<input type="hidden" name="v" value="{{ version.number }}">
+    <button class="primary" type="submit">{% if analysis %}Reanalisar agora{% else %}Analisar agora{% endif %}</button>
+    <span class="muted">v{{ version.number }}, fora da fila, com o modelo configurado (llm.provider / llm.model)</span>
+  </form>
+  {% endif %}
+  {% for m in messages %}<div class="msg {{ m.tags }}">{{ m }}</div>{% endfor %}
+</header>
+
+<main>
+<div class="col">
+  {% if analysis %}
+  <section class="panel">
+    <h2>Análise</h2>
+    <p class="sub">{{ analysis.provider }} · {{ analysis.model }} · prompt {{ analysis.prompt_version }} ·
+      {{ analysis.finished_at|date:"d/m/Y H:i" }}{% if analysis.usage.latency_ms %} · {{ analysis.usage.latency_ms }} ms{% endif %}{% if analysis.usage.tokens_in %} · {{ analysis.usage.tokens_in }}/{{ analysis.usage.tokens_out }} tokens{% endif %}</p>
+    <div class="kpis">
+      <div class="kpi"><b>{{ analysis.piece_type|default:"—" }}</b><span>tipo de peça</span></div>
+      <div class="kpi"><b>{{ entities|length }}</b><span>entidades</span></div>
+      <div class="kpi"><b>{{ sources|length }}</b><span>fontes citadas</span></div>
+      <div class="kpi"><b>{{ topics|length }}</b><span>temas</span></div>
+      <div class="kpi">
+        <b>{% if analysis.ai_indicator.score is not None %}{{ analysis.ai_indicator.score }}%{% else %}—{% endif %}</b>
+        <span>indicador de IA</span>
+        {% if analysis.ai_indicator.score is not None %}<div class="bar"><i style="width: {{ analysis.ai_indicator.score }}%"></i></div>{% endif %}
+      </div>
+    </div>
+    <p class="sub" style="margin-top:10px">Sentimento das entidades:
+      <span class="chip positivo">{{ sentiment.positivo }} positivo</span>
+      <span class="chip negativo">{{ sentiment.negativo }} negativo</span>
+      <span class="chip neutro">{{ sentiment.neutro }} neutro</span>
+      {% if analysis.ai_indicator.signals %} · sinais de IA: {{ analysis.ai_indicator.signals|join:", " }}{% endif %}
+    </p>
+    {% if analysis.piece_type_reasoning %}<p class="evidence">{{ analysis.piece_type_reasoning }}</p>{% endif %}
+    {% if analysis.summary %}<p>{{ analysis.summary }}</p>{% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Entidades</h2>
+    <p class="sub">Papel, cargo segundo o texto e sentimento em relação a cada entidade</p>
+    {% if entities %}
+    <div class="scroll"><table>
+      <thead><tr><th>Entidade</th><th>Tipo</th><th>Papéis</th><th>Cargo (no texto)</th><th>Sentimento</th><th>Justificação</th></tr></thead>
+      <tbody>
+      {% for e in entities %}
+        <tr>
+          <td><b>{{ e.entity.canonical_name }}</b>{% if e.name_in_text and e.name_in_text != e.entity.canonical_name %}<div class="muted">“{{ e.name_in_text }}”</div>{% endif %}
+            {% if e.entity.status == "por_rever" %}<span class="chip por_rever">por rever</span>{% endif %}</td>
+          <td>{{ e.entity.get_type_display }}</td>
+          <td>{% for r in e.roles %}<span class="chip">{{ r }}</span>{% endfor %}</td>
+          <td>{{ e.position_at_time|default:"—" }}</td>
+          <td>{% if e.sentiment %}<span class="chip {{ e.sentiment }}">{{ e.sentiment }}</span>{% endif %}{% if e.sentiment_score is not None %} <span class="muted">{{ e.sentiment_score }}</span>{% endif %}</td>
+          <td class="evidence">{{ e.evidence|default:"" }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+    {% else %}<div class="empty">Sem entidades.</div>{% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Fontes citadas</h2>
+    {% if sources %}
+    <div class="scroll"><table>
+      <thead><tr><th>Tipo</th><th>Fonte</th><th>Atributo parcial</th><th>Excerto</th></tr></thead>
+      <tbody>
+      {% for s in sources %}
+        <tr><td><span class="chip">{{ s.get_type_display }}</span></td>
+          <td>{% if s.entity %}{{ s.entity.canonical_name }}{% else %}{{ s.name|default:"—" }}{% endif %}</td>
+          <td>{{ s.partial_attribute|default:"—" }}</td>
+          <td class="evidence">{{ s.excerpt }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+    {% else %}<div class="empty">Sem fontes citadas.</div>{% endif %}
+  </section>
+  {% else %}
+  <section class="panel">
+    <h2>Análise</h2>
+    {% if analyses %}<div class="empty">A análise desta versão ainda não está feita (estado: {{ analyses.0.get_status_display }}{% if analyses.0.error %} — {{ analyses.0.error|truncatechars:200 }}{% endif %}).</div>
+    {% else %}<div class="empty">Sem análise para esta versão.</div>{% endif %}
+  </section>
+  {% endif %}
+
+  <section class="panel">
+    <h2>Ligações no corpo</h2>
+    <p class="sub">Referências inline e conteúdos embebidos desta versão (sem menus, relacionados nem partilha)</p>
+    {% if links %}
+    <div class="scroll"><table>
+      <thead><tr><th>Tipo</th><th>Âmbito</th><th>Plataforma</th><th>Ligação</th><th>Texto</th></tr></thead><tbody>
+      {% for l in links %}
+        <tr><td><span class="chip">{{ l.get_kind_display }}</span></td>
+          <td>{% if l.scope == "internal" %}<span class="chip">interna</span>{% elif l.scope == "media" %}<span class="chip por_rever">{{ l.target_site.name }}</span>{% else %}<span class="chip neutro">externa</span>{% endif %}</td>
+          <td>{{ l.platform }}{% if l.is_document %} · documento{% endif %}</td>
+          <td style="overflow-wrap:anywhere">{% if l.target_article %}<a href="{% url 'dashboard:article' l.target_article_id %}">{{ l.target_article.title|truncatechars:70 }}</a><div class="muted">{% endif %}
+            <a href="{{ l.url }}" target="_blank" rel="noopener noreferrer">{{ l.domain }}{{ l.normalized_url|slice:"8:"|cut:l.domain|truncatechars:60 }}</a>{% if l.target_article %}</div>{% endif %}</td>
+          <td class="evidence">{{ l.text|truncatechars:120 }}</td></tr>
+      {% endfor %}
+    </tbody></table></div>
+    {% else %}<div class="empty">Sem ligações no corpo.</div>{% endif %}
+    {% if incoming %}
+    <details><summary>Referida por {{ incoming|length }} notícia{{ incoming|length|pluralize }}</summary>
+      <ul>{% for l in incoming %}<li><a href="{% url 'dashboard:article' l.article_id %}">{{ l.article.title|truncatechars:90 }}</a> <span class="muted">{{ l.article.site.name }}</span></li>{% endfor %}</ul>
+    </details>
+    {% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Texto extraído</h2>
+    {% if version %}
+    <p class="sub versions">Versão:
+      {% for v in versions %}<a href="?v={{ v.number }}" class="{% if v.number == version.number %}current{% endif %}">v{{ v.number }}</a>{% endfor %}
+      · {{ version.created_at|date:"d/m/Y H:i" }} · {{ version.word_count }} palavras{% if version.number > 1 %} · alteração {{ version.change_ratio|floatformat:3 }}{% endif %}</p>
+    {% if content.lead %}<p class="lead">{{ content.lead }}</p>{% endif %}
+    <div class="body">
+      {% for b in content.body %}
+        {% if b.kind == "h2" %}<h2>{{ b.text }}</h2>{% elif b.kind == "h3" %}<h3>{{ b.text }}</h3>{% elif b.kind == "quote" %}<blockquote>{{ b.text }}</blockquote>{% elif b.kind == "li" %}<ul><li>{{ b.text }}</li></ul>{% else %}<p>{{ b.text }}</p>{% endif %}
+      {% empty %}<div class="empty">Sem corpo (fora de âmbito ou não extraído).</div>
+      {% endfor %}
+    </div>
+    {% if version.diff %}<details><summary>Diff face à versão anterior</summary><pre>{{ version.diff|pprint }}</pre></details>{% endif %}
+    {% else %}<div class="empty">Sem versões (notícia ainda não descarregada ou fora de âmbito).</div>{% endif %}
+  </section>
+
+  {% if analysis %}
+  <section class="panel">
+    <h2>Debug da análise</h2>
+    <p class="sub">Raciocínio do modelo, fontes usadas e descartadas, candidatos considerados</p>
+    <details><summary>Debug</summary><pre>{{ analysis.debug|pprint }}</pre></details>
+    {% if analysis.diff_from_previous %}<details><summary>Diferenças face à análise da versão anterior</summary><pre>{{ analysis.diff_from_previous|pprint }}</pre></details>{% endif %}
+    <details><summary>Resposta do modelo</summary><pre>{{ analysis.raw_response|pprint }}</pre></details>
+  </section>
+  {% endif %}
+</div>
+
+<div class="col">
+  <section class="panel">
+    <h2>Temas</h2>
+    {% if topics %}
+    <table><thead><tr><th>Tema</th><th class="num">Peso</th><th class="num">Temp.</th></tr></thead><tbody>
+      {% for t in topics %}
+      <tr><td>{% if t.topic.parent %}<span class="muted">{{ t.topic.parent.name }} › </span>{% endif %}<b>{{ t.topic.name }}</b>
+        {% if t.edition %}<div class="muted">edição {{ t.edition.label }}</div>{% endif %}
+        {% if t.topic.status == "por_rever" %}<span class="chip por_rever">por rever</span>{% endif %}
+        {% if t.created_topic %}<span class="chip">novo</span>{% endif %}</td>
+        <td class="num">{{ t.weight|floatformat:2 }}</td><td class="num">{{ t.topic.temperature|floatformat:2 }}</td></tr>
+      {% endfor %}
+    </tbody></table>
+    {% else %}<div class="empty">Sem temas.</div>{% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Localização</h2>
+    {% for e in locations %}<span class="chip">{{ e.entity.canonical_name }}{% if e.entity.place_level %} · {{ e.entity.get_place_level_display }}{% endif %}</span>
+    {% empty %}<div class="empty">Sem localização.</div>{% endfor %}
+  </section>
+
+  <section class="panel">
+    <h2>Metadados</h2>
+    <dl>
+      <dt>Autores</dt><dd>{% for au in content.authors %}{{ au.name }}{% if au.role %} ({{ au.role }}){% endif %}{% if not forloop.last %}, {% endif %}{% empty %}—{% endfor %}</dd>
+      <dt>Assinatura</dt><dd>{{ content.byline_raw|default:"—" }}</dd>
+      <dt>Agências</dt><dd>{{ a.agencies|join:", "|default:"—" }}</dd>
+      <dt>Tipo (site)</dt><dd>{{ content.piece_type|default:"—" }}{% if content.piece_type_raw %} <span class="muted">({{ content.piece_type_raw }})</span>{% endif %}</dd>
+      <dt>Acesso</dt><dd>{{ a.access|default:"—" }}</dd>
+      <dt>Tags</dt><dd>{% for t in content.tags %}<span class="chip">{{ t }}</span>{% empty %}—{% endfor %}</dd>
+      <dt>Actualizada</dt><dd>{{ a.updated_at|date:"d/m/Y H:i"|default:"—" }}</dd>
+      <dt>Descoberta</dt><dd>{{ a.first_seen_at|date:"d/m/Y H:i" }}{% if a.first_seen_via %} via {{ a.first_seen_via.name }}{% endif %}</dd>
+      <dt>Homepage</dt><dd>{% if appearances %}{{ appearances }} aparições{% if last_appearance %} · última em {{ last_appearance.zone|default:"?" }}, posição {{ last_appearance.rank }}{% endif %}{% else %}—{% endif %}</dd>
+      <dt>Versões</dt><dd>{{ a.version_count }} · alteração acumulada {{ a.change_ratio_total|floatformat:3 }}</dd>
+      <dt>Próxima revisita</dt><dd>{{ a.next_revisit_at|date:"d/m/Y H:i"|default:"—" }}<div class="muted">{{ a.revisit_reason }}</div></dd>
+    </dl>
+    {% if content.images %}
+    <details><summary>Imagens ({{ content.images|length }})</summary>
+      <ul>{% for i in content.images %}<li><a href="{{ i.url }}" target="_blank" rel="noopener noreferrer">{{ i.caption|default:"imagem"|truncatechars:80 }}</a>
+        <span class="muted">{{ i.credit_raw|default:"sem crédito" }}</span></li>{% endfor %}</ul></details>
+    {% endif %}
+    <details><summary>URLs ({{ urls|length }})</summary>
+      <ul>{% for u in urls %}<li><span class="chip">{{ u.kind }}</span> <a href="{{ u.url }}" target="_blank" rel="noopener noreferrer">{{ u.url|truncatechars:90 }}</a></li>{% endfor %}</ul></details>
+  </section>
+
+  <section class="panel">
+    <h2>Duplicados</h2>
+    {% if cluster %}
+    <p class="sub">Cluster #{{ cluster.pk }} · origem {{ cluster.get_origin_display }}</p>
+    <table><tbody>
+      {% for m in members %}
+      <tr><td>{% if m.article_id == a.pk %}<b>esta</b>{% else %}<a href="{% url 'dashboard:article' m.article_id %}">{{ m.article.title|truncatechars:60 }}</a>{% endif %}
+        <div class="muted">{{ m.article.site.name }}{% if m.is_original %} · original{% endif %}</div></td>
+        <td class="num">{{ m.similarity|floatformat:2 }}</td></tr>
+      {% endfor %}
+    </tbody></table>
+    {% if cluster.debug.differences %}<details><summary>Diferenças de texto entre membros</summary><pre>{{ cluster.debug.differences|pprint }}</pre></details>{% endif %}
+    {% else %}<div class="empty">Sem duplicados conhecidos.</div>{% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Leituras</h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Data</th><th class="num">HTTP</th><th>Resultado</th><th>Qualidade</th></tr></thead><tbody>
+      {% for f in fetches %}
+      <tr><td>{{ f.requested_at|date:"d/m H:i" }}<div class="muted">{{ f.get_reason_display }}</div></td>
+        <td class="num">{{ f.http_status|default:"—" }}</td><td>{{ f.get_outcome_display }}</td>
+        <td>{% if f.quality_ok %}OK{% elif f.quality_ok is None %}—{% else %}<span class="chip negativo">{{ f.quality.errors|join:", " }}</span>{% endif %}</td></tr>
+      {% empty %}<tr><td colspan="4" class="empty">Sem leituras.</td></tr>
+      {% endfor %}
+    </tbody></table></div>
+  </section>
+
+  {% if analyses|length > 1 %}
+  <section class="panel">
+    <h2>Análises desta versão</h2>
+    <table><tbody>{% for x in analyses %}
+      <tr><td>{{ x.created_at|date:"d/m H:i" }}</td><td>{{ x.model }}</td><td>{{ x.get_status_display }}</td></tr>
+    {% endfor %}</tbody></table>
+  </section>
+  {% endif %}
+</div>
+</main>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "piece_type": "analise",
+  "entities": [
+    {
+      "name": "Luís Montenegro",
+      "canonical_name": "Luís Montenegro",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado", "citado"],
+      "position_at_date": "primeiro-ministro e presidente do PSD",
+      "sentiment": "positivo",
+      "sentiment_reason": "Ovacionado pelos militantes; a peça dá eco aos argumentos do seu campo contra Passos."
+    },
+    {
+      "name": "Pedro Passos Coelho",
+      "canonical_name": "Pedro Passos Coelho",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": "antigo primeiro-ministro",
+      "sentiment": "negativo",
+      "sentiment_reason": "Descrito pelos dirigentes do PSD como \"desfasado da realidade\" e com premissas erradas."
+    },
+    {
+      "name": "PSD",
+      "canonical_name": "Partido Social Democrata",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Partido no centro da disputa interna, sem juízo da peça."
+    },
+    {
+      "name": "Chega",
+      "canonical_name": "Chega",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["visado"],
+      "position_at_date": null,
+      "sentiment": "negativo",
+      "sentiment_reason": "Criticado por Montenegro e apresentado como o partido menos apreciado pelos simpatizantes do PSD."
+    },
+    {
+      "name": "André Ventura",
+      "canonical_name": "André Ventura",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": "líder do Chega",
+      "sentiment": "negativo",
+      "sentiment_reason": "Forte taxa de rejeição e descrito como populista e não confiável pelo campo de Montenegro."
+    },
+    {
+      "name": "Pedro Duarte",
+      "canonical_name": "Pedro Duarte",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["citado"],
+      "position_at_date": "presidente da Câmara Municipal do Porto",
+      "sentiment": "positivo",
+      "sentiment_reason": "Assinala-se o aniversário da sua vitória autárquica e é apontado como favorito de Montenegro à sucessão."
+    },
+    {
+      "name": "Maria João Avillez",
+      "canonical_name": "Maria João Avillez",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Jornalista que entrevistou Passos."
+    },
+    {
+      "name": "SIC Notícias",
+      "canonical_name": "SIC Notícias",
+      "type": "meio_comunicacao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Canal da entrevista de Passos."
+    },
+    {
+      "name": "ICS/ISCTE/GfK",
+      "canonical_name": "ICS/ISCTE/GfK",
+      "type": "organizacao",
+      "is_public": true,
+      "roles": ["fonte"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Autores da sondagem citada."
+    },
+    {
+      "name": "Expresso",
+      "canonical_name": "Expresso",
+      "type": "meio_comunicacao",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Encomendou a sondagem com a SIC."
+    },
+    {
+      "name": "Iniciativa Liberal",
+      "canonical_name": "Iniciativa Liberal",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referida como possível parte de uma maioria de direita."
+    },
+    {
+      "name": "PS",
+      "canonical_name": "Partido Socialista",
+      "type": "partido",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Termo de comparação nas sondagens."
+    },
+    {
+      "name": "António Costa",
+      "canonical_name": "António Costa",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido pela maioria absoluta de 2022."
+    },
+    {
+      "name": "Rui Rio",
+      "canonical_name": "Rui Rio",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido pelo receio de aliança com Ventura em 2022."
+    },
+    {
+      "name": "António José Seguro",
+      "canonical_name": "António José Seguro",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Referido pela segunda volta das presidenciais."
+    },
+    {
+      "name": "Luís Marques Mendes",
+      "canonical_name": "Luís Marques Mendes",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Candidato presidencial referido na análise do voto."
+    },
+    {
+      "name": "Cotrim Figueiredo",
+      "canonical_name": "João Cotrim Figueiredo",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Candidato presidencial referido na análise do voto."
+    },
+    {
+      "name": "Henrique Gouveia e Melo",
+      "canonical_name": "Henrique Gouveia e Melo",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Candidato presidencial referido na análise do voto."
+    },
+    {
+      "name": "Marcelo Rebelo de Sousa",
+      "canonical_name": "Marcelo Rebelo de Sousa",
+      "type": "pessoa",
+      "is_public": true,
+      "roles": ["mencionado"],
+      "position_at_date": null,
+      "sentiment": "neutro",
+      "sentiment_reason": "Parafraseado numa expressão."
+    }
+  ],
+  "sources": [
+    {
+      "type": "anonima",
+      "entity_name": null,
+      "partial_attribute": "homens de Luís Montenegro / dirigentes do PSD",
+      "excerpt": "É desta forma que os homens de Luís Montenegro reagem à forma como Pedro Passos Coelho expôs"
+    },
+    {
+      "type": "anonima",
+      "entity_name": null,
+      "partial_attribute": "quartel-general de São Caetano (sede do PSD)",
+      "excerpt": "Está desfasado da realidade “, insiste-se no quartel-general de São Caetano."
+    },
+    {
+      "type": "documento",
+      "entity_name": "ICS/ISCTE/GfK",
+      "partial_attribute": "sondagem para o Expresso / SIC, junho",
+      "excerpt": "Uma das mais completas, do ICS/ISCTE/GfK para o Expresso / SIC, de junho deste ano, era cristalina"
+    }
+  ],
+  "themes": [
+    {
+      "path": ["Política", "Partidos"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 1.0,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Partidos", "Liderança do PSD"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.8,
+      "is_new": true
+    },
+    {
+      "path": ["Política", "Governo"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.4,
+      "is_new": false
+    },
+    {
+      "path": ["Política", "Eleições"],
+      "kind": "tema",
+      "edition": null,
+      "weight": 0.2,
+      "is_new": false
+    }
+  ],
+  "locations": [
+    {
+      "name": "Porto",
+      "level": "concelho",
+      "parent": "Porto"
+    }
+  ],
+  "ai_indicator": {
+    "score": 5,
+    "signals": []
+  },
+  "debug": {
+    "reasoning": "O site marca a peça como análise e o texto confirma: junta as declarações de Montenegro e de Pedro Duarte à interpretação dos argumentos do seu campo contra Passos, com fontes anónimas e sondagens. Passos fica negativo e Montenegro positivo pelo enquadramento dado. A disputa pela liderança e estratégia do PSD não existe na taxonomia: tema novo Liderança do PSD.",
+    "sources_used": ["lead", "declarações de Montenegro no jantar do Porto", "declarações de Pedro Duarte", "fontes próximas de Montenegro", "sondagem ICS/ISCTE/GfK"],
+    "sources_discarded": ["percentagens das presidenciais: sem fonte atribuída", "entrevista na SIC Notícias: é o contexto, não fonte de informação desta peça"]
+  }
+}

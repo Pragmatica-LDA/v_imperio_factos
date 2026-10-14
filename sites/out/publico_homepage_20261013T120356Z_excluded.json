@@ -1,0 +1,1317 @@
+[
+  {
+    "url": "https://www.publico.pt/2026/10/13/sociedade/noticia/caso-alberto-joao-jardim-tiranete-funchal-2187674",
+    "site_article_id": "2187674",
+    "aliases": [],
+    "title": "O caso Alberto João Jardim: “Tiranete do Funchal”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Francisco Teixeira da Mota",
+        "role": null,
+        "url": "https://www.publico.pt/autor/francisco-teixeira-da-mota",
+        "affiliation": null
+      },
+      {
+        "name": "Leonor Caldeira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/leonor-caldeira",
+        "affiliation": null
+      },
+      {
+        "name": "Tiago Orato",
+        "role": "audio",
+        "url": "https://www.publico.pt/autor/tiago-orato",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Francisco Teixeira da Mota, Leonor Caldeira e Tiago Orato, (edição de som)",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "categorias"
+    ],
+    "rank": 13,
+    "excluded_reason": "byline:áudio (podcast)",
+    "site_meta": {
+      "collection": "manchete_2_destaques_0",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/edicoes-publico/noticia/estante-executiva-escolhas-miguel-leao-2191016",
+    "site_article_id": "2191016",
+    "aliases": [],
+    "title": "Estante executiva: as escolhas de Miguel Leão (e as nossas)",
+    "lead": null,
+    "authors": [
+      {
+        "name": "João Mestre",
+        "role": null,
+        "url": "https://www.publico.pt/autor/joao-mestre",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "João Mestre",
+    "section": "edicoes-publico",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "especial-executivos",
+    "zones": [
+      "especial-executivos"
+    ],
+    "rank": 25,
+    "excluded_reason": "secção:edicoes-publico",
+    "site_meta": {
+      "collection": "bloco_lista_4",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/estudiop/noticia/pgl-aese-business-school-investir-formacao-progredir-carreira-2188488",
+    "site_article_id": "2188488",
+    "aliases": [],
+    "title": "PGL da AESE Business School: Investir na formação para progredir na carreira",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": "Conteúdo comercial",
+    "section": "estudiop",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "destaques",
+    "zones": [
+      "destaques",
+      "estudio-p"
+    ],
+    "rank": 32,
+    "excluded_reason": "tom:tone--paid",
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "NOTICIA",
+      "tone": "paid",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/mundo/noticia/sonia-senica-cessarfogo-presente-envenenado-zelensky-2191148",
+    "site_article_id": "2191148",
+    "aliases": [],
+    "title": "Sónia Sénica: cessar-fogo de Trump “é um presente envenenado a Zelensky”",
+    "lead": "Trump anuncia um cessar-fogo, ameaça cortar armas à Ucrânia e avança com acordo petrolífero com a Rússia. A estratégia de Washington está a mudar as condições para o fim da guerra?",
+    "authors": [
+      {
+        "name": "Sara de Melo Rocha",
+        "role": null,
+        "url": "https://www.publico.pt/autor/sara-melo-rocha",
+        "affiliation": null
+      },
+      {
+        "name": "Tiago Orato",
+        "role": "audio",
+        "url": "https://www.publico.pt/autor/tiago-orato",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Sara de Melo Rocha e Tiago Orato (edição de som)",
+    "section": "mundo",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "podcasts",
+    "zones": [
+      "podcasts",
+      "categorias"
+    ],
+    "rank": 60,
+    "excluded_reason": "zona:podcasts",
+    "site_meta": {
+      "collection": "bloco_2_destaques_9",
+      "stack": "stack-podcasts",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 3
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/politica/noticia/passos-coelho-liderar-psd-2191131",
+    "site_article_id": "2191131",
+    "aliases": [],
+    "title": "Quando é que Passos Coelho pode vir a liderar o PSD?",
+    "lead": "O antigo primeiro-ministro elogiou André Ventura, a quem reconheceu “bastante mérito” pela dimensão alcançada pelo Chega.",
+    "authors": [
+      {
+        "name": "Ana Sá Lopes",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ana-sa-lopes",
+        "affiliation": null
+      },
+      {
+        "name": "Ruben Martins",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ruben-martins",
+        "affiliation": null
+      },
+      {
+        "name": "Tiago Orato",
+        "role": "audio",
+        "url": "https://www.publico.pt/autor/tiago-orato",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Sá Lopes, Ruben Martins e Tiago Orato (edição de som)",
+    "section": "politica",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "podcasts",
+    "zones": [
+      "podcasts"
+    ],
+    "rank": 61,
+    "excluded_reason": "zona:podcasts",
+    "site_meta": {
+      "collection": "bloco_2_destaques_9",
+      "stack": "stack-podcasts",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 3
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/09/culturaipsilon/podcast/manteiga-ovo-malditos-ultimo-tango-paris-imperio-sentidos-2190548",
+    "site_article_id": "2190548",
+    "aliases": [],
+    "title": "A manteiga, o ovo, os “malditos”: de O Último Tango em Paris a O Império dos Sentidos",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Alexandra Prado Coelho",
+        "role": null,
+        "url": "https://www.publico.pt/autor/alexandra-prado-coelho",
+        "affiliation": null
+      },
+      {
+        "name": "Vasco Câmara",
+        "role": null,
+        "url": "https://www.publico.pt/autor/vasco-camara",
+        "affiliation": null
+      },
+      {
+        "name": "Margarida Adão",
+        "role": "audio",
+        "url": "https://www.publico.pt/autor/margarida-adao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Alexandra Prado Coelho, Vasco Câmara e Margarida Adão (edição de som)",
+    "section": "culturaipsilon",
+    "subsection": null,
+    "published_at": "2026-10-09",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": "podcast",
+    "zone": "podcasts",
+    "zones": [
+      "podcasts"
+    ],
+    "rank": 62,
+    "excluded_reason": "zona:podcasts",
+    "site_meta": {
+      "collection": "bloco_2_destaques_9",
+      "stack": "stack-podcasts",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "culturaipsilon"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/08/impar/noticia/birras-joao-goulao-estoume-tintas-pessoas-usem-drogas-nao-quero-sofram-2190649",
+    "site_article_id": "2190649",
+    "aliases": [],
+    "title": "João Goulão: “Estou-me nas tintas que as pessoas usem drogas, não quero é que sofram”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Ana Stilwell",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ana-stilwell",
+        "affiliation": null
+      },
+      {
+        "name": "Isabel Stilwell",
+        "role": null,
+        "url": "https://www.publico.pt/autor/isabel-stilwell",
+        "affiliation": null
+      },
+      {
+        "name": "Tiago Orato",
+        "role": "audio",
+        "url": "https://www.publico.pt/autor/tiago-orato",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Stilwell, Isabel Stilwell e Tiago Orato (edição de som)",
+    "section": "impar",
+    "subsection": null,
+    "published_at": "2026-10-08",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "podcasts",
+    "zones": [
+      "podcasts"
+    ],
+    "rank": 63,
+    "excluded_reason": "zona:podcasts",
+    "site_meta": {
+      "collection": "bloco_2_destaques_9",
+      "stack": "stack-podcasts",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4,
+      "brand": "impar"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/impar/cronica/coracao-bate-chamame-nome-2191029",
+    "site_article_id": "2191029",
+    "aliases": [],
+    "title": "O Coração Ainda Bate. Chama-me pelo meu nome",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Inês Meneses",
+        "role": null,
+        "url": "https://www.publico.pt/autor/ines-meneses",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Inês Meneses",
+    "section": "impar",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "cronica",
+    "piece_type_raw": "cronica",
+    "zone": "podcasts",
+    "zones": [
+      "podcasts"
+    ],
+    "rank": 64,
+    "excluded_reason": "zona:podcasts",
+    "site_meta": {
+      "collection": "bloco_2_destaques_9",
+      "stack": "stack-podcasts",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 4,
+      "brand": "impar"
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/07/sociedade/podcast/homem-matou-duas-vezes-episodio-2-revelacao-2188504",
+    "site_article_id": "2188504",
+    "aliases": [],
+    "title": "O Homem Que Matou Duas Vezes. Episódio 2: A Revelação",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Ana Cristina Pereira",
+        "role": "investigacao, guiao e narracao",
+        "url": "https://www.publico.pt/autor/ana-cristina-pereira",
+        "affiliation": null
+      },
+      {
+        "name": "Inês Rocha",
+        "role": "producao e revisao",
+        "url": "https://www.publico.pt/autor/ines-rocha",
+        "affiliation": null
+      },
+      {
+        "name": "Margarida Adão",
+        "role": "audio",
+        "url": "https://www.publico.pt/autor/margarida-adao",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Ana Cristina Pereira (investigação, guião e narração), Inês Rocha (produção e revisão) e Margarida Adão (sonoplastia)",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-07",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": "podcast",
+    "zone": "podcasts",
+    "zones": [
+      "podcasts"
+    ],
+    "rank": 65,
+    "excluded_reason": "zona:podcasts",
+    "site_meta": {
+      "collection": "bloco_2_destaques_9",
+      "stack": "stack-podcasts",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/10/enter/podcast/electricos-baratos-danca-tarifas-muda-mobilidade-2190912",
+    "site_article_id": "2190912",
+    "aliases": [],
+    "title": "Eléctricos baratos e a dança das tarifas: o que muda na mobilidade",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Sérgio Magno",
+        "role": null,
+        "url": "https://www.publico.pt/autor/sergio-magno",
+        "affiliation": null
+      },
+      {
+        "name": "Ruben Martins",
+        "role": "edicao",
+        "url": "https://www.publico.pt/autor/ruben-martins",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Sérgio Magno e Ruben Martins (edição)",
+    "section": "enter",
+    "subsection": null,
+    "published_at": "2026-10-10",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": "podcast",
+    "zone": "enter",
+    "zones": [
+      "enter"
+    ],
+    "rank": 69,
+    "excluded_reason": "tipo:podcast",
+    "site_meta": {
+      "collection": "bloco_lista_10",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/13/estudiop/noticia/iscte-executive-education-chega-1-lugar-nacional-2191044",
+    "site_article_id": "2191044",
+    "aliases": [],
+    "title": "Iscte Executive Education chega ao 1º lugar nacional",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": "Conteúdo comercial",
+    "section": "estudiop",
+    "subsection": null,
+    "published_at": "2026-10-13",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "mais-noticias",
+    "zones": [
+      "mais-noticias",
+      "estudio-p"
+    ],
+    "rank": 75,
+    "excluded_reason": "tom:tone--paid",
+    "site_meta": {
+      "collection": "bloco_lista_12",
+      "card_type": "NOTICIA",
+      "tone": "paid",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/sociedade/noticia/publico-vence-dois-premios-gazeta-repete-distincao-multimedia-2191085",
+    "site_article_id": "2191085",
+    "aliases": [],
+    "title": "PÚBLICO vence dois Prémios Gazeta e repete a distinção em Multimédia",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Manuel Pereira Monteiro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/manuelc-monteiro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Manuel Pereira Monteiro",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-10-12",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 92,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/09/23/sociedade/noticia/reportagem-publico-barracas-lisboa-novamente-premiada-2189068",
+    "site_article_id": "2189068",
+    "aliases": [],
+    "title": "Reportagem do PÚBLICO sobre barracas na Grande Lisboa novamente premiada",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "sociedade",
+    "subsection": null,
+    "published_at": "2026-09-23",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 93,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/09/18/edicoes-publico/noticia/podcast-devida-venia-publico-julgado-palavras-2188306",
+    "site_article_id": "2188306",
+    "aliases": [],
+    "title": "Podcast Devida Vénia: o PÚBLICO foi julgado por estas palavras",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "edicoes-publico",
+    "subsection": null,
+    "published_at": "2026-09-18",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 94,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/05/04/edicoes-publico/noticia/escolha-publico-fonte-preferida-noticias-google-2173211",
+    "site_article_id": "2173211",
+    "aliases": [],
+    "title": "Escolha o PÚBLICO como fonte preferida de notícias no Google",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "edicoes-publico",
+    "subsection": null,
+    "published_at": "2026-05-04",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 95,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/07/05/edicoes-publico/noticia/ipsilon-livros-ideias-revista-leitura-lenta-2180501",
+    "site_article_id": "2180501",
+    "aliases": [],
+    "title": "Ípsilon Livros & Ideias: uma revista de leitura lenta",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "edicoes-publico",
+    "subsection": null,
+    "published_at": "2026-07-05",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 96,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2024/08/16/edicoes-publico/noticia/publico-brasil-diferencas-face-publico-2101024",
+    "site_article_id": "2101024",
+    "aliases": [],
+    "title": "PÚBLICO Brasil: o que é e as diferenças face ao PÚBLICO",
+    "lead": null,
+    "authors": [
+      {
+        "name": "PÚBLICO",
+        "role": null,
+        "url": null,
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "PÚBLICO",
+    "section": "edicoes-publico",
+    "subsection": null,
+    "published_at": "2024-08-16",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 97,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "news",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2023/06/01/opiniao/editorial/pacto-leitor-2051721",
+    "site_article_id": "2051721",
+    "aliases": [],
+    "title": "O nosso pacto com o leitor",
+    "lead": null,
+    "authors": [
+      {
+        "name": "David Pontes",
+        "role": null,
+        "url": "https://www.publico.pt/autor/david-pontes",
+        "affiliation": null
+      },
+      {
+        "name": "Andreia Sanches",
+        "role": null,
+        "url": "https://www.publico.pt/autor/andreia-sanches",
+        "affiliation": null
+      },
+      {
+        "name": "Marta Moitinho Oliveira",
+        "role": null,
+        "url": "https://www.publico.pt/autor/marta-moitinho-oliveira",
+        "affiliation": null
+      },
+      {
+        "name": "Sónia Sapage",
+        "role": null,
+        "url": "https://www.publico.pt/autor/sonia-sapage",
+        "affiliation": null
+      },
+      {
+        "name": "Tiago Luz Pedro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/tiago-luz-pedro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "David Pontes, Andreia Sanches, Marta Moitinho Oliveira, Sónia Sapage e Tiago Luz Pedro",
+    "section": "opiniao",
+    "subsection": null,
+    "published_at": "2023-06-01",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "editorial",
+    "piece_type_raw": "editorial",
+    "zone": "conheca-o-publico",
+    "zones": [
+      "conheca-o-publico"
+    ],
+    "rank": 98,
+    "excluded_reason": "zona:conheca-o-publico",
+    "site_meta": {
+      "collection": "bloco_lista_14",
+      "card_type": "NOTICIA",
+      "tone": "opinion",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/07/estudiop/noticia/longevidade-performance-sustentavel-debate-2190518",
+    "site_article_id": "2190518",
+    "aliases": [],
+    "title": "Longevidade e performance sustentável em debate",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": "Conteúdo comercial",
+    "section": "estudiop",
+    "subsection": null,
+    "published_at": "2026-10-07",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "estudio-p",
+    "zones": [
+      "estudio-p"
+    ],
+    "rank": 108,
+    "excluded_reason": "zona:estudio-p",
+    "site_meta": {
+      "collection": "bloco_lista_16",
+      "stack": "stack-estudio-p",
+      "card_type": "NOTICIA",
+      "tone": "paid",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/06/estudiop/noticia/redes-territorios-consumidores-centro-transicao-energetica-2190407",
+    "site_article_id": "2190407",
+    "aliases": [],
+    "title": "Redes, territórios e consumidores no centro da transição energética",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": "Conteúdo comercial",
+    "section": "estudiop",
+    "subsection": null,
+    "published_at": "2026-10-06",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "estudio-p",
+    "zones": [
+      "estudio-p"
+    ],
+    "rank": 109,
+    "excluded_reason": "zona:estudio-p",
+    "site_meta": {
+      "collection": "bloco_lista_16",
+      "stack": "stack-estudio-p",
+      "card_type": "NOTICIA",
+      "tone": "paid",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/06/estudiop/noticia/uminho-quer-encurtar-caminho-conhecimento-valor-2190403",
+    "site_article_id": "2190403",
+    "aliases": [],
+    "title": "UMinho quer encurtar caminho entre conhecimento e valor",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": "Conteúdo comercial",
+    "section": "estudiop",
+    "subsection": null,
+    "published_at": "2026-10-06",
+    "published_at_precision": "date",
+    "access": null,
+    "piece_type": "noticia",
+    "piece_type_raw": "noticia",
+    "zone": "estudio-p",
+    "zones": [
+      "estudio-p"
+    ],
+    "rank": 110,
+    "excluded_reason": "zona:estudio-p",
+    "site_meta": {
+      "collection": "bloco_lista_16",
+      "stack": "stack-estudio-p",
+      "card_type": "NOTICIA",
+      "tone": "paid",
+      "level": 4
+    },
+    "extraction_debug": {
+      "url": "html:a[href]",
+      "site_article_id": "url",
+      "title": "html:.article__title a",
+      "byline_raw": "html:.article__byline",
+      "piece_type": "url:<tipo>",
+      "section": "url:<secção>",
+      "published_at": "url:/AAAA/MM/DD/ (só data)",
+      "piece_type_raw": "url:<tipo>"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/sociedade/interactivo/onde-posso-fazer-curso-executivos-outubro-2026",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Formação para executivos: pesquise entre mais de 1300 cursos",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "especial-executivos",
+    "zones": [
+      "especial-executivos"
+    ],
+    "rank": 111,
+    "excluded_reason": "card:EXTERNOS",
+    "site_meta": {
+      "collection": "bloco_lista_4",
+      "card_type": "EXTERNOS",
+      "tone": "news",
+      "level": 4,
+      "card_id": "27322"
+    },
+    "extraction_debug": {
+      "url": "html:.article__title a",
+      "title": "html:.article__title a"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/video/prova-factos-verificar-sentidos-voto-parlamento-20261006-172704",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Prova dos Factos. Como verificar sentidos de voto no Parlamento?",
+    "lead": "Surgem, por vezes, acusações sobre que deputados apoiaram uma certa medida. O site da AR é uma ferramenta para confirmar como votaram.",
+    "authors": [
+      {
+        "name": "Fernando Costa",
+        "role": null,
+        "url": "https://www.publico.pt/autor/fernando-costa",
+        "affiliation": null
+      },
+      {
+        "name": "Marta Sofia Ribeiro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/marta-sofia-ribeiro",
+        "affiliation": null
+      },
+      {
+        "name": "Susete Francisco",
+        "role": null,
+        "url": "https://www.publico.pt/autor/susete-francisco",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Fernando Costa, Marta Sofia Ribeiro e Susete Francisco",
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "destaques",
+    "zones": [
+      "destaques"
+    ],
+    "rank": 112,
+    "excluded_reason": "card:VIDEO",
+    "site_meta": {
+      "collection": "bloco_1_destaque_5",
+      "card_type": "VIDEO",
+      "tone": "multimedia",
+      "level": 3,
+      "card_id": "98339"
+    },
+    "extraction_debug": {
+      "url": "html:.article__title a",
+      "title": "html:.article__title a",
+      "lead": "html:.article__lead",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/2026/10/12/video/enter-tv-n12-relogio-google-dobraveis-samsung-suv-electrico-mazda-20261011-161909",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Enter TV nº12: o relógio da Google, os dobráveis da Samsung e o SUV eléctrico da Mazda",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": null,
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "enter",
+    "zones": [
+      "enter"
+    ],
+    "rank": 113,
+    "excluded_reason": "card:VIDEO",
+    "site_meta": {
+      "collection": "bloco_lista_10",
+      "card_type": "VIDEO",
+      "tone": "multimedia",
+      "level": 4,
+      "card_id": "98363"
+    },
+    "extraction_debug": {
+      "url": "html:.article__title a",
+      "title": "html:.article__title a"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/mulheres-portuguesas-onlyfans-trabalho-sexual",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Uma tarde com estrelas portuguesas do OnlyFans: o trabalho sexual agora é “conteúdo”",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Marta Sofia Ribeiro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/marta-sofia-ribeiro",
+        "affiliation": null
+      },
+      {
+        "name": "Lara Castro",
+        "role": null,
+        "url": "https://www.publico.pt/autor/lara-castro",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Marta Sofia Ribeiro e Lara Castro",
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 114,
+    "excluded_reason": "card:EXTERNOS",
+    "site_meta": {
+      "collection": null,
+      "card_type": "EXTERNOS",
+      "tone": "multimedia",
+      "level": 4,
+      "card_id": "27307"
+    },
+    "extraction_debug": {
+      "url": "html:.article__title a",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/interactivos/cabaz-alimentar-essencial-mais-caro-mais-barato",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "Preço do cabaz alimentar sobe pela terceira semana consecutiva. Veja a evolução",
+    "lead": null,
+    "authors": [
+      {
+        "name": "Catarina Seemann",
+        "role": null,
+        "url": "https://www.publico.pt/autor/catarina-seemann",
+        "affiliation": null
+      },
+      {
+        "name": "José Volta e Pinto",
+        "role": null,
+        "url": "https://www.publico.pt/autor/jose-volta-pinto",
+        "affiliation": null
+      }
+    ],
+    "agencies": [],
+    "byline_raw": "Catarina Seemann e José Volta e Pinto",
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "escolha-dos-editores",
+    "zones": [
+      "escolha-dos-editores"
+    ],
+    "rank": 115,
+    "excluded_reason": "card:EXTERNOS",
+    "site_meta": {
+      "collection": null,
+      "card_type": "EXTERNOS",
+      "tone": "news",
+      "level": 4,
+      "card_id": "27244"
+    },
+    "extraction_debug": {
+      "url": "html:.article__title a",
+      "title": "html:.article__title a",
+      "authors": "html:.article__byline address (role/affiliation dos parênteses)"
+    }
+  },
+  {
+    "url": "https://www.publico.pt/estudiop/conteudo_patrocinado/codigo-cura",
+    "site_article_id": null,
+    "aliases": [],
+    "title": "O código da cura",
+    "lead": null,
+    "authors": [],
+    "agencies": [],
+    "byline_raw": "Conteúdo comercial",
+    "section": null,
+    "subsection": null,
+    "published_at": null,
+    "published_at_precision": null,
+    "access": null,
+    "piece_type": null,
+    "piece_type_raw": null,
+    "zone": "estudio-p",
+    "zones": [
+      "estudio-p"
+    ],
+    "rank": 116,
+    "excluded_reason": "zona:estudio-p",
+    "site_meta": {
+      "collection": "bloco_lista_16",
+      "stack": "stack-estudio-p",
+      "card_type": "EXTERNOS",
+      "tone": "paid",
+      "level": 4,
+      "card_id": "27321"
+    },
+    "extraction_debug": {
+      "url": "html:.article__title a",
+      "title": "html:.article__title a"
+    }
+  }
+]

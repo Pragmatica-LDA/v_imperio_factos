@@ -1,0 +1,110 @@
+{
+  "url": null,
+  "canonical_url": "https://www.jn.pt/justica/artigo/prisao-preventiva-para-5-dos-15-traficantes-da-arrabida-detidos/18136577",
+  "aliases": [
+    "https://www.jn.pt/amp/18136577/prisao-preventiva-para-5-dos-15-traficantes-da-arrabida-detidos"
+  ],
+  "site_article_id": "18136577",
+  "title": "Cinco traficantes da Arrábida vão para a cadeia",
+  "lead": "Cinco dos 15 detidos, na quarta-feira, no Porto, no âmbito de uma operação contra o tráfico de droga, ficam em prisão preventiva, e os restantes com obrigação de apresentações junto das autoridades, foi anunciado esta terça-feira.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Na quarta-feira, a PSP deteve 15 pessoas, 12 homens e três mulheres, e apreendeu mais de 24 mil doses de droga, no âmbito de uma operação centrada nos concelhos do Porto, Gaia, Vila do Conde e Matosinhos.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Em comunicado, o Comando Metropolitano da PSP do Porto explica que a cinco dos detidos foi aplicada como medida de coação a prisão preventiva, a seis deles a obrigação de apresentações bissemanais, a um a obrigação de apresentações diárias e o último ficou com Termo de Identidade e Residência.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Os detidos têm idades entre os 22 e os 63 anos e são residentes no Porto, Vila Nova de Gaia e Vila do Conde.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Daquela operação, centrada na zona da Arrábida, bairro da Pasteleira e bairro Pinheiro Torres, no Porto, bem como em Vila do Conde, Matosinhos e Gaia, resultou a apreensão de mais de 24 mil doses de estupefaciente e de mais de 340 mil euros.",
+      "links": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "JN/Agências",
+      "role": null,
+      "url": "https://www.jn.pt/autor/jnagencias",
+      "affiliation": null
+    }
+  ],
+  "agencies": [
+    "Agências"
+  ],
+  "byline_raw": "JN/Agências",
+  "images": [
+    {
+      "url": "https://staticx.noticiasilimitadas.pt/jn/88d57192-7e18-41eb-83a4-bfa47422131a_1200x675.jpg",
+      "caption": "Operação foi liderada pela Divisão de Investigação Criminal do Porto da PSP",
+      "photographers": [
+        "Pedro Granadeiro"
+      ],
+      "credit_raw": "Foto: Pedro Granadeiro",
+      "agency": null,
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T11:19:00+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": null,
+  "section": "justica",
+  "subsection": null,
+  "tags": [
+    "Justiça",
+    "Porto",
+    "tráfico",
+    "PSP"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "NG:Article",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "rsc",
+  "word_count": 153,
+  "out_of_scope": null,
+  "site_meta": {
+    "headline": "Tráfico",
+    "section_name": "Justiça",
+    "subsection_name": null,
+    "layout_code": "NG:Article",
+    "layout_name": "Artigo",
+    "categories": [],
+    "site_word_count": 147,
+    "reading_minutes": 1,
+    "seo_title": "Prisão preventiva para 5 dos 15 traficantes da Arrábida",
+    "has_video": false,
+    "has_audio": false,
+    "published_at_raw": "2026-10-13T12:19:00+01:00"
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "url canónico",
+    "aliases": "html:link[rel=amphtml] + rsc:UrlApp/UrlAppfb",
+    "title": "jsonld:headline",
+    "lead": "jsonld:description",
+    "body": "rsc:dataset.Body (sem div.ArticlePageBodyAd)",
+    "word_count": "contagem do corpo extraído",
+    "images": "rsc:dataset.Media[] (Caption, Producer) + jsonld:image.url",
+    "authors": "rsc:Authors[].Signature (assinatura colectiva 'JN/Agências')",
+    "byline_raw": "rsc:Authors[].Signature",
+    "agencies": "assinatura ['JN/Agências']",
+    "published_at": "jsonld:datePublished -> UTC",
+    "published_at_precision": "jsonld:datePublished (ISO com hora e fuso)",
+    "section": "url",
+    "tags": "jsonld:keywords",
+    "piece_type": "rsc:Layout.Code",
+    "access": "jsonld:isAccessibleForFree + rsc:Categories[].Premium / Layout.Premium",
+    "body_complete": "word_count 153 vs WordCount do site 147 (rácio mín. 0.9)",
+    "notas": "assinatura colectiva 'JN/Agências'"
+  }
+}

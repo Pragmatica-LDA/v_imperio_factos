@@ -1,0 +1,107 @@
+{
+  "url": "https://observador.pt/2026/10/13/agente-da-psp-atropelado-enquanto-sinalizava-limpeza-de-via-em-loures/",
+  "canonical_url": "https://observador.pt/2026/10/13/agente-da-psp-atropelado-enquanto-sinalizava-limpeza-de-via-em-loures/",
+  "aliases": [],
+  "site_article_id": "8365478",
+  "title": "Agente da PSP atropelado enquanto sinalizava acidente de carro em Loures",
+  "lead": "Polícia sofreu rotura de ligamentos após ser atingido por espelho de carro e foi transportado para o Hospital Santa Maria. Estava a sinalizar acidente de carro, em Santa Iria de Azóia.",
+  "body": [
+    {
+      "kind": "p",
+      "text": "Um agente da PSP foi atropelado enquanto sinalizava um acidente de carro esta segunda-feira à tarde, em Santa Iria de Azóia, no concelho de Loures, segundo confirmou ao Observador fonte oficial da direção da PSP.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "O polícia da esquadra de São João da Talha foi atingido acidentalmente pelo espelho de um carro quando sinalizava um acidente entre duas viaturas na Rua Bartolomeu Dias, em Santa Iria de Azóia. O agente sofreu uma rotura de ligamentos e foi transportado para o Hospital de Santa Maria, em Lisboa. Apesar de os ferimentos serem ligeiros, o agente ficou incapacitado para o serviço.",
+      "links": []
+    },
+    {
+      "kind": "p",
+      "text": "Segundo informação do Comando de Emergência e Proteção Civil de Lisboa avançada ao Correio da Manhã, estiveram no local dois veículos de socorro e quatro operacionais.",
+      "links": [
+        {
+          "text": "Correio da Manhã",
+          "url": "https://www.cmjornal.pt/portugal/detalhe/agente-da-psp-atropelado-durante-sinalizacao-de-limpeza-de-via-em-loures"
+        }
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "Miguel Pereira Santos",
+      "role": "texto",
+      "url": "https://observador.pt/perfil/mpsantos/",
+      "affiliation": null
+    }
+  ],
+  "agencies": [],
+  "byline_raw": "Miguel Pereira Santos",
+  "images": [
+    {
+      "url": "https://s3.observador.pt/wp-content/uploads/2026/03/17011818/arquivo-diogofariareis-9052-scaled.jpg",
+      "caption": "DIOGO FARIA REIS/OBSERVADOR",
+      "photographers": [
+        "Diogo Faria Reis"
+      ],
+      "credit_raw": "DIOGO FARIA REIS/OBSERVADOR",
+      "agency": "Observador",
+      "is_main": true,
+      "is_archive": false
+    }
+  ],
+  "published_at": "2026-10-13T08:26:41+00:00",
+  "published_at_precision": "datetime",
+  "updated_at": "2026-10-13T08:54:57+00:00",
+  "section": "Sociedade",
+  "subsection": "Loures",
+  "tags": [
+    "Loures",
+    "País",
+    "Sociedade",
+    "PSP",
+    "Polícia",
+    "Segurança"
+  ],
+  "piece_type": "noticia",
+  "piece_type_raw": "post",
+  "access": "free",
+  "body_complete": true,
+  "body_source": "html",
+  "word_count": 125,
+  "out_of_scope": null,
+  "site_meta": {
+    "post_type": "post",
+    "small_title": "Loures. PSP atropelado enquanto sinalizava acidente de carro",
+    "main_category": "loures",
+    "top_category": "sociedade",
+    "exclusive": false,
+    "sponsored": false,
+    "is_initiative": false,
+    "sensitive": 0,
+    "jsonld_word_count": 309,
+    "content_length": 931,
+    "html_blocks": 3
+  },
+  "extraction_debug": {
+    "canonical_url": "html:link[rel=canonical]",
+    "site_article_id": "html:body.postid-N",
+    "title": "jsonld:headline",
+    "lead": "html:.article-head-content-headline-lead",
+    "byline_raw": "html:.author-name / .columnist-info-name",
+    "authors": "jsonld:author + html:.author-credit/.columnist (papel e perfil)",
+    "published_at": "jsonld:datePublished",
+    "updated_at": "jsonld:dateModified",
+    "section": "jsonld:articleSection",
+    "subsection": "contextualData.mainCategory + html:article a[href*=/seccao/] (nome)",
+    "tags": "jsonld:keywords",
+    "access": "sem marcas de premium (jsonld/body/contextualData)",
+    "body": "html:.article-body-content (todos os contentores; p, h1.tinymceh1→h2, h2-h4, blockquote, li); promos [..] e anúncios removidos",
+    "word_count": "contagem de palavras do corpo extraído",
+    "body_complete": "html cobre 100% do texto do jsonld:articleBody",
+    "images": "principal: html:figcaption .creditos; 1 imagem(ns) solta(s) no corpo sem legenda/crédito ignorada(s) (promo?) (jsonld:image não tem crédito)",
+    "piece_type_raw": "html:body class / contextualData.postType",
+    "piece_type": "piece_type_raw",
+    "site_meta": "contextualData (pageTargeting + post.*), jsonld:wordCount"
+  }
+}
