@@ -1,6 +1,5 @@
 # Factos no Coolify.
-# - Postgres: recurso gerido do Coolify com a imagem pgvector/pgvector:0.8.7-pg18-trixie (backups no UI);
-#   ligação pelas variáveis POSTGRES_*.
+# - Postgres: serviço `db` da stack (pgvector/pgvector:0.8.7-pg18-trixie), dados no volume pgdata.
 # - Entrada pública: nginx (porta 80) com o build do React e proxy para o Django (/api, /admin, /dashboard, /static).
 # - Sem ports, networks nem container_name: o Coolify trata disso.
 # Variáveis: ver .env.coolify.example.
@@ -20,8 +19,8 @@ x-backend: &backend
     POSTGRES_DB: ${POSTGRES_DB}
     POSTGRES_USER: ${POSTGRES_USER}
     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-    POSTGRES_HOST: ${POSTGRES_HOST}
-    POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+    POSTGRES_HOST: db
+    POSTGRES_PORT: "5432"
     REDIS_BROKER_HOST: redis-broker
     REDIS_BROKER_URL: redis://redis-broker:6379/0
     CELERY_RESULT_BACKEND: redis://redis-broker:6379/1
@@ -51,6 +50,8 @@ x-backend: &backend
 
 x-after-migrate: &after-migrate
   depends_on:
+    db:
+      condition: service_healthy
     migrate:
       condition: service_completed_successfully
     redis-broker:
@@ -82,6 +83,8 @@ services:
     <<: *backend
     command: sh -c "python manage.py migrate --noinput && python manage.py ensure_superuser && python manage.py bootstrap"
     depends_on:
+      db:
+        condition: service_healthy
       redis-broker:
         condition: service_healthy
     restart: "no"
@@ -111,6 +114,27 @@ services:
   beat:
     <<: [*backend, *after-migrate]
     command: celery -A config beat -l info
+
+  db:
+    image: pgvector/pgvector:0.8.7-pg18-trixie
+    # PID 1 = tini: reaps os processos do healthcheck (ver docker-compose.yml).
+    init: true
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql
+    labels:
+      - coolify.expose=false
+      - coolify.managed=true
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
 
   # Broker do Celery: sem eviction e com AOF, para nunca perder tarefas.
   redis-broker:
@@ -145,5 +169,6 @@ services:
     restart: unless-stopped
 
 volumes:
+  pgdata:
   raw_html:
   redisbroker:

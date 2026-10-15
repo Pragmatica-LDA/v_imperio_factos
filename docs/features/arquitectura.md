@@ -66,8 +66,9 @@ o CLI, o agente de gestão e o front-end React usam todos a mesma API.
 - **Serviços**: `nginx` (build do React + proxy de `/api`, `/admin`, `/dashboard`, `/static` para o Django;
   `docker/nginx/`), `migrate` (uma vez por deploy: migrate, ensure_superuser, bootstrap), `backend` (gunicorn,
   healthcheck em `/api/health/`), `worker-crawl`, `worker-analysis`, `beat`, `redis-broker` (AOF, noeviction),
-  `redis-cache` (LRU). Volume `raw_html` partilhado em `/data/raw`.
-- **Postgres**: recurso gerido do Coolify com a imagem `pgvector/pgvector:0.8.7-pg18-trixie`, ligado pelas variáveis `POSTGRES_*`.
+  `redis-cache` (LRU), `db`. Volume `raw_html` partilhado em `/data/raw`.
+- **Postgres**: serviço `db` da própria stack (`pgvector/pgvector:0.8.7-pg18-trixie`, volume `pgdata`, healthcheck
+  `pg_isready`); `POSTGRES_HOST=db` fixo no compose. Backups não vêm do Coolify: fazer `pg_dump` por fora.
 - **Imagem do backend**: `backend/Dockerfile.coolify` (multi-stage, `collectstatic` no build, utilizador sem privilégios);
   a mesma imagem corre backend, workers, beat e migrate. Estáticos do Django servidos pelo whitenoise
   (`DJANGO_STATIC_MANIFEST=1` só na imagem de produção).
@@ -75,7 +76,7 @@ o CLI, o agente de gestão e o front-end React usam todos a mesma API.
   `DJANGO_SECURE_COOKIES=1`.
 - **Variáveis**: `.env.coolify.example`.
 - **Testado localmente** (2026-10-14) com um Postgres temporário: stack toda saudável, SPA, login, API, admin e estáticos OK.
-- **Adicionado/alterado em**: 2026-10-14.
+- **Adicionado/alterado em**: 2026-10-14; 2026-10-15 (Postgres passou para dentro da stack).
 
 ### Apps Django (backend/)
 | App | Papel |
@@ -153,7 +154,8 @@ API REST (DRF) em `/api/`, documentada em `/api/docs/`. Endpoints por área em [
 
 ## Por fazer
 - Subir para Django 6.1 quando sair um `django-celery-beat` compatível (antes de Abril de 2027).
-- Primeiro deploy no Coolify: criar o recurso Postgres (pgvector), definir as variáveis e o domínio.
+- Primeiro deploy no Coolify: definir as variáveis e o domínio.
+- Backups do Postgres da stack Coolify (`pg_dump` agendado).
 - Remover os scripts PoC (`crawl_*.py`) quando deixarem de ser úteis.
 - Agentes de enriquecimento (fila `enrichment`) por implementar.
 - `npm` local usa um Nexus privado: o `package-lock.json` do frontend foi gerado com `--registry https://registry.npmjs.org`.

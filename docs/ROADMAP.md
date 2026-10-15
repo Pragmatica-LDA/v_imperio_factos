@@ -3,6 +3,10 @@
 Registo cronológico do que foi sendo feito. Mais recente primeiro.
 Cada entrada resume a sessão; o detalhe vive em `docs/features/<area>.md`.
 
+## 2026-10-15 — Coolify: Postgres dentro da stack
+O Postgres deixou de ser recurso gerido do Coolify: serviço `db` (pgvector) no `docker-compose.coolify.yml`, volume
+`pgdata`, `POSTGRES_HOST=db` fixo. Backups ficam por fazer (`pg_dump`).
+
 ## 2026-10-14 — Deploy no Coolify (preparado)
 `docker-compose.coolify.yml` com nginx (build do React + proxy para o Django), migrate, backend gunicorn, workers, beat
 e os dois Redis; Postgres como recurso gerido do Coolify (pgvector). Imagem de produção do backend com whitenoise e
